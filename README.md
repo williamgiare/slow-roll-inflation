@@ -1,4 +1,4 @@
-# Slow-Roll Inflation at Arbitrary Order (Private)
+# Slow-Roll Inflation at Arbitrary Order
 
 This is a symbolic algorithm that, for both canonical single-field inflation and $k$-inflation with a slowly varying scalar sound speed, computes the following quantities at arbitrary order in the slow-roll expansion:
 
