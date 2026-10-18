@@ -1,0 +1,1367 @@
+schema_version: 1
+coefficients:
+- weight: 1
+  pattern:
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.486424769692347886650837'
+  mode_equation_value: '0.4864247696923479'
+  expression_file: expressions/weight_01/m01_j00.yaml
+- weight: 2
+  pattern:
+  - 1
+  permutation_multiplicity: 1
+  analytic_value: '0.0654427045171018184953766'
+  mode_equation_value: '0.06544270451710182'
+  expression_file: expressions/weight_02/m01_j01.yaml
+- weight: 2
+  pattern:
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.0498197145391479358629343'
+  mode_equation_value: '0.049819714539147936'
+  expression_file: expressions/weight_02/m02_j00.yaml
+- weight: 3
+  pattern:
+  - 2
+  permutation_multiplicity: 1
+  analytic_value: '0.0845208881256906865685871'
+  mode_equation_value: '0.08452088812569068'
+  expression_file: expressions/weight_03/m01_j02.yaml
+- weight: 3
+  pattern:
+  - 0
+  - 1
+  permutation_multiplicity: 2
+  analytic_value: '0.0851203174180122713291625'
+  mode_equation_value: '0.08512031741801226'
+  expression_file: expressions/weight_03/m02_j01.yaml
+- weight: 3
+  pattern:
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '-0.0213031050115923807546809'
+  mode_equation_value: '-0.02130310501159238'
+  expression_file: expressions/weight_03/m03_j00.yaml
+- weight: 4
+  pattern:
+  - 3
+  permutation_multiplicity: 1
+  analytic_value: '-0.138628071739234776765399'
+  mode_equation_value: '-0.13862807173923478'
+  expression_file: expressions/weight_04/m01_j03.yaml
+- weight: 4
+  pattern:
+  - 0
+  - 2
+  permutation_multiplicity: 2
+  analytic_value: '0.0302713640760688618332381'
+  mode_equation_value: '0.03027136407606886'
+  expression_file: expressions/weight_04/m02_j02.yaml
+- weight: 4
+  pattern:
+  - 1
+  - 1
+  permutation_multiplicity: 1
+  analytic_value: '0.0182122706365226224945772'
+  mode_equation_value: '0.018212270636522622'
+  expression_file: expressions/weight_04/m02_j02.yaml
+- weight: 4
+  pattern:
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 3
+  analytic_value: '-0.0214638986519252999388490'
+  mode_equation_value: '-0.0214638986519253'
+  expression_file: expressions/weight_04/m03_j01.yaml
+- weight: 4
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.00793565893342447877633922'
+  mode_equation_value: '0.007935658933424478'
+  expression_file: expressions/weight_04/m04_j00.yaml
+- weight: 5
+  pattern:
+  - 4
+  permutation_multiplicity: 1
+  analytic_value: '0.104483054852579215258713'
+  mode_equation_value: '0.10448305485257922'
+  expression_file: expressions/weight_05/m01_j04.yaml
+- weight: 5
+  pattern:
+  - 0
+  - 3
+  permutation_multiplicity: 2
+  analytic_value: '0.0933466771038463739185417'
+  mode_equation_value: '0.09334667710384638'
+  expression_file: expressions/weight_05/m02_j03.yaml
+- weight: 5
+  pattern:
+  - 1
+  - 2
+  permutation_multiplicity: 2
+  analytic_value: '0.0707183444839001525980307'
+  mode_equation_value: '0.07071834448390016'
+  expression_file: expressions/weight_05/m02_j03.yaml
+- weight: 5
+  pattern:
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 3
+  analytic_value: '-0.00169566812816177419952093'
+  mode_equation_value: '-0.0016956681281617742'
+  expression_file: expressions/weight_05/m03_j02.yaml
+- weight: 5
+  pattern:
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 3
+  analytic_value: '0.00424504144990432475268140'
+  mode_equation_value: '0.0042450414499043245'
+  expression_file: expressions/weight_05/m03_j02.yaml
+- weight: 5
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 4
+  analytic_value: '0.00623198309675268540109400'
+  mode_equation_value: '0.006231983096752686'
+  expression_file: expressions/weight_05/m04_j01.yaml
+- weight: 5
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '-0.00297624437647448299408000'
+  mode_equation_value: '-0.002976244376474483'
+  expression_file: expressions/weight_05/m05_j00.yaml
+- weight: 6
+  pattern:
+  - 5
+  permutation_multiplicity: 1
+  analytic_value: '-0.651768928174623448615398'
+  mode_equation_value: '-0.6517689281746235'
+  expression_file: expressions/weight_06/m01_j05.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 4
+  permutation_multiplicity: 2
+  analytic_value: '-0.0334878558936807100856808'
+  mode_equation_value: '-0.03348785589368071'
+  expression_file: expressions/weight_06/m02_j04.yaml
+- weight: 6
+  pattern:
+  - 1
+  - 3
+  permutation_multiplicity: 2
+  analytic_value: '-0.0379385174778263100194523'
+  mode_equation_value: '-0.03793851747782631'
+  expression_file: expressions/weight_06/m02_j04.yaml
+- weight: 6
+  pattern:
+  - 2
+  - 2
+  permutation_multiplicity: 1
+  analytic_value: '-0.0314898935599571869020094'
+  mode_equation_value: '-0.03148989355995719'
+  expression_file: expressions/weight_06/m02_j04.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 0
+  - 3
+  permutation_multiplicity: 3
+  analytic_value: '-0.0311617899058317770584516'
+  mode_equation_value: '-0.031161789905831776'
+  expression_file: expressions/weight_06/m03_j03.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 1
+  - 2
+  permutation_multiplicity: 6
+  analytic_value: '-0.0223361582495369211589485'
+  mode_equation_value: '-0.02233615824953692'
+  expression_file: expressions/weight_06/m03_j03.yaml
+- weight: 6
+  pattern:
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 1
+  analytic_value: '-0.0178947141228346867214349'
+  mode_equation_value: '-0.017894714122834686'
+  expression_file: expressions/weight_06/m03_j03.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 4
+  analytic_value: '0.000684894900640571934166157'
+  mode_equation_value: '0.0006848949006405719'
+  expression_file: expressions/weight_06/m04_j02.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 6
+  analytic_value: '-0.00209269347220227295860652'
+  mode_equation_value: '-0.002092693472202273'
+  expression_file: expressions/weight_06/m04_j02.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 5
+  analytic_value: '-0.00198524932750844454312439'
+  mode_equation_value: '-0.0019852493275084445'
+  expression_file: expressions/weight_06/m05_j01.yaml
+- weight: 6
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.00113721188397659086434336'
+  mode_equation_value: '0.0011372118839765909'
+  expression_file: expressions/weight_06/m06_j00.yaml
+- weight: 7
+  pattern:
+  - 6
+  permutation_multiplicity: 1
+  analytic_value: '1.22669135926183732815241'
+  mode_equation_value: '1.2266913592618376'
+  expression_file: expressions/weight_07/m01_j06.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 5
+  permutation_multiplicity: 2
+  analytic_value: '0.322307186260871028500521'
+  mode_equation_value: '0.322307186260871'
+  expression_file: expressions/weight_07/m02_j05.yaml
+- weight: 7
+  pattern:
+  - 1
+  - 4
+  permutation_multiplicity: 2
+  analytic_value: '0.246945532877182501798796'
+  mode_equation_value: '0.24694553287718252'
+  expression_file: expressions/weight_07/m02_j05.yaml
+- weight: 7
+  pattern:
+  - 2
+  - 3
+  permutation_multiplicity: 2
+  analytic_value: '0.226170065803875067668963'
+  mode_equation_value: '0.22617006580387508'
+  expression_file: expressions/weight_07/m02_j05.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 4
+  permutation_multiplicity: 3
+  analytic_value: '0.0199983025619394751212612'
+  mode_equation_value: '0.019998302561939477'
+  expression_file: expressions/weight_07/m03_j04.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 1
+  - 3
+  permutation_multiplicity: 6
+  analytic_value: '0.0229505202526088916961120'
+  mode_equation_value: '0.02295052025260889'
+  expression_file: expressions/weight_07/m03_j04.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 2
+  - 2
+  permutation_multiplicity: 3
+  analytic_value: '0.0190013950455765990432212'
+  mode_equation_value: '0.0190013950455766'
+  expression_file: expressions/weight_07/m03_j04.yaml
+- weight: 7
+  pattern:
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 3
+  analytic_value: '0.0210163819171437351208362'
+  mode_equation_value: '0.021016381917143737'
+  expression_file: expressions/weight_07/m03_j04.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 3
+  permutation_multiplicity: 4
+  analytic_value: '0.0143426572260711216681240'
+  mode_equation_value: '0.014342657226071122'
+  expression_file: expressions/weight_07/m04_j03.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 2
+  permutation_multiplicity: 12
+  analytic_value: '0.0108079632503000274659436'
+  mode_equation_value: '0.010807963250300028'
+  expression_file: expressions/weight_07/m04_j03.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 4
+  analytic_value: '0.00902738083900196940685196'
+  mode_equation_value: '0.00902738083900197'
+  expression_file: expressions/weight_07/m04_j03.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 5
+  analytic_value: '-0.000604930949078108723816223'
+  mode_equation_value: '-0.0006049309490781087'
+  expression_file: expressions/weight_07/m05_j02.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 10
+  analytic_value: '0.000667405761353294702908594'
+  mode_equation_value: '0.0006674057613532947'
+  expression_file: expressions/weight_07/m05_j02.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 6
+  analytic_value: '0.000672200434508013904140712'
+  mode_equation_value: '0.000672200434508014'
+  expression_file: expressions/weight_07/m06_j01.yaml
+- weight: 7
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '-0.000442131714791584540936584'
+  mode_equation_value: '-0.00044213171479158455'
+  expression_file: expressions/weight_07/m07_j00.yaml
+- weight: 8
+  pattern:
+  - 7
+  permutation_multiplicity: 1
+  analytic_value: '-5.78978130362325806297788'
+  mode_equation_value: '-5.789781303623265'
+  expression_file: expressions/weight_08/m01_j07.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 6
+  permutation_multiplicity: 2
+  analytic_value: '-0.543285124247405456270492'
+  mode_equation_value: '-0.5432851242474056'
+  expression_file: expressions/weight_08/m02_j06.yaml
+- weight: 8
+  pattern:
+  - 1
+  - 5
+  permutation_multiplicity: 2
+  analytic_value: '-0.497886782042620967787607'
+  mode_equation_value: '-0.49788678204262116'
+  expression_file: expressions/weight_08/m02_j06.yaml
+- weight: 8
+  pattern:
+  - 2
+  - 4
+  permutation_multiplicity: 2
+  analytic_value: '-0.458162660628140664657527'
+  mode_equation_value: '-0.4581626606281408'
+  expression_file: expressions/weight_08/m02_j06.yaml
+- weight: 8
+  pattern:
+  - 3
+  - 3
+  permutation_multiplicity: 1
+  analytic_value: '-0.453255476325367860550605'
+  mode_equation_value: '-0.45325547632536806'
+  expression_file: expressions/weight_08/m02_j06.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 5
+  permutation_multiplicity: 3
+  analytic_value: '-0.170344706878735788517580'
+  mode_equation_value: '-0.1703447068787358'
+  expression_file: expressions/weight_08/m03_j05.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 1
+  - 4
+  permutation_multiplicity: 6
+  analytic_value: '-0.123802220256956309363897'
+  mode_equation_value: '-0.12380222025695631'
+  expression_file: expressions/weight_08/m03_j05.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 2
+  - 3
+  permutation_multiplicity: 6
+  analytic_value: '-0.109606481201816750083724'
+  mode_equation_value: '-0.10960648120181675'
+  expression_file: expressions/weight_08/m03_j05.yaml
+- weight: 8
+  pattern:
+  - 1
+  - 1
+  - 3
+  permutation_multiplicity: 3
+  analytic_value: '-0.0960752828523695459144606'
+  mode_equation_value: '-0.09607528285236955'
+  expression_file: expressions/weight_08/m03_j05.yaml
+- weight: 8
+  pattern:
+  - 1
+  - 2
+  - 2
+  permutation_multiplicity: 3
+  analytic_value: '-0.0898911258855815284027241'
+  mode_equation_value: '-0.08989112588558153'
+  expression_file: expressions/weight_08/m03_j05.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 4
+  permutation_multiplicity: 4
+  analytic_value: '-0.00590758732664674440152253'
+  mode_equation_value: '-0.005907587326646744'
+  expression_file: expressions/weight_08/m04_j04.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 3
+  permutation_multiplicity: 12
+  analytic_value: '-0.00848649504470756513001353'
+  mode_equation_value: '-0.008486495044707566'
+  expression_file: expressions/weight_08/m04_j04.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 2
+  - 2
+  permutation_multiplicity: 6
+  analytic_value: '-0.00652414705873663511031767'
+  mode_equation_value: '-0.0065241470587366355'
+  expression_file: expressions/weight_08/m04_j04.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 12
+  analytic_value: '-0.00797414215703415752474087'
+  mode_equation_value: '-0.007974142157034158'
+  expression_file: expressions/weight_08/m04_j04.yaml
+- weight: 8
+  pattern:
+  - 1
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 1
+  analytic_value: '-0.00776892211140301344770985'
+  mode_equation_value: '-0.007768922111403014'
+  expression_file: expressions/weight_08/m04_j04.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  permutation_multiplicity: 5
+  analytic_value: '-0.00652585020587946905262380'
+  mode_equation_value: '-0.006525850205879469'
+  expression_file: expressions/weight_08/m05_j03.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  permutation_multiplicity: 20
+  analytic_value: '-0.00508316743297011880483792'
+  mode_equation_value: '-0.0050831674329701185'
+  expression_file: expressions/weight_08/m05_j03.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 10
+  analytic_value: '-0.00435580993883352046578833'
+  mode_equation_value: '-0.004355809938833521'
+  expression_file: expressions/weight_08/m05_j03.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 6
+  analytic_value: '0.000411498406774820629958208'
+  mode_equation_value: '0.00041149840677482064'
+  expression_file: expressions/weight_08/m06_j02.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 15
+  analytic_value: '-0.000165448283028057751875791'
+  mode_equation_value: '-0.00016544828302805776'
+  expression_file: expressions/weight_08/m06_j02.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 7
+  analytic_value: '-0.000237524237239067147920117'
+  mode_equation_value: '-0.00023752423723906715'
+  expression_file: expressions/weight_08/m07_j01.yaml
+- weight: 8
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.000174416018003067922314320'
+  mode_equation_value: '0.00017441601800306791'
+  expression_file: expressions/weight_08/m08_j00.yaml
+- weight: 9
+  pattern:
+  - 8
+  permutation_multiplicity: 1
+  analytic_value: '19.6106111302392527989771'
+  mode_equation_value: '19.61061113023942'
+  expression_file: expressions/weight_09/m01_j08.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 7
+  permutation_multiplicity: 2
+  analytic_value: '3.08268566644464780801648'
+  mode_equation_value: '3.0826856664446525'
+  expression_file: expressions/weight_09/m02_j07.yaml
+- weight: 9
+  pattern:
+  - 1
+  - 6
+  permutation_multiplicity: 2
+  analytic_value: '2.45035022791548777829985'
+  mode_equation_value: '2.450350227915492'
+  expression_file: expressions/weight_09/m02_j07.yaml
+- weight: 9
+  pattern:
+  - 2
+  - 5
+  permutation_multiplicity: 2
+  analytic_value: '2.19969144736287384006808'
+  mode_equation_value: '2.1996914473628784'
+  expression_file: expressions/weight_09/m02_j07.yaml
+- weight: 9
+  pattern:
+  - 3
+  - 4
+  permutation_multiplicity: 2
+  analytic_value: '2.10076925032157410570793'
+  mode_equation_value: '2.1007692503215787'
+  expression_file: expressions/weight_09/m02_j07.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 6
+  permutation_multiplicity: 3
+  analytic_value: '0.238530507439054913519410'
+  mode_equation_value: '0.23853050743905505'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 1
+  - 5
+  permutation_multiplicity: 6
+  analytic_value: '0.223159566080146539165307'
+  mode_equation_value: '0.22315956608014667'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 2
+  - 4
+  permutation_multiplicity: 6
+  analytic_value: '0.200980867149521044514602'
+  mode_equation_value: '0.20098086714952115'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 3
+  - 3
+  permutation_multiplicity: 3
+  analytic_value: '0.199365264032464675236703'
+  mode_equation_value: '0.1993652640324648'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 1
+  - 1
+  - 4
+  permutation_multiplicity: 3
+  analytic_value: '0.201293022917684206251601'
+  mode_equation_value: '0.20129302291768433'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 1
+  - 2
+  - 3
+  permutation_multiplicity: 6
+  analytic_value: '0.189550213054438268869355'
+  mode_equation_value: '0.1895502130544384'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 2
+  - 2
+  - 2
+  permutation_multiplicity: 1
+  analytic_value: '0.181464379566298569971428'
+  mode_equation_value: '0.18146437956629868'
+  expression_file: expressions/weight_09/m03_j06.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 5
+  permutation_multiplicity: 4
+  analytic_value: '0.0928924256733946675205203'
+  mode_equation_value: '0.09289242567339467'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 4
+  permutation_multiplicity: 12
+  analytic_value: '0.0664106058958373009028401'
+  mode_equation_value: '0.0664106058958373'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 2
+  - 3
+  permutation_multiplicity: 12
+  analytic_value: '0.0578187736065023396321637'
+  mode_equation_value: '0.057818773606502345'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 3
+  permutation_multiplicity: 12
+  analytic_value: '0.0502077428256688943450754'
+  mode_equation_value: '0.0502077428256689'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 1
+  - 2
+  - 2
+  permutation_multiplicity: 12
+  analytic_value: '0.0463751111129507619113092'
+  mode_equation_value: '0.04637511111295076'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 1
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 4
+  analytic_value: '0.0405790446079121598602086'
+  mode_equation_value: '0.04057904460791217'
+  expression_file: expressions/weight_09/m04_j05.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+  permutation_multiplicity: 5
+  analytic_value: '0.00133672786741082388045456'
+  mode_equation_value: '0.001336727867410824'
+  expression_file: expressions/weight_09/m05_j04.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 3
+  permutation_multiplicity: 20
+  analytic_value: '0.00321763688400255268203559'
+  mode_equation_value: '0.003217636884002553'
+  expression_file: expressions/weight_09/m05_j04.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 2
+  permutation_multiplicity: 10
+  analytic_value: '0.00230963894183692861672180'
+  mode_equation_value: '0.002309638941836929'
+  expression_file: expressions/weight_09/m05_j04.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 30
+  analytic_value: '0.00325831118421694439239869'
+  mode_equation_value: '0.0032583111842169445'
+  expression_file: expressions/weight_09/m05_j04.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 5
+  analytic_value: '0.00330671086416870907213859'
+  mode_equation_value: '0.0033067108641687093'
+  expression_file: expressions/weight_09/m05_j04.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  permutation_multiplicity: 6
+  analytic_value: '0.00290979095433459597416811'
+  mode_equation_value: '0.002909790954334596'
+  expression_file: expressions/weight_09/m06_j03.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  permutation_multiplicity: 30
+  analytic_value: '0.00231293638297890221032779'
+  mode_equation_value: '0.0023129363829789023'
+  expression_file: expressions/weight_09/m06_j03.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 20
+  analytic_value: '0.00201180313245762003575319'
+  mode_equation_value: '0.00201180313245762'
+  expression_file: expressions/weight_09/m06_j03.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 7
+  analytic_value: '-0.000239066641254002194061017'
+  mode_equation_value: '-0.0002390666412540022'
+  expression_file: expressions/weight_09/m07_j02.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 21
+  analytic_value: '0.0000210517291792316914305034'
+  mode_equation_value: '2.105172917923169e-05'
+  expression_file: expressions/weight_09/m07_j02.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 8
+  analytic_value: '0.0000866044415371383528839850'
+  mode_equation_value: '8.660444153713835e-05'
+  expression_file: expressions/weight_09/m08_j01.yaml
+- weight: 9
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '-0.0000696376163703601169608351'
+  mode_equation_value: '-6.963761637036012e-05'
+  expression_file: expressions/weight_09/m09_j00.yaml
+- weight: 10
+  pattern:
+  - 9
+  permutation_multiplicity: 1
+  analytic_value: '-98.5157673000082906951255'
+  mode_equation_value: '-98.51576730001274'
+  expression_file: expressions/weight_10/m01_j09.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 8
+  permutation_multiplicity: 2
+  analytic_value: '-9.00252306625719225072943'
+  mode_equation_value: '-9.002523066257309'
+  expression_file: expressions/weight_10/m02_j08.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 7
+  permutation_multiplicity: 2
+  analytic_value: '-8.09314193345376883964463'
+  mode_equation_value: '-8.093141933453884'
+  expression_file: expressions/weight_10/m02_j08.yaml
+- weight: 10
+  pattern:
+  - 2
+  - 6
+  permutation_multiplicity: 2
+  analytic_value: '-7.47058600492963774955169'
+  mode_equation_value: '-7.4705860049297526'
+  expression_file: expressions/weight_10/m02_j08.yaml
+- weight: 10
+  pattern:
+  - 3
+  - 5
+  permutation_multiplicity: 2
+  analytic_value: '-7.16775438253890474447907'
+  mode_equation_value: '-7.167754382539019'
+  expression_file: expressions/weight_10/m02_j08.yaml
+- weight: 10
+  pattern:
+  - 4
+  - 4
+  permutation_multiplicity: 1
+  analytic_value: '-7.06170605724040442520514'
+  mode_equation_value: '-7.061706057240518'
+  expression_file: expressions/weight_10/m02_j08.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 7
+  permutation_multiplicity: 3
+  analytic_value: '-1.80611604324924756682995'
+  mode_equation_value: '-1.8061160432492507'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 1
+  - 6
+  permutation_multiplicity: 6
+  analytic_value: '-1.34213759015501525338429'
+  mode_equation_value: '-1.3421375901550183'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 2
+  - 5
+  permutation_multiplicity: 6
+  analytic_value: '-1.16237760162558435177240'
+  mode_equation_value: '-1.1623776016255876'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 3
+  - 4
+  permutation_multiplicity: 6
+  analytic_value: '-1.09432528411725788934885'
+  mode_equation_value: '-1.094325284117261'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 1
+  - 5
+  permutation_multiplicity: 3
+  analytic_value: '-1.05721083149298987476993'
+  mode_equation_value: '-1.057210831492993'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 2
+  - 4
+  permutation_multiplicity: 6
+  analytic_value: '-0.952006993965578931858699'
+  mode_equation_value: '-0.9520069939655821'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 3
+  - 3
+  permutation_multiplicity: 3
+  analytic_value: '-0.923580459247400557240000'
+  mode_equation_value: '-0.9235804592474036'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 2
+  - 2
+  - 3
+  permutation_multiplicity: 3
+  analytic_value: '-0.883101935464376423251639'
+  mode_equation_value: '-0.8831019354643795'
+  expression_file: expressions/weight_10/m03_j07.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 6
+  permutation_multiplicity: 4
+  analytic_value: '-0.101804077488761843533951'
+  mode_equation_value: '-0.10180407748876194'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 5
+  permutation_multiplicity: 12
+  analytic_value: '-0.0999139876651658461550875'
+  mode_equation_value: '-0.09991398766516593'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 2
+  - 4
+  permutation_multiplicity: 12
+  analytic_value: '-0.0877578062546753697607174'
+  mode_equation_value: '-0.08775780625467546'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 3
+  - 3
+  permutation_multiplicity: 6
+  analytic_value: '-0.0872626451402932745276615'
+  mode_equation_value: '-0.08726264514029336'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 4
+  permutation_multiplicity: 12
+  analytic_value: '-0.0901064651726857910705704'
+  mode_equation_value: '-0.09010646517268588'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 1
+  - 2
+  - 3
+  permutation_multiplicity: 24
+  analytic_value: '-0.0835406291313235506044861'
+  mode_equation_value: '-0.08354062913132364'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 2
+  - 2
+  - 2
+  permutation_multiplicity: 4
+  analytic_value: '-0.0788574726103214395899305'
+  mode_equation_value: '-0.07885747261032153'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 1
+  - 1
+  - 3
+  permutation_multiplicity: 4
+  analytic_value: '-0.0818118321353507402448103'
+  mode_equation_value: '-0.08181183213535083'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 1
+  - 2
+  - 2
+  permutation_multiplicity: 6
+  analytic_value: '-0.0783895171531155865594257'
+  mode_equation_value: '-0.07838951715311568'
+  expression_file: expressions/weight_10/m04_j06.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  permutation_multiplicity: 5
+  analytic_value: '-0.0485524989045956999743915'
+  mode_equation_value: '-0.0485524989045957'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 4
+  permutation_multiplicity: 20
+  analytic_value: '-0.0343772986065790970591541'
+  mode_equation_value: '-0.0343772986065791'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 3
+  permutation_multiplicity: 20
+  analytic_value: '-0.0296051002505638651792675'
+  mode_equation_value: '-0.029605100250563867'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 3
+  permutation_multiplicity: 30
+  analytic_value: '-0.0255598266085792412964929'
+  mode_equation_value: '-0.025559826608579243'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 2
+  - 2
+  permutation_multiplicity: 30
+  analytic_value: '-0.0234024744045912899830632'
+  mode_equation_value: '-0.023402474404591294'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 20
+  analytic_value: '-0.0202610667127341645264683'
+  mode_equation_value: '-0.020261066712734168'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 1
+  analytic_value: '-0.0175756493922235779559478'
+  mode_equation_value: '-0.017575649392223582'
+  expression_file: expressions/weight_10/m05_j05.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+  permutation_multiplicity: 6
+  analytic_value: '0.0000247521388112265061535047'
+  mode_equation_value: '2.4752138811226425e-05'
+  expression_file: expressions/weight_10/m06_j04.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 3
+  permutation_multiplicity: 30
+  analytic_value: '-0.00117932786244152350925725'
+  mode_equation_value: '-0.0011793278624415236'
+  expression_file: expressions/weight_10/m06_j04.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 2
+  permutation_multiplicity: 15
+  analytic_value: '-0.000773406870906213514550096'
+  mode_equation_value: '-0.0007734068709062136'
+  expression_file: expressions/weight_10/m06_j04.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 2
+  permutation_multiplicity: 60
+  analytic_value: '-0.00134430511761709755235742'
+  mode_equation_value: '-0.0013443051176170976'
+  expression_file: expressions/weight_10/m06_j04.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 15
+  analytic_value: '-0.00144174683769134367736772'
+  mode_equation_value: '-0.0014417468376913439'
+  expression_file: expressions/weight_10/m06_j04.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  permutation_multiplicity: 7
+  analytic_value: '-0.00128220402782896679242716'
+  mode_equation_value: '-0.0012822040278289669'
+  expression_file: expressions/weight_10/m07_j03.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  permutation_multiplicity: 42
+  analytic_value: '-0.00103278865980426148192505'
+  mode_equation_value: '-0.0010327886598042616'
+  expression_file: expressions/weight_10/m07_j03.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  permutation_multiplicity: 35
+  analytic_value: '-0.000906872270665244332067798'
+  mode_equation_value: '-0.0009068722706652443'
+  expression_file: expressions/weight_10/m07_j03.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  permutation_multiplicity: 8
+  analytic_value: '0.000127499175152831158123945'
+  mode_equation_value: '0.00012749917515283117'
+  expression_file: expressions/weight_10/m08_j02.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  permutation_multiplicity: 28
+  analytic_value: '0.0000106430506418718297050753'
+  mode_equation_value: '1.064305064187183e-05'
+  expression_file: expressions/weight_10/m08_j02.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 9
+  analytic_value: '-0.0000323437107574044864293703'
+  mode_equation_value: '-3.234371075740449e-05'
+  expression_file: expressions/weight_10/m09_j01.yaml
+- weight: 10
+  pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.0000280824056664825698315544'
+  mode_equation_value: '2.808240566648257e-05'
+  expression_file: expressions/weight_10/m10_j00.yaml

@@ -1,0 +1,159 @@
+status: passed
+model: kinflation
+p: 10
+checks:
+  sound_coordinates:
+    p: 10
+    derivatives_checked: 10
+    forward_inverse_residual: '0'
+    inverse_forward_residual: '0'
+    iterative_closed_residual: '0'
+    denominators_in_sound_parameters: none
+  high_order:
+    status: passed
+    p: 10
+    profiles:
+    - profile: constant
+      c_s: '0.5'
+      sound_direction: -.4
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '0.5'
+      sound_direction: '.3'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '0.5'
+      sound_direction: '.8'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '0.8'
+      sound_direction: -.4
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '0.8'
+      sound_direction: '.3'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '0.8'
+      sound_direction: '.8'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '1.2'
+      sound_direction: -.4
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 8.8982318381906e-16
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '1.2'
+      sound_direction: '.3'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 1.2122906671605109e-15
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: constant
+      c_s: '1.2'
+      sound_direction: '.8'
+      coefficient_weights:
+      - 1
+      - 10
+      maximum_scaled_Hankel_error: 4.8323338847205084e-15
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    - profile: evolving
+      background: E,q1,s1 proportional to 1/(1-q1_star N)
+      scalar_log_terms: 1275
+      iterative_closed_residual: '0'
+      effective_tensor_mapping:
+        source_residual: '0'
+        native_amplitude_residual: '0'
+        construction: effective scale factor a sqrt(epsilon_1/c_s); canonical tensor
+          clock and source
+        moment_backend: shared; this is an independent source and normalization check
+      public_sound_conversion:
+        p: 10
+        log_amplitude_residual: '0'
+        iterative_closed_conversion_residual: '0'
+    scope: mixed constant-flow exact Hankel coefficients and nonconstant-flow source/amplitude
+      checks; not a dense order-ten observable-inversion comparison
+source_sha256:
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 08974a75836fb08d52a2b446409fa3aba3c262db6415148bdb0fde68a93aaada
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 4ee5c3fb42fbac637c89d4eae63ec35fd64c402a8875c158cc587e08b86c506f
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 77c84e05e0d18e19edd1a8e3a98c3c8121bb5104de6d30df373e9529bc6abfa8
+  source/consistency.py: 8c61d56d826831fbb4b5a148edaceb32ba593b057795afd2aecd3532b789ccb7
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 2e924d76666ca8665869efae73f4947de2663dbdaacb916bc486c35647d9d4eb
+  source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+  source/iterative/spectra.py: d76fcca13dec137e795d402a9b49ea7c01df8eacf5ed13136e0fe712e45bcd44
+  source/kinflation.py: 34e6ca4914207ab9da3596efd077fac34c788176263590e4159faed9d6c3cbd2
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/orders.py: 05b1aa9da538813274b75a573d13b582e482c54ec7aba5f008dfc1a890677d36
+  source/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+  source/spectra.py: 66d11ab803fc7696f78f9a379121922402dfbd1ada748463d2da25e9703b4522
+  source/terminal.py: 5f96456d959d2e746c0b6b7ecbf36c55397af36d9c752b5e8f3880208ad968be
+  validation/kinflation_SRI/run.py: 51cd62704787e6345c741f0eacf4a9dc959489348f3eab9d38c4797a51ce5bfd
+seconds: 32.92533483286388

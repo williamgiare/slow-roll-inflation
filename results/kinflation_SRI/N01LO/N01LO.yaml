@@ -1,0 +1,209 @@
+schema_version: 1
+type: kinflation
+p: 1
+metadata:
+  method: iterative
+  coefficient_backend: numeric
+  coefficient_precision: published decimal coefficients
+  pivot: -k_* eta_*=1
+  C: EulerGamma + log(2) - 2
+  spectrum_remainder_weight: 2
+symbols:
+  H: H
+  Mpl: Mpl
+  r: r
+  cs: c_s
+  epsilon_2: epsilon_2
+  epsilon_1: epsilon_1
+  alpha_0_cs: alpha_0^cs
+  alpha_0_s: alpha_0^s
+  alpha_1_s: alpha_1^s
+  alpha_1_cs: alpha_1^cs
+  alpha_2_s: alpha_2^s
+  alpha_2_cs: alpha_2^cs
+  alpha_3_s: alpha_3^s
+  alpha_3_cs: alpha_3^cs
+spectra:
+  scalar:
+    normalization: H**2 / (8*pi**2*Mpl**2*epsilon_1*cs)
+    correction: |
+      1.0
+      + 0.72963715453852 * epsilon_2
+      - 0.54072569092296 * epsilon_1
+      - 1.2703628454615 * alpha_0_cs
+      - 1.0 * alpha_0_cs * log(cs)
+      - 1.0 * epsilon_2 * log(cs)
+      - 2.0 * epsilon_1 * log(cs)
+  tensor:
+    normalization: 2*H**2 / (pi**2*Mpl**2)
+    correction: |
+      1.0
+      -0.54072569092296 * epsilon_1
+consistency:
+  '0':
+    W: 2
+    components:
+    - weight: 1
+      expression: |
+        -(0.125 * r) / (cs)
+    - weight: 2
+      expression: |
+        (0.0078125 * (r)**((2))) / ((cs)**((2)))
+        + (0.125 * alpha_0_s * r) / (cs)
+        + (0.28379535568268 * alpha_0_cs * r) / (cs)
+        - (0.125 * alpha_0_s * r * log(cs)) / (cs)
+  '1':
+    W: 3
+    components:
+    - weight: 2
+      expression: |
+        (0.015625 * (r)**((2))) / ((cs)**((2)))
+        + (0.125 * alpha_0_cs * r) / (cs)
+        + (0.125 * alpha_0_s * r) / (cs)
+    - weight: 3
+      expression: |
+        -(0.0029296875 * (r)**((3))) / ((cs)**((3)))
+        + (0.125 * alpha_1_s * r) / (cs)
+        + (0.28379535568268 * alpha_1_cs * r) / (cs)
+        - (0.125 * ((alpha_0_s))**((2)) * r) / (cs)
+        - (0.046875 * alpha_0_s * (r)**((2))) / ((cs)**((2)))
+        - (0.28379535568268 * ((alpha_0_cs))**((2)) * r) / (cs)
+        - (0.086573838920671 * alpha_0_cs * (r)**((2))) / ((cs)**((2)))
+        + (0.03125 * alpha_0_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.125 * ((alpha_0_s))**((2)) * r * log(cs)) / (cs)
+        - (0.125 * alpha_1_s * r * log(cs)) / (cs)
+        - (0.53379535568268 * alpha_0_cs * alpha_0_s * r) / (cs)
+        + (0.125 * alpha_0_cs * alpha_0_s * r * log(cs)) / (cs)
+  '2':
+    W: 4
+    components:
+    - weight: 3
+      expression: |
+        -(0.00390625 * (r)**((3))) / ((cs)**((3)))
+        + (0.125 * alpha_1_cs * r) / (cs)
+        + (0.125 * alpha_1_s * r) / (cs)
+        - (0.125 * ((alpha_0_cs))**((2)) * r) / (cs)
+        - (0.125 * ((alpha_0_s))**((2)) * r) / (cs)
+        - (0.046875 * alpha_0_cs * (r)**((2))) / ((cs)**((2)))
+        - (0.046875 * alpha_0_s * (r)**((2))) / ((cs)**((2)))
+        - (0.25 * alpha_0_cs * alpha_0_s * r) / (cs)
+    - weight: 4
+      expression: |
+        (0.0013427734375 * (r)**((4))) / ((cs)**((4)))
+        + (0.125 * alpha_2_s * r) / (cs)
+        + (0.125 * ((alpha_0_s))**((3)) * r) / (cs)
+        + (0.125 * ((alpha_0_s))**((2)) * (r)**((2))) / ((cs)**((2)))
+        + (0.025390625 * alpha_0_s * (r)**((3))) / ((cs)**((3)))
+        + (0.28379535568268 * alpha_2_cs * r) / (cs)
+        + (0.28379535568268 * ((alpha_0_cs))**((3)) * r) / (cs)
+        + (0.24409651676201 * ((alpha_0_cs))**((2)) * (r)**((2))) / ((cs)**((2)))
+        + (0.040277689595252 * alpha_0_cs * (r)**((3))) / ((cs)**((3)))
+        - (0.0625 * alpha_1_s * (r)**((2))) / ((cs)**((2)))
+        - (0.12204825838101 * alpha_1_cs * (r)**((2))) / ((cs)**((2)))
+        + (0.046875 * alpha_1_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.94259071136537 * ((alpha_0_cs))**((2)) * alpha_0_s * r) / (cs)
+        + (0.78379535568268 * alpha_0_cs * ((alpha_0_s))**((2)) * r) / (cs)
+        + (0.41597151676201 * alpha_0_cs * alpha_0_s * (r)**((2))) / ((cs)**((2)))
+        - (0.125 * alpha_2_s * r * log(cs)) / (cs)
+        - (0.125 * ((alpha_0_s))**((3)) * r * log(cs)) / (cs)
+        - (0.01171875 * alpha_0_s * (r)**((3)) * log(cs)) / ((cs)**((3)))
+        - (0.09375 * ((alpha_0_s))**((2)) * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        - (0.375 * alpha_0_s * alpha_1_s * r) / (cs)
+        - (0.81759071136537 * alpha_0_s * alpha_1_cs * r) / (cs)
+        - (0.78379535568268 * alpha_0_cs * alpha_1_s * r) / (cs)
+        - (0.85138606704805 * alpha_0_cs * alpha_1_cs * r) / (cs)
+        + (0.125 * alpha_0_s * alpha_1_cs * r * log(cs)) / (cs)
+        + (0.25 * alpha_0_cs * alpha_1_s * r * log(cs)) / (cs)
+        + (0.375 * alpha_0_s * alpha_1_s * r * log(cs)) / (cs)
+        - (0.125 * ((alpha_0_cs))**((2)) * alpha_0_s * r * log(cs)) / (cs)
+        - (0.25 * alpha_0_cs * ((alpha_0_s))**((2)) * r * log(cs)) / (cs)
+        - (0.09375 * alpha_0_cs * alpha_0_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+  '3':
+    W: 5
+    components:
+    - weight: 4
+      expression: |
+        (0.00146484375 * (r)**((4))) / ((cs)**((4)))
+        + (0.125 * alpha_2_cs * r) / (cs)
+        + (0.125 * alpha_2_s * r) / (cs)
+        + (0.125 * ((alpha_0_cs))**((3)) * r) / (cs)
+        + (0.125 * ((alpha_0_s))**((3)) * r) / (cs)
+        + (0.0234375 * alpha_0_cs * (r)**((3))) / ((cs)**((3)))
+        + (0.0234375 * alpha_0_s * (r)**((3))) / ((cs)**((3)))
+        + (0.109375 * ((alpha_0_cs))**((2)) * (r)**((2))) / ((cs)**((2)))
+        + (0.109375 * ((alpha_0_s))**((2)) * (r)**((2))) / ((cs)**((2)))
+        - (0.0625 * alpha_1_cs * (r)**((2))) / ((cs)**((2)))
+        - (0.0625 * alpha_1_s * (r)**((2))) / ((cs)**((2)))
+        + (0.375 * alpha_0_cs * ((alpha_0_s))**((2)) * r) / (cs)
+        + (0.375 * ((alpha_0_cs))**((2)) * alpha_0_s * r) / (cs)
+        + (0.21875 * alpha_0_cs * alpha_0_s * (r)**((2))) / ((cs)**((2)))
+        - (0.375 * alpha_0_cs * alpha_1_cs * r) / (cs)
+        - (0.375 * alpha_0_cs * alpha_1_s * r) / (cs)
+        - (0.375 * alpha_0_s * alpha_1_cs * r) / (cs)
+        - (0.375 * alpha_0_s * alpha_1_s * r) / (cs)
+    - weight: 5
+      expression: |
+        -(0.000762939453125 * (r)**((5))) / ((cs)**((5)))
+        + (0.125 * alpha_3_s * r) / (cs)
+        + (0.0419921875 * alpha_1_s * (r)**((3))) / ((cs)**((3)))
+        + (0.28379535568268 * alpha_3_cs * r) / (cs)
+        + (0.071766316690503 * alpha_1_cs * (r)**((3))) / ((cs)**((3)))
+        - (0.125 * ((alpha_0_s))**((4)) * r) / (cs)
+        - (0.375 * ((alpha_1_s))**((2)) * r) / (cs)
+        - (0.078125 * alpha_2_s * (r)**((2))) / ((cs)**((2)))
+        - (0.28125 * ((alpha_0_s))**((3)) * (r)**((2))) / ((cs)**((2)))
+        - (0.01708984375 * alpha_0_s * (r)**((4))) / ((cs)**((4)))
+        - (0.1201171875 * ((alpha_0_s))**((2)) * (r)**((3))) / ((cs)**((3)))
+        - (0.28379535568268 * ((alpha_0_cs))**((4)) * r) / (cs)
+        - (0.15752267784134 * alpha_2_cs * (r)**((2))) / ((cs)**((2)))
+        - (0.85138606704805 * ((alpha_1_cs))**((2)) * r) / (cs)
+        - (0.024533376047626 * alpha_0_cs * (r)**((4))) / ((cs)**((4)))
+        - (0.5591418724447 * ((alpha_0_cs))**((3)) * (r)**((2))) / ((cs)**((2)))
+        - (0.20943957507151 * ((alpha_0_cs))**((2)) * (r)**((3))) / ((cs)**((3)))
+        + (0.0625 * alpha_2_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.125 * ((alpha_0_s))**((4)) * r * log(cs)) / (cs)
+        + (0.005859375 * alpha_0_s * (r)**((4)) * log(cs)) / ((cs)**((4)))
+        + (0.375 * ((alpha_1_s))**((2)) * r * log(cs)) / (cs)
+        + (0.75 * ((alpha_0_s))**((2)) * alpha_1_s * r) / (cs)
+        + (0.21875 * ((alpha_0_s))**((3)) * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.4375 * alpha_0_s * alpha_1_s * (r)**((2))) / ((cs)**((2)))
+        + (0.0703125 * ((alpha_0_s))**((2)) * (r)**((3)) * log(cs)) / ((cs)**((3)))
+        + (0.72129535568268 * alpha_0_cs * alpha_1_s * (r)**((2))) / ((cs)**((2)))
+        + (1.7027721340961 * ((alpha_0_cs))**((2)) * alpha_1_cs * r) / (cs)
+        + (1.6013860670481 * ((alpha_0_s))**((2)) * alpha_1_cs * r) / (cs)
+        + (1.9763860670481 * ((alpha_0_cs))**((2)) * alpha_1_s * r) / (cs)
+        + (0.7778918724447 * alpha_0_s * alpha_1_cs * (r)**((2))) / ((cs)**((2)))
+        + (0.87418722812738 * alpha_0_cs * alpha_1_cs * (r)**((2))) / ((cs)**((2)))
+        - (0.125 * alpha_3_s * r * log(cs)) / (cs)
+        - (0.5 * alpha_0_s * alpha_2_s * r) / (cs)
+        - (0.0234375 * alpha_1_s * (r)**((3)) * log(cs)) / ((cs)**((3)))
+        - (1.1351814227307 * alpha_0_cs * alpha_2_cs * r) / (cs)
+        - (1.0337953556827 * alpha_0_cs * alpha_2_s * r) / (cs)
+        - (1.0337953556827 * alpha_0_cs * ((alpha_0_s))**((3)) * r) / (cs)
+        - (1.1013860670481 * alpha_0_s * alpha_2_cs * r) / (cs)
+        - (1.3513860670481 * ((alpha_0_cs))**((3)) * alpha_0_s * r) / (cs)
+        - (1.6013860670481 * alpha_1_cs * alpha_1_s * r) / (cs)
+        - (1.9763860670481 * ((alpha_0_cs))**((2)) * ((alpha_0_s))**((2)) * r) / (cs)
+        - (1.6182837448894 * ((alpha_0_cs))**((2)) * alpha_0_s * (r)**((2))) / ((cs)**((2)))
+        - (1.3403918724447 * alpha_0_cs * ((alpha_0_s))**((2)) * (r)**((2))) / ((cs)**((2)))
+        - (0.35299426257151 * alpha_0_cs * alpha_0_s * (r)**((3))) / ((cs)**((3)))
+        + (0.125 * alpha_0_s * alpha_2_cs * r * log(cs)) / (cs)
+        + (0.125 * ((alpha_0_cs))**((3)) * alpha_0_s * r * log(cs)) / (cs)
+        + (0.5 * alpha_0_s * alpha_2_s * r * log(cs)) / (cs)
+        + (0.375 * alpha_0_cs * alpha_2_s * r * log(cs)) / (cs)
+        + (0.375 * alpha_0_cs * ((alpha_0_s))**((3)) * r * log(cs)) / (cs)
+        + (0.375 * alpha_1_cs * alpha_1_s * r * log(cs)) / (cs)
+        + (0.375 * ((alpha_0_cs))**((2)) * ((alpha_0_s))**((2)) * r * log(cs)) / (cs)
+        + (0.21875 * ((alpha_0_cs))**((2)) * alpha_0_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.4375 * alpha_0_cs * ((alpha_0_s))**((2)) * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        + (0.0703125 * alpha_0_cs * alpha_0_s * (r)**((3)) * log(cs)) / ((cs)**((3)))
+        + (3.1013860670481 * alpha_0_cs * alpha_0_s * alpha_1_s * r) / (cs)
+        + (3.6791582011442 * alpha_0_cs * alpha_0_s * alpha_1_cs * r) / (cs)
+        - (0.125 * alpha_0_s * alpha_1_cs * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        - (0.375 * ((alpha_0_s))**((2)) * alpha_1_cs * r * log(cs)) / (cs)
+        - (0.375 * ((alpha_0_cs))**((2)) * alpha_1_s * r * log(cs)) / (cs)
+        - (0.75 * ((alpha_0_s))**((2)) * alpha_1_s * r * log(cs)) / (cs)
+        - (0.21875 * alpha_0_cs * alpha_1_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        - (0.34375 * alpha_0_s * alpha_1_s * (r)**((2)) * log(cs)) / ((cs)**((2)))
+        - (0.375 * alpha_0_cs * alpha_0_s * alpha_1_cs * r * log(cs)) / (cs)
+        - (1.125 * alpha_0_cs * alpha_0_s * alpha_1_s * r * log(cs)) / (cs)

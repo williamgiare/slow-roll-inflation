@@ -1,0 +1,286 @@
+rank: 4
+log_degree: 6
+SR_weight: 10
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+status: passed
+checks:
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 6
+  analytic_value: '-0.101804077488761843533951'
+  absolute_error: 9.68725962052468e-17
+  numerical_run_difference: 5.079270337660091e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.017278333194553852
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 5
+  analytic_value: '-0.0999139876651658461550875'
+  absolute_error: 8.583996073779383e-17
+  numerical_run_difference: 4.9960036108132044e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 5093
+  GPL_evaluations:
+    new: 2345
+    reused: 2748
+  evaluation_digits: 24
+  evaluation_seconds: 103.22646866715513
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 2
+  - 4
+  analytic_value: '-0.0877578062546753697607174'
+  absolute_error: 8.527698852760318e-17
+  numerical_run_difference: 4.954370247389761e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6701
+  GPL_evaluations:
+    new: 1271
+    reused: 5430
+  evaluation_digits: 24
+  evaluation_seconds: 53.90862558293156
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 3
+  - 3
+  analytic_value: '-0.0872626451402932745276615'
+  absolute_error: 8.552996469612648e-17
+  numerical_run_difference: 4.9404924595819466e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6144
+  GPL_evaluations:
+    new: 211
+    reused: 5933
+  evaluation_digits: 24
+  evaluation_seconds: 13.904804666992277
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  - 4
+  analytic_value: '-0.0901064651726857910705704'
+  absolute_error: 8.511541687659215e-17
+  numerical_run_difference: 4.9404924595819466e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6520
+  GPL_evaluations:
+    new: 8
+    reused: 6512
+  evaluation_digits: 24
+  evaluation_seconds: 1.4165837920736521
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 2
+  - 3
+  analytic_value: '-0.0835406291313235506044861'
+  absolute_error: 8.705273877902003e-17
+  numerical_run_difference: 4.898859096158503e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 7037
+  GPL_evaluations:
+    new: 0
+    reused: 7037
+  evaluation_digits: 24
+  evaluation_seconds: 1.0813138750381768
+  status: passed
+- pattern:
+  - 0
+  - 2
+  - 2
+  - 2
+  analytic_value: '-0.0788574726103214395899305'
+  absolute_error: 8.773880561024578e-17
+  numerical_run_difference: 4.884981308350689e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6531
+  GPL_evaluations:
+    new: 0
+    reused: 6531
+  evaluation_digits: 24
+  evaluation_seconds: 1.0391083341091871
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 1
+  - 3
+  analytic_value: '-0.0818118321353507402448103'
+  absolute_error: 8.85204086873694e-17
+  numerical_run_difference: 4.884981308350689e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6818
+  GPL_evaluations:
+    new: 0
+    reused: 6818
+  evaluation_digits: 24
+  evaluation_seconds: 1.0683782908599824
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 2
+  - 2
+  analytic_value: '-0.0783895171531155865594257'
+  absolute_error: 9.213428318373237e-17
+  numerical_run_difference: 4.85722573273506e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 6717
+  GPL_evaluations:
+    new: 0
+    reused: 6717
+  evaluation_digits: 24
+  evaluation_seconds: 1.0546864580828696
+  status: passed
+generation_seconds: 1625.145013625035
+directions:
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 1
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 57.59235187503509
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 2
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 135.35551745793782
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 3
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 146.4411505840253
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 4
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 156.33138124994002
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 5
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 157.60065083298832
+- slopes:
+  - 1
+  - 1
+  - 2
+  - 2
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 182.63409308413975
+- slopes:
+  - 1
+  - 1
+  - 2
+  - 3
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 339.7301843750756
+- slopes:
+  - 1
+  - 1
+  - 2
+  - 4
+  negative_powers:
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 363.56638537487015
+phase: complete
+peak_RSS_bytes: 4329881600
+patterns: 9
+evaluation_seconds: 176.7172480004374
+numerical_backend: normalized mode equations
+numerical_integration_digits: 40

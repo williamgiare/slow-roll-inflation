@@ -1,0 +1,126 @@
+rank: 3
+log_degree: 5
+SR_weight: 8
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+status: passed
+checks:
+- pattern:
+  - 0
+  - 0
+  - 5
+  analytic_value: '-0.170344706878735788517580'
+  absolute_error: 2.460461501639687e-18
+  numerical_run_difference: 3.0531133177191805e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.010149083100259304
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 4
+  analytic_value: '-0.123802220256956309363897'
+  absolute_error: 1.4217217443067682e-18
+  numerical_run_difference: 3.0531133177191805e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 226
+  evaluation_digits: 24
+  evaluation_seconds: 2.6969163750763983
+  status: passed
+- pattern:
+  - 0
+  - 2
+  - 3
+  analytic_value: '-0.109606481201816750083724'
+  absolute_error: 6.125681761111413e-19
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 254
+  evaluation_digits: 24
+  evaluation_seconds: 0.8355275839567184
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 3
+  analytic_value: '-0.0960752828523695459144606'
+  absolute_error: 1.9890321419940513e-18
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 250
+  evaluation_digits: 24
+  evaluation_seconds: 0.10868783295154572
+  status: passed
+- pattern:
+  - 1
+  - 2
+  - 2
+  analytic_value: '-0.0898911258855815284027241'
+  absolute_error: 1.347522622309693e-18
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 248
+  evaluation_digits: 24
+  evaluation_seconds: 0.10760345798917115
+  status: passed
+generation_seconds: 21.588492084061727
+directions:
+- slopes:
+  - 1
+  - 1
+  - 1
+  negative_powers:
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  seconds: 3.445811750134453
+- slopes:
+  - 1
+  - 1
+  - 2
+  negative_powers:
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  seconds: 5.502335416851565
+- slopes:
+  - 1
+  - 1
+  - 3
+  negative_powers:
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  seconds: 5.94322625012137
+- slopes:
+  - 1
+  - 1
+  - 4
+  negative_powers:
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  seconds: 5.710795082850382
+phase: complete
+peak_RSS_bytes: 263700480
+patterns: 5
+evaluation_seconds: 3.758884333074093
+numerical_backend: normalized mode equations
+numerical_integration_digits: 40

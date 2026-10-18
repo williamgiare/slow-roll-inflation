@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this code or results in your research, please cite the accompanying
+  paper below.
+type: software
+title: Slow-Roll Inflation at Arbitrary Order
+authors:
+- family-names: Giarè
+  given-names: William
+  website: https://williamgiare.com
+preferred-citation:
+  type: unpublished
+  title: Slow-Roll Inflation at Arbitrary Order
+  authors:
+  - family-names: Giarè
+    given-names: William
+    website: https://williamgiare.com
+  year: 2026

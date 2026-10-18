@@ -1,0 +1,105 @@
+status: passed
+pytest:
+  passed: 369
+  failed: 0
+  seconds: 69.97
+  command: python -B -m pytest -q -p no:cacheprovider
+isolated_wheel:
+  status: passed
+  models:
+  - canonical
+  - kinflation
+  methods:
+  - iterative
+  - closed
+  validation_imports: blocked
+high_order_checks:
+  canonical_relations: 33
+  p_range:
+  - 0
+  - 10
+  n_indices:
+  - 0
+  - 1
+  - 2
+  maximum_W: 13
+  kinflation_generic_inverse_p_range:
+  - 0
+  - 7
+  kinflation_profile_spectra_max_p: 10
+performance_report: validation/common/reports/arithmetic_performance.json
+source_sha256:
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 08974a75836fb08d52a2b446409fa3aba3c262db6415148bdb0fde68a93aaada
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 4ee5c3fb42fbac637c89d4eae63ec35fd64c402a8875c158cc587e08b86c506f
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 77c84e05e0d18e19edd1a8e3a98c3c8121bb5104de6d30df373e9529bc6abfa8
+  source/consistency.py: 8c61d56d826831fbb4b5a148edaceb32ba593b057795afd2aecd3532b789ccb7
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 2e924d76666ca8665869efae73f4947de2663dbdaacb916bc486c35647d9d4eb
+  source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+  source/iterative/spectra.py: d76fcca13dec137e795d402a9b49ea7c01df8eacf5ed13136e0fe712e45bcd44
+  source/kinflation.py: 34e6ca4914207ab9da3596efd077fac34c788176263590e4159faed9d6c3cbd2
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/orders.py: 05b1aa9da538813274b75a573d13b582e482c54ec7aba5f008dfc1a890677d36
+  source/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+  source/spectra.py: 66d11ab803fc7696f78f9a379121922402dfbd1ada748463d2da25e9703b4522
+  source/terminal.py: 5f96456d959d2e746c0b6b7ecbf36c55397af36d9c752b5e8f3880208ad968be
+  validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+  validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+  validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+  validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+  validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+  validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+  validation/canonical_SRI/high_order.py: 7b4fc84edbb4bd541d1a46ddc8bde2a6b2e1c76476b6e74df382fff7be04a9c8
+  validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+  validation/canonical_SRI/iterative_vs_closed/run.py: 4782ceddb34c347fc7243eb3c94f6b7258a6d9e2ce8607b5bef346d515e79b4d
+  validation/canonical_SRI/order_cases.py: 265166103328f1a4ebc6d221cc38962cd6da740cb3d3989e7a197bc248cbe7ce
+  validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+  validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+  validation/common/numerical/generic_order.py: 36f3a41ffebc6b0be4d7870f63d7cd117def9eebd0bf21457061473bc463e92c
+  validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+  validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+  validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+  validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+  validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+  validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+  validation/common/numerical/verified_bank.py: b540a470104d6b965042f8c264ef768be5cb67bf1d2e0c00feaaf7d03d9491a3
+  validation/common/performance.py: c69bcad75b200e95c240b1534ba85249a160d477598065c602a188f87ef39ceb
+  validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+  validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+  validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+  validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+  validation/common/symbolic/reference.py: 31147dceb45d61bc2891cf054d9d10049dfe58abf189f9a3df9c55aa62569edf
+  validation/common/symbolic/reference_arithmetic.py: 96c7f4c865c22fb86dc0527e82cfcc9f782f8ea29a70a0a24feadef005c94b54
+  validation/kinflation_SRI/__init__.py: b9a7bb3d3116a157121991b94bc231733fa20990acc1d77d9a5c14ea205b4568
+  validation/kinflation_SRI/run.py: 51cd62704787e6345c741f0eacf4a9dc959489348f3eab9d38c4797a51ce5bfd
+  validation/run.py: 3064a30ae63d3e5ffc4183adf6537815837f90530c3bfe1546c1d010222d6bc4
+  tests/test_closed.py: a4717e1fdb4e950e16a81b49fc10f20ad492650368efc5a1597b08615956ceb4
+  tests/test_export_algebra.py: 92b51b4c07d7c76fc866749bba7a4fc4972fcdff3648d53ab57422f64bf5f208
+  tests/test_generated_only.py: 258129e7f1e1481f03d532d54158bfd5acec4fcf7988d285041d7f0e7dc9d8ce
+  tests/test_generic.py: e57d32fad5164b559ffd96c40debe74b3e639d9eab0bb986541a175676c81414
+  tests/test_high_order_validation.py: 1eb542c39219856a5c5a67af00de6ff17e56920c2b63139ee28aef5675fd9466
+  tests/test_kinflation.py: 98f396ed132fbc77e79cc89ca07861eee133368805de5a89321c0ca57251e966
+  tests/test_latex_output.py: ca88a3eccbbd3d8a9212bcf32e4ccdcb4e810cf9eb12cca3d3c03a5f2eb44bd9
+  tests/test_layout.py: 6cc1867d42f7cbd8459f4c6acadcf557fa714fda56a6fad42bbcacd43fe6ce00
+  tests/test_lo_large_n_validation.py: c542326caa184492316aece8c0aca23a0f48c60631603c1a3bbe009d41ce29da
+  tests/test_optimized_arithmetic.py: c8acbfd8e3f1b1db3602ee3fb887f56157b5c66eeecd67bb80019de89380f6c0
+  tests/test_order_cases.py: 17460cbac652f48fac406819fe7081aecfa0390398fcb018b9571a6242b2b1ab
+  tests/test_orders_cli.py: 348e1a0ba1fa125bfa813610a558abec2e1029c053ac00a9bc53f87025e5cd38
+  tests/test_physics.py: 27af228b1ab9fb0ea9300b8221d3f644a443192650c7409571c185e02a7fe9ce
+  tests/test_presentation.py: cef93eabb89d739bdca5115cfa583e54c30b820a327cf044d805cd27eb23d221
+  tests/test_series.py: ba965dc03395c8314570e48bccfbb9f533ebb988e5cfc93a552b0cee4df6caad
+  tests/test_terminal.py: 307cf30f4211888f8062269e9d92950dd487d966ac8c5b6c98d434faf4d32263

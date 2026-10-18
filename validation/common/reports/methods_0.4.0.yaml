@@ -1,0 +1,14 @@
+status: passed
+iterative_algorithm_checks:
+- background.derivative
+- background.conformal_factor
+- background.to_hubble
+- spectra.mode_calculation
+- spectra._spectra
+- consistency.calculation
+- inversion.direct_r_map
+- DirectRMap.eliminate
+- shared rational algebra and universal coefficient generator unchanged
+basis: Function bodies compared as syntax trees; moved background self parameter normalized
+  to jet.
+closed_comparison: validation/iterative_vs_closed/results.json

@@ -1,0 +1,692 @@
+%========
+% WG Edit
+% SRI N06LO: generated spectra and consistency relations at relative order p=6.
+%========
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,geometry}
+\geometry{a4paper,margin=2cm}
+\allowdisplaybreaks[4]
+\setlength{\jot}{4pt}
+\begin{document}
+\begin{center}\Large SRI: N06LO\end{center}
+The spectra are evaluated at $-k_*\eta_*=1$, through relative amplitude
+order $p=6$. The Hubble-flow parameters are denoted by $\epsilon_j$
+and $M_{\rm Pl}$ is the reduced Planck mass. Coefficients are generated
+numerically from the normalized mode equations, using the iterative algebra.
+The convention for the spectral derivatives is
+\[
+\alpha_n^A=\frac{d^{n+1}\ln P_A}{d(\ln k)^{n+1}},\qquad
+\alpha_0^s=n_s-1,\qquad\alpha_0^t=n_t,\qquad r=P_t/P_s.
+\]
+\section{Spectra}
+
+\subsection{Scalar spectrum}
+\[P_s(k_*)=\frac{H_*^2}{8\pi^2M_{\rm Pl}^2\epsilon_{1*}}\left[\sum_{d=0}^{6}F_{s,d}+O(\mathrm{SR}^{7})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{s,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{s,1} &= 0.72963715453852 \epsilon_{2} - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{s,2} &= 1.5402686460338 \epsilon_{1}^{2} + 0.49988573877771 \epsilon_{2}^{2} \\
+&{}  + 1.0192767657904 \epsilon_{1} \epsilon_{2} + 0.14504832807052 \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{s,3} &= 0.20072294544592 \epsilon_{2}^{3} + 1.6057835635673 \epsilon_{1}^{3} \\
+&{}  + 4.2977813647689 \epsilon_{1}^{2} \epsilon_{2} + 1.959600275274 \epsilon_{1} \epsilon_{2}^{2} \\
+&{}  + 0.030669313835717 \epsilon_{2} \epsilon_{3}^{2} - 0.23520055946694 \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  + 0.030669313835717 \epsilon_{2} \epsilon_{3} \epsilon_{4} - 0.65969152604436 \epsilon_{1} \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\paragraph{Relative order 4.}
+\begin{align*}
+F_{s,4} &= 0.083467005785127 \epsilon_{2}^{4} + 2.9412556561294 \epsilon_{1}^{4} \\
+&{}  + 0.055787239966231 \epsilon_{2} \epsilon_{3}^{3} + 8.1576664436908 \epsilon_{1}^{2} \epsilon_{2}^{2} \\
+&{}  + 9.1655563981061 \epsilon_{1}^{3} \epsilon_{2} + 2.2830486720555 \epsilon_{1} \epsilon_{2}^{3} \\
+&{}  - 0.20996470057763 \epsilon_{2}^{3} \epsilon_{3} - 0.058660421836305 \epsilon_{2}^{2} \epsilon_{3}^{2} \\
+&{}  + 0.055787239966231 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} + 0.16736171989869 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 0.38664546255166 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} - 0.016062214045699 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.079171041433698 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} - 0.91389525644738 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  + 0.055787239966231 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  - 0.079171041433698 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}
+\end{align*}
+
+\paragraph{Relative order 5.}
+\begin{align*}
+F_{s,5} &= 5.0146640695735 \epsilon_{1}^{5} + 0.023060510027566 \epsilon_{2}^{5} \\
+&{}  + 27.144156780677 \epsilon_{1}^{3} \epsilon_{2}^{2} + 0.018082530239889 \epsilon_{2} \epsilon_{3}^{4} \\
+&{}  + 18.923628528471 \epsilon_{1}^{4} \epsilon_{2} + 2.4064328576811 \epsilon_{1} \epsilon_{2}^{4} \\
+&{}  + 0.15472627942479 \epsilon_{2}^{3} \epsilon_{3}^{2} + 14.228251540965 \epsilon_{1}^{2} \epsilon_{2}^{3} \\
+&{}  - 0.13890612714825 \epsilon_{2}^{4} \epsilon_{3} - 0.10759865658691 \epsilon_{2}^{2} \epsilon_{3}^{3} \\
+&{}  + 2.0842227586428 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{2} + 0.59532818615497 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{2} \\
+&{}  + 0.079924208372801 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{3} + 2.9656408144517 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3} \\
+&{}  + 0.12657771167922 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4}^{2} + 0.06391567355745 \epsilon_{2}^{3} \epsilon_{3} \epsilon_{4} \\
+&{}  + 0.018082530239889 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{3} + 0.78872771949954 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3} \\
+&{}  + 3.8758981992336 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3} + 0.0049502975692885 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 0.10849518143933 \epsilon_{2} \epsilon_{3}^{3} \epsilon_{4} - 0.097698061448331 \epsilon_{2}^{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 2.0842227586428 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4} \\
+&{}  + 0.079924208372801 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 0.018082530239889 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{2} \\
+&{}  + 0.072330120959556 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5} \\
+&{}  + 1.1742909471328 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \\
+&{}  + 0.0049502975692885 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.054247590719667 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5} \\
+&{}  + 0.2397726251184 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 0.079924208372801 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.018082530239889 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6}
+\end{align*}
+
+\paragraph{Relative order 6.}
+\begin{align*}
+F_{s,6} &= 8.3167926130457 \epsilon_{1}^{6} + 0.0076684970179054 \epsilon_{2}^{6} \\
+&{}  + 37.072173733221 \epsilon_{1}^{5} \epsilon_{2} + 72.521097458045 \epsilon_{1}^{3} \epsilon_{2}^{3} \\
+&{}  + 0.097604164250968 \epsilon_{2}^{4} \epsilon_{3}^{2} + 26.371954409687 \epsilon_{1}^{2} \epsilon_{2}^{4} \\
+&{}  + 75.454092624244 \epsilon_{1}^{4} \epsilon_{2}^{2} + 2.4764082020822 \epsilon_{1} \epsilon_{2}^{5} \\
+&{}  + 0.1036516324715 \epsilon_{2}^{3} \epsilon_{3}^{3} + 0.010323841911612 \epsilon_{2} \epsilon_{3}^{5} \\
+&{}  - 0.065946975163844 \epsilon_{2}^{5} \epsilon_{3} - 0.15390619513867 \epsilon_{2}^{2} \epsilon_{3}^{4} \\
+&{}  + 0.0048539557736345 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{4} + 5.3721189690976 \epsilon_{1} \epsilon_{2}^{4} \epsilon_{3} \\
+&{}  + 0.10323841911612 \epsilon_{2} \epsilon_{3}^{4} \epsilon_{4} + 0.029930407425899 \epsilon_{2}^{4} \epsilon_{3} \epsilon_{4} \\
+&{}  + 2.1503772818914 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{3} + 0.095195191276171 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{3} \\
+&{}  + 18.232367303381 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3}^{2} + 0.15485762867417 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4}^{3} \\
+&{}  + 5.6575079379471 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3}^{2} + 0.25809604779029 \epsilon_{2} \epsilon_{3}^{3} \epsilon_{4}^{2} \\
+&{}  + 10.057811129131 \epsilon_{1}^{4} \epsilon_{2} \epsilon_{3} + 40.749413397007 \epsilon_{1}^{3} \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  + 9.5864240626752 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3}^{2} + 0.020302689804444 \epsilon_{2}^{3} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 0.010323841911612 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{4} + 0.10071828009788 \epsilon_{2}^{3} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 27.47321752324 \epsilon_{1}^{2} \epsilon_{2}^{3} \epsilon_{3} - 0.014245226035509 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4}^{3} \\
+&{}  - 0.44525600202513 \epsilon_{2}^{2} \epsilon_{3}^{3} \epsilon_{4} - 0.23937755135172 \epsilon_{2}^{2} \epsilon_{3}^{2} \epsilon_{4}^{2} \\
+&{}  + 0.0048539557736345 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{3} \\
+&{}  + 0.051619209558058 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5}^{2} \\
+&{}  + 0.10323841911612 \epsilon_{2} \epsilon_{3}^{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.029123734641807 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{3} \epsilon_{4} \\
+&{}  + 2.1503772818914 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 0.033977690415441 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4}^{2} \\
+&{}  + 1.1312985085359 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 6.4511318456741 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 0.25809604779029 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4}^{2} \epsilon_{5} \\
+&{}  + 0.072266893381281 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5}^{2} \\
+&{}  + 5.1348555860916 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3} \epsilon_{4} \\
+&{}  + 0.061943051469669 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{3} \epsilon_{5} \\
+&{}  + 2.357792208348 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 9.5864240626752 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3} \epsilon_{4} \\
+&{}  + 0.020302689804444 \epsilon_{2}^{3} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.010323841911612 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{3} \\
+&{}  + 15.388135466879 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.014245226035509 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{2} \\
+&{}  - 0.13744361174779 \epsilon_{2}^{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5} \\
+&{}  - 0.042735678106526 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5} \\
+&{}  + 0.0048539557736345 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{2} \\
+&{}  + 0.019415823094538 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.051619209558058 \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5} \epsilon_{6} \\
+&{}  + 0.014561867320903 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5} \\
+&{}  + 2.1503772818914 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 1.1312985085359 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  + 0.030971525734835 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{2} \epsilon_{6} \\
+&{}  + 0.010323841911612 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6}^{2} \\
+&{}  + 0.041295367646446 \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5} \epsilon_{6} \\
+&{}  - 0.014245226035509 \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6} \\
+&{}  + 0.0048539557736345 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6} \\
+&{}  + 0.010323841911612 \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6} \epsilon_{7}
+\end{align*}
+
+\subsection{Tensor spectrum}
+\[P_t(k_*)=\frac{2H_*^2}{\pi^2M_{\rm Pl}^2}\left[\sum_{d=0}^{6}F_{t,d}+O(\mathrm{SR}^{7})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{t,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{t,1} &=  - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{t,2} &= 1.5402686460338 \epsilon_{1}^{2} - 0.25062903478191 \epsilon_{1} \epsilon_{2}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{t,3} &= 1.6057835635673 \epsilon_{1}^{3} + 1.8891060194179 \epsilon_{1}^{2} \epsilon_{2} \\
+&{}  - 0.18929040711048 \epsilon_{1} \epsilon_{2}^{2} - 0.18929040711048 \epsilon_{1} \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\paragraph{Relative order 4.}
+\begin{align*}
+F_{t,4} &= 2.9412556561294 \epsilon_{1}^{4} + 4.0859368676311 \epsilon_{1}^{3} \epsilon_{2} \\
+&{}  + 1.8087367742501 \epsilon_{1}^{2} \epsilon_{2}^{2} - 0.077715927178017 \epsilon_{1} \epsilon_{2}^{3} \\
+&{}  + 1.696905383796 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} - 0.077715927178017 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \\
+&{}  - 0.23314778153405 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} - 0.077715927178017 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}
+\end{align*}
+
+\paragraph{Relative order 5.}
+\begin{align*}
+F_{t,5} &= 5.0146640695735 \epsilon_{1}^{5} + 10.182162879741 \epsilon_{1}^{3} \epsilon_{2}^{2} \\
+&{}  + 1.9912795134148 \epsilon_{1}^{2} \epsilon_{2}^{3} + 9.3282240106668 \epsilon_{1}^{4} \epsilon_{2} \\
+&{}  - 0.041550866698239 \epsilon_{1} \epsilon_{2}^{4} + 5.715558726935 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  + 6.2270085551926 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3} + 1.8621396067601 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{2} \\
+&{}  - 0.041550866698239 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{3} - 0.29085606688767 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{2} \\
+&{}  - 0.24930520018943 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3} + 1.8621396067601 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.041550866698239 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  - 0.16620346679296 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.12465260009472 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  - 0.041550866698239 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}
+\end{align*}
+
+\paragraph{Relative order 6.}
+\begin{align*}
+F_{t,6} &= 8.3167926130457 \epsilon_{1}^{6} + 35.569920863237 \epsilon_{1}^{4} \epsilon_{2}^{2} \\
+&{}  + 25.766288824979 \epsilon_{1}^{3} \epsilon_{2}^{3} + 1.9852568085143 \epsilon_{1}^{2} \epsilon_{2}^{4} \\
+&{}  + 19.643791998445 \epsilon_{1}^{5} \epsilon_{2} - 0.020903182875016 \epsilon_{1} \epsilon_{2}^{5} \\
+&{}  + 1.8721030173592 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{3} + 17.436687309176 \epsilon_{1}^{4} \epsilon_{2} \epsilon_{3} \\
+&{}  + 42.955365634287 \epsilon_{1}^{3} \epsilon_{2}^{2} \epsilon_{3} + 11.663061184146 \epsilon_{1}^{2} \epsilon_{2}^{3} \epsilon_{3} \\
+&{}  + 8.6456966910171 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3}^{2} + 13.217874912669 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3}^{2} \\
+&{}  - 0.31354774312524 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{3} - 0.52257957187539 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3}^{2} \\
+&{}  - 0.020903182875016 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{4} - 0.20903182875016 \epsilon_{1} \epsilon_{2}^{4} \epsilon_{3} \\
+&{}  + 1.8721030173592 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  + 5.6163090520775 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  + 7.692547567117 \epsilon_{1}^{2} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \\
+&{}  + 8.6456966910171 \epsilon_{1}^{3} \epsilon_{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.14632228012511 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4}^{2} \\
+&{}  - 0.12541909725009 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{3} \epsilon_{4} \\
+&{}  - 0.52257957187539 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3}^{2} \epsilon_{4} \\
+&{}  - 0.020903182875016 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{3} \\
+&{}  - 0.10451591437508 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4}^{2} \\
+&{}  - 0.20903182875016 \epsilon_{1} \epsilon_{2}^{3} \epsilon_{3} \epsilon_{4} \\
+&{}  + 1.8721030173592 \epsilon_{1}^{2} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  - 0.062709548625047 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4}^{2} \epsilon_{5} \\
+&{}  - 0.020903182875016 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5}^{2} \\
+&{}  - 0.083612731500063 \epsilon_{1} \epsilon_{2} \epsilon_{3}^{2} \epsilon_{4} \epsilon_{5} \\
+&{}  - 0.10451591437508 \epsilon_{1} \epsilon_{2}^{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \\
+&{}  - 0.020903182875016 \epsilon_{1} \epsilon_{2} \epsilon_{3} \epsilon_{4} \epsilon_{5} \epsilon_{6}
+\end{align*}
+
+\section{Consistency relations}
+\subsection{$n=0$}
+For $p=6$, the absolute cutoff is $W=7$:
+\[\alpha_{0}^t=\sum_{d=1}^{7}R_{0,d}+O(\mathrm{SR}^{8}).\]
+\paragraph{Absolute order 1.}
+\begin{align*}
+R_{0,1} &=  - 0.125 r
+\end{align*}
+
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{0,2} &= 0.0078125 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{0,3} &=  - 0.0030712246746565 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.10280837917801 \left(\alpha_{0}^s\right)^{2} r - 0.041327094794504 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{0,4} &= 0.0014926374043055 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.065244100954277 \left(\alpha_{0}^s\right)^{3} r + 0.024554893470954 \alpha_{0}^s r^{3} \\
+&{}  + 0.10320649151137 \left(\alpha_{0}^s\right)^{2} r^{2} - 0.060109233906372 \alpha_{1}^s r^{2} \\
+&{}  - 0.23087387125098 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{0,5} &=  - 0.00093280100983415 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.04315951309091 \alpha_{1}^s r^{3} - 0.038536574146577 \left(\alpha_{0}^s\right)^{4} r \\
+&{}  - 0.018206214478227 \alpha_{0}^s r^{4} - 0.077020534433109 \alpha_{2}^s r^{2} \\
+&{}  - 0.14103704832205 \left(\alpha_{1}^s\right)^{2} r - 0.18695785481671 \left(\alpha_{0}^s\right)^{3} r^{2} \\
+&{}  - 0.10777687087114 \left(\alpha_{0}^s\right)^{2} r^{3} + 0.33322659757276 \alpha_{0}^s \alpha_{1}^s r^{2} \\
+&{}  + 0.25691700713838 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r - 0.24116427546487 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{0,6} &= 0.00070298503785145 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.020902477635746 \left(\alpha_{0}^s\right)^{5} r + 0.015994052232973 \alpha_{0}^s r^{5} \\
+&{}  + 0.065362321729807 \alpha_{2}^s r^{3} + 0.28417656846613 \left(\alpha_{0}^s\right)^{4} r^{2} \\
+&{}  + 0.30605471800346 \left(\alpha_{1}^s\right)^{2} r^{2} + 0.34969699644176 \left(\alpha_{0}^s\right)^{3} r^{3} \\
+&{}  + 0.12218812205202 \left(\alpha_{0}^s\right)^{2} r^{4} - 0.093222530607224 \alpha_{3}^s r^{2} \\
+&{}  - 0.037217907105313 \alpha_{1}^s r^{4} + 0.4688109212146 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  + 0.37293859690816 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r + 0.29046664127673 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \\
+&{}  - 0.22801627965519 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r - 1.015918735308 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 0.31399132156735 \alpha_{1}^s \alpha_{2}^s r - 0.42145582743858 \alpha_{0}^s \alpha_{1}^s r^{3} \\
+&{}  - 0.24578024485779 \alpha_{0}^s \alpha_{3}^s r
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{0,7} &=  - 0.00061515419372413 r^{7} + 0.125 \alpha_{5}^s r \\
+&{}  + 0.03707739098979 \alpha_{1}^s r^{5} + 0.19980707266399 \left(\alpha_{1}^s\right)^{3} r \\
+&{}  + 0.091144689305009 \alpha_{3}^s r^{3} - 0.016058051152622 \alpha_{0}^s r^{6} \\
+&{}  - 0.011049369381434 \left(\alpha_{0}^s\right)^{6} r - 0.18310571021651 \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 0.94736847967917 \left(\alpha_{0}^s\right)^{4} r^{3} - 0.064533532306596 \alpha_{2}^s r^{4} \\
+&{}  - 0.60450331655168 \left(\alpha_{0}^s\right)^{3} r^{4} - 0.15064645355686 \left(\alpha_{0}^s\right)^{2} r^{5} \\
+&{}  - 0.38746735293638 \left(\alpha_{0}^s\right)^{5} r^{2} - 0.10911851595073 \alpha_{4}^s r^{2} \\
+&{}  - 0.46539756860253 \left(\alpha_{1}^s\right)^{2} r^{3} + 0.55277396843725 \alpha_{0}^s \alpha_{1}^s r^{4} \\
+&{}  + 2.2882998446743 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} + 0.61514830647938 \alpha_{0}^s \alpha_{3}^s r^{2} \\
+&{}  + 0.17617169912302 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r + 0.97696202212274 \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  + 2.3093282152193 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} + 0.30878621388554 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r \\
+&{}  - 1.5812089463636 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \\
+&{}  - 0.56258489487217 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r - 0.33131930046622 \alpha_{1}^s \alpha_{3}^s r \\
+&{}  - 0.24794812760585 \alpha_{0}^s \alpha_{4}^s r - 2.0996792408229 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  - 0.28144573547165 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r - 0.7030684429864 \alpha_{0}^s \alpha_{2}^s r^{3} \\
+&{}  + 0.90387358971276 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\subsection{$n=1$}
+For $p=6$, the absolute cutoff is $W=8$:
+\[\alpha_{1}^t=\sum_{d=2}^{8}R_{1,d}+O(\mathrm{SR}^{9}).\]
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{1,2} &= 0.015625 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{1,3} &=  - 0.0029296875 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{1,4} &= 0.0016576826498282 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.12398128438351 \left(\alpha_{0}^s\right)^{2} r^{2} + 0.10280837917801 \left(\alpha_{0}^s\right)^{3} r \\
+&{}  + 0.027641022071908 \alpha_{0}^s r^{3} - 0.072577094794504 \alpha_{1}^s r^{2} \\
+&{}  - 0.33061675835603 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{1,5} &=  - 0.0010528680915447 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.050025543685844 \alpha_{1}^s r^{3} - 0.091359233906372 \alpha_{2}^s r^{2} \\
+&{}  - 0.065244100954277 \left(\alpha_{0}^s\right)^{4} r - 0.13027434666455 \left(\alpha_{0}^s\right)^{2} r^{3} \\
+&{}  - 0.021075080402355 \alpha_{0}^s r^{4} - 0.23087387125098 \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 0.24842610305581 \left(\alpha_{0}^s\right)^{3} r^{2} + 0.42660617411381 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.41559991864823 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.35587387125098 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{1,6} &= 0.00079786539870909 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.038536574146577 \left(\alpha_{0}^s\right)^{5} r + 0.41043044123784 \left(\alpha_{0}^s\right)^{4} r^{2} \\
+&{}  + 0.14689479099556 \left(\alpha_{0}^s\right)^{2} r^{4} + 0.018569586968286 \alpha_{0}^s r^{5} \\
+&{}  + 0.074971901003326 \alpha_{2}^s r^{3} + 0.38411085965327 \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  + 0.44641771599844 \left(\alpha_{0}^s\right)^{3} r^{3} - 0.043199996920584 \alpha_{1}^s r^{4} \\
+&{}  - 0.10827053443311 \alpha_{3}^s r^{2} + 0.5788087353052 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  + 0.65487106259881 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r + 0.49808128260325 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \\
+&{}  - 0.36616427546487 \alpha_{0}^s \alpha_{3}^s r - 0.52323837210896 \alpha_{1}^s \alpha_{2}^s r \\
+&{}  - 0.51344198472507 \alpha_{0}^s \alpha_{1}^s r^{3} - 1.3749765739875 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 0.41106330372469 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{1,7} &=  - 0.00069821403713025 r^{7} + 0.125 \alpha_{5}^s r \\
+&{}  + 0.37293859690816 \left(\alpha_{1}^s\right)^{3} r + 0.042797105843338 \alpha_{1}^s r^{5} \\
+&{}  + 0.10325045820752 \alpha_{3}^s r^{3} - 0.75129206502539 \left(\alpha_{0}^s\right)^{3} r^{4} \\
+&{}  - 0.12447253060722 \alpha_{4}^s r^{2} - 0.17935279734314 \left(\alpha_{0}^s\right)^{2} r^{5} \\
+&{}  - 0.020902477635746 \left(\alpha_{0}^s\right)^{6} r - 0.56207286522481 \left(\alpha_{1}^s\right)^{2} r^{3} \\
+&{}  - 0.073841572008579 \alpha_{2}^s r^{4} - 0.018589066236159 \alpha_{0}^s r^{6} \\
+&{}  - 0.59662818041792 \left(\alpha_{0}^s\right)^{5} r^{2} - 0.31399132156735 \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 1.2665901227865 \left(\alpha_{0}^s\right)^{4} r^{3} + 1.1906681876134 \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  + 0.53624688613452 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r + 0.7479510436435 \alpha_{0}^s \alpha_{3}^s r^{2} \\
+&{}  + 0.66101914285082 \alpha_{0}^s \alpha_{1}^s r^{4} + 0.33252866783392 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \\
+&{}  + 2.9112751359658 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} + 3.3535596284132 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \\
+&{}  - 2.1121504017171 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} - 0.84337953675004 \alpha_{0}^s \alpha_{2}^s r^{3} \\
+&{}  - 0.51848292093192 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \\
+&{}  - 1.0569874358737 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r - 0.55977156642514 \alpha_{1}^s \alpha_{3}^s r \\
+&{}  - 2.8301592857432 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} - 0.37078024485779 \alpha_{0}^s \alpha_{4}^s r \\
+&{}  + 1.6408017979371 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 8.}
+\begin{align*}
+R_{1,8} &= 0.00069092135609635 r^{8} + 0.125 \alpha_{6}^s r \\
+&{}  + 0.020764478937666 \alpha_{0}^s r^{7} + 0.011049369381434 \left(\alpha_{0}^s\right)^{7} r \\
+&{}  + 1.2687327364727 \left(\alpha_{0}^s\right)^{3} r^{5} + 3.1771029716803 \left(\alpha_{0}^s\right)^{5} r^{3} \\
+&{}  + 3.1788385090986 \left(\alpha_{0}^s\right)^{4} r^{4} + 0.82557558507459 \left(\alpha_{1}^s\right)^{2} r^{4} \\
+&{}  + 1.0383634496769 \left(\alpha_{2}^s\right)^{2} r^{2} + 0.13499382028653 \alpha_{4}^s r^{3} \\
+&{}  + 0.082079699580705 \alpha_{2}^s r^{5} + 0.79510322579056 \left(\alpha_{0}^s\right)^{6} r^{2} \\
+&{}  + 0.23686528225709 \left(\alpha_{0}^s\right)^{2} r^{6} - 0.1145546933779 \alpha_{3}^s r^{4} \\
+&{}  - 2.1848902710694 \left(\alpha_{1}^s\right)^{3} r^{2} - 0.14036851595073 \alpha_{5}^s r^{2} \\
+&{}  - 0.047643927662444 \alpha_{1}^s r^{6} + 1.2377460864495 \alpha_{0}^s \alpha_{2}^s r^{4} \\
+&{}  + 7.0677622611573 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{3} + 5.2654277957421 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{3} \\
+&{}  + 0.55673434149138 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r \\
+&{}  + 11.507755577144 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  + 1.5032948077047 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r + 0.45761743459468 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r \\
+&{}  + 1.0869792999293 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r \\
+&{}  + 1.2672716913643 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  + 5.6806226439244 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{2} + 1.7061901537187 \alpha_{1}^s \alpha_{3}^s r^{2} \\
+&{}  + 0.9266223702823 \alpha_{0}^s \alpha_{4}^s r^{2} - 1.3249768624083 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r \\
+&{}  - 0.57926742807207 \alpha_{1}^s \alpha_{4}^s r - 0.59023194935719 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r \\
+&{}  - 1.2633997098457 \alpha_{0}^s \alpha_{3}^s r^{3} - 12.194671111486 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{3} \\
+&{}  - 2.059007173214 \alpha_{1}^s \alpha_{2}^s r^{3} - 0.69753072089924 \alpha_{2}^s \alpha_{3}^s r \\
+&{}  - 5.5886005276836 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{4} - 2.9758492688027 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{2} \\
+&{}  - 0.37294812760585 \alpha_{0}^s \alpha_{5}^s r - 6.7496270918532 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{2} \\
+&{}  - 0.90640507582801 \alpha_{0}^s \alpha_{1}^s r^{5} - 0.24246791541163 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r \\
+&{}  + 1.8527653179501 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r - 9.7381761831174 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  - 2.8733805858721 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\subsection{$n=2$}
+For $p=6$, the absolute cutoff is $W=9$:
+\[\alpha_{2}^t=\sum_{d=3}^{9}R_{2,d}+O(\mathrm{SR}^{10}).\]
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{2,3} &=  - 0.00390625 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{2,4} &= 0.0013427734375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.125 \left(\alpha_{0}^s\right)^{2} r^{2} \\
+&{}  + 0.025390625 \alpha_{0}^s r^{3} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{2,5} &=  - 0.00099348164677838 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.050668108270534 \alpha_{1}^s r^{3} - 0.13499234851023 \left(\alpha_{0}^s\right)^{2} r^{3} \\
+&{}  - 0.28928966356152 \left(\alpha_{0}^s\right)^{3} r^{2} - 0.020502543360439 \alpha_{0}^s r^{4} \\
+&{}  - 0.10280837917801 \left(\alpha_{0}^s\right)^{4} r - 0.33061675835603 \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 0.088202094794504 \alpha_{2}^s r^{2} + 0.63904189589007 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.46569385315053 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.45561675835603 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{2,6} &= 0.0007834832445242 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.065244100954277 \left(\alpha_{0}^s\right)^{5} r + 0.51447193930681 \left(\alpha_{0}^s\right)^{3} r^{3} \\
+&{}  + 0.018883632267472 \alpha_{0}^s r^{5} + 0.077748164662437 \alpha_{2}^s r^{3} \\
+&{}  + 0.5388653261447 \left(\alpha_{0}^s\right)^{4} r^{2} + 0.15691226448912 \left(\alpha_{0}^s\right)^{2} r^{4} \\
+&{}  + 0.4600841525546 \left(\alpha_{1}^s\right)^{2} r^{2} - 0.10698423390637 \alpha_{3}^s r^{2} \\
+&{}  - 0.044329625847117 \alpha_{1}^s r^{4} + 0.78248004536479 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \\
+&{}  + 1.0840862194786 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r + 0.67405262036735 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  - 0.56686562073618 \alpha_{0}^s \alpha_{1}^s r^{3} - 0.68758257793092 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \\
+&{}  - 0.81762161375293 \alpha_{1}^s \alpha_{2}^s r - 1.7284662943263 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 0.48087387125098 \alpha_{0}^s \alpha_{3}^s r
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{2,7} &=  - 0.00070216008727898 r^{7} + 0.125 \alpha_{5}^s r \\
+&{}  + 0.1069223471116 \alpha_{3}^s r^{3} + 0.65487106259881 \left(\alpha_{1}^s\right)^{3} r \\
+&{}  + 0.044680319835584 \alpha_{1}^s r^{5} - 0.038536574146577 \left(\alpha_{0}^s\right)^{6} r \\
+&{}  - 0.076631375424485 \alpha_{2}^s r^{4} - 0.85737561408011 \left(\alpha_{0}^s\right)^{5} r^{2} \\
+&{}  - 0.52323837210896 \left(\alpha_{2}^s\right)^{2} r - 0.019279820845041 \alpha_{0}^s r^{6} \\
+&{}  - 1.5778098507287 \left(\alpha_{0}^s\right)^{4} r^{3} - 0.12389553443311 \alpha_{4}^s r^{2} \\
+&{}  - 0.64133873745452 \left(\alpha_{1}^s\right)^{2} r^{3} - 0.193795881651 \left(\alpha_{0}^s\right)^{2} r^{5} \\
+&{}  - 0.85944179815707 \left(\alpha_{0}^s\right)^{3} r^{4} + 1.4436852511254 \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  + 4.6123541905271 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} + 0.72830526168963 \alpha_{0}^s \alpha_{1}^s r^{4} \\
+&{}  + 0.87237033860452 \alpha_{0}^s \alpha_{3}^s r^{2} + 0.60374617445758 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \\
+&{}  + 0.86424555806812 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r + 3.481878776513 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} \\
+&{}  - 0.88940264757383 \alpha_{1}^s \alpha_{3}^s r - 0.94272853191881 \alpha_{0}^s \alpha_{2}^s r^{3} \\
+&{}  - 1.8880609737729 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r - 0.49116427546487 \alpha_{0}^s \alpha_{4}^s r \\
+&{}  - 2.69796002066 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} - 0.90914458632794 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \\
+&{}  - 3.7167089437539 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} + 2.8291430625131 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 8.}
+\begin{align*}
+R_{2,8} &= 0.00070456920068177 r^{8} + 0.125 \alpha_{6}^s r \\
+&{}  + 0.13925140335932 \alpha_{4}^s r^{3} + 1.2215314043215 \left(\alpha_{0}^s\right)^{6} r^{2} \\
+&{}  + 0.020902477635746 \left(\alpha_{0}^s\right)^{7} r + 1.4381221889498 \left(\alpha_{0}^s\right)^{3} r^{5} \\
+&{}  + 0.92219068354551 \left(\alpha_{1}^s\right)^{2} r^{4} + 3.8323296829683 \left(\alpha_{0}^s\right)^{4} r^{4} \\
+&{}  + 0.25673070632081 \left(\alpha_{0}^s\right)^{2} r^{6} + 4.1955594060503 \left(\alpha_{0}^s\right)^{5} r^{3} \\
+&{}  + 1.2455421028093 \left(\alpha_{2}^s\right)^{2} r^{2} + 0.085771147089679 \alpha_{2}^s r^{5} \\
+&{}  + 0.021751280469382 \alpha_{0}^s r^{7} - 0.11864796091522 \alpha_{3}^s r^{4} \\
+&{}  - 0.14009753060722 \alpha_{5}^s r^{2} - 2.9232654753033 \left(\alpha_{1}^s\right)^{3} r^{2} \\
+&{}  - 0.050080440992255 \alpha_{1}^s r^{6} + 2.03984067706 \alpha_{1}^s \alpha_{3}^s r^{2} \\
+&{}  + 2.3871021072094 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  + 1.9547931195045 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r + 0.90702713099232 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r \\
+&{}  + 16.184733661745 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  + 8.5890660587772 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{3} + 6.2953483110811 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{3} \\
+&{}  + 0.85101158876584 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r + 1.0744936354652 \alpha_{0}^s \alpha_{4}^s r^{2} \\
+&{}  + 1.3640509580442 \alpha_{0}^s \alpha_{2}^s r^{4} + 2.7596175886616 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r \\
+&{}  + 7.8289781977937 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{2} - 0.99377356769359 \alpha_{0}^s \alpha_{1}^s r^{5} \\
+&{}  - 2.4869134686556 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r - 1.1877542095598 \alpha_{2}^s \alpha_{3}^s r \\
+&{}  - 1.4062650501208 \alpha_{0}^s \alpha_{3}^s r^{3} - 15.480967047284 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{3} \\
+&{}  - 9.9459636515628 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{2} - 3.7800524622085 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{2} \\
+&{}  - 1.0547298070664 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r - 2.3372176459017 \alpha_{1}^s \alpha_{2}^s r^{3} \\
+&{}  - 6.4975922521103 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{4} - 0.4579435336484 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r \\
+&{}  - 0.93055181128293 \alpha_{1}^s \alpha_{4}^s r - 0.49578024485779 \alpha_{0}^s \alpha_{5}^s r \\
+&{}  + 3.2730671366313 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r - 5.3102254324804 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r \\
+&{}  - 12.720525783639 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 9.}
+\begin{align*}
+R_{2,9} &=  - 0.00078325253131263 r^{9} + 0.125 \alpha_{7}^s r \\
+&{}  + 0.061833969920015 \alpha_{1}^s r^{7} + 0.14712505634682 \alpha_{3}^s r^{5} \\
+&{}  + 0.17496876177422 \alpha_{5}^s r^{3} + 7.7917767073786 \left(\alpha_{1}^s\right)^{3} r^{3} \\
+&{}  - 8.7149027983697 \left(\alpha_{0}^s\right)^{4} r^{5} - 1.3249768624083 \left(\alpha_{1}^s\right)^{4} r \\
+&{}  - 0.011049369381434 \left(\alpha_{0}^s\right)^{8} r - 0.026899939604252 \alpha_{0}^s r^{8} \\
+&{}  - 0.17201474879639 \alpha_{4}^s r^{4} - 1.3947772426699 \left(\alpha_{1}^s\right)^{2} r^{5} \\
+&{}  - 0.36511047260991 \left(\alpha_{0}^s\right)^{2} r^{7} - 14.90287048239 \left(\alpha_{0}^s\right)^{5} r^{4} \\
+&{}  - 2.359240521558 \left(\alpha_{2}^s\right)^{2} r^{3} - 2.4760833602147 \left(\alpha_{0}^s\right)^{3} r^{6} \\
+&{}  - 0.15599351595073 \alpha_{6}^s r^{2} - 10.119576191149 \left(\alpha_{0}^s\right)^{6} r^{3} \\
+&{}  - 0.69753072089924 \left(\alpha_{3}^s\right)^{2} r - 1.6103749714989 \left(\alpha_{0}^s\right)^{7} r^{2} \\
+&{}  - 0.10609127961526 \alpha_{2}^s r^{6} + 3.3560601256548 \left(\alpha_{1}^s\right)^{2} \alpha_{3}^s r \\
+&{}  + 4.0935689153387 \alpha_{1}^s \left(\alpha_{2}^s\right)^{2} r + 1.0478493839519 \left(\alpha_{0}^s\right)^{4} \alpha_{3}^s r \\
+&{}  + 11.901103158999 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r^{2} + 27.850915176513 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r^{2} \\
+&{}  + 0.31981350108167 \left(\alpha_{0}^s\right)^{6} \alpha_{1}^s r + 2.73647095251 \alpha_{1}^s \alpha_{4}^s r^{2} \\
+&{}  + 12.044746060424 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{5} + 56.260557283539 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{3} \\
+&{}  + 2.285169999955 \alpha_{0}^s \alpha_{3}^s r^{4} + 18.524012994936 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r^{2} \\
+&{}  + 10.193295128537 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{3} \\
+&{}  + 5.1267919365011 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{3} r + 1.2852279181345 \alpha_{0}^s \alpha_{5}^s r^{2} \\
+&{}  + 42.176693101567 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{4} + 1.4480298249474 \alpha_{0}^s \alpha_{1}^s r^{6} \\
+&{}  + 0.92968246909723 \left(\alpha_{0}^s\right)^{2} \alpha_{5}^s r + 3.7971280636148 \alpha_{1}^s \alpha_{2}^s r^{4} \\
+&{}  + 3.9013583931848 \alpha_{2}^s \alpha_{3}^s r^{2} - 3.8280597428628 \alpha_{1}^s \alpha_{3}^s r^{3} \\
+&{}  - 5.0045028960089 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r^{2} - 0.95221555567791 \alpha_{1}^s \alpha_{5}^s r \\
+&{}  - 16.631901423945 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r^{2} - 1.1469662908486 \left(\alpha_{0}^s\right)^{3} \alpha_{4}^s r \\
+&{}  - 1.2767981489713 \alpha_{2}^s \alpha_{4}^s r - 2.0713172476951 \alpha_{0}^s \alpha_{2}^s r^{5} \\
+&{}  - 17.984269601465 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{4} - 18.416565864046 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r^{2} \\
+&{}  - 2.4796112684224 \left(\alpha_{0}^s\right)^{4} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 0.70008535000631 \left(\alpha_{0}^s\right)^{5} \alpha_{2}^s r - 12.087542392275 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r^{2} \\
+&{}  - 50.781699765006 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  - 13.256871913634 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{4} - 30.576918469482 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{3} \\
+&{}  - 62.733882360978 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{3} - 1.9723244469215 \alpha_{0}^s \alpha_{4}^s r^{3} \\
+&{}  - 3.9603598858013 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{2}^s\right)^{2} r - 0.49794812760585 \alpha_{0}^s \alpha_{6}^s r \\
+&{}  + 7.2383937069793 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s \alpha_{2}^s r + 3.5455014290049 \alpha_{0}^s \alpha_{1}^s \alpha_{4}^s r \\
+&{}  + 34.262761764317 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{3} + 4.7242546387078 \alpha_{0}^s \alpha_{2}^s \alpha_{3}^s r \\
+&{}  + 60.649934470602 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  - 19.591916445006 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r^{2} - 11.224986566674 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r \\
+&{}  - 6.4968417518937 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{3}^s r
+\end{align*}
+
+\subsection{$n=3$}
+For $p=6$, the absolute cutoff is $W=10$:
+\[\alpha_{3}^t=\sum_{d=4}^{10}R_{3,d}+O(\mathrm{SR}^{11}).\]
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{3,4} &= 0.00146484375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.0234375 \alpha_{0}^s r^{3} \\
+&{}  + 0.109375 \left(\alpha_{0}^s\right)^{2} r^{2} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{3,5} &=  - 0.000762939453125 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.0419921875 \alpha_{1}^s r^{3} - 0.125 \left(\alpha_{0}^s\right)^{4} r \\
+&{}  - 0.375 \left(\alpha_{1}^s\right)^{2} r - 0.078125 \alpha_{2}^s r^{2} \\
+&{}  - 0.28125 \left(\alpha_{0}^s\right)^{3} r^{2} - 0.01708984375 \alpha_{0}^s r^{4} \\
+&{}  - 0.1201171875 \left(\alpha_{0}^s\right)^{2} r^{3} + 0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.4375 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.5 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{3,6} &= 0.00069887861331449 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.52264594794504 \left(\alpha_{1}^s\right)^{2} r^{2} + 0.10280837917801 \left(\alpha_{0}^s\right)^{5} r \\
+&{}  + 0.52433019631832 \left(\alpha_{0}^s\right)^{3} r^{3} + 0.017257388611671 \alpha_{0}^s r^{5} \\
+&{}  + 0.07369519446916 \alpha_{2}^s r^{3} + 0.1495700174229 \left(\alpha_{0}^s\right)^{2} r^{4} \\
+&{}  + 0.61990642191755 \left(\alpha_{0}^s\right)^{4} r^{2} - 0.042328393296221 \alpha_{1}^s r^{4} \\
+&{}  - 0.1038270947945 \alpha_{3}^s r^{2} + 1.6087005501362 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \\
+&{}  + 1.0946586542461 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r + 0.71467513753404 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  - 0.57385180946901 \alpha_{0}^s \alpha_{1}^s r^{3} - 1.9544879813691 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 1.1168502750681 \alpha_{1}^s \alpha_{2}^s r - 1.0502754126021 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \\
+&{}  - 0.58061675835603 \alpha_{0}^s \alpha_{3}^s r
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{3,7} &=  - 0.00066040799045703 r^{7} + 0.125 \alpha_{5}^s r \\
+&{}  + 0.044182253542082 \alpha_{1}^s r^{5} + 0.10547078563903 \alpha_{3}^s r^{3} \\
+&{}  + 1.0840862194786 \left(\alpha_{1}^s\right)^{3} r - 0.12260923390637 \alpha_{4}^s r^{2} \\
+&{}  - 0.065244100954277 \left(\alpha_{0}^s\right)^{6} r - 1.8011431833565 \left(\alpha_{0}^s\right)^{4} r^{3} \\
+&{}  - 1.1197437723225 \left(\alpha_{0}^s\right)^{5} r^{2} - 0.076712092161027 \alpha_{2}^s r^{4} \\
+&{}  - 0.70760825653778 \left(\alpha_{1}^s\right)^{2} r^{3} - 0.19445546235151 \left(\alpha_{0}^s\right)^{2} r^{5} \\
+&{}  - 0.018648400200653 \alpha_{0}^s r^{6} - 0.81762161375293 \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 0.9077746502428 \left(\alpha_{0}^s\right)^{3} r^{4} + 0.75724388321833 \alpha_{0}^s \alpha_{1}^s r^{4} \\
+&{}  + 1.2633539166158 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r + 5.8694148411763 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \\
+&{}  + 3.899202830862 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} + 1.0138030827023 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \\
+&{}  + 1.7276736271957 \alpha_{1}^s \alpha_{2}^s r^{2} + 0.96375532208646 \alpha_{0}^s \alpha_{3}^s r^{2} \\
+&{}  - 1.0111179362879 \alpha_{0}^s \alpha_{2}^s r^{3} - 0.60587387125098 \alpha_{0}^s \alpha_{4}^s r \\
+&{}  - 3.1468339532713 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 4.6296729998974 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} - 3.2598096829233 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \\
+&{}  - 1.2984954850039 \alpha_{1}^s \alpha_{3}^s r - 1.4700626232957 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \\
+&{}  + 4.5507541434397 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 8.}
+\begin{align*}
+R_{3,8} &= 0.00068532023746048 r^{8} + 0.125 \alpha_{6}^s r \\
+&{}  + 4.3619461768873 \left(\alpha_{0}^s\right)^{4} r^{4} + 0.038536574146577 \left(\alpha_{0}^s\right)^{7} r \\
+&{}  + 5.2029254536162 \left(\alpha_{0}^s\right)^{5} r^{3} + 0.021703788578011 \alpha_{0}^s r^{7} \\
+&{}  + 1.545267118531 \left(\alpha_{0}^s\right)^{3} r^{5} + 1.7512659597646 \left(\alpha_{0}^s\right)^{6} r^{2} \\
+&{}  + 1.010573413351 \left(\alpha_{1}^s\right)^{2} r^{4} + 0.26453516473845 \left(\alpha_{0}^s\right)^{2} r^{6} \\
+&{}  + 0.13887279321988 \alpha_{4}^s r^{3} + 0.087120557839057 \alpha_{2}^s r^{5} \\
+&{}  + 1.524715047639 \left(\alpha_{2}^s\right)^{2} r^{2} - 3.8575245524135 \left(\alpha_{1}^s\right)^{3} r^{2} \\
+&{}  - 0.05080989468861 \alpha_{1}^s r^{6} - 0.13952053443311 \alpha_{5}^s r^{2} \\
+&{}  - 0.12024763108045 \alpha_{3}^s r^{4} + 1.1971819419038 \alpha_{0}^s \alpha_{4}^s r^{2} \\
+&{}  + 10.320494578314 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{2} + 1.4593688359096 \alpha_{0}^s \alpha_{2}^s r^{4} \\
+&{}  + 4.7937562503095 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r + 10.176804101055 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{3} \\
+&{}  + 3.3523814346221 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r + 7.272533332723 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{3} \\
+&{}  + 4.3030456716032 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r + 2.4584809206766 \alpha_{1}^s \alpha_{3}^s r^{2} \\
+&{}  + 1.355409833533 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r \\
+&{}  + 21.892191226939 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  + 1.5128907607855 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r - 1.7733901443961 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r \\
+&{}  - 1.0496651482817 \alpha_{0}^s \alpha_{1}^s r^{5} - 4.6393166739312 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{2} \\
+&{}  - 0.61616427546487 \alpha_{0}^s \alpha_{5}^s r - 13.841809923869 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{2} \\
+&{}  - 4.4309930101446 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r - 18.743138308883 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{3} \\
+&{}  - 2.6475317332077 \alpha_{1}^s \alpha_{2}^s r^{3} - 1.3805669230387 \alpha_{1}^s \alpha_{4}^s r \\
+&{}  - 1.5289756803498 \alpha_{0}^s \alpha_{3}^s r^{3} - 0.83496561933704 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r \\
+&{}  - 7.2513766025917 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{4} - 1.9358793917918 \alpha_{2}^s \alpha_{3}^s r \\
+&{}  + 5.4470368262232 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r - 16.335385878746 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  - 9.3326987690427 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 9.}
+\begin{align*}
+R_{3,9} &=  - 0.00077806890581001 r^{9} + 0.125 \alpha_{7}^s r \\
+&{}  + 0.06358704244356 \alpha_{1}^s r^{7} + 9.5157792367703 \left(\alpha_{1}^s\right)^{3} r^{3} \\
+&{}  + 0.15020868322051 \alpha_{3}^s r^{5} + 0.17525234851113 \alpha_{5}^s r^{3} \\
+&{}  - 2.6786068018394 \left(\alpha_{0}^s\right)^{3} r^{6} - 2.4869134686556 \left(\alpha_{1}^s\right)^{4} r \\
+&{}  - 1.1877542095598 \left(\alpha_{3}^s\right)^{2} r - 0.15572253060722 \alpha_{6}^s r^{2} \\
+&{}  - 1.5189127765673 \left(\alpha_{1}^s\right)^{2} r^{5} - 17.933550190782 \left(\alpha_{0}^s\right)^{5} r^{4} \\
+&{}  - 0.020902477635746 \left(\alpha_{0}^s\right)^{8} r - 13.339047064301 \left(\alpha_{0}^s\right)^{6} r^{3} \\
+&{}  - 9.8616620914994 \left(\alpha_{0}^s\right)^{4} r^{5} - 2.4713378521286 \left(\alpha_{0}^s\right)^{7} r^{2} \\
+&{}  - 2.6843690618889 \left(\alpha_{2}^s\right)^{2} r^{3} - 0.17465185173482 \alpha_{4}^s r^{4} \\
+&{}  - 0.38149897445917 \left(\alpha_{0}^s\right)^{2} r^{7} - 0.10897896751649 \alpha_{2}^s r^{6} \\
+&{}  - 0.02733787086542 \alpha_{0}^s r^{8} + 9.6482197902839 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{3} r \\
+&{}  + 1.5394198894557 \alpha_{0}^s \alpha_{1}^s r^{6} + 2.4542491246068 \alpha_{0}^s \alpha_{3}^s r^{4} \\
+&{}  + 11.804717477222 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{3} + 72.21470484842 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{3} \\
+&{}  + 1.4028073758501 \left(\alpha_{0}^s\right)^{2} \alpha_{5}^s r + 3.2619032889355 \alpha_{1}^s \alpha_{4}^s r^{2} \\
+&{}  + 13.367356356375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{5} + 1.9057413958323 \left(\alpha_{0}^s\right)^{4} \alpha_{3}^s r \\
+&{}  + 15.732895949371 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r^{2} + 4.1955896290722 \alpha_{1}^s \alpha_{2}^s r^{4} \\
+&{}  + 4.7106441588735 \alpha_{2}^s \alpha_{3}^s r^{2} + 0.60426087709863 \left(\alpha_{0}^s\right)^{6} \alpha_{1}^s r \\
+&{}  + 38.920069106575 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r^{2} + 1.4322862272868 \alpha_{0}^s \alpha_{5}^s r^{2} \\
+&{}  + 6.0326847252929 \left(\alpha_{1}^s\right)^{2} \alpha_{3}^s r + 49.631939118393 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{4} \\
+&{}  + 27.575781873901 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r^{2} + 7.4740282968277 \alpha_{1}^s \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 0.62078024485779 \alpha_{0}^s \alpha_{6}^s r - 2.2151677365237 \alpha_{0}^s \alpha_{2}^s r^{5} \\
+&{}  - 4.6768197754514 \left(\alpha_{0}^s\right)^{4} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 78.451840902511 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{3} \\
+&{}  - 20.710877845769 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{4} - 1.4263320561407 \alpha_{1}^s \alpha_{5}^s r \\
+&{}  - 2.1183060208428 \alpha_{2}^s \alpha_{4}^s r - 2.1443384104247 \alpha_{0}^s \alpha_{4}^s r^{3} \\
+&{}  - 4.3219288525125 \alpha_{1}^s \alpha_{3}^s r^{3} - 73.243320022063 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r^{2} \\
+&{}  - 37.486758705034 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{3} - 1.3089551224142 \left(\alpha_{0}^s\right)^{5} \alpha_{2}^s r \\
+&{}  - 22.035682750882 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r^{2} - 6.1322897063433 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r^{2} \\
+&{}  - 26.018233363777 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r^{2} \\
+&{}  - 7.2650185519848 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 14.97896466591 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{4} - 15.608461554937 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r^{2} \\
+&{}  - 1.9617569380588 \left(\alpha_{0}^s\right)^{3} \alpha_{4}^s r + 13.488476001963 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s \alpha_{2}^s r \\
+&{}  + 40.919197164152 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{3} + 6.0176732098989 \alpha_{0}^s \alpha_{1}^s \alpha_{4}^s r \\
+&{}  + 8.3704075852001 \alpha_{0}^s \alpha_{2}^s \alpha_{3}^s r + 82.879921620928 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  - 20.840808859589 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r \\
+&{}  - 11.747481990311 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{3}^s r - 25.047186783622 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 10.}
+\begin{align*}
+R_{3,10} &= 0.00096292509101481 r^{10} + 0.125 \alpha_{8}^s r \\
+&{}  + 4.0935689153387 \left(\alpha_{2}^s\right)^{3} r + 4.8079900360626 \left(\alpha_{0}^s\right)^{3} r^{7} \\
+&{}  + 28.170001262946 \left(\alpha_{1}^s\right)^{4} r^{2} + 0.037210311634069 \alpha_{0}^s r^{9} \\
+&{}  + 0.011049369381434 \left(\alpha_{0}^s\right)^{9} r + 0.58554447056849 \left(\alpha_{0}^s\right)^{2} r^{8} \\
+&{}  + 4.7559702041192 \left(\alpha_{2}^s\right)^{2} r^{4} + 2.4184043629563 \left(\alpha_{1}^s\right)^{2} r^{6} \\
+&{}  + 21.905690736705 \left(\alpha_{0}^s\right)^{4} r^{6} + 0.2149437032619 \alpha_{6}^s r^{3} \\
+&{}  + 0.2392938565592 \alpha_{4}^s r^{5} + 4.0041747332972 \left(\alpha_{3}^s\right)^{2} r^{2} \\
+&{}  + 66.175974906622 \left(\alpha_{0}^s\right)^{6} r^{4} + 0.14837237070063 \alpha_{2}^s r^{7} \\
+&{}  + 3.2409184629156 \left(\alpha_{0}^s\right)^{8} r^{2} + 54.258044816224 \left(\alpha_{0}^s\right)^{5} r^{5} \\
+&{}  + 31.453535336483 \left(\alpha_{0}^s\right)^{7} r^{3} - 21.384166308953 \left(\alpha_{1}^s\right)^{3} r^{4} \\
+&{}  - 0.17161851595073 \alpha_{7}^s r^{2} - 0.086355279888405 \alpha_{1}^s r^{8} \\
+&{}  - 0.20536304853596 \alpha_{3}^s r^{6} - 0.24166580521179 \alpha_{5}^s r^{4} \\
+&{}  + 434.7513127713 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{2} r^{3} \\
+&{}  + 110.69159557962 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r^{4} + 4.1719758151042 \alpha_{1}^s \alpha_{5}^s r^{2} \\
+&{}  + 6.8286791143162 \alpha_{2}^s \alpha_{4}^s r^{2} + 30.400776542534 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{5} \\
+&{}  + 85.885091704801 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{2}^s\right)^{2} r^{2} \\
+&{}  + 1.4276305967031 \left(\alpha_{0}^s\right)^{2} \alpha_{6}^s r + 11.578560735411 \alpha_{0}^s \left(\alpha_{1}^s\right)^{4} r \\
+&{}  + 6.9015615546597 \left(\alpha_{1}^s\right)^{2} \alpha_{4}^s r + 55.820160715493 \left(\alpha_{0}^s\right)^{5} \alpha_{2}^s r^{2} \\
+&{}  + 7.6567059242057 \alpha_{1}^s \alpha_{3}^s r^{4} + 1.019898851088 \left(\alpha_{0}^s\right)^{6} \alpha_{2}^s r \\
+&{}  + 2.1948156748004 \left(\alpha_{0}^s\right)^{4} \alpha_{4}^s r \\
+&{}  + 4.3984922749124 \left(\alpha_{0}^s\right)^{5} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  + 17.763912905263 \left(\alpha_{0}^s\right)^{2} \alpha_{4}^s r^{3} + 156.08530151767 \left(\alpha_{0}^s\right)^{4} \alpha_{2}^s r^{3} \\
+&{}  + 41.68950741035 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{5} + 5.4217853596071 \alpha_{0}^s \left(\alpha_{3}^s\right)^{2} r \\
+&{}  + 22.272127960388 \left(\alpha_{0}^s\right)^{3} \alpha_{4}^s r^{2} \\
+&{}  + 11.198753592781 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{2}^s\right)^{2} r \\
+&{}  + 45.032565111185 \alpha_{0}^s \left(\alpha_{2}^s\right)^{2} r^{3} \\
+&{}  + 195.7067448819 \left(\alpha_{0}^s\right)^{4} \left(\alpha_{1}^s\right)^{2} r^{2} + 1.6750834659867 \alpha_{0}^s \alpha_{6}^s r^{2} \\
+&{}  + 3.5512161774335 \alpha_{0}^s \alpha_{2}^s r^{6} + 229.41201628325 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r^{4} \\
+&{}  + 3.819334211934 \alpha_{0}^s \alpha_{4}^s r^{4} + 62.592685527942 \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r^{3} \\
+&{}  - 2.2290137046492 \alpha_{2}^s \alpha_{5}^s r - 16.524894016307 \left(\alpha_{1}^s\right)^{3} \alpha_{2}^s r \\
+&{}  - 2.3999070134346 \alpha_{0}^s \alpha_{1}^s r^{7} - 42.688809375869 \left(\alpha_{0}^s\right)^{4} \alpha_{3}^s r^{2} \\
+&{}  - 46.092785981788 \alpha_{1}^s \left(\alpha_{2}^s\right)^{2} r^{2} - 4.1030991267942 \alpha_{0}^s \alpha_{3}^s r^{5} \\
+&{}  - 158.47402671634 \alpha_{0}^s \left(\alpha_{1}^s\right)^{3} r^{3} - 25.140121908756 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{6} \\
+&{}  - 209.96248448079 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{3} r^{2} \\
+&{}  - 27.126881179596 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r^{4} - 6.9521485719624 \alpha_{1}^s \alpha_{2}^s r^{5} \\
+&{}  - 239.34218243045 \left(\alpha_{0}^s\right)^{5} \alpha_{1}^s r^{3} \\
+&{}  - 15.045237010191 \left(\alpha_{0}^s\right)^{3} \left(\alpha_{1}^s\right)^{3} r \\
+&{}  - 65.638645312796 \left(\alpha_{0}^s\right)^{3} \alpha_{3}^s r^{3} - 2.0766487599458 \left(\alpha_{0}^s\right)^{3} \alpha_{5}^s r \\
+&{}  - 274.89784934706 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r^{4} - 36.854872353998 \left(\alpha_{1}^s\right)^{2} \alpha_{3}^s r^{2} \\
+&{}  - 9.6012366793424 \alpha_{2}^s \alpha_{3}^s r^{3} - 0.62294812760585 \alpha_{0}^s \alpha_{7}^s r \\
+&{}  - 2.6718595907698 \alpha_{3}^s \alpha_{4}^s r - 2.8743200144418 \alpha_{0}^s \alpha_{5}^s r^{3} \\
+&{}  - 1.4501636832838 \alpha_{1}^s \alpha_{6}^s r - 48.655464326521 \left(\alpha_{0}^s\right)^{6} \alpha_{1}^s r^{2} \\
+&{}  - 0.40820845613314 \left(\alpha_{0}^s\right)^{7} \alpha_{1}^s r - 6.5595242162778 \alpha_{1}^s \alpha_{4}^s r^{3} \\
+&{}  - 1.7479347339582 \left(\alpha_{0}^s\right)^{5} \alpha_{3}^s r - 122.46906991114 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{5} \\
+&{}  - 7.7816176189195 \left(\alpha_{0}^s\right)^{2} \alpha_{5}^s r^{2} + 72.231907558472 \alpha_{0}^s \alpha_{1}^s \alpha_{3}^s r^{3} \\
+&{}  + 9.546554216684 \alpha_{0}^s \alpha_{2}^s \alpha_{4}^s r \\
+&{}  + 48.320543497115 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r \\
+&{}  + 137.3529810443 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{3}^s r^{2} \\
+&{}  + 17.92663299468 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s \alpha_{3}^s r + 19.623512720695 \alpha_{1}^s \alpha_{2}^s \alpha_{3}^s r \\
+&{}  + 6.3570819228773 \alpha_{0}^s \alpha_{1}^s \alpha_{5}^s r + 240.96375402815 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} \alpha_{2}^s r^{2} \\
+&{}  - 92.980237691295 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r^{4} - 34.464261820289 \alpha_{0}^s \alpha_{1}^s \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 35.80149408137 \alpha_{0}^s \alpha_{1}^s \alpha_{4}^s r^{2} - 19.141816162204 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s \alpha_{3}^s r \\
+&{}  - 299.4185696385 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s \alpha_{2}^s r^{2} \\
+&{}  - 341.62703102315 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{2}^s r^{3} \\
+&{}  - 52.4866485157 \alpha_{0}^s \alpha_{2}^s \alpha_{3}^s r^{2} - 13.483242053444 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s \alpha_{4}^s r \\
+&{}  - 27.574730196116 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} \alpha_{3}^s r \\
+&{}  - 15.698042993856 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\end{document}

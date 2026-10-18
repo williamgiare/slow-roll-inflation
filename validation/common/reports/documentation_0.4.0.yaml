@@ -1,0 +1,79 @@
+status: passed
+version: 0.4.0
+markdown_files: 30
+notebooks: 15
+local_links_and_anchors: 253
+python_example_blocks_parsed: 15
+notebook_code_cells_parsed: 51
+cli_examples_parsed: 39
+low_order_cli_smoke:
+- method: iterative
+  kinflation: false
+  symbolic: false
+  status: passed
+- method: iterative
+  kinflation: false
+  symbolic: true
+  status: passed
+- method: iterative
+  kinflation: true
+  symbolic: false
+  status: passed
+- method: iterative
+  kinflation: true
+  symbolic: true
+  status: passed
+- method: closed
+  kinflation: false
+  symbolic: false
+  status: passed
+- method: closed
+  kinflation: false
+  symbolic: true
+  status: passed
+- method: closed
+  kinflation: true
+  symbolic: false
+  status: passed
+- method: closed
+  kinflation: true
+  symbolic: true
+  status: passed
+archive_examples: passed
+saved_order_ten_reports: passed
+standard_installation: python -m pip install -e .
+new_code_or_calculation_changes: false
+long_coefficient_tests_rerun: false
+git_file_checks: passed
+remaining_json_files: 0
+documents_sha256:
+  README.md: d9ebe13c038569fbea79cf37efb72c757cbdb7bedd834cfd0580802b822909b8
+  docs/api.md: a03dda0cc026946022d5439861fb8d1dcc362b43a97f74964433b2703a3cc3de
+  docs/cli.md: 5522e5c314a910c08d549a6455fce5c26068b48a2f3c46cc4be013cd0a8a72d8
+  docs/installation.md: 8c87ac0043e35b45d803a0b4bed298003d16615f21a6d10106c3da002c04f664
+  docs/modules.md: 35f65141c685d94da19cbcd623ad4a86de5cc0849b4593c2876f3623a321fcda
+  docs/symbolic.md: 505a3343309d1e758e4b2ef7073f544fac880867f88e3b963babb9c30790b1be
+  docs/validation.md: d29e96943a0d7ec8a6c1a6cd3534dddb293d12448294d6366db3868dade3611a
+  notebooks/README.md: 301b11f6feb43dd220f68fcab1f691fca7a680da6e3ab988c59018a675256d86
+  results/README.md: a245c0863f898c9293c58d6840509262d4cab265dd25900e570f2c790ef505f0
+  results/canonical_SRI/README.md: 7c201a2273ef00b9079e768569ec7e701304df6b77d4946716a4412603bdfef9
+  results/kinflation_SRI/README.md: c0fa21d7905e555e2cc0bdebd07f894aba9bdc73eb15e3697f6a548adb67defb
+  results/universal_coefficients/README.md: e9a4e15ae4be9d995a0ab4ffe84fc10e0b686968a616badca8457086ff2902ad
+  validation/README.md: 6c570db1c8cec4c3081e7821dcbeff233cf9a42e9b1dd95a96c55dd517810a95
+  validation/canonical_SRI/LO/README.md: faedcfc2981d0304a69a15ab60c9cd71cd5b95f7c1b26ce8b20e008577ba33d0
+  validation/canonical_SRI/LO/large_n_validation/README.md: fbb4b40681512baee48b220ac34c8e9b2fd55cafad045b49faaeba2b6028812c
+  validation/canonical_SRI/LO/large_n_validation/RESULTS.md: ee1e0aede84825862a39f4864c3063429873f469fc57b7493fad57a7904adc05
+  validation/canonical_SRI/N01LO/README.md: f3d017ac12fe208f5f0c0134def4a6f69bbc8f1fab1807f231c210b5c64a6341
+  validation/canonical_SRI/N02LO/README.md: 52f48acad0ef87c4fb2b208a5714ec95eb82d07607204b265f65b53e63d9ba08
+  validation/canonical_SRI/N03LO/README.md: fc13abc3fca5e95656082f848e80a8dd8ce3c137c32c73a5dde970dc2554c203
+  validation/canonical_SRI/N10LO/README.md: 627c4088f2619453eb0ab6211ab37745a91a3738b0b877eb47adbe27c5b89056
+  validation/canonical_SRI/README.md: bc3be9f1384c4962c839b8d5dc0c230aaa7244e9b62ad063ad4f3740624882c9
+  validation/canonical_SRI/iterative_vs_closed/README.md: cc4ec72bd971d80b0f088867e97188c1c43c029d9d7cdc83b327a8f4122c4576
+  validation/common/README.md: 2d5f24544e90c32e835a2d5704548baf8989505163e9c5a19f91c1db83a7ac55
+  validation/kinflation_SRI/LO/README.md: 9022abec35066e3d767590938f887ae3ecac9a847bf9f28b0c052c2889c31fdb
+  validation/kinflation_SRI/N01LO/README.md: d220342b29447eadabdfe6db61da9bf637476118828bf93b3a32f4de02ec254c
+  validation/kinflation_SRI/N02LO/README.md: 14e3ebab935cfb4fd7f61ce595f51ad76894ec9fc40ce042c2b50f7bb3b44b31
+  validation/kinflation_SRI/N03LO/README.md: 375109915fee0bb7153cf7d489f0210bc4e8c3b3b9a1bcd74a9b96a72075a3e7
+  validation/kinflation_SRI/N10LO/README.md: d9544881b9d44609440580122df6810996c5c28bfd3cf62cab5151da278095bc
+  validation/kinflation_SRI/README.md: 7666a755645dca6809179cb4609794832ecd58d5dfa285a9e1f35fb6e35bf29d
+  validation/symbolic_coefficients/README.md: 2c1b6bbf7e133756c83c604183dacb24d5c8d04ce8802db404badf234166f6d1

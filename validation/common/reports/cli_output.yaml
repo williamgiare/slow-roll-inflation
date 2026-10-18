@@ -1,0 +1,21 @@
+status: passed
+scope: CLI output and selection
+targeted_tests:
+  passed: 139
+  seconds: 10.66
+full_suite:
+  passed: 197
+  seconds: 24.6
+checks:
+- scalar before tensor before consistency
+- all three order pairs
+- both algebra methods
+- simplify applied to all outputs
+- LaTeX and JSON exports
+- multiline layout at 60, 78 and 96 columns
+- displayed literals preserved exactly
+source_sha256:
+  source/cli.py: b736f7b34b718df595687f6ae99ba7b9141275741cf58cb03e56bbd39aeeb1af
+  source/terminal.py: ac8afc44b989e5d4384fd1236f0834e0cba27e426601d050f76afa9bab792a77
+physics_sources_changed: false
+high_order_numerical_checks_rerun: false

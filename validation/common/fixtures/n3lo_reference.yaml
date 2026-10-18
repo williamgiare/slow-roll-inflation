@@ -1,0 +1,34 @@
+provenance:
+  reference: Previously independently checked canonical N3LO mode amplitudes and observable
+    flow
+  sources:
+  - https://arxiv.org/abs/2205.12608
+  - https://arxiv.org/abs/2405.03157
+  convention: Common x=-k*eta=1 reference; log pump-normalized amplitudes
+  constants: C=EulerGamma+log(2)-2; P=pi^2; Z=zeta(3)
+log_amplitudes:
+  tensor: -C**3*E*q1**2/3 - C**3*E*q2/3 - 3*C**2*E**2*q1 - C**2*E*q1**2 - C**2*E*q1
+    - C**2*E*q2 - 2*C*E**3 + C*E**2*P*q1 - 14*C*E**2*q1 - 2*C*E**2 + C*E*P*q1**2/12
+    + C*E*P*q2/12 - 2*C*E*q1**2 - 2*C*E*q1 - 2*C*E*q2 - 2*C*E + E**3*P - 14*E**3*Z/3
+    - 10*E**3/3 + 5*E**2*P*q1/4 + E**2*P/2 - 12*E**2*q1 - 5*E**2 + E*P*q1**2/12 +
+    E*P*q1/12 + E*P*q2/12 - 2*E*Z*q1**2/3 - 2*E*Z*q2/3 - 2*E*q1**2/3 - 2*E*q1 - 2*E*q2/3
+    - 2*E
+  scalar: -C**3*E*q1**2/3 - C**3*E*q2/3 - C**3*q3/6 - 3*C**2*E**2*q1 - 3*C**2*E*q1**2/2
+    - C**2*E*q1 - 2*C**2*E*q2 - C**2*q2/2 - 2*C*E**3 + C*E**2*P*q1 - 15*C*E**2*q1
+    - 2*C*E**2 + 7*C*E*P*q1**2/12 + 7*C*E*P*q2/12 - 7*C*E*q1**2 - 3*C*E*q1 - 6*C*E*q2
+    - 2*C*E + C*P*q1*q2/4 + C*P*q3/24 - 2*C*q1*q2 - C*q1 + E**3*P - 14*E**3*Z/3 -
+    10*E**3/3 + 9*E**2*P*q1/4 + E**2*P/2 - 7*E**2*Z*q1 - 12*E**2*q1 - 5*E**2 + 7*E*P*q1**2/8
+    + 7*E*P*q1/12 + E*P*q2/6 - 25*E*Z*q1**2/6 - 2*E*Z*q2/3 - 8*E*q1**2/3 - 6*E*q1
+    - 2*E*q2/3 - 2*E + P*q1**2/8 + P*q2/24 - 7*Z*q1**3/12 - Z*q3/3 + 2*q1**3/3 - q1**2
+    + 2*q3/3
+r_in_tilt: -2*P*T**4/3 + 2*P*T**3*s0 + 2*P*T**3/3 - 2*P*T**2*s0**2 - 4*P*T**2*s0/3
+  - 4*P*T**2*s1/3 + 2*P*T*s0**3/3 + 2*P*T*s0**2/3 + 4*P*T*s0*s1/3 + 20*T**4*Z + 5*T**4
+  - 38*T**3*Z*s0 - 2*T**3*s0 + 2*T**3 + 16*T**2*Z*s0**2 - 8*T**2*Z*s1 + 4*T**2*s0**2
+  + 4*T**2*s0 + 4*T**2*s1 + 4*T**2 + 2*T*Z*s0**3 + 8*T*Z*s0*s1 - 8*T*s0**3 - 8*T*s0**2
+  - 24*T*s0*s1 - 8*T*s0 - 8*T*s1 - 8*T*s2 - 8*T
+flow_n3lo_correction: P*T**5/24 - P*T**4*s0/24 - P*T**3*s0**2/24 - P*T**3*s1/3 + P*T**2*s0**3/24
+  + P*T**2*s0*s1/3 - P*T**2*s2/6 + P*T*s0*s2/6 + P*T*s1**2/6 + 15*T**5*Z/2 + 13*T**5/4
+  - 17*T**4*Z*s0 - 17*T**4*s0/4 + 23*T**3*Z*s0**2/2 - 23*T**3*Z*s1/4 + T**3*s0**2
+  - 3*T**3*s1/2 - 2*T**2*Z*s0**3 + 5*T**2*Z*s0*s1 - T**2*Z*s2 - T**2*s0*s1/2 - T**2*s2/2
+  + 3*T*Z*s0**2*s1/4 + T*Z*s0*s2 + T*Z*s1**2 - T*s0**2*s1 - 2*T*s0*s2 - 2*T*s1**2
+  - T*s3

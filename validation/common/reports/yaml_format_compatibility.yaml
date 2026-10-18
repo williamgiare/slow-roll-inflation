@@ -1,0 +1,648 @@
+status: passed
+scope: Serialization-only change; mathematical algorithms unchanged; historical results
+  preserved.
+data_files:
+- previous_path: validation/canonical_SRI/iterative_vs_closed/results.json
+  path: validation/canonical_SRI/iterative_vs_closed/results.yaml
+  previous_sha256: 11319ee3998214dc808e91320e08a1925e740c0f14274e437848a18af4c85a8c
+  sha256: 54de7395fe2e3e678e57ea5161b5339fdfc5a0111dc28ea70f36e2cc783dc34d
+  data_and_float_bits: identical
+- previous_path: validation/common/fixtures/n3lo_reference.json
+  path: validation/common/fixtures/n3lo_reference.yaml
+  previous_sha256: 36365309065b05bac2c9c5042e4bf66093372307b7139e1202c30b4a05e61601
+  sha256: d9773e92589b492cfbf7dc6640a053d98364415e8603aa56117c3ce6bf292e94
+  data_and_float_bits: identical
+- previous_path: validation/common/fixtures/p10_moments.json
+  path: validation/common/fixtures/p10_moments.yaml
+  previous_sha256: 4c0b55fa465038f652350490b97a672e6e48805661c16f50fe1838d20aff0fed
+  sha256: 1f8be657fd52511b751109f93d36597f6fc1af348731e156cc22e07c85a02613
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/arithmetic_performance.json
+  path: validation/common/reports/arithmetic_performance.yaml
+  previous_sha256: 1e7418904c13ce40f10c5f23693b47acf2c59d62b9feaf835b341cdcfe5bcdba
+  sha256: 102104d69887a0d3d6c2e5c77181e88c799e2e27528079cf01ef275e4878ca6e
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/cli_modes_0.3.3.json
+  path: validation/common/reports/cli_modes_0.3.3.yaml
+  previous_sha256: 450e18aeb7c3d84b04a7566bb728f553f6341a8b15e16265900bf958c01a5baf
+  sha256: 55edb6ef39b236d4032b86d9aca11e90e4dc33ad6b5f59b5149fd2c8db17f39b
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/cli_output.json
+  path: validation/common/reports/cli_output.yaml
+  previous_sha256: 923b49dd38f787b675e330dbd288222096c8d4f66e8cf8e566ec4cee378e7f60
+  sha256: c268abe73fefa0a3e8dd4442fe35a83c28ad3610909c34ed3c6ebb883838fda7
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/documentation_audit.json
+  path: validation/common/reports/documentation_audit.yaml
+  previous_sha256: 6dd7e46b679cb8b2eafefafcce65f11817afcb003eb8c82a99a9dcb8e9a98d0d
+  sha256: 31a1c230914976a30d6a52774c79769a5519b3060db5c7a855329a33801da157
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/generated_only_0.3.1.json
+  path: validation/common/reports/generated_only_0.3.1.yaml
+  previous_sha256: 7f4ad45aa49dd9dfe894aead07c9754485bf27ac4e9a563b6d1092fb79af43d5
+  sha256: 7daa6ab2023eb3fc65883a9426fd5e6ee99ecd574b87da1a93cfacfe2a67fea1
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/generic_order_0.2.0.json
+  path: validation/common/reports/generic_order_0.2.0.yaml
+  previous_sha256: aab2beb5361b938f34ffc1d1e2f4d28fc9e16ce9c99100735e83cf6fac19de58
+  sha256: 338afdf481e0ee49ca913cff9317d0ceb9641da3cef1492abeb29ead3e59914f
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/installation_0.1.0.json
+  path: validation/common/reports/installation_0.1.0.yaml
+  previous_sha256: 2e266e93c19a29041a86d0b5451b57e385fc04046f5ab93e713958fc5084ac5d
+  sha256: b5e9ade66489f1723301a5b7782b5bb215963e1659c22d0c850b9a457e2ede82
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/installation_0.2.0.json
+  path: validation/common/reports/installation_0.2.0.yaml
+  previous_sha256: b01dfa4c27c45663beca9d626319dc315cee928dfbe87710e3bb684b0e394052
+  sha256: e21a961c61ac2d4452f2931b09e2e666d4270a700a8c9847ff161d23dacaa085
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/installation_0.3.0.json
+  path: validation/common/reports/installation_0.3.0.yaml
+  previous_sha256: 4ee7449861ea91a24cd348ff04c1036b39436c4f39a187c329608a505a5e191c
+  sha256: c70223a8099cc1d31b5df77f57c4872038125d822a39cce1f24f8c534ca8ad63
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/kinflation_canonical_regression.json
+  path: validation/common/reports/kinflation_canonical_regression.yaml
+  previous_sha256: 304ee44b8f0bf411f1da60daef73b982c77c235aac3179fb52bba804cb532dca
+  sha256: f10ad28d9c9cf596ee0ddfef0d1332d6b4c5e9770ef8b8468a1797e9b4d235a6
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/kinflation_extension.json
+  path: validation/common/reports/kinflation_extension.yaml
+  previous_sha256: b171ab64135c26417a2a3b5057d0ad2f58bbfc9d69f6211bd2efdf662c9a0d23
+  sha256: 24bf9b063fd54a7cc7e9b07b0be41c700ec897e878ac0a07828941950000589d
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/lo_case.json
+  path: validation/common/reports/lo_case.yaml
+  previous_sha256: 21b96ed56ece50345ad282c180054cbd6c15c9e71a10458e16bd0a61ebdc5dad
+  sha256: d07799710c136586109f41df4993d96fbde38d635e8b7f2b50eb8edd0139f9cf
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/methods_0.4.0.json
+  path: validation/common/reports/methods_0.4.0.yaml
+  previous_sha256: 668b885d860108f1ad923d31f15e32d05b23092748826bf37b14b12cf312c422
+  sha256: 39516a3124ae0a81de93bcb5c42497a3a384c1eb77d23d11cd2c864f981de941
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/n10lo_case.json
+  path: validation/common/reports/n10lo_case.yaml
+  previous_sha256: 93c2cddfd71d96cc05db07ce1d8b254436e4e4e2bc2d31ed91e5aedc0cda36d0
+  sha256: 0cb003f0f2a948407cc2a1d93743330e0f03de2a5afe8c66039b2ef1b9dae3e3
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/n2lo_case.json
+  path: validation/common/reports/n2lo_case.yaml
+  previous_sha256: 85f913382a95aa7e142f78f2be62febb88686493cd8524a1ec39620e65725201
+  sha256: ed13d73c330055f983e3f81a1f40df2198bc9396bdeac53ba4c981c1a82f4a31
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/n3lo_case.json
+  path: validation/common/reports/n3lo_case.yaml
+  previous_sha256: d1d798c15ebb2ba0753ee3645bdad71536d164978297ba44d66dbb743e3958fd
+  sha256: e1adf88135b669870d38a5bcd7209e778731e56b6a9096b8593beb46dff54d9a
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/nlo_case.json
+  path: validation/common/reports/nlo_case.yaml
+  previous_sha256: 736c0112e056c542329b2daa28c8aedb442de489b3ca5b3e39d47ecc117c191b
+  sha256: 022e2921b089fd19815e327540a2c752eb41b006f7eb1c18ab2b3dd796093745
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/optimized_high_order_algebra.json
+  path: validation/common/reports/optimized_high_order_algebra.yaml
+  previous_sha256: 421a60771e7dadb63926674c6dfe46acb3c0de6df0d15ef49eaf916655b37513
+  sha256: 4649cd2e76bca0c28f7704be42f9f471f2b5d1d6375595ddf00f574bf5f9dc61
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/optimized_test_suite.json
+  path: validation/common/reports/optimized_test_suite.yaml
+  previous_sha256: 2c41265afcd4d24c1a34361c4f9f2248c8cc456637330056cc9f1a5adbcb78fb
+  sha256: 5428247a5840a17ebb0ef60b0be1e405c5944311916a8f9a4ac4e9b674159964
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/order10_fresh_bank.json
+  path: validation/common/reports/order10_fresh_bank.yaml
+  previous_sha256: 97874243aee81dff426344924af076b743fec637d9fd11f1dd2047d00335ffbc
+  sha256: 7558a00fd2f7a8e1ea01bef03bcee32dd315724452149c106533c0336b4d80be
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/p10_validation.json
+  path: validation/common/reports/p10_validation.yaml
+  previous_sha256: 40fdc628b595bc8fa0c9d9710c8a301e33d5090d4976120a8d5e7028abd79297
+  sha256: 2383efb5fda09520eef50ed04c0801d431138bb58b8641f7ab745a338a47a583
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/package_layout.json
+  path: validation/common/reports/package_layout.yaml
+  previous_sha256: 3233bf01cfb9be53245d10c171a9e5606cfef3d1cdbdd4e3fa23a18cd7331f85
+  sha256: 1420225a156664146925c109f0c12ff060ab8148812c6f51fbbce7783032a616
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/release_0.1.0.json
+  path: validation/common/reports/release_0.1.0.yaml
+  previous_sha256: 7a5ee436fe4690b306ccd5b629b55e6f4847637f92e793fdf2a68c778c39054f
+  sha256: 3b5390b21104fb9373d3a2294c7e7677b0da3e42b8bab73ffe107b95adb05394
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/release_0.2.0.json
+  path: validation/common/reports/release_0.2.0.yaml
+  previous_sha256: 5b4ab949fbaf539e2b10cff8f094e5c954aee3e2df1528f22c7d49c416fdc5c1
+  sha256: d2cf04ae155531de717e818bedf848bdfef616457506f9a0e780690857d34f6a
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/release_0.3.0.json
+  path: validation/common/reports/release_0.3.0.yaml
+  previous_sha256: 7d083d5a26cb6856a769aa8d504672b665786814a2feb3a0298af9d12644c278
+  sha256: c69bfa37b88e9026489bfbe4dd6163f8ba4521a8279494da0d2ebcc514077dcc
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/results_export.json
+  path: validation/common/reports/results_export.yaml
+  previous_sha256: 16f24994b8f34c9b29558b4a70e9e17dc332b9e3b15bd6056055936b6b21840f
+  sha256: a20d87bd7b4a52c516de851e61eaa0bdef9949d4da9f1fe22cb0833e4d757f84
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/results_export_kinflation.json
+  path: validation/common/reports/results_export_kinflation.yaml
+  previous_sha256: 824bb556f1a8f0f132dc53275db6183e0a237bf98755dacbf4a61b91ec6574f9
+  sha256: 7ea937accbf9bd9610fa2b71e7a45154e7241c86888a69c47c364c712dd58b0b
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/simplify_0.3.2.json
+  path: validation/common/reports/simplify_0.3.2.yaml
+  previous_sha256: 2cbbbd6e09ed38195dfe592b10a15f359caa88e18a51b295463ae710e011d3a5
+  sha256: 0b393deccc4fb3c5c18d5013361977aae893c89cc89ded7c02c45e98d43f2f9a
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/symbolic_backend_compatibility.json
+  path: validation/common/reports/symbolic_backend_compatibility.yaml
+  previous_sha256: 3674523f0f4a3e9d312071985e93d7dae7c27f9d3c8b6c030d3e586986e10182
+  sha256: bbce12ec3d0a0307ccfce08436f61a665233201a2a84400c0074c90632a1c133
+  data_and_float_bits: identical
+- previous_path: validation/common/reports/unified_sound_validation.json
+  path: validation/common/reports/unified_sound_validation.yaml
+  previous_sha256: 49d0cca729d96e60262753b6b75cbed33fba20abaaca91b15eef8d8f50ba924a
+  sha256: f8ebb139230f2b5523f242ad2043e1061c98102295265223dedb27026e515c86
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/LO/report.json
+  path: validation/kinflation_SRI/LO/report.yaml
+  previous_sha256: f0f924e4aa59055c0113fa04e099a3e210769ce5817f78a55df6bfb20c3fcab0
+  sha256: 5b4a1b3577e09a4d097c2440301d8588e2d3d561677ba4684efb66476d85f726
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/N01LO/report.json
+  path: validation/kinflation_SRI/N01LO/report.yaml
+  previous_sha256: 8efc4c4a4cfa4bb7822e48a090925dbb33156dba206c1b486f4f22271103304a
+  sha256: b98ed0ed21e1f5070c37cd964e38bab23709d0202d87460868632b6f73b1f7a8
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/N02LO/report.json
+  path: validation/kinflation_SRI/N02LO/report.yaml
+  previous_sha256: 54261588143f52e9f1964f417df1a0b981eb905b0629226325ce5c079b320715
+  sha256: a0cf971606d3a153f76c62b0659dc1a7b88982d6d4ee1f3a8d7808be0e7d921e
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/N03LO/report.json
+  path: validation/kinflation_SRI/N03LO/report.yaml
+  previous_sha256: 4b1ba218ffa6591a36748e855862665f6ad12e65bf94a5647f02fc6e45c2deb9
+  sha256: 4343665c03e92d6e3129799decadcf5df34dc6555139143dcaa4f959fa11caf9
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/N10LO/report.json
+  path: validation/kinflation_SRI/N10LO/report.yaml
+  previous_sha256: f9ebfcb1fc972af61d768eada6b8f222522fca49f50193e0cc23a0dd7ed902e4
+  sha256: 9bc89b51152e0f5b0f0ed2eb611c89acfbbd62c70f4574261ef86f6ee37a3a86
+  data_and_float_bits: identical
+- previous_path: validation/kinflation_SRI/generic_inverse.json
+  path: validation/kinflation_SRI/generic_inverse.yaml
+  previous_sha256: f6105f4760c53b49aff66e0cfb1f3a33d688dc3d92812581c3f64bb678c3beb5
+  sha256: 73e9bd019eded9e25f88d9be637c8fcf9bd060a0ecbffaff13f05d4d28bf48cb
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j02.json
+  path: validation/symbolic_coefficients/reports/families/m03_j02.yaml
+  previous_sha256: 513c2d04ac4da22e19c216e6c71eea43741caf2fe1de54689d1f5d290d2c7edf
+  sha256: ddc4b4a294e3dcda208480cbc976d11eb34a841ded7c3101337a869b50279f52
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j03.json
+  path: validation/symbolic_coefficients/reports/families/m03_j03.yaml
+  previous_sha256: 9ef3fefc997d778d82251ff0202baf897470fc443e7b8bfb59d5639f5d23a639
+  sha256: 2db244388541a9604b53b2528a42e709e63bea3af2587df8328f34ae1df8bdbc
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j04.json
+  path: validation/symbolic_coefficients/reports/families/m03_j04.yaml
+  previous_sha256: 0d6f107623a89272ceb7f9c3dc2cc19d5f8a4b3f87407265311b06e02b2519ac
+  sha256: 8a42036ffee9fa861465d3cd8c1314410b9dca69291d2ab6ba9db17d03a92276
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j05.json
+  path: validation/symbolic_coefficients/reports/families/m03_j05.yaml
+  previous_sha256: 8d80af8c8cb24bd53b72b14ccb964df3119e31670ea2907dc2c5ba2ca80e31b0
+  sha256: 741cf818764ad7140ed84c15d6b167f1a6a16ce8d1efc854ee62eb5b2050ca54
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j06.json
+  path: validation/symbolic_coefficients/reports/families/m03_j06.yaml
+  previous_sha256: 3cd0cabd600565b109bc47ca49dcc3fd77667451c86fa6ae58b4aba3ac92bf8e
+  sha256: 06ae35db1d421ba4431e6e3905318556103c77f38c3ca90d4fdd1138dd922cde
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m03_j07.json
+  path: validation/symbolic_coefficients/reports/families/m03_j07.yaml
+  previous_sha256: 141105f72119ba0e19613a5821ce4cfdb995a75cacb1cb495563898927513471
+  sha256: afe9ee0cf4356d6e61e7498e02402e455fefdaea49224cd670c3dd2e8b5f2ef5
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m04_j02.json
+  path: validation/symbolic_coefficients/reports/families/m04_j02.yaml
+  previous_sha256: eceeb891b2b8aa658525a5d01c97317eafbde28431bc2724276632b3d5edc692
+  sha256: d196023236e2374eda1df55f9da2edb74305d4b0575e319a95db0c9f6b0177c5
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m04_j03.json
+  path: validation/symbolic_coefficients/reports/families/m04_j03.yaml
+  previous_sha256: 64bb12272f175a3bcc5225b9ee2decf3dc755632814ede66211c3a3b101f1877
+  sha256: 67499baa5cd8b27c7f708bb72841ed458c6209fe4f1c86225c0bd6c8d83955ec
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m04_j04.json
+  path: validation/symbolic_coefficients/reports/families/m04_j04.yaml
+  previous_sha256: cc5e4befe7df0bdfd849a33a45c9468034e5841290e2add7ee3d04569ec2c99f
+  sha256: cc897bef5af4f91ec3ebca4ebb5e44c792ce267a768659cbe79dc19e718a4a24
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m04_j05.json
+  path: validation/symbolic_coefficients/reports/families/m04_j05.yaml
+  previous_sha256: dd384a94d1467b8a037d44b33d47a5f7b7a69bb430bdb9e21365bdd44d514f0f
+  sha256: 63112261c199c71da7f05ea97901b3c54d391fd26344ab06109e85d85d389b42
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m04_j06.json
+  path: validation/symbolic_coefficients/reports/families/m04_j06.yaml
+  previous_sha256: bcfa4fdb33fff16b6663dc34a49b621e90fdec76fa8c78505668a40ad5910254
+  sha256: 4f19e4e24fc43bb2e40241121bee75d0829ffc017ae69a0caf3608fb72819b94
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m05_j02.json
+  path: validation/symbolic_coefficients/reports/families/m05_j02.yaml
+  previous_sha256: 1cdc05b718983557996a363c3626eff9e21a9c20332b315dc8cf0dda6a2036cb
+  sha256: b6b6304d8a3b6e8162c332f25736c364aa4010ac45fc4243eca10355a13c6d44
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m05_j03.json
+  path: validation/symbolic_coefficients/reports/families/m05_j03.yaml
+  previous_sha256: f1f4f7dc4bfc2431eb0731ab2d07467c0f8d05c6947610f19c3d9a71c8a5b2f8
+  sha256: c0913f2d6f8ddc9d8d3d7fd1b1b26ba86e4198e091262b00504c71be2c3826a0
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m05_j04.json
+  path: validation/symbolic_coefficients/reports/families/m05_j04.yaml
+  previous_sha256: 522283dac3868ceacf7a004bf52cb7e0d3e40a3ebec308f9b37ed8773ae87e93
+  sha256: f25a0e2928d279fc7cb9b9d90503be782a3a64accf60e4212c588d9609ff6e6d
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m05_j05.json
+  path: validation/symbolic_coefficients/reports/families/m05_j05.yaml
+  previous_sha256: 8ad16b3dfea6716b6f7c96e879eab5a88c628a6c936a0fe8f18dc45729914537
+  sha256: 271a1b66e6da77c2a441ca8e92e59eb82d08c3db5622dcbb37cfa8bb8a514247
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m06_j02.json
+  path: validation/symbolic_coefficients/reports/families/m06_j02.yaml
+  previous_sha256: a57a688fe0ce3545cf45bd290507841b9dabf13fc58b032ae94fcd768fae0473
+  sha256: 61db10fb7f53425d242568edc5fb91669dbdbcbb4d729a1971277c62510d4bee
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m06_j03.json
+  path: validation/symbolic_coefficients/reports/families/m06_j03.yaml
+  previous_sha256: 4e23e62d22894564db5785731ab08699888ad2112b625bc3fd75bb339c107f0c
+  sha256: bb3842d553f1b9e7ac89329eb1bdc521dd549b174b904a1b5b8a64a8eb913bf0
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m06_j04.json
+  path: validation/symbolic_coefficients/reports/families/m06_j04.yaml
+  previous_sha256: cf815687288ba88e0a76b61889515d3720c768d383a7cb75eaf43eb9219535a7
+  sha256: 6d00db7143ff5448213ca506e8c2973fa3ef574068eaa7286f3f131951abf3d5
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m07_j02.json
+  path: validation/symbolic_coefficients/reports/families/m07_j02.yaml
+  previous_sha256: 31798f6145f25670ac47ea5568e207ea150016cd18c952a8aa9c1fd2d7acc214
+  sha256: 7b0127de4b286dd3957fa60514d82b3f83e33f29bc585780aec5a1403f924344
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m07_j03.json
+  path: validation/symbolic_coefficients/reports/families/m07_j03.yaml
+  previous_sha256: 600e980314b9269e686741cd6b8c64740a456f3d7a01d1360a5180b56947c838
+  sha256: 318b2098b2205e0f1535a11452e9f078dcdb1adf7a519eca0bf4b4305c60eb75
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/families/m08_j02.json
+  path: validation/symbolic_coefficients/reports/families/m08_j02.yaml
+  previous_sha256: 56ba40fe779372cbd2776f9ceb79553a664f43a232ef2766e4e02d784f92dd5a
+  sha256: 9c7bc815f1541aca4cf9a55b5481a10fb68692103845a108dc4bd15e6e7bf9c9
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/p08.json
+  path: validation/symbolic_coefficients/reports/p08.yaml
+  previous_sha256: c261a3b4f75473a5c52cae2bd2f671e4ca24579305e2fd5472073b92140e9ba6
+  sha256: bef5a1afa68732f4516a8fb52babccaf2a8160d640858aa030aa2bc9b8ac41de
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/p09.json
+  path: validation/symbolic_coefficients/reports/p09.yaml
+  previous_sha256: 9622bb910500b25c73cb2640c44104c3b49016445a7572a39211585bcedf2d4b
+  sha256: 8e82d0704e56305b4d8dca3ef666ee24f905a0b17f0b989863a72fa10f667209
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/p10.json
+  path: validation/symbolic_coefficients/reports/p10.yaml
+  previous_sha256: 72c25b1a7e93113814a09ea7270f95457be07fd5fa5218ea183a73d4b07ec9e8
+  sha256: 187efb3525a45dda08b2a6b9a1106e912aa838fb34d9d9dd51570243ad678a4e
+  data_and_float_bits: identical
+- previous_path: validation/symbolic_coefficients/reports/sequence.json
+  path: validation/symbolic_coefficients/reports/sequence.yaml
+  previous_sha256: c5bddd7d5be397d49ca349741784a5e91f65a46ab67f3d8ce3dae7bc11991a4d
+  sha256: 9e1d84fe1ee6197e435200fd66135327dc7e7f40046334df9ddce4e6742abe23
+  data_and_float_bits: identical
+calculation_modules_checked:
+- source/__init__.py
+- source/__main__.py
+- source/analytic/__init__.py
+- source/analytic/fast.py
+- source/analytic/generic_hyperlogs.py
+- source/analytic/mixed_hyperlogs.py
+- source/background.py
+- source/cli.py
+- source/closed/__init__.py
+- source/closed/algebra.py
+- source/closed/consistency.py
+- source/closed/inversion.py
+- source/closed/spectra.py
+- source/consistency.py
+- source/generic_modes.py
+- source/inversion.py
+- source/iterative/__init__.py
+- source/iterative/background.py
+- source/iterative/consistency.py
+- source/iterative/inversion.py
+- source/iterative/spectra.py
+- source/kinflation.py
+- source/latex_output.py
+- source/mode_coefficients.py
+- source/orders.py
+- source/presentation.py
+- source/results.py
+- source/series.py
+- source/spectra.py
+- source/terminal.py
+- validation/__init__.py
+- validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py
+- validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py
+- validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py
+- validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy
+  12.29.19.py
+- validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py
+- validation/canonical_SRI/LO/large_n_validation/run.py
+- validation/canonical_SRI/__init__.py
+- validation/canonical_SRI/high_order.py
+- validation/canonical_SRI/iterative_vs_closed/__init__.py
+- validation/canonical_SRI/iterative_vs_closed/run.py
+- validation/canonical_SRI/order_cases.py
+- validation/common/__init__.py
+- validation/common/numerical/__init__.py
+- validation/common/numerical/generic_order.py
+- validation/common/numerical/jost.py
+- validation/common/numerical/linear_modes.py
+- validation/common/numerical/physical_high_order.py
+- validation/common/numerical/physical_modes.py
+- validation/common/numerical/physical_taylor.py
+- validation/common/numerical/transport.py
+- validation/common/numerical/verified_bank.py
+- validation/common/performance.py
+- validation/common/symbolic/__init__.py
+- validation/common/symbolic/checks.py
+- validation/common/symbolic/moment_reference.py
+- validation/common/symbolic/published_spectra.py
+- validation/common/symbolic/reference.py
+- validation/common/symbolic/reference_arithmetic.py
+- validation/kinflation_SRI/__init__.py
+- validation/kinflation_SRI/run.py
+- validation/run.py
+- validation/symbolic_coefficients/__init__.py
+- validation/symbolic_coefficients/backend/coefficients.py
+- validation/symbolic_coefficients/backend/generic_hyperlogs.py
+- validation/symbolic_coefficients/backend/mixed_hyperlogs.py
+- validation/symbolic_coefficients/test_backend.py
+- scripts/__init__.py
+- utils/export_algebra.py
+- scripts/export_results.py
+- scripts/export_universal_coefficients.py
+- tests/test_closed.py
+- tests/test_export_algebra.py
+- tests/test_generated_only.py
+- tests/test_generic.py
+- tests/test_high_order_validation.py
+- tests/test_kinflation.py
+- tests/test_latex_output.py
+- tests/test_layout.py
+- tests/test_lo_large_n_validation.py
+- tests/test_optimized_arithmetic.py
+- tests/test_order_cases.py
+- tests/test_orders_cli.py
+- tests/test_physics.py
+- tests/test_presentation.py
+- tests/test_series.py
+- tests/test_symbolic.py
+- tests/test_terminal.py
+coefficient_signature:
+  preserved_signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+  current_raw_signature: bf542979e217dd23c7ffa3e12e3b4694f274da4d029bd1b12afb84545b912577
+accepted_fingerprints:
+- previous_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 6369abd81ed55616e4d0e4fa15c3afa7078318d88820186de1d797f890603d2e
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: c749b76817f75e7dbb00b2699b2d3a598a2b69fe9cdbf0147b10cfaf7635d5a3
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: dbe4c806752068c0f4e03510504f4b291b6b87c84b083d7799f1552033b50c67
+    source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 22debf98a9461b99db317640b3583dd6970e848c6cd93ed14c5345678972df55
+    source/terminal.py: 83834e5bc6efa82e292f24dd5d7b7318e62f5916f9bb626b3f8b3c7057acbcf1
+    validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+    validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+    validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+    validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+    validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+    validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+    validation/canonical_SRI/high_order.py: 7b4fc84edbb4bd541d1a46ddc8bde2a6b2e1c76476b6e74df382fff7be04a9c8
+    validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+    validation/canonical_SRI/iterative_vs_closed/run.py: 4782ceddb34c347fc7243eb3c94f6b7258a6d9e2ce8607b5bef346d515e79b4d
+    validation/canonical_SRI/order_cases.py: 8852ada8b0b4c3d069f37d5caa7a694a5d49e62c1ee087c1f25ecfef6e6482a9
+    validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+    validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+    validation/common/numerical/generic_order.py: 36f3a41ffebc6b0be4d7870f63d7cd117def9eebd0bf21457061473bc463e92c
+    validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+    validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+    validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+    validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+    validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+    validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+    validation/common/numerical/verified_bank.py: b540a470104d6b965042f8c264ef768be5cb67bf1d2e0c00feaaf7d03d9491a3
+    validation/common/performance.py: c69bcad75b200e95c240b1534ba85249a160d477598065c602a188f87ef39ceb
+    validation/common/report_compatibility.py: f3ddd50234081068b161dde100c86b513cee6d502cc468ad99a36fc6f7287c1d
+    validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+    validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+    validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+    validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+    validation/common/symbolic/reference.py: 31147dceb45d61bc2891cf054d9d10049dfe58abf189f9a3df9c55aa62569edf
+    validation/common/symbolic/reference_arithmetic.py: 96c7f4c865c22fb86dc0527e82cfcc9f782f8ea29a70a0a24feadef005c94b54
+    validation/kinflation_SRI/__init__.py: b9a7bb3d3116a157121991b94bc231733fa20990acc1d77d9a5c14ea205b4568
+    validation/kinflation_SRI/run.py: d5b425f151d5fcad7ce362d1e8a7213389a02f5cf94a6772d7e803e9704847f3
+    validation/run.py: 3064a30ae63d3e5ffc4183adf6537815837f90530c3bfe1546c1d010222d6bc4
+    validation/symbolic_coefficients/__init__.py: 07e19a6ebf8532eef80f9d3053d682243c668ae32c28a117feee3dc824ae2214
+    validation/symbolic_coefficients/backend/coefficients.py: a4f82cc191073a3bf3db04bdfbd0294c2e485c4387355bbd277e227309c15fcc
+    validation/symbolic_coefficients/backend/generic_hyperlogs.py: f65af962113785882fbc29921a3114559488c08ea62b4c633c4d80d9a4f09ec0
+    validation/symbolic_coefficients/backend/mixed_hyperlogs.py: 49717a7f1c7032aa38f6471fbab2e1f81c72e21de2a4c44f0d458e371cd77f5a
+    validation/symbolic_coefficients/run.py: b463228440a99050419e853739d69bb3c106fd14de012870d7e63efcfd920942
+    validation/symbolic_coefficients/test_backend.py: efbcb9b897f41520653a32656388bb9152f9a42aa09899961819faae18f57a21
+    validation/common/fixtures/n3lo_reference.json: 36365309065b05bac2c9c5042e4bf66093372307b7139e1202c30b4a05e61601
+    validation/common/fixtures/p10_moments.json: 4c0b55fa465038f652350490b97a672e6e48805661c16f50fe1838d20aff0fed
+  current_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 1786f028b83af3dedf0db7edc9e9d99421ac77cd0c51f9762292d1b87be6b2eb
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: c749b76817f75e7dbb00b2699b2d3a598a2b69fe9cdbf0147b10cfaf7635d5a3
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: dbe4c806752068c0f4e03510504f4b291b6b87c84b083d7799f1552033b50c67
+    source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 22debf98a9461b99db317640b3583dd6970e848c6cd93ed14c5345678972df55
+    source/terminal.py: 83834e5bc6efa82e292f24dd5d7b7318e62f5916f9bb626b3f8b3c7057acbcf1
+    validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+    validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+    validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+    validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+    validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+    validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+    validation/canonical_SRI/high_order.py: 94481ea9136e4aa61199b8d553177503267043016c93cb54242941df2fb102fa
+    validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+    validation/canonical_SRI/iterative_vs_closed/run.py: b5f1de2abf00bac338dbf31885f43b0f8b6a8d6b19a1088dedbae9c85ff4639f
+    validation/canonical_SRI/order_cases.py: d6ffca479904b5355eb49bf37cf6bf1800f79c41a03a487f9aeda95c5c4d9bc5
+    validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+    validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+    validation/common/numerical/generic_order.py: c5d9fa72b40f2c27e80585682ecc12bfd208cc9570f9763d42fc3c9259ff342a
+    validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+    validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+    validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+    validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+    validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+    validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+    validation/common/numerical/verified_bank.py: b540a470104d6b965042f8c264ef768be5cb67bf1d2e0c00feaaf7d03d9491a3
+    validation/common/performance.py: 9d4ee7c9f9c1579be1752173cda5c5cbe7401ea966e622a9e7f7ce1c4b8aad29
+    validation/common/report_compatibility.py: 504aae0f8725356413163f5f442c01358d9b1a6ab064311e4ee9a11f6d1be532
+    validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+    validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+    validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+    validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+    validation/common/symbolic/reference.py: a20cdc26e8f44ea99a65322aa02e174846aa1da59cf6fd7effd3a173b35d0760
+    validation/common/symbolic/reference_arithmetic.py: 96c7f4c865c22fb86dc0527e82cfcc9f782f8ea29a70a0a24feadef005c94b54
+    validation/kinflation_SRI/__init__.py: b9a7bb3d3116a157121991b94bc231733fa20990acc1d77d9a5c14ea205b4568
+    validation/kinflation_SRI/run.py: 8e8bc09db0a32ca2d4f5519b1ffb260b0891f338d6623d8c63d51612eac7e51c
+    validation/run.py: 7c5badc89f9c6055376b06634b12235ec5a69b1d300811cc5774b2d8ccaf3e1e
+    validation/symbolic_coefficients/__init__.py: 07e19a6ebf8532eef80f9d3053d682243c668ae32c28a117feee3dc824ae2214
+    validation/symbolic_coefficients/backend/coefficients.py: a4f82cc191073a3bf3db04bdfbd0294c2e485c4387355bbd277e227309c15fcc
+    validation/symbolic_coefficients/backend/generic_hyperlogs.py: f65af962113785882fbc29921a3114559488c08ea62b4c633c4d80d9a4f09ec0
+    validation/symbolic_coefficients/backend/mixed_hyperlogs.py: 49717a7f1c7032aa38f6471fbab2e1f81c72e21de2a4c44f0d458e371cd77f5a
+    validation/symbolic_coefficients/run.py: d3169b64c191d197d06ba8acac58a873706fef89ea86b412d94ca31de845068a
+    validation/symbolic_coefficients/test_backend.py: 8978a4fdd6b7c474aa58667db33895eaba2e963c6289c9358c4deaddc71b69d7
+    validation/common/fixtures/n3lo_reference.yaml: d9773e92589b492cfbf7dc6640a053d98364415e8603aa56117c3ce6bf292e94
+    validation/common/fixtures/p10_moments.yaml: 1f8be657fd52511b751109f93d36597f6fc1af348731e156cc22e07c85a02613
+- previous_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 6369abd81ed55616e4d0e4fa15c3afa7078318d88820186de1d797f890603d2e
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: c749b76817f75e7dbb00b2699b2d3a598a2b69fe9cdbf0147b10cfaf7635d5a3
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: dbe4c806752068c0f4e03510504f4b291b6b87c84b083d7799f1552033b50c67
+    source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 22debf98a9461b99db317640b3583dd6970e848c6cd93ed14c5345678972df55
+    source/terminal.py: 83834e5bc6efa82e292f24dd5d7b7318e62f5916f9bb626b3f8b3c7057acbcf1
+    validation/kinflation_SRI/run.py: d5b425f151d5fcad7ce362d1e8a7213389a02f5cf94a6772d7e803e9704847f3
+  current_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 1786f028b83af3dedf0db7edc9e9d99421ac77cd0c51f9762292d1b87be6b2eb
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: c749b76817f75e7dbb00b2699b2d3a598a2b69fe9cdbf0147b10cfaf7635d5a3
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: dbe4c806752068c0f4e03510504f4b291b6b87c84b083d7799f1552033b50c67
+    source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 22debf98a9461b99db317640b3583dd6970e848c6cd93ed14c5345678972df55
+    source/terminal.py: 83834e5bc6efa82e292f24dd5d7b7318e62f5916f9bb626b3f8b3c7057acbcf1
+    validation/kinflation_SRI/run.py: 8e8bc09db0a32ca2d4f5519b1ffb260b0891f338d6623d8c63d51612eac7e51c
+verification:
+  regression_command: python -m pytest -q tests validation/symbolic_coefficients/test_backend.py
+    --tb=short
+  regression_tests_passed: 403
+  installed_wheel_yaml_and_symbolic_mixed_output: passed
+  installed_cli_yaml_output: passed
+  independent_reproduction:
+    order: 5
+    patterns: 18
+    status: passed
+  preserved_order_reports:
+  - 8
+  - 9
+  - 10
+  preserved_numerical_bank_order: 10
+  preserved_archive_coefficients: 138
+  preserved_archive_families: 55
+  yaml_documentation_links: passed
+  remaining_json_files: 0
+  full_high_order_coefficients_regenerated: false

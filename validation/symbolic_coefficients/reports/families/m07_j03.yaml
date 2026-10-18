@@ -1,0 +1,126 @@
+rank: 7
+log_degree: 3
+SR_weight: 10
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+status: passed
+checks:
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  analytic_value: '-0.00128220402782896679242716'
+  absolute_error: 9.888426730317621e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.014703791122883558
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  analytic_value: '-0.00103278865980426148192505'
+  absolute_error: 7.077706408993661e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 48569
+  GPL_evaluations:
+    new: 21322
+    reused: 27247
+  evaluation_digits: 24
+  evaluation_seconds: 1587.4340238750447
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  analytic_value: '-0.000906872270665244332067798'
+  absolute_error: 1.8150878505368463e-20
+  numerical_run_difference: 2.168404344971009e-19
+  comparison_bound: 5.0e-12
+  GPL_constants: 48230
+  GPL_evaluations:
+    new: 168
+    reused: 48062
+  evaluation_digits: 24
+  evaluation_seconds: 19.312404457945377
+  status: passed
+generation_seconds: 11261.894080542028
+directions:
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  negative_powers:
+  - -7
+  - -6
+  - -5
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 2552.805913625052
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  negative_powers:
+  - -7
+  - -6
+  - -5
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 8675.414406625088
+phase: complete
+active_pattern: null
+evaluation_started_unix: null
+evaluation_progress:
+  evaluated_GPL_constants: 48230
+  GPL_constants_total: 48230
+peak_RSS_bytes: 1059880960
+patterns: 3
+evaluation_seconds: 1606.761132124113
+numerical_backend: normalized mode equations
+numerical_integration_digits: 40

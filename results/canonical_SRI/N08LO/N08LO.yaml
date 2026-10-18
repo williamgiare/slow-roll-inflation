@@ -1,0 +1,1015 @@
+schema_version: 1
+type: canonical
+p: 8
+metadata:
+  method: iterative
+  coefficient_backend: numeric
+  coefficient_precision: published decimal coefficients
+  pivot: -k_* eta_*=1
+  C: EulerGamma + log(2) - 2
+  spectrum_remainder_weight: 9
+symbols:
+  H: H
+  Mpl: Mpl
+  r: r
+  cs: c_s
+  epsilon_2: epsilon_2
+  epsilon_1: epsilon_1
+  epsilon_3: epsilon_3
+  epsilon_4: epsilon_4
+  epsilon_5: epsilon_5
+  epsilon_6: epsilon_6
+  epsilon_7: epsilon_7
+  epsilon_8: epsilon_8
+  epsilon_9: epsilon_9
+  alpha_0_s: alpha_0^s
+  alpha_1_s: alpha_1^s
+  alpha_2_s: alpha_2^s
+  alpha_3_s: alpha_3^s
+  alpha_4_s: alpha_4^s
+  alpha_5_s: alpha_5^s
+  alpha_6_s: alpha_6^s
+  alpha_7_s: alpha_7^s
+spectra:
+  scalar:
+    normalization: H**2 / (8*pi**2*Mpl**2*epsilon_1)
+    correction: |
+      1.0
+      + 0.72963715453852 * epsilon_2
+      - 0.54072569092296 * epsilon_1
+      + 1.5402686460338 * (epsilon_1)**((2))
+      + 0.49988573877771 * (epsilon_2)**((2))
+      + 1.0192767657904 * epsilon_1 * epsilon_2
+      + 0.14504832807052 * epsilon_2 * epsilon_3
+      + 0.20072294544592 * (epsilon_2)**((3))
+      + 1.6057835635673 * (epsilon_1)**((3))
+      + 4.2977813647689 * (epsilon_1)**((2)) * epsilon_2
+      + 1.959600275274 * epsilon_1 * (epsilon_2)**((2))
+      + 0.030669313835717 * epsilon_2 * (epsilon_3)**((2))
+      - 0.23520055946694 * (epsilon_2)**((2)) * epsilon_3
+      + 0.030669313835717 * epsilon_2 * epsilon_3 * epsilon_4
+      - 0.65969152604436 * epsilon_1 * epsilon_2 * epsilon_3
+      + 0.083467005785127 * (epsilon_2)**((4))
+      + 2.9412556561294 * (epsilon_1)**((4))
+      + 0.055787239966231 * epsilon_2 * (epsilon_3)**((3))
+      + 8.1576664436908 * (epsilon_1)**((2)) * (epsilon_2)**((2))
+      + 9.1655563981061 * (epsilon_1)**((3)) * epsilon_2
+      + 2.2830486720555 * epsilon_1 * (epsilon_2)**((3))
+      - 0.20996470057763 * (epsilon_2)**((3)) * epsilon_3
+      - 0.058660421836305 * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 0.055787239966231 * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 0.16736171989869 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 0.38664546255166 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3
+      - 0.016062214045699 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      - 0.079171041433698 * epsilon_1 * epsilon_2 * (epsilon_3)**((2))
+      - 0.91389525644738 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3
+      + 0.055787239966231 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.079171041433698 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4
+      + 5.0146640695735 * (epsilon_1)**((5))
+      + 0.023060510027566 * (epsilon_2)**((5))
+      + 27.144156780677 * (epsilon_1)**((3)) * (epsilon_2)**((2))
+      + 0.018082530239889 * epsilon_2 * (epsilon_3)**((4))
+      + 18.923628528471 * (epsilon_1)**((4)) * epsilon_2
+      + 2.4064328576811 * epsilon_1 * (epsilon_2)**((4))
+      + 0.15472627942479 * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 14.228251540965 * (epsilon_1)**((2)) * (epsilon_2)**((3))
+      - 0.13890612714825 * (epsilon_2)**((4)) * epsilon_3
+      - 0.10759865658691 * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      + 2.0842227586428 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2))
+      + 0.59532818615497 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 0.079924208372801 * epsilon_1 * epsilon_2 * (epsilon_3)**((3))
+      + 2.9656408144517 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3
+      + 0.12657771167922 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 0.06391567355745 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 0.018082530239889 * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      + 0.78872771949954 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3
+      + 3.8758981992336 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3
+      + 0.0049502975692885 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 0.10849518143933 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      - 0.097698061448331 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 2.0842227586428 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4
+      + 0.079924208372801 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 0.018082530239889 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 0.072330120959556 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 1.1742909471328 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 0.0049502975692885 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.054247590719667 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 0.2397726251184 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 0.079924208372801 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.018082530239889 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 8.3167926130457 * (epsilon_1)**((6))
+      + 0.0076684970179054 * (epsilon_2)**((6))
+      + 37.072173733221 * (epsilon_1)**((5)) * epsilon_2
+      + 72.521097458045 * (epsilon_1)**((3)) * (epsilon_2)**((3))
+      + 0.097604164250968 * (epsilon_2)**((4)) * (epsilon_3)**((2))
+      + 26.371954409687 * (epsilon_1)**((2)) * (epsilon_2)**((4))
+      + 75.454092624244 * (epsilon_1)**((4)) * (epsilon_2)**((2))
+      + 2.4764082020822 * epsilon_1 * (epsilon_2)**((5))
+      + 0.1036516324715 * (epsilon_2)**((3)) * (epsilon_3)**((3))
+      + 0.010323841911612 * epsilon_2 * (epsilon_3)**((5))
+      - 0.065946975163844 * (epsilon_2)**((5)) * epsilon_3
+      - 0.15390619513867 * (epsilon_2)**((2)) * (epsilon_3)**((4))
+      + 0.0048539557736345 * epsilon_1 * epsilon_2 * (epsilon_3)**((4))
+      + 5.3721189690976 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3
+      + 0.10323841911612 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4
+      + 0.029930407425899 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4
+      + 2.1503772818914 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3))
+      + 0.095195191276171 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      + 18.232367303381 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 0.15485762867417 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 5.6575079379471 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 0.25809604779029 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 10.057811129131 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3
+      + 40.749413397007 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3
+      + 9.5864240626752 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2))
+      + 0.020302689804444 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2))
+      + 0.010323841911612 * epsilon_2 * epsilon_3 * (epsilon_4)**((4))
+      + 0.10071828009788 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4
+      + 27.47321752324 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3
+      - 0.014245226035509 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3))
+      - 0.44525600202513 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4
+      - 0.23937755135172 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 0.0048539557736345 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      + 0.051619209558058 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 0.10323841911612 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 0.029123734641807 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      + 2.1503772818914 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 0.033977690415441 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 1.1312985085359 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 6.4511318456741 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 0.25809604779029 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 0.072266893381281 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 5.1348555860916 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 0.061943051469669 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 2.357792208348 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 9.5864240626752 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4
+      + 0.020302689804444 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.010323841911612 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      + 15.388135466879 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      - 0.014245226035509 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      - 0.13744361174779 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.042735678106526 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 0.0048539557736345 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 0.019415823094538 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 0.051619209558058 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.014561867320903 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 2.1503772818914 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 1.1312985085359 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.030971525734835 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.010323841911612 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 0.041295367646446 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.014245226035509 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.0048539557736345 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.010323841911612 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 13.526125616593 * (epsilon_1)**((7))
+      + 0.0014664103195426 * (epsilon_2)**((7))
+      + 2.5096614288275 * epsilon_1 * (epsilon_2)**((6))
+      + 0.0052713108658564 * epsilon_2 * (epsilon_3)**((6))
+      + 186.75333547383 * (epsilon_1)**((5)) * (epsilon_2)**((2))
+      + 0.26561094185838 * (epsilon_2)**((3)) * (epsilon_3)**((4))
+      + 69.38765499797 * (epsilon_1)**((6)) * epsilon_2
+      + 290.16003078229 * (epsilon_1)**((4)) * (epsilon_2)**((3))
+      + 0.096983835686133 * (epsilon_2)**((5)) * (epsilon_3)**((2))
+      + 199.44762948292 * (epsilon_1)**((3)) * (epsilon_2)**((4))
+      + 50.72372579961 * (epsilon_1)**((2)) * (epsilon_2)**((5))
+      - 0.18410013801603 * (epsilon_2)**((4)) * (epsilon_3)**((3))
+      - 0.14830729060221 * (epsilon_2)**((2)) * (epsilon_3)**((5))
+      - 0.022326147299664 * (epsilon_2)**((6)) * epsilon_3
+      + 0.022929180386918 * (epsilon_2)**((5)) * epsilon_3 * epsilon_4
+      + 0.16341063684155 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((4))
+      + 119.05428984673 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * epsilon_3
+      + 1.9444197858248 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((4))
+      + 8.9371990993361 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((3))
+      + 107.34250066966 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 277.04633249187 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * epsilon_3
+      + 0.0052713108658564 * epsilon_2 * epsilon_3 * (epsilon_4)**((5))
+      + 0.34263520628067 * epsilon_2 * (epsilon_3)**((4)) * (epsilon_4)**((2))
+      + 24.362837709561 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((2))
+      + 0.0079551086975774 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((3))
+      + 140.08541984115 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 0.15407607564695 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 0.079069662987846 * epsilon_2 * (epsilon_3)**((5)) * epsilon_4
+      + 177.54965927054 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * epsilon_3
+      + 11.105455479455 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((3))
+      + 0.023072510554244 * epsilon_1 * epsilon_2 * (epsilon_3)**((5))
+      + 12.621304893232 * epsilon_1 * (epsilon_2)**((5)) * epsilon_3
+      + 27.16968113359 * (epsilon_1)**((5)) * epsilon_2 * epsilon_3
+      + 0.45404906696095 * (epsilon_2)**((3)) * (epsilon_3)**((3)) * epsilon_4
+      + 29.913068001236 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((2))
+      + 0.47441797792708 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((3))
+      + 31.795851322583 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      - 0.82415558213343 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      - 0.0039311479744497 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((4))
+      - 0.0090559265475073 * (epsilon_2)**((4)) * epsilon_3 * (epsilon_4)**((2))
+      - 0.14585872274498 * (epsilon_2)**((4)) * (epsilon_3)**((2)) * epsilon_4
+      - 0.7157309250963 * (epsilon_2)**((2)) * (epsilon_3)**((4)) * epsilon_4
+      - 0.2033433622445 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      - 0.1086441269531 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((4))
+      + 66.630858027429 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 0.5324023974515 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3)) * epsilon_5
+      + 71.191360271899 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 0.23072510554244 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4
+      + 1.9444197858248 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      + 0.99521541096016 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3))
+      + 0.082092701641087 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 100.561678101 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 0.13178277164641 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((2))
+      + 0.55348764091493 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2)) * epsilon_5
+      + 0.0052713108658564 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((4))
+      + 0.34608765831366 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 5.715566677634 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2))
+      + 11.666518714949 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      + 0.052713108658564 * epsilon_2 * epsilon_3 * (epsilon_4)**((4)) * epsilon_5
+      + 0.10542621731713 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4 * epsilon_5
+      + 13.908508560944 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4
+      + 0.031627865195139 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((3))
+      + 0.0079551086975774 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 33.316366438364 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 17.417503352423 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 0.5768127638561 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 0.079069662987846 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((3))
+      + 0.079069662987846 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((2))
+      + 11.105455479455 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 22.420260581864 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4
+      + 0.35317782801238 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 2.8866535217196 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4
+      + 5.8626483388079 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 0.023072510554244 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((4))
+      + 0.023865326092732 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 13.610938500774 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 29.913068001236 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * epsilon_4
+      - 0.069113177292634 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      - 0.023586887846698 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      - 0.34156971682977 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      - 0.0039311479744497 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      - 0.0090559265475073 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.33205993463341 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      - 0.027518035821148 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 0.11536255277122 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 0.23072510554244 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 1.9444197858248 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 7.7776791432993 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 0.99521541096016 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 0.13178277164641 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6
+      + 0.0052713108658564 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((3))
+      + 5.715566677634 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 5.8332593574745 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 2.9856462328805 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 0.094883595585416 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 3.1039417756258 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 0.026356554329282 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2))
+      + 0.052713108658564 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * epsilon_6
+      + 0.031627865195139 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * epsilon_6
+      + 0.031627865195139 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 0.0079551086975774 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 17.417503352423 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.13843506332546 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 0.5768127638561 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 0.036899176060995 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      + 0.079069662987846 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.16150757387971 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 11.105455479455 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.023072510554244 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      + 0.2055811237684 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.069113177292634 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.011793443923349 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      - 0.0039311479744497 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      - 0.015724591897799 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 0.11536255277122 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 1.9444197858248 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.99521541096016 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.0052713108658564 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      + 0.021085243463426 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      + 0.026356554329282 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.015813932597569 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      + 0.031627865195139 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.069217531662732 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.023072510554244 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 0.092290042216975 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.0039311479744497 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.0052713108658564 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+      + 0.023072510554244 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.00049604426390103 * (epsilon_2)**((8))
+      + 21.635835262724 * (epsilon_1)**((8))
+      + 2.5281164366964 * epsilon_1 * (epsilon_2)**((7))
+      + 0.0032083457385897 * (epsilon_2)**((5)) * (epsilon_3)**((3))
+      + 959.56743402568 * (epsilon_1)**((5)) * (epsilon_2)**((3))
+      + 560.04721894605 * (epsilon_1)**((3)) * (epsilon_2)**((5))
+      + 1126.5353626893 * (epsilon_1)**((4)) * (epsilon_2)**((4))
+      + 0.039658393115516 * (epsilon_2)**((6)) * (epsilon_3)**((2))
+      + 0.0025750181969943 * epsilon_2 * (epsilon_3)**((7))
+      + 99.377115014742 * (epsilon_1)**((2)) * (epsilon_2)**((6))
+      + 425.10010514066 * (epsilon_1)**((6)) * (epsilon_2)**((2))
+      + 125.17166542404 * (epsilon_1)**((7)) * epsilon_2
+      + 0.49421174549299 * (epsilon_2)**((3)) * (epsilon_3)**((5))
+      - 0.15992912079022 * (epsilon_2)**((2)) * (epsilon_3)**((6))
+      - 0.30245867498467 * (epsilon_2)**((4)) * (epsilon_3)**((4))
+      - 0.0086505599569768 * (epsilon_2)**((7)) * epsilon_3
+      + 64.645540808042 * (epsilon_1)**((6)) * epsilon_2 * epsilon_3
+      + 574.1055876891 * (epsilon_1)**((5)) * (epsilon_2)**((2)) * epsilon_3
+      + 1392.475991926 * (epsilon_1)**((3)) * (epsilon_2)**((4)) * epsilon_3
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * (epsilon_3)**((6))
+      + 568.04978637561 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * (epsilon_3)**((2))
+      + 1563.8794692863 * (epsilon_1)**((4)) * (epsilon_2)**((3)) * epsilon_3
+      + 411.27038052401 * (epsilon_1)**((2)) * (epsilon_2)**((5)) * epsilon_3
+      + 73.151274071939 * epsilon_1 * (epsilon_2)**((5)) * (epsilon_3)**((2))
+      + 0.3605025475792 * epsilon_2 * (epsilon_3)**((5)) * (epsilon_4)**((2))
+      + 18.897851300467 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((4))
+      + 1.2298979277981 * (epsilon_2)**((3)) * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 0.00065100676170803 * (epsilon_2)**((5)) * epsilon_3 * (epsilon_4)**((2))
+      + 22.49674512366 * epsilon_1 * (epsilon_2)**((6)) * epsilon_3
+      + 0.25187065336087 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 2.0437973362739 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((5))
+      + 0.0080050625851594 * (epsilon_2)**((6)) * epsilon_3 * epsilon_4
+      + 297.39202851648 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((3))
+      + 1194.1062899694 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 75.704383871541 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((3))
+      + 38.570717367736 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((3))
+      + 310.7998538283 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      + 78.342395722315 * (epsilon_1)**((5)) * epsilon_2 * (epsilon_3)**((2))
+      + 627.71557432934 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 0.16222614641064 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((5))
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * (epsilon_4)**((6))
+      + 0.77508047729529 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((4))
+      + 1.5602752703669 * (epsilon_2)**((3)) * (epsilon_3)**((4)) * epsilon_4
+      + 12.681992264271 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((4))
+      + 0.054075382136881 * epsilon_2 * (epsilon_3)**((6)) * epsilon_4
+      + 0.90125636894801 * epsilon_2 * (epsilon_3)**((4)) * (epsilon_4)**((3))
+      + 0.0075893264714163 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((4))
+      + 63.923686511891 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((4))
+      - 1.1894897193664 * (epsilon_2)**((2)) * (epsilon_3)**((5)) * epsilon_4
+      - 0.0062715605038148 * (epsilon_2)**((4)) * epsilon_3 * (epsilon_4)**((3))
+      - 0.13209709939872 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((5))
+      - 0.14883816862609 * (epsilon_2)**((4)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      - 2.5105353290554 * (epsilon_2)**((2)) * (epsilon_3)**((4)) * (epsilon_4)**((2))
+      - 0.0027263585944683 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((5))
+      - 1.631567064845 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * (epsilon_4)**((3))
+      - 0.0033474231418839 * (epsilon_2)**((5)) * (epsilon_3)**((2)) * epsilon_4
+      - 0.45679783573432 * (epsilon_2)**((4)) * (epsilon_3)**((3)) * epsilon_4
+      - 0.24171987862427 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((4))
+      + 0.23175163772949 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((3))
+      + 280.05452361551 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * epsilon_3 * epsilon_4
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((5))
+      + 0.81113073205321 * epsilon_2 * (epsilon_3)**((4)) * (epsilon_4)**((2)) * epsilon_5
+      + 111.68222652618 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((2)) * epsilon_4
+      + 1.1896584070114 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3)) * (epsilon_5)**((2))
+      + 636.99117488762 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 82.120723739132 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((3)) * epsilon_4
+      + 0.090125636894801 * epsilon_2 * (epsilon_3)**((5)) * epsilon_4 * epsilon_5
+      + 0.090125636894801 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4 * (epsilon_5)**((2))
+      + 0.42073063682318 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 14.631897933493 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 30.002239673467 * epsilon_1 * (epsilon_2)**((5)) * epsilon_3 * epsilon_4
+      + 0.01802512737896 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((4))
+      + 0.038625272954915 * epsilon_2 * epsilon_3 * (epsilon_4)**((5)) * epsilon_5
+      + 0.00065100676170803 * (epsilon_2)**((5)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.045535958828498 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 97.246151855716 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2))
+      + 51.094933406848 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 0.41457792971608 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((3))
+      + 0.82915585943217 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 115.71215210321 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 232.75855336007 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4
+      + 484.25042913941 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4
+      + 0.49548303540823 * (epsilon_2)**((3)) * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 1.020065305417 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * (epsilon_4)**((2))
+      + 2.0437973362739 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((4))
+      + 4.1264670120754 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((4)) * epsilon_4
+      + 66.459962780757 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 1.054571073778 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((4))
+      + 135.18433857668 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 581.16853098167 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 76.091953585626 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      + 19.049170158746 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * (epsilon_4)**((2))
+      + 19.108747602246 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 38.570717367736 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 78.342395722315 * (epsilon_1)**((5)) * epsilon_2 * epsilon_3 * epsilon_4
+      + 20.17667195142 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3))
+      + 0.079825564106824 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((4))
+      + 20.437973362739 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((4)) * epsilon_4
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((5))
+      + 0.16737618280463 * epsilon_2 * epsilon_3 * (epsilon_4)**((4)) * (epsilon_5)**((2))
+      + 0.084429991731154 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 88.773945849897 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 1.4123981151928 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((3))
+      + 184.98371822041 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 12.681992264271 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      + 426.70658902515 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 6.6887211691035 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((3))
+      + 0.053125285299914 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 0.054075382136881 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((3))
+      + 0.86520611419009 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((4)) * epsilon_5
+      + 1.7664624831381 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((3)) * epsilon_5
+      + 0.23539968586547 * epsilon_1 * epsilon_2 * (epsilon_3)**((5)) * epsilon_4
+      + 30.656960044109 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 0.0075893264714163 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      + 0.48649268412197 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((4))
+      - 0.79514550970764 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((3)) * epsilon_5
+      - 0.068158964861708 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((2))
+      - 0.27849582981053 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((2))
+      - 1.9182022471485 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * (epsilon_4)**((2)) * epsilon_5
+      - 0.53320488973713 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      - 0.018814681511445 * (epsilon_2)**((4)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      - 0.040895378917025 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((3))
+      - 0.77968823083054 * (epsilon_2)**((2)) * (epsilon_3)**((4)) * epsilon_4 * epsilon_5
+      - 0.0062715605038148 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      - 0.0027263585944683 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((4))
+      - 0.088099518276119 * (epsilon_2)**((4)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.048580835185477 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((3))
+      - 0.027263585944683 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((4)) * epsilon_5
+      + 0.39233280977578 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((2))
+      + 0.12617589165272 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      + 4.4365698523911 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 14.306581353917 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((4))
+      + 0.17252621919862 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      + 0.090125636894801 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.094159874346187 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((3))
+      + 6.3274264426679 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 0.48667843923192 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3)) * epsilon_5 * epsilon_6
+      + 0.48667843923192 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 0.01802512737896 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((3))
+      + 0.14420101903168 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2))
+      + 0.038625272954915 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((3))
+      + 0.038625272954915 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * (epsilon_6)**((2))
+      + 20.066163507311 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 0.15693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((4)) * epsilon_5
+      + 0.31386624782062 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4 * epsilon_5
+      + 0.70297996777945 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6
+      + 0.022767979414249 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 23.505037638275 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 97.246151855716 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 12.262784017643 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 51.094933406848 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 1.6477978010583 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2)) * epsilon_5
+      + 0.025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((4)) * epsilon_6
+      + 0.051500363939886 * epsilon_2 * epsilon_3 * (epsilon_4)**((4)) * epsilon_5 * epsilon_6
+      + 2.0437973362739 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      + 0.064375454924858 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * (epsilon_6)**((2))
+      + 0.26007683789643 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((3)) * epsilon_6
+      + 1.0514519301991 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 1.054571073778 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      + 135.18433857668 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 0.2703769106844 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((2)) * epsilon_6
+      + 36.89523667253 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 38.045976792813 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 19.049170158746 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 38.570717367736 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 20.17667195142 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 10.21898668137 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 20.437973362739 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 0.16222614641064 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((4))
+      + 0.084429991731154 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 1.5850245514942 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3)) * epsilon_5
+      + 12.681992264271 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 50.727969057084 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 104.91118033629 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 6.6887211691035 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 6.8501860151068 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 0.054075382136881 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 0.10815076427376 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((3)) * epsilon_6
+      + 7.3819975164459 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 0.23539968586547 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((3))
+      + 0.23539968586547 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((2))
+      + 60.53001585426 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 0.0075893264714163 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 0.030357305885665 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 0.015450109181966 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((3))
+      - 0.01635815156681 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * epsilon_6
+      - 0.068158964861708 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6
+      - 0.27849582981053 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.3117057524591 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.0062715605038148 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.14574250555643 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      - 0.019084510161278 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      - 0.0027263585944683 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((3))
+      - 0.048580835185477 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      - 0.013631792972342 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2))
+      - 0.027263585944683 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * epsilon_6
+      + 0.39233280977578 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6
+      + 4.4365698523911 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((3))
+      + 0.046350327545898 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      + 0.094159874346187 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * epsilon_6
+      + 0.094159874346187 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 3.163713221334 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.01802512737896 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * (epsilon_7)**((2))
+      + 0.01802512737896 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      + 0.072100509515841 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      + 0.14420101903168 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.038625272954915 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.078466561955156 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2))
+      + 0.15693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * epsilon_6
+      + 6.1313920088217 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.10042570968278 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      + 0.012875090984972 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * (epsilon_7)**((2))
+      + 0.025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * epsilon_6 * epsilon_7
+      + 0.10985318673722 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      + 2.0437973362739 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 8.1751893450957 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 0.064375454924858 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2)) * epsilon_7
+      + 1.054571073778 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 4.2182842951119 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 0.28247962303856 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 0.61203918325022 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      + 20.17667195142 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 10.21898668137 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((3))
+      + 12.681992264271 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 6.6887211691035 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.054075382136881 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.054075382136881 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      + 0.23539968586547 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 0.0075893264714163 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.015450109181966 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((3)) * epsilon_7
+      + 0.015450109181966 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      - 0.0081790757834049 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      - 0.0027263585944683 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      - 0.010905434377873 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      - 0.048580835185477 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      - 0.013631792972342 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      + 0.062773249564125 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      + 0.047079937173094 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      + 0.094159874346187 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.01802512737896 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+      + 0.078466561955156 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.012875090984972 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7 * epsilon_8
+      + 2.0437973362739 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 1.054571073778 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * (epsilon_8)**((2))
+      + 0.010300072787977 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7 * epsilon_8
+      + 0.0077250545909829 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2)) * epsilon_8
+      + 0.015450109181966 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+      - 0.0027263585944683 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+      + 0.015693312391031 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+      + 0.0025750181969943 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8 * epsilon_9
+  tensor:
+    normalization: 2*H**2 / (pi**2*Mpl**2)
+    correction: |
+      1.0
+      -0.54072569092296 * epsilon_1
+      + 1.5402686460338 * (epsilon_1)**((2))
+      - 0.25062903478191 * epsilon_1 * epsilon_2
+      + 1.6057835635673 * (epsilon_1)**((3))
+      + 1.8891060194179 * (epsilon_1)**((2)) * epsilon_2
+      - 0.18929040711048 * epsilon_1 * (epsilon_2)**((2))
+      - 0.18929040711048 * epsilon_1 * epsilon_2 * epsilon_3
+      + 2.9412556561294 * (epsilon_1)**((4))
+      + 4.0859368676311 * (epsilon_1)**((3)) * epsilon_2
+      + 1.8087367742501 * (epsilon_1)**((2)) * (epsilon_2)**((2))
+      - 0.077715927178017 * epsilon_1 * (epsilon_2)**((3))
+      + 1.696905383796 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3
+      - 0.077715927178017 * epsilon_1 * epsilon_2 * (epsilon_3)**((2))
+      - 0.23314778153405 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3
+      - 0.077715927178017 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4
+      + 5.0146640695735 * (epsilon_1)**((5))
+      + 10.182162879741 * (epsilon_1)**((3)) * (epsilon_2)**((2))
+      + 1.9912795134148 * (epsilon_1)**((2)) * (epsilon_2)**((3))
+      + 9.3282240106668 * (epsilon_1)**((4)) * epsilon_2
+      - 0.041550866698239 * epsilon_1 * (epsilon_2)**((4))
+      + 5.715558726935 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3
+      + 6.2270085551926 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3
+      + 1.8621396067601 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2))
+      - 0.041550866698239 * epsilon_1 * epsilon_2 * (epsilon_3)**((3))
+      - 0.29085606688767 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      - 0.24930520018943 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3
+      + 1.8621396067601 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4
+      - 0.041550866698239 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      - 0.16620346679296 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      - 0.12465260009472 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      - 0.041550866698239 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 8.3167926130457 * (epsilon_1)**((6))
+      + 35.569920863237 * (epsilon_1)**((4)) * (epsilon_2)**((2))
+      + 25.766288824979 * (epsilon_1)**((3)) * (epsilon_2)**((3))
+      + 1.9852568085143 * (epsilon_1)**((2)) * (epsilon_2)**((4))
+      + 19.643791998445 * (epsilon_1)**((5)) * epsilon_2
+      - 0.020903182875016 * epsilon_1 * (epsilon_2)**((5))
+      + 1.8721030173592 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3))
+      + 17.436687309176 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3
+      + 42.955365634287 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3
+      + 11.663061184146 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3
+      + 8.6456966910171 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2))
+      + 13.217874912669 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      - 0.31354774312524 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      - 0.52257957187539 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      - 0.020903182875016 * epsilon_1 * epsilon_2 * (epsilon_3)**((4))
+      - 0.20903182875016 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3
+      + 1.8721030173592 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 5.6163090520775 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 7.692547567117 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 8.6456966910171 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4
+      - 0.14632228012511 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      - 0.12541909725009 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      - 0.52257957187539 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      - 0.020903182875016 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      - 0.10451591437508 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      - 0.20903182875016 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 1.8721030173592 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.062709548625047 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      - 0.020903182875016 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      - 0.083612731500063 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.10451591437508 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.020903182875016 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 13.526125616593 * (epsilon_1)**((7))
+      + 100.70801814255 * (epsilon_1)**((5)) * (epsilon_2)**((2))
+      + 1.9806997872497 * (epsilon_1)**((2)) * (epsilon_2)**((5))
+      + 142.68493110568 * (epsilon_1)**((4)) * (epsilon_2)**((3))
+      + 38.679800565985 * (epsilon_1)**((6)) * epsilon_2
+      + 58.446173176621 * (epsilon_1)**((3)) * (epsilon_2)**((4))
+      - 0.010360561143303 * epsilon_1 * (epsilon_2)**((6))
+      + 10.570507324267 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((3))
+      + 28.833623477559 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      + 176.51199110043 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * epsilon_3
+      + 184.80744293643 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * epsilon_3
+      + 48.928533240646 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 27.152280310568 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((2))
+      + 119.8935936939 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 19.915427387063 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * epsilon_3
+      + 42.602054688957 * (epsilon_1)**((5)) * epsilon_2 * epsilon_3
+      + 1.9180659778792 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((4))
+      - 0.32117739544239 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((4))
+      - 0.15540841714954 * epsilon_1 * (epsilon_2)**((5)) * epsilon_3
+      - 0.010360561143303 * epsilon_1 * epsilon_2 * (epsilon_3)**((5))
+      - 0.67343647431469 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((2))
+      - 0.93245050289726 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((3))
+      + 10.570507324267 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 11.508395867275 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      + 48.49851562714 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 31.711521972802 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 13.426461845155 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 27.152280310568 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * epsilon_4
+      + 69.890720011514 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 9.8324460747906 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 19.969642144346 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 1.9180659778792 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      - 1.0464166754736 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4
+      - 1.0878589200468 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4
+      - 0.15540841714954 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      - 0.15540841714954 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2))
+      - 0.010360561143303 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((4))
+      - 0.6941575966013 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      - 0.062163366859817 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3))
+      - 0.25901402858257 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      - 0.10360561143303 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4
+      - 0.20721122286606 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4
+      + 10.570507324267 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 5.7541979336377 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 9.8324460747906 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 1.9180659778792 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 7.672263911517 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.07252392800312 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      - 0.15540841714954 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.010360561143303 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      - 0.18649010057945 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      - 0.062163366859817 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      - 0.062163366859817 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      - 0.25901402858257 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      - 0.40406188458881 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.051802805716515 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      - 0.10360561143303 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 1.9180659778792 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.010360561143303 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      - 0.041442244573212 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.031081683429909 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      - 0.062163366859817 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.051802805716515 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.010360561143303 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      + 21.635835262724 * (epsilon_1)**((8))
+      + 521.10610165837 * (epsilon_1)**((4)) * (epsilon_2)**((4))
+      + 553.57359129495 * (epsilon_1)**((5)) * (epsilon_2)**((3))
+      + 72.44363841463 * (epsilon_1)**((7)) * epsilon_2
+      + 250.57946208524 * (epsilon_1)**((6)) * (epsilon_2)**((2))
+      + 126.88077540626 * (epsilon_1)**((3)) * (epsilon_2)**((5))
+      + 1.9853521472878 * (epsilon_1)**((2)) * (epsilon_2)**((6))
+      - 0.0052105247493143 * epsilon_1 * (epsilon_2)**((7))
+      + 1186.3807463734 * (epsilon_1)**((4)) * (epsilon_2)**((3)) * epsilon_3
+      + 564.11799752557 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * (epsilon_3)**((2))
+      + 60.470744877787 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((4))
+      + 71.430792578888 * (epsilon_1)**((5)) * epsilon_2 * (epsilon_3)**((2))
+      + 652.73398804975 * (epsilon_1)**((3)) * (epsilon_2)**((4)) * epsilon_3
+      + 178.2906555419 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((3))
+      + 95.105061541796 * (epsilon_1)**((6)) * epsilon_2 * epsilon_3
+      + 871.27654279623 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * (epsilon_3)**((2))
+      + 131.37683716123 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * (epsilon_3)**((2))
+      + 558.8798452284 * (epsilon_1)**((5)) * (epsilon_2)**((2)) * epsilon_3
+      + 296.85818695058 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((3))
+      + 37.732488578054 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((3))
+      + 12.677141792661 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((4))
+      + 30.602970847927 * (epsilon_1)**((2)) * (epsilon_2)**((5)) * epsilon_3
+      + 1.9495130910166 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((5))
+      - 1.82368366226 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((3))
+      - 0.3282630592068 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((5))
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * (epsilon_3)**((6))
+      - 0.729473464904 * epsilon_1 * (epsilon_2)**((5)) * (epsilon_3)**((2))
+      - 1.5683679495436 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((4))
+      - 0.1094210197356 * epsilon_1 * (epsilon_2)**((6)) * epsilon_3
+      + 210.99358987959 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4
+      + 30.716899232978 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2))
+      + 76.062850755967 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4
+      + 41.352420222976 * (epsilon_1)**((2)) * (epsilon_2)**((4)) * epsilon_3 * epsilon_4
+      + 88.739992548628 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 503.65706099994 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4
+      + 132.62699249045 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      + 71.430792578888 * (epsilon_1)**((5)) * epsilon_2 * epsilon_3 * epsilon_4
+      + 19.495130910166 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((4)) * epsilon_4
+      + 328.99303142512 * (epsilon_1)**((4)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4
+      + 198.11774045027 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4
+      + 113.19746573416 * (epsilon_1)**((4)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4
+      + 37.732488578054 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2))
+      + 357.63938882327 * (epsilon_1)**((3)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4
+      + 12.026041268777 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3))
+      + 48.737827275416 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      + 12.677141792661 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3))
+      + 103.39943702468 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2))
+      + 29.242696365249 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      + 1.9495130910166 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((4))
+      - 1.641315296034 * epsilon_1 * (epsilon_2)**((4)) * (epsilon_3)**((2)) * epsilon_4
+      - 2.4072624341832 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * (epsilon_4)**((2))
+      - 0.078157871239714 * epsilon_1 * epsilon_2 * (epsilon_3)**((5)) * epsilon_4
+      - 0.16152626722874 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((4))
+      - 0.8388944846396 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((3))
+      - 1.6777889692792 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * (epsilon_4)**((2))
+      - 0.0364736732452 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((4))
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((5))
+      - 0.33868410870543 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * (epsilon_4)**((2))
+      - 0.182368366226 * epsilon_1 * (epsilon_2)**((5)) * epsilon_3 * epsilon_4
+      - 0.182368366226 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * (epsilon_4)**((2))
+      - 0.1094210197356 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((3))
+      - 1.7507363157696 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((4)) * epsilon_4
+      - 3.5744199780296 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((3)) * epsilon_4
+      - 0.46894722743829 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((3))
+      + 36.078123806332 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 30.716899232978 * (epsilon_1)**((2)) * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 38.031425377984 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      + 77.176250694699 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 9.7475654550832 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      + 19.495130910166 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      + 11.6970785461 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 13.646591637116 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      + 37.732488578054 * (epsilon_1)**((4)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5
+      + 12.026041268777 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 48.737827275416 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      + 12.677141792661 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      + 50.708567170645 * (epsilon_1)**((3)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      + 103.39943702468 * (epsilon_1)**((3)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5
+      + 1.9495130910166 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      - 0.34910515820406 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      - 0.052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((4)) * epsilon_5
+      - 0.10421049498629 * epsilon_1 * epsilon_2 * (epsilon_3)**((4)) * epsilon_4 * epsilon_5
+      - 0.031263148495886 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((3))
+      - 0.547105098678 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * (epsilon_4)**((2)) * epsilon_5
+      - 0.078157871239714 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((3))
+      - 0.078157871239714 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * (epsilon_5)**((2))
+      - 0.9847891776204 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((3)) * epsilon_4 * epsilon_5
+      - 0.9847891776204 * epsilon_1 * (epsilon_2)**((3)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5
+      - 0.2553157127164 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2))
+      - 0.13026311873286 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * (epsilon_5)**((2))
+      - 0.52626299968074 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((3)) * epsilon_5
+      - 0.0364736732452 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((3))
+      - 0.2917893859616 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2))
+      - 0.3282630592068 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((4))
+      - 1.4224732565628 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5
+      - 0.182368366226 * epsilon_1 * (epsilon_2)**((4)) * epsilon_3 * epsilon_4 * epsilon_5
+      - 0.1094210197356 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2))
+      - 0.2188420394712 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((3)) * epsilon_5
+      + 9.7475654550832 * (epsilon_1)**((2)) * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      + 5.8485392730499 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 12.026041268777 * (epsilon_1)**((2)) * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 12.677141792661 * (epsilon_1)**((3)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      + 1.9495130910166 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      + 7.7980523640665 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.026052623746571 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * (epsilon_6)**((2))
+      - 0.052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((3)) * epsilon_5 * epsilon_6
+      - 0.031263148495886 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((3)) * epsilon_6
+      - 0.031263148495886 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      - 0.078157871239714 * epsilon_1 * epsilon_2 * (epsilon_3)**((3)) * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.13026311873286 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * (epsilon_5)**((2)) * epsilon_6
+      - 0.0364736732452 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * (epsilon_6)**((2))
+      - 0.0364736732452 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2))
+      - 0.1458946929808 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.2917893859616 * epsilon_1 * (epsilon_2)**((2)) * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((3))
+      - 0.093789445487657 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      - 0.20321046522326 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * (epsilon_4)**((2)) * epsilon_5 * epsilon_6
+      - 0.1094210197356 * epsilon_1 * (epsilon_2)**((3)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6
+      - 0.1094210197356 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6
+      + 1.9495130910166 * (epsilon_1)**((2)) * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      - 0.026052623746571 * epsilon_1 * epsilon_2 * epsilon_3 * (epsilon_4)**((2)) * epsilon_5 * epsilon_6 * epsilon_7
+      - 0.015631574247943 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * (epsilon_6)**((2)) * epsilon_7
+      - 0.031263148495886 * epsilon_1 * epsilon_2 * (epsilon_3)**((2)) * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      - 0.0364736732452 * epsilon_1 * (epsilon_2)**((2)) * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * (epsilon_7)**((2))
+      - 0.020842098997257 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * (epsilon_5)**((2)) * epsilon_6 * epsilon_7
+      - 0.0052105247493143 * epsilon_1 * epsilon_2 * epsilon_3 * epsilon_4 * epsilon_5 * epsilon_6 * epsilon_7 * epsilon_8
+consistency:
+  '0':
+    W: 9
+    components:
+    - weight: 1
+      expression: |
+        -0.125 * r
+    - weight: 2
+      expression: |
+        0.0078125 * (r)**((2))
+        + 0.125 * alpha_0_s * r
+    - weight: 3
+      expression: |
+        -0.0030712246746565 * (r)**((3))
+        + 0.125 * alpha_1_s * r
+        - 0.10280837917801 * ((alpha_0_s))**((2)) * r
+        - 0.041327094794504 * alpha_0_s * (r)**((2))
+    - weight: 4
+      expression: |
+        0.0014926374043055 * (r)**((4))
+        + 0.125 * alpha_2_s * r
+        + 0.065244100954277 * ((alpha_0_s))**((3)) * r
+        + 0.024554893470954 * alpha_0_s * (r)**((3))
+        + 0.10320649151137 * ((alpha_0_s))**((2)) * (r)**((2))
+        - 0.060109233906372 * alpha_1_s * (r)**((2))
+        - 0.23087387125098 * alpha_0_s * alpha_1_s * r
+    - weight: 5
+      expression: |
+        -0.00093280100983415 * (r)**((5))
+        + 0.125 * alpha_3_s * r
+        + 0.04315951309091 * alpha_1_s * (r)**((3))
+        - 0.038536574146577 * ((alpha_0_s))**((4)) * r
+        - 0.018206214478227 * alpha_0_s * (r)**((4))
+        - 0.077020534433109 * alpha_2_s * (r)**((2))
+        - 0.14103704832205 * ((alpha_1_s))**((2)) * r
+        - 0.18695785481671 * ((alpha_0_s))**((3)) * (r)**((2))
+        - 0.10777687087114 * ((alpha_0_s))**((2)) * (r)**((3))
+        + 0.33322659757276 * alpha_0_s * alpha_1_s * (r)**((2))
+        + 0.25691700713838 * ((alpha_0_s))**((2)) * alpha_1_s * r
+        - 0.24116427546487 * alpha_0_s * alpha_2_s * r
+    - weight: 6
+      expression: |
+        0.00070298503785145 * (r)**((6))
+        + 0.125 * alpha_4_s * r
+        + 0.020902477635746 * ((alpha_0_s))**((5)) * r
+        + 0.015994052232973 * alpha_0_s * (r)**((5))
+        + 0.065362321729807 * alpha_2_s * (r)**((3))
+        + 0.28417656846613 * ((alpha_0_s))**((4)) * (r)**((2))
+        + 0.30605471800346 * ((alpha_1_s))**((2)) * (r)**((2))
+        + 0.34969699644176 * ((alpha_0_s))**((3)) * (r)**((3))
+        + 0.12218812205202 * ((alpha_0_s))**((2)) * (r)**((4))
+        - 0.093222530607224 * alpha_3_s * (r)**((2))
+        - 0.037217907105313 * alpha_1_s * (r)**((4))
+        + 0.4688109212146 * alpha_0_s * alpha_2_s * (r)**((2))
+        + 0.37293859690816 * alpha_0_s * ((alpha_1_s))**((2)) * r
+        + 0.29046664127673 * ((alpha_0_s))**((2)) * alpha_2_s * r
+        - 0.22801627965519 * ((alpha_0_s))**((3)) * alpha_1_s * r
+        - 1.015918735308 * ((alpha_0_s))**((2)) * alpha_1_s * (r)**((2))
+        - 0.31399132156735 * alpha_1_s * alpha_2_s * r
+        - 0.42145582743858 * alpha_0_s * alpha_1_s * (r)**((3))
+        - 0.24578024485779 * alpha_0_s * alpha_3_s * r
+    - weight: 7
+      expression: |
+        -0.00061515419372413 * (r)**((7))
+        + 0.125 * alpha_5_s * r
+        + 0.03707739098979 * alpha_1_s * (r)**((5))
+        + 0.19980707266399 * ((alpha_1_s))**((3)) * r
+        + 0.091144689305009 * alpha_3_s * (r)**((3))
+        - 0.016058051152622 * alpha_0_s * (r)**((6))
+        - 0.011049369381434 * ((alpha_0_s))**((6)) * r
+        - 0.18310571021651 * ((alpha_2_s))**((2)) * r
+        - 0.94736847967917 * ((alpha_0_s))**((4)) * (r)**((3))
+        - 0.064533532306596 * alpha_2_s * (r)**((4))
+        - 0.60450331655168 * ((alpha_0_s))**((3)) * (r)**((4))
+        - 0.15064645355686 * ((alpha_0_s))**((2)) * (r)**((5))
+        - 0.38746735293638 * ((alpha_0_s))**((5)) * (r)**((2))
+        - 0.10911851595073 * alpha_4_s * (r)**((2))
+        - 0.46539756860253 * ((alpha_1_s))**((2)) * (r)**((3))
+        + 0.55277396843725 * alpha_0_s * alpha_1_s * (r)**((4))
+        + 2.2882998446743 * ((alpha_0_s))**((2)) * alpha_1_s * (r)**((3))
+        + 0.61514830647938 * alpha_0_s * alpha_3_s * (r)**((2))
+        + 0.17617169912302 * ((alpha_0_s))**((4)) * alpha_1_s * r
+        + 0.97696202212274 * alpha_1_s * alpha_2_s * (r)**((2))
+        + 2.3093282152193 * ((alpha_0_s))**((3)) * alpha_1_s * (r)**((2))
+        + 0.30878621388554 * ((alpha_0_s))**((2)) * alpha_3_s * r
+        - 1.5812089463636 * ((alpha_0_s))**((2)) * alpha_2_s * (r)**((2))
+        - 0.56258489487217 * ((alpha_0_s))**((2)) * ((alpha_1_s))**((2)) * r
+        - 0.33131930046622 * alpha_1_s * alpha_3_s * r
+        - 0.24794812760585 * alpha_0_s * alpha_4_s * r
+        - 2.0996792408229 * alpha_0_s * ((alpha_1_s))**((2)) * (r)**((2))
+        - 0.28144573547165 * ((alpha_0_s))**((3)) * alpha_2_s * r
+        - 0.7030684429864 * alpha_0_s * alpha_2_s * (r)**((3))
+        + 0.90387358971276 * alpha_0_s * alpha_1_s * alpha_2_s * r
+    - weight: 8
+      expression: |
+        0.00061140660566969 * (r)**((8))
+        + 0.125 * alpha_6_s * r
+        + 1.0447967616865 * ((alpha_0_s))**((3)) * (r)**((5))
+        + 2.2928865600198 * ((alpha_0_s))**((5)) * (r)**((3))
+        + 0.018067720038389 * alpha_0_s * (r)**((7))
+        + 2.4918512707835 * ((alpha_0_s))**((4)) * (r)**((4))
+        + 0.49267437033496 * ((alpha_0_s))**((6)) * (r)**((2))
+        + 0.072314017264823 * alpha_2_s * (r)**((5))
+        + 0.70247462467147 * ((alpha_1_s))**((2)) * (r)**((4))
+        + 0.0056650541491964 * ((alpha_0_s))**((7)) * r
+        + 0.20146749405845 * ((alpha_0_s))**((2)) * (r)**((6))
+        + 0.88925775895482 * ((alpha_2_s))**((2)) * (r)**((2))
+        + 0.12067047718437 * alpha_4_s * (r)**((3))
+        - 1.6690815935664 * ((alpha_1_s))**((3)) * (r)**((2))
+        - 0.12487397340982 * alpha_5_s * (r)**((2))
+        - 0.041647970158248 * alpha_1_s * (r)**((6))
+        - 0.10160512010316 * alpha_3_s * (r)**((4))
+        + 0.58304100923735 * alpha_0_s * ((alpha_2_s))**((2)) * r
+        + 5.665589363247 * alpha_0_s * ((alpha_1_s))**((2)) * (r)**((3))
+        + 8.0528637643823 * ((alpha_0_s))**((2)) * ((alpha_1_s))**((2)) * (r)**((2))
+        + 0.77461528261071 * alpha_0_s * alpha_4_s * (r)**((2))
+        + 1.0549993620509 * alpha_0_s * alpha_2_s * (r)**((4))
+        + 4.2294720827157 * ((alpha_0_s))**((2)) * alpha_2_s * (r)**((3))
+        + 0.31878765728327 * ((alpha_0_s))**((2)) * alpha_4_s * r
+        + 0.65768969098089 * ((alpha_0_s))**((3)) * ((alpha_1_s))**((2)) * r
+        + 1.4441965956328 * alpha_1_s * alpha_3_s * (r)**((2))
+        + 0.7921659467659 * ((alpha_1_s))**((2)) * alpha_2_s * r
+        + 0.23857889803321 * ((alpha_0_s))**((4)) * alpha_2_s * r
+        + 3.9928539899132 * ((alpha_0_s))**((3)) * alpha_2_s * (r)**((2))
+        - 0.69091598524513 * alpha_0_s * ((alpha_1_s))**((3)) * r
+        - 4.5604577017774 * ((alpha_0_s))**((2)) * alpha_1_s * (r)**((4))
+        - 4.4097637958518 * ((alpha_0_s))**((4)) * alpha_1_s * (r)**((2))
+        - 2.2742026182736 * ((alpha_0_s))**((2)) * alpha_3_s * (r)**((2))
+        - 0.40024060130122 * alpha_2_s * alpha_3_s * r
+        - 0.12510598545753 * ((alpha_0_s))**((5)) * alpha_1_s * r
+        - 1.0720917571744 * alpha_0_s * alpha_3_s * (r)**((3))
+        - 9.2516757968649 * ((alpha_0_s))**((3)) * alpha_1_s * (r)**((3))
+        - 0.31693193066182 * ((alpha_0_s))**((3)) * alpha_3_s * r
+        - 0.34112392763691 * alpha_1_s * alpha_4_s * r
+        - 0.77125072805494 * alpha_0_s * alpha_1_s * (r)**((5))
+        - 1.7535198370235 * alpha_1_s * alpha_2_s * (r)**((3))
+        - 0.24899178727859 * alpha_0_s * alpha_5_s * r
+        + 1.0096160053861 * alpha_0_s * alpha_1_s * alpha_3_s * r
+        - 7.4667123928265 * alpha_0_s * alpha_1_s * alpha_2_s * (r)**((2))
+        - 1.5076452583131 * ((alpha_0_s))**((2)) * alpha_1_s * alpha_2_s * r
+    - weight: 9
+      expression: |
+        -0.00067979148522108 * (r)**((9))
+        + 0.125 * alpha_7_s * r
+        + 0.15399972972187 * alpha_5_s * (r)**((3))
+        + 0.12674519918252 * alpha_3_s * (r)**((5))
+        + 5.3328589877459 * ((alpha_1_s))**((3)) * (r)**((3))
+        + 0.05193101122816 * alpha_1_s * (r)**((7))
+        - 1.1034620600931 * ((alpha_1_s))**((2)) * (r)**((5))
+        - 5.1656039214629 * ((alpha_0_s))**((6)) * (r)**((3))
+        - 0.59769209244815 * ((alpha_0_s))**((7)) * (r)**((2))
+        - 9.1515366407907 * ((alpha_0_s))**((5)) * (r)**((4))
+        - 0.0028823876129135 * ((alpha_0_s))**((8)) * r
+        - 6.022830347347 * ((alpha_0_s))**((4)) * (r)**((5))
+        - 0.22552797141376 * ((alpha_3_s))**((2)) * r
+        - 1.8658446508736 * ((alpha_2_s))**((2)) * (r)**((3))
+        - 0.14056268210042 * alpha_6_s * (r)**((2))
+        - 0.29119803222885 * ((alpha_0_s))**((2)) * (r)**((7))
+        - 0.14993494660461 * alpha_4_s * (r)**((4))
+        - 0.35326972102853 * ((alpha_1_s))**((4)) * r
+        - 0.022487708200294 * alpha_0_s * (r)**((8))
+        - 0.090280696772971 * alpha_2_s * (r)**((6))
+        - 1.8580942401998 * ((alpha_0_s))**((3)) * (r)**((6))
+        + 0.94032447634791 * ((alpha_1_s))**((2)) * alpha_3_s * r
+        + 0.28738929193498 * ((alpha_0_s))**((4)) * alpha_3_s * r
+        + 31.35858508483 * ((alpha_0_s))**((4)) * alpha_1_s * (r)**((3))
+        + 1.1513064330562 * alpha_0_s * alpha_1_s * (r)**((6))
+        + 2.0315095151901 * alpha_1_s * alpha_4_s * (r)**((2))
+        + 8.8890288013416 * ((alpha_0_s))**((2)) * alpha_1_s * (r)**((5))
+        + 0.32423377823879 * ((alpha_0_s))**((2)) * alpha_5_s * r
+        + 1.3580009956067 * ((alpha_0_s))**((2)) * ((alpha_1_s))**((3)) * r
+        + 7.0881075196067 * ((alpha_0_s))**((2)) * alpha_3_s * (r)**((3))
+        + 14.37917508377 * alpha_0_s * ((alpha_1_s))**((3)) * (r)**((2))
+        + 1.1235220243581 * alpha_1_s * ((alpha_2_s))**((2)) * r
+        + 0.083791662410159 * ((alpha_0_s))**((6)) * alpha_1_s * r
+        + 2.9810534324424 * alpha_2_s * alpha_3_s * (r)**((2))
+        + 3.0067163501683 * alpha_1_s * alpha_2_s * (r)**((4))
+        + 6.3189657771659 * ((alpha_0_s))**((3)) * alpha_3_s * (r)**((2))
+        + 27.939182160661 * ((alpha_0_s))**((3)) * alpha_1_s * (r)**((4))
+        + 1.8157559500752 * alpha_0_s * alpha_3_s * (r)**((4))
+        + 7.5073396363218 * ((alpha_0_s))**((5)) * alpha_1_s * (r)**((2))
+        + 0.94824529675969 * alpha_0_s * alpha_5_s * (r)**((2))
+        - 18.997484959328 * ((alpha_0_s))**((3)) * alpha_2_s * (r)**((3))
+        - 0.65298621087149 * ((alpha_0_s))**((4)) * ((alpha_1_s))**((2)) * r
+        - 7.6077033593882 * alpha_0_s * ((alpha_2_s))**((2)) * (r)**((2))
+        - 1.0810308194476 * ((alpha_0_s))**((2)) * ((alpha_2_s))**((2)) * r
+        - 10.265184585622 * ((alpha_1_s))**((2)) * alpha_2_s * (r)**((2))
+        - 12.924130851693 * alpha_0_s * ((alpha_1_s))**((2)) * (r)**((4))
+        - 1.6519281049811 * alpha_0_s * alpha_2_s * (r)**((5))
+        - 0.24950145680333 * alpha_0_s * alpha_6_s * r
+        - 22.952983911833 * ((alpha_0_s))**((3)) * ((alpha_1_s))**((2)) * (r)**((2))
+        - 1.5409114108381 * alpha_0_s * alpha_4_s * (r)**((3))
+        - 8.4620431124197 * ((alpha_0_s))**((4)) * alpha_2_s * (r)**((2))
+        - 9.6143522564244 * ((alpha_0_s))**((2)) * alpha_2_s * (r)**((4))
+        - 38.545328529313 * ((alpha_0_s))**((2)) * ((alpha_1_s))**((2)) * (r)**((3))
+        - 0.33949442011001 * ((alpha_0_s))**((3)) * alpha_4_s * r
+        - 0.34646348040491 * alpha_1_s * alpha_5_s * r
+        - 0.18591244058123 * ((alpha_0_s))**((5)) * alpha_2_s * r
+        - 2.9975503474529 * alpha_1_s * alpha_3_s * (r)**((3))
+        - 3.1138682013663 * ((alpha_0_s))**((2)) * alpha_4_s * (r)**((2))
+        - 0.4221685472857 * alpha_2_s * alpha_4_s * r
+        + 1.9351479650111 * ((alpha_0_s))**((3)) * alpha_1_s * alpha_2_s * r
+        + 1.3663675589292 * alpha_0_s * alpha_2_s * alpha_3_s * r
+        + 23.723398986037 * alpha_0_s * alpha_1_s * alpha_2_s * (r)**((3))
+        + 31.880269052064 * ((alpha_0_s))**((2)) * alpha_1_s * alpha_2_s * (r)**((2))
+        + 1.0764824307755 * alpha_0_s * alpha_1_s * alpha_4_s * r
+        - 12.179573942609 * alpha_0_s * alpha_1_s * alpha_3_s * (r)**((2))
+        - 3.0214008733593 * alpha_0_s * ((alpha_1_s))**((2)) * alpha_2_s * r
+        - 1.8024232140184 * ((alpha_0_s))**((2)) * alpha_1_s * alpha_3_s * r

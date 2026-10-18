@@ -1,0 +1,130 @@
+generic_moments:
+  order: 7
+  analytic_oracle_moments: 24
+  maximum_absolute_oracle_error: 6.2450045135165055e-12
+  oracle_errors:
+    (0,): 3.3306690738754696e-16
+    (1,): 1.942890293094024e-16
+    (2,): 1.304512053934559e-15
+    (3,): 1.0316747456329267e-13
+    (4,): 4.660855035254485e-13
+    (5,): 6.838973831690964e-14
+    (6,): 6.2450045135165055e-12
+    (0, 0): 1.249000902703301e-16
+    (0, 0, 0): 7.28583859910259e-17
+    (0, 0, 0, 0): 1.734723475976807e-17
+    (0, 0, 0, 0, 0): 1.0842021724855044e-17
+    (0, 0, 0, 0, 0, 0): 4.336808689942018e-19
+    (0, 0, 0, 0, 0, 0, 0): 1.5720931501039814e-18
+    (0, 1): 9.853229343548264e-16
+    (0, 2): 1.1875916916537221e-14
+    (0, 3): 3.774758283725532e-15
+    (0, 4): 3.6318170693050433e-14
+    (0, 5): 1.7286172493413687e-13
+    (1, 1): 5.603156827405087e-15
+    (1, 2): 6.591949208711867e-15
+    (1, 3): 9.486855745421963e-14
+    (1, 4): 4.1139314177485176e-13
+    (2, 2): 2.538247390049264e-14
+    (2, 3): 1.0935696792557792e-13
+  generator:
+    backend: normalized mode equations
+    order: 7
+    moment_tolerance: 1.0e-10
+    maximum_absolute_run_difference: 2.353894856810257e-12
+    moments: 44
+    accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+      depth varied'
+    runs:
+    - upper: 180.0
+      lower: 1.0e-10
+      tolerance: 3.0e-14
+      asymptotic_terms: 16
+    - upper: 270.0
+      lower: 1.0e-11
+      tolerance: 3.0e-14
+      asymptotic_terms: 18
+    integration_precision_digits: 16
+arbitrary_precision:
+  order: 4
+  precision_digits: 40
+  maximum_absolute_oracle_error: 3.586575481051568e-13
+power_law_amplitudes:
+- p: 0
+  highest_power_coefficient_difference: 0.0
+  relative_errors:
+  - 0.027231155340679297
+  - 0.015011679815637717
+  observed_remainder_order: 0.8591727687388102
+- p: 1
+  highest_power_coefficient_difference: 0.0
+  relative_errors:
+  - 0.006095861231871233
+  - 0.001453606940257721
+  observed_remainder_order: 2.068192848375241
+- p: 2
+  highest_power_coefficient_difference: 0.0
+  relative_errors:
+  - 0.0003998982449901503
+  - 4.655534105742911e-05
+  observed_remainder_order: 3.102614354237276
+- p: 3
+  highest_power_coefficient_difference: 0.0
+  relative_errors:
+  - 4.360388946039818e-05
+  - 2.548336105955275e-06
+  observed_remainder_order: 4.096829353274351
+- p: 4
+  highest_power_coefficient_difference: 3.1086244689504383e-15
+  relative_errors:
+  - 4.447200642855228e-06
+  - 1.3015494207624037e-07
+  observed_remainder_order: 5.09459549768731
+- p: 5
+  highest_power_coefficient_difference: 4.440892098500626e-15
+  relative_errors:
+  - 4.416126195032349e-07
+  - 6.469336872698376e-09
+  observed_remainder_order: 6.093019749837445
+- p: 6
+  highest_power_coefficient_difference: 9.237055564881302e-14
+  relative_errors:
+  - 4.3017885084515824e-08
+  - 3.1538011652546627e-10
+  observed_remainder_order: 7.091701081396867
+- p: 7
+  highest_power_coefficient_difference: 1.7763568394002505e-15
+  relative_errors:
+  - 4.122296132920306e-09
+  - 1.5123048694797012e-11
+  observed_remainder_order: 8.090555331563692
+observable_relations:
+- n: 0
+  p: 4
+  W: 5
+  absolute_errors:
+  - 4.658082947139874e-12
+  - 8.259018469125579e-14
+  observed_remainder_order: 5.817622182959496
+- n: 1
+  p: 4
+  W: 6
+  absolute_errors:
+  - 4.689707326349523e-13
+  - 3.3689766767251765e-15
+  observed_remainder_order: 7.121043639325124
+- n: 2
+  p: 4
+  W: 7
+  absolute_errors:
+  - 3.7195536696194656e-14
+  - 1.4067886300378726e-16
+  observed_remainder_order: 8.046580124360366
+- n: 0
+  p: 5
+  W: 6
+  absolute_errors:
+  - 4.046589452411098e-13
+  - 2.8709673527416157e-15
+  observed_remainder_order: 7.139025752270931
+seconds: 27.524193458026275

@@ -1,0 +1,13 @@
+schema_version: 1
+weight: 1
+rank: 1
+log_degree: 0
+gpl_words: {}
+coefficients:
+- pattern:
+  - 0
+  permutation_multiplicity: 1
+  analytic_value: '0.486424769692347886650837'
+  mode_equation_value: '0.4864247696923479'
+  exact_expression: |
+    -2/3 * C

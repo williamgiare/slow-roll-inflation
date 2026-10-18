@@ -1,0 +1,47 @@
+schema_version: 1
+weight: 5
+rank: 2
+log_degree: 3
+gpl_words: {}
+coefficients:
+- pattern:
+  - 0
+  - 3
+  permutation_multiplicity: 2
+  analytic_value: '0.0933466771038463739185417'
+  mode_equation_value: '0.09334667710384638'
+  exact_expression: |
+    -80/27
+    + -14/27 * (C)**(2)
+    + -1/54 * (C)**(4)
+    + 5/18 * (pi)**(2)
+    + 23/4320 * (pi)**(4)
+    + 40/81 * (C)**(3)
+    + 80/81 * zeta(3)
+    + 808/243 * C
+    + -13/81 * C * (pi)**(2)
+    + -4/27 * C * zeta(3)
+    + -1/9 * (pi)**(2) * zeta(3)
+    + -1/18 * (pi)**(2) * (C)**(3)
+    + -1/72 * C * (pi)**(4)
+    + 7/108 * (pi)**(2) * (C)**(2)
+- pattern:
+  - 1
+  - 2
+  permutation_multiplicity: 2
+  analytic_value: '0.0707183444839001525980307'
+  mode_equation_value: '0.07071834448390016'
+  exact_expression: |
+    -416/243
+    + -124/243 * (C)**(2)
+    + -1/54 * (C)**(4)
+    + 29/12960 * (pi)**(4)
+    + 34/729 * (pi)**(2)
+    + 40/81 * (C)**(3)
+    + 80/81 * zeta(3)
+    + 188/81 * C
+    + -4/27 * C * (pi)**(2)
+    + -4/27 * C * zeta(3)
+    + -1/18 * (pi)**(2) * (C)**(3)
+    + -1/216 * C * (pi)**(4)
+    + 7/108 * (pi)**(2) * (C)**(2)

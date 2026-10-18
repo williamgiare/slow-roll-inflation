@@ -1,0 +1,1305 @@
+%========
+% WG Edit
+% SRI N03LO: generated spectra and consistency relations at relative order p=3.
+%========
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,geometry}
+\geometry{a4paper,margin=2cm}
+\allowdisplaybreaks[4]
+\setlength{\jot}{4pt}
+\begin{document}
+\begin{center}\Large SRI (k-inflation): N03LO\end{center}
+The spectra are evaluated at $-k_*\eta_*=1$, through relative amplitude
+order $p=3$. The Hubble-flow parameters are denoted by $\epsilon_j$
+and $M_{\rm Pl}$ is the reduced Planck mass. Coefficients are generated
+numerically from the normalized mode equations, using the iterative algebra.
+The convention for the spectral derivatives is
+\[
+\alpha_n^A=\frac{d^{n+1}\ln P_A}{d(\ln k)^{n+1}},\qquad
+\alpha_0^s=n_s-1,\qquad\alpha_0^t=n_t,\qquad r=P_t/P_s.
+\]
+For k-inflation, $c_t=1$. The scalar amplitude includes transport from the acoustic reference to the common tensor reference. The sound speed is $c_{s*}>0$, with
+\[\alpha_n^{c_s}=\frac{d^{n+1}\ln c_s}{d(\ln k)^{n+1}}.\]
+\section{Spectra}
+
+\subsection{Scalar spectrum}
+\[P_s(k_*)=\frac{H_*^2}{8\pi^2M_{\rm Pl}^2\epsilon_{1*}c_{s*}}\left[\sum_{d=0}^{3}F_{s,d}+O(\mathrm{SR}^{4})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{s,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{s,1} &= 0.72963715453852 \epsilon_{2} - 0.54072569092296 \epsilon_{1} \\
+&{}  - 1.2703628454615 \alpha_{0}^{c_s} - 1.0 \alpha_{0}^{c_s} \log{\left(c_{s} \right)} \\
+&{}  - 1.0 \epsilon_{2} \log{\left(c_{s} \right)} - 2.0 \epsilon_{1} \log{\left(c_{s} \right)}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{s,2} &= 1.5402686460338 \epsilon_{1}^{2} + 0.49988573877771 \epsilon_{2}^{2} \\
+&{}  - 0.39567736285244 \alpha_{1}^{c_s} - 0.22975141576082 \left(\alpha_{0}^{c_s}\right)^{2} \\
+&{}  + 0.5 \left(\alpha_{0}^{c_s}\right)^{2} \log{\left(c_{s} \right)}^{2} + 0.5 \epsilon_{2}^{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 2.0 \epsilon_{1}^{2} \log{\left(c_{s} \right)}^{2} + 0.27036284546148 \left(\alpha_{0}^{c_s}\right)^{2} \log{\left(c_{s} \right)} \\
+&{}  + 1.0192767657904 \epsilon_{1} \epsilon_{2} + 1.0809943369567 \alpha_{0}^{c_s} \epsilon_{1} \\
+&{}  + 0.14504832807052 \epsilon_{2} \epsilon_{3} - 0.5 \alpha_{1}^{c_s} \log{\left(c_{s} \right)}^{2} \\
+&{}  - 0.91854861815409 \epsilon_{1}^{2} \log{\left(c_{s} \right)} - 0.72986567698311 \alpha_{0}^{c_s} \epsilon_{2} \\
+&{}  - 1.2703628454615 \alpha_{1}^{c_s} \log{\left(c_{s} \right)} - 0.72963715453852 \epsilon_{2}^{2} \log{\left(c_{s} \right)} \\
+&{}  + 1.0 \alpha_{0}^{c_s} \epsilon_{2} \log{\left(c_{s} \right)}^{2} + 1.0 \epsilon_{1} \epsilon_{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 2.0 \alpha_{0}^{c_s} \epsilon_{1} \log{\left(c_{s} \right)}^{2} + 1.0814513818459 \alpha_{0}^{c_s} \epsilon_{1} \log{\left(c_{s} \right)} \\
+&{}  + 0.72963715453852 \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)} - 0.5 \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)}^{2} \\
+&{}  - 0.45927430907704 \alpha_{0}^{c_s} \epsilon_{2} \log{\left(c_{s} \right)} \\
+&{}  - 2.459274309077 \epsilon_{1} \epsilon_{2} \log{\left(c_{s} \right)}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{s,3} &= 0.20072294544592 \epsilon_{2}^{3} + 1.6057835635673 \epsilon_{1}^{3} \\
+&{}  - 0.2199597209462 \alpha_{2}^{c_s} - 0.028914209092607 \left(\alpha_{0}^{c_s}\right)^{3} \\
+&{}  + 4.2977813647689 \epsilon_{1}^{2} \epsilon_{2} + 1.1508618640566 \alpha_{1}^{c_s} \epsilon_{1} \\
+&{}  + 0.50011426122229 \left(\alpha_{0}^{c_s}\right)^{3} \log{\left(c_{s} \right)} + 0.17975356917588 \alpha_{1}^{c_s} \epsilon_{2} \\
+&{}  + 0.36481857726926 \left(\alpha_{0}^{c_s}\right)^{3} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.36481857726926 \epsilon_{2}^{3} \log{\left(c_{s} \right)}^{2} + 2.9185486181541 \epsilon_{1}^{3} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 1.959600275274 \epsilon_{1} \epsilon_{2}^{2} + 0.030669313835717 \epsilon_{2} \epsilon_{3}^{2} \\
+&{}  - 0.39567736285244 \alpha_{2}^{c_s} \log{\left(c_{s} \right)} - 1.0906092762856 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \\
+&{}  - 0.12746831820078 \alpha_{0}^{c_s} \epsilon_{2}^{2} - 0.25470811395696 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{1} \\
+&{}  - 0.63518142273074 \alpha_{2}^{c_s} \log{\left(c_{s} \right)}^{2} - 0.32050476429836 \alpha_{0}^{c_s} \epsilon_{1}^{2} \\
+&{}  - 0.16666666666667 \alpha_{2}^{c_s} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.16666666666667 \left(\alpha_{0}^{c_s}\right)^{3} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.16666666666667 \epsilon_{2}^{3} \log{\left(c_{s} \right)}^{3} - 1.3333333333333 \epsilon_{1}^{3} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.3571054727393 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{2} - 0.23520055946694 \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  - 0.49988573877771 \epsilon_{2}^{3} \log{\left(c_{s} \right)} - 3.9990859102216 \epsilon_{1}^{3} \log{\left(c_{s} \right)} \\
+&{}  + 0.5 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \log{\left(c_{s} \right)}^{3} + 0.5 \alpha_{1}^{c_s} \epsilon_{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  + 0.5 \epsilon_{2}^{2} \epsilon_{3} \log{\left(c_{s} \right)}^{3} + 1.0 \alpha_{1}^{c_s} \epsilon_{1} \log{\left(c_{s} \right)}^{3} \\
+&{}  + 3.0 \epsilon_{1}^{2} \epsilon_{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.50034278366688 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{2} \log{\left(c_{s} \right)} \\
+&{}  + 2.2898599312799 \alpha_{0}^{c_s} \epsilon_{1} \epsilon_{2} \\
+&{}  + 1.1889114636156 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{1} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 2.3778229272311 \alpha_{0}^{c_s} \epsilon_{1}^{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 1.8110885363844 \alpha_{1}^{c_s} \epsilon_{1} \log{\left(c_{s} \right)}^{2} + 0.49443659507158 \alpha_{0}^{c_s} \epsilon_{2} \epsilon_{3} \\
+&{}  + 1.0944557318078 \alpha_{0}^{c_s} \epsilon_{2}^{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 1.0944557318078 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.14504832807052 \epsilon_{2} \epsilon_{3}^{2} \log{\left(c_{s} \right)} \\
+&{}  + 1.2296371545385 \epsilon_{1} \epsilon_{2}^{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.36481857726926 \epsilon_{2} \epsilon_{3}^{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.40554426819222 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.40554426819222 \alpha_{1}^{c_s} \epsilon_{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 0.85472314948489 \epsilon_{2}^{2} \epsilon_{3} \log{\left(c_{s} \right)} \\
+&{}  + 0.45995987641081 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{1} \log{\left(c_{s} \right)} \\
+&{}  + 1.8723490626616 \alpha_{1}^{c_s} \epsilon_{1} \log{\left(c_{s} \right)} + 0.030669313835717 \epsilon_{2} \epsilon_{3} \epsilon_{4} \\
+&{}  - 0.5 \alpha_{0}^{c_s} \epsilon_{2}^{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.5 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 1.0 \left(\alpha_{0}^{c_s}\right)^{2} \epsilon_{1} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 2.0 \alpha_{0}^{c_s} \epsilon_{1}^{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.33418831413068 \alpha_{1}^{c_s} \epsilon_{2} \log{\left(c_{s} \right)} \\
+&{}  - 4.957559194624 \epsilon_{1}^{2} \epsilon_{2} \log{\left(c_{s} \right)} \\
+&{}  - 2.0800802471784 \alpha_{0}^{c_s} \epsilon_{1}^{2} \log{\left(c_{s} \right)} \\
+&{}  - 1.0944557318078 \epsilon_{2}^{2} \epsilon_{3} \log{\left(c_{s} \right)}^{2} - 0.65969152604436 \epsilon_{1} \epsilon_{2} \epsilon_{3} \\
+&{}  - 0.16666666666667 \epsilon_{2} \epsilon_{3}^{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.33333333333333 \epsilon_{1} \epsilon_{2}^{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 1.3341883141307 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \log{\left(c_{s} \right)} \\
+&{}  - 2.7294086320939 \epsilon_{1} \epsilon_{2}^{2} \log{\left(c_{s} \right)} \\
+&{}  - 0.49965721633312 \alpha_{0}^{c_s} \epsilon_{2}^{2} \log{\left(c_{s} \right)} \\
+&{}  + 0.5 \alpha_{0}^{c_s} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)}^{3} \\
+&{}  + 1.4588172641879 \epsilon_{1} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)} \\
+&{}  + 0.14504832807052 \epsilon_{2} \epsilon_{3} \epsilon_{4} \log{\left(c_{s} \right)} \\
+&{}  + 0.66666666666667 \epsilon_{1} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)}^{3} \\
+&{}  + 0.36481857726926 \epsilon_{2} \epsilon_{3} \epsilon_{4} \log{\left(c_{s} \right)}^{2} \\
+&{}  + 3.1889114636156 \alpha_{0}^{c_s} \epsilon_{1} \epsilon_{2} \log{\left(c_{s} \right)}^{2} \\
+&{}  - 1.0 \alpha_{0}^{c_s} \epsilon_{1} \epsilon_{2} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.14527685051511 \alpha_{0}^{c_s} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)} \\
+&{}  - 1.0944557318078 \alpha_{0}^{c_s} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)}^{2} \\
+&{}  - 2.459274309077 \epsilon_{1} \epsilon_{2} \epsilon_{3} \log{\left(c_{s} \right)}^{2} \\
+&{}  - 0.16666666666667 \epsilon_{2} \epsilon_{3} \epsilon_{4} \log{\left(c_{s} \right)}^{3} \\
+&{}  - 0.74845687543973 \alpha_{0}^{c_s} \epsilon_{1} \epsilon_{2} \log{\left(c_{s} \right)}
+\end{align*}
+
+\subsection{Tensor spectrum}
+\[P_t(k_*)=\frac{2H_*^2}{\pi^2M_{\rm Pl}^2}\left[\sum_{d=0}^{3}F_{t,d}+O(\mathrm{SR}^{4})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{t,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{t,1} &=  - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{t,2} &= 1.5402686460338 \epsilon_{1}^{2} - 0.25062903478191 \epsilon_{1} \epsilon_{2}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{t,3} &= 1.6057835635673 \epsilon_{1}^{3} + 1.8891060194179 \epsilon_{1}^{2} \epsilon_{2} \\
+&{}  - 0.18929040711048 \epsilon_{1} \epsilon_{2}^{2} - 0.18929040711048 \epsilon_{1} \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\section{Consistency relations}
+\subsection{$n=0$}
+For $p=3$, the absolute cutoff is $W=4$:
+\[\alpha_{0}^t=\sum_{d=1}^{4}R_{0,d}+O(\mathrm{SR}^{5}).\]
+\paragraph{Absolute order 1.}
+\begin{align*}
+R_{0,1} &=  - \frac{0.125 r}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{0,2} &= \frac{0.0078125 r^{2}}{c_{s}^{2}} + \frac{0.125 \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \alpha_{0}^{c_s} r}{c_{s}} - \frac{0.125 \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{0,3} &=  - \frac{0.0030712246746565 r^{3}}{c_{s}^{3}} + \frac{0.125 \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.33325502603924 \alpha_{1}^{c_s} r}{c_{s}} - \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{2} r}{c_{s}} - \frac{0.041327094794504 \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.061176514254839 \alpha_{0}^{c_s} r^{2}}{c_{s}^{2}} + \frac{0.015625 \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} - \frac{0.46478233218736 \alpha_{0}^{c_s} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \alpha_{0}^{c_s} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{0,4} &= \frac{0.0014926374043055 r^{4}}{c_{s}^{4}} + \frac{0.125 \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.076954635474829 \left(\alpha_{0}^{c_s}\right)^{3} r}{c_{s}} + \frac{0.065244100954277 \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.36074999115751 \alpha_{2}^{c_s} r}{c_{s}} + \frac{0.036259602621199 \alpha_{0}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.024554893470954 \alpha_{0}^s r^{3}}{c_{s}^{3}} + \frac{0.10320649151137 \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.21414669687749 \left(\alpha_{0}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} - \frac{0.11879209843874 \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.060109233906372 \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.015625 \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.34966216656143 \alpha_{0}^{c_s} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.60410986672479 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{0.041327094794504 \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.46184803450948 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.0078125 \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.125 \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0092136740239694 \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.51223106590429 \alpha_{0}^{c_s} \alpha_{1}^s r}{c_{s}} - \frac{0.26465926210717 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.58335484068555 \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.082654189589007 \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.020833333333333 \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.23087387125098 \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.46478233218736 \alpha_{0}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.33061675835603 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.33325502603924 \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.1875 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \alpha_{0}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.46478233218736 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.12235302850968 \alpha_{0}^{c_s} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}}
+\end{align*}
+
+\subsection{$n=1$}
+For $p=3$, the absolute cutoff is $W=5$:
+\[\alpha_{1}^t=\sum_{d=2}^{5}R_{1,d}+O(\mathrm{SR}^{6}).\]
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{1,2} &= \frac{0.015625 r^{2}}{c_{s}^{2}} + \frac{0.125 \alpha_{0}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{0}^s r}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{1,3} &=  - \frac{0.0029296875 r^{3}}{c_{s}^{3}} + \frac{0.125 \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \alpha_{1}^{c_s} r}{c_{s}} - \frac{0.125 \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.046875 \alpha_{0}^s r^{2}}{c_{s}^{2}} - \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.086573838920671 \alpha_{0}^{c_s} r^{2}}{c_{s}^{2}} + \frac{0.03125 \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} - \frac{0.53379535568268 \alpha_{0}^{c_s} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{0}^{c_s} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{1,4} &= \frac{0.0016576826498282 r^{4}}{c_{s}^{4}} + \frac{0.125 \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.12398128438351 \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} + \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.25495658892655 \left(\alpha_{0}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} + \frac{0.038806320518347 \alpha_{0}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.33325502603924 \alpha_{2}^{c_s} r}{c_{s}} + \frac{0.027641022071908 \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.14449027076465 \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} - \frac{0.072577094794504 \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.03125 \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.046875 \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.69259071136537 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.4077766400662 \alpha_{0}^{c_s} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.95683271390928 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r}{c_{s}} \\
+&{}  - \frac{0.015625 \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.125 \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.09375 \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.0087890625 \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} - \frac{0.33061675835603 \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.71478233218736 \alpha_{0}^{c_s} \alpha_{1}^s r}{c_{s}} - \frac{0.74976507811772 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.79803735822659 \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.53379535568268 \alpha_{0}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.1875 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.17314767784134 \alpha_{0}^{c_s} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.53379535568268 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{1,5} &=  - \frac{0.0010528680915447 r^{5}}{c_{s}^{5}} + \frac{0.125 \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{0.088617304208522 \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} + \frac{0.36074999115751 \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.050025543685844 \alpha_{1}^s r^{3}}{c_{s}^{3}} - \frac{0.56573567099871 \left(\alpha_{0}^{c_s}\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.076954635474829 \left(\alpha_{0}^{c_s}\right)^{4} r}{c_{s}} - \frac{0.091359233906372 \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.065244100954277 \left(\alpha_{0}^s\right)^{4} r}{c_{s}} - \frac{0.20897959622812 \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.24604962823258 \left(\alpha_{0}^{c_s}\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.13027434666455 \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.26465926210717 \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} - \frac{0.021075080402355 \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.23087387125098 \left(\alpha_{1}^s\right)^{2} r}{c_{s}} - \frac{0.029498514193987 \alpha_{0}^{c_s} r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.24842610305581 \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.00439453125 \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{1.5811232648164 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.24796256876702 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.082923066215725 \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.71021433456542 \alpha_{0}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.42660617411381 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.045202875195 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.072577094794504 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.33061675835603 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.0052083333333333 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.81639883012011 \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.41559991864823 \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0066307305993129 \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{0.92119486345495 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.49552316853166 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0234375 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.09375 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.1875 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.01318359375 \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{0.62990051464178 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  - \frac{0.62540925326469 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.39180031621678 \alpha_{0}^{c_s} \alpha_{0}^s r^{3}}{c_{s}^{3}} - \frac{1.0955859065898 \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.5307402334216 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{1.7168681131348 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.88931952823886 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r}{c_{s}} \\
+&{}  - \frac{1.2784021784808 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.020833333333333 \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} - \frac{0.35587387125098 \alpha_{0}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{0.76223106590429 \alpha_{0}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{0.027641022071908 \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.94410483184306 \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.140625 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.086573838920671 \alpha_{0}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.69259071136537 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.11641896155504 \alpha_{0}^{c_s} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{1.9974177645303 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.5099131778531 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{2.3894888622815 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.33325502603924 \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.083333333333333 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.71478233218736 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.79803735822659 \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.81555328013239 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.45561675835603 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.95683271390928 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.03125 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.25 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.17314767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.26689767784134 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.26689767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.2889805415293 \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.63904189589007 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.39311675835603 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.79803735822659 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.4077766400662 \alpha_{0}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{1,5}} &\phantom{={}}{}  - \frac{0.95683271390928 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.80069303352403 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{2.0999637549181 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.74976507811772 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\subsection{$n=2$}
+For $p=3$, the absolute cutoff is $W=6$:
+\[\alpha_{2}^t=\sum_{d=3}^{6}R_{2,d}+O(\mathrm{SR}^{7}).\]
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{2,3} &=  - \frac{0.00390625 r^{3}}{c_{s}^{3}} + \frac{0.125 \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{1}^s r}{c_{s}} - \frac{0.125 \left(\alpha_{0}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{2} r}{c_{s}} - \frac{0.046875 \alpha_{0}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.046875 \alpha_{0}^s r^{2}}{c_{s}^{2}} - \frac{0.25 \alpha_{0}^{c_s} \alpha_{0}^s r}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{2,4} &= \frac{0.0013427734375 r^{4}}{c_{s}^{4}} + \frac{0.125 \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{3} r}{c_{s}} + \frac{0.125 \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.025390625 \alpha_{0}^s r^{3}}{c_{s}^{3}} + \frac{0.28379535568268 \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.24409651676201 \left(\alpha_{0}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} + \frac{0.040277689595252 \alpha_{0}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.0625 \alpha_{1}^s r^{2}}{c_{s}^{2}} - \frac{0.12204825838101 \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.046875 \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.94259071136537 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{0.78379535568268 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.41597151676201 \alpha_{0}^{c_s} \alpha_{0}^s r^{2}}{c_{s}^{2}} - \frac{0.125 \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.01171875 \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.09375 \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} - \frac{0.375 \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.81759071136537 \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} - \frac{0.78379535568268 \alpha_{0}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.85138606704805 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.25 \alpha_{0}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.25 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.09375 \alpha_{0}^{c_s} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}}
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{2,5} &=  - \frac{0.00099348164677838 r^{5}}{c_{s}^{5}} + \frac{0.125 \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{0.050668108270534 \alpha_{1}^s r^{3}}{c_{s}^{3}} + \frac{0.33325502603924 \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.087560258989506 \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} - \frac{0.24566880066715 \left(\alpha_{0}^{c_s}\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.13499234851023 \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.28928966356152 \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} - \frac{0.020502543360439 \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{4} r}{c_{s}} - \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{4} r}{c_{s}} \\
+&{}  - \frac{0.027325781299929 \alpha_{0}^{c_s} r^{4}}{c_{s}^{4}} - \frac{0.64251673826997 \left(\alpha_{0}^{c_s}\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.33061675835603 \left(\alpha_{1}^s\right)^{2} r}{c_{s}} - \frac{0.088202094794504 \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.18614714901955 \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} - \frac{0.74976507811772 \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} + \frac{0.0625 \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.25 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.005859375 \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.375 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.00537109375 \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{0.076171875 \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{2.2054104017793 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.490628069592 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.0148110363091 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.63904189589007 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.3745301562354 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.74025304063896 \alpha_{0}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.87364314908906 \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.46569385315053 \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0234375 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.09375 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.1875 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.017578125 \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{0.025390625 \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.92039909054338 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  - \frac{1.1312923842658 \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.4488830956312 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r}{c_{s}} \\
+&{}  - \frac{2.1832187809573 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{1.083020104157 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.4169873656614 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.512819690414 \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} - \frac{0.38983219984103 \alpha_{0}^{c_s} \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.45561675835603 \alpha_{0}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{1.8893109571319 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.96478233218736 \alpha_{0}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.5 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.046875 \alpha_{0}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.140625 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.28379535568268 \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.81759071136537 \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.94259071136537 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.78379535568268 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.78379535568268 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.48819303352403 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.83194303352403 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.12083306878576 \alpha_{0}^{c_s} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{2.8055805132741 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{3.7452632198456 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.25 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.09375 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.375 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.81759071136537 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.94259071136537 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.24409651676201 \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.41597151676201 \alpha_{0}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.375 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.85138606704805 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{2.3513860670481 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{2,6} &= \frac{0.0007834832445242 r^{6}}{c_{s}^{6}} + \frac{0.125 \alpha_{4}^s r}{c_{s}} \\
+&{}  + \frac{0.076954635474829 \left(\alpha_{0}^{c_s}\right)^{5} r}{c_{s}} + \frac{0.065244100954277 \left(\alpha_{0}^s\right)^{5} r}{c_{s}} \\
+&{}  + \frac{0.51447193930681 \left(\alpha_{0}^s\right)^{3} r^{3}}{c_{s}^{3}} + \frac{0.018883632267472 \alpha_{0}^s r^{5}}{c_{s}^{5}} \\
+&{}  + \frac{0.36074999115751 \alpha_{4}^{c_s} r}{c_{s}} + \frac{1.0488534998662 \left(\alpha_{1}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.15473919538016 \alpha_{2}^{c_s} r^{3}}{c_{s}^{3}} + \frac{0.077748164662437 \alpha_{2}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{1.2689136192411 \left(\alpha_{0}^{c_s}\right)^{4} r^{2}}{c_{s}^{2}} + \frac{0.025194043126048 \alpha_{0}^{c_s} r^{5}}{c_{s}^{5}} \\
+&{}  + \frac{0.5388653261447 \left(\alpha_{0}^s\right)^{4} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.27180459639332 \left(\alpha_{0}^{c_s}\right)^{2} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{1.1085144407626 \left(\alpha_{0}^{c_s}\right)^{3} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.15691226448912 \left(\alpha_{0}^s\right)^{2} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{0.4600841525546 \left(\alpha_{1}^s\right)^{2} r^{2}}{c_{s}^{2}} - \frac{0.10698423390637 \alpha_{3}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.044329625847117 \alpha_{1}^s r^{4}}{c_{s}^{4}} - \frac{0.072500515380315 \alpha_{1}^{c_s} r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.25407334512281 \alpha_{3}^{c_s} r^{2}}{c_{s}^{2}} + \frac{0.0078125 \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \alpha_{4}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.25 \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.1875 \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0107421875 \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  + \frac{0.0126953125 \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.1142578125 \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{1.4391217537063 \alpha_{0}^s \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{5.812063941528 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{7.7501463158245 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.78248004536479 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{1.111888199871 \alpha_{0}^{c_s} \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.1745291897529 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{1.2557055991705 \alpha_{0}^{c_s} \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  + \frac{1.7406927007245 \alpha_{1}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.1209324217963 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.020502543360439 \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{0.79795299477407 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r}{c_{s}} \\
+&{}  + \frac{3.674970019414 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.0840862194786 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{2.3085962344727 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{2.5589083941373 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{2.6541481243887 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.67405262036735 \alpha_{0}^s \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.088202094794504 \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{2.8532314594288 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  + \frac{2.995589067438 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{3.0581366629081 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{1.5570001901118 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.3768924755698 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.43745143869001 \alpha_{0}^{c_s} \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{1.9893077070381 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.001953125 \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.03125 \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.125 \alpha_{4}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.046875 \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.017578125 \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.002685546875 \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  - \frac{0.98015911825867 \alpha_{0}^s \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{4.0010774285941 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{4.071100917586 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.0049674082338919 \alpha_{0}^s r^{5} \log{\left(c_{s} \right)}}{c_{s}^{5}} \\
+&{}  - \frac{3.2853576417753 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.84666127388087 \alpha_{0}^{c_s} \alpha_{1}^s r^{3}}{c_{s}^{3}} - \frac{2.0396907384329 \alpha_{1}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.56686562073618 \alpha_{0}^s \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.57857932712305 \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{1.1743023189517 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.082010173441755 \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{0.40497704553068 \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.050668108270534 \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{3.4272755069646 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.0122310659043 \alpha_{0}^{c_s} \alpha_{3}^s r}{c_{s}} - \frac{1.154727777479 \alpha_{1}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.3048548230006 \alpha_{0}^s \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.020833333333333 \alpha_{4}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.68758257793092 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.80334171043098 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.81762161375293 \alpha_{1}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{1.6751033898368 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.7284662943263 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.8578169724941 \alpha_{1}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{0.46569385315053 \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.48087387125098 \alpha_{0}^s \alpha_{3}^s r}{c_{s}} - \frac{0.9861592444222 \alpha_{0}^{c_s} \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.25 \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.1875 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{2,6}} &\phantom{={}}{}  + \frac{0.625 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.017578125 \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.9375 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.47129535568268 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.47129535568268 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.39189767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.12204825838101 \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.48819303352403 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.20798575838101 \alpha_{0}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.83194303352403 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.1312923842658 \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.175693033524 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.4488830956312 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.490628069592 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.26268077696852 \alpha_{0}^s \alpha_{1}^{c_s} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.18124960317863 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{1.1168502750681 \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.42198902183206 \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{1.0502754126021 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{4.2922579734285 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.58061675835603 \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{5.1834094215102 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.33325502603924 \alpha_{0}^s \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.041666666666667 \alpha_{0}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{1.512819690414 \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.38983219984103 \alpha_{0}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.10416666666667 \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.20833333333333 \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.20833333333333 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{1.7472862981781 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{3.5711394600416 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{1.7992566969856 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{7.4453586567308 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.8893109571319 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.96478233218736 \alpha_{0}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.015625 \alpha_{0}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.125 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.3125 \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.3125 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.625 \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.625 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.1142578125 \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{2.2054104017793 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.40879535568268 \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.40879535568268 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.39189767784134 \alpha_{0}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.24409651676201 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.24409651676201 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.92039909054338 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.1312923842658 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.4488830956312 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.060416534392878 \alpha_{0}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{2.1832187809573 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{2.8055805132741 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{4.9527673784595 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.6087005501362 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{8.2325850087098 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.0946586542461 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.64209804273954 \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.73700640200144 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{6.3027356936475 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.10930312519972 \alpha_{0}^{c_s} \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{8.7399852511081 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.1694965995231 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{1.2850334765399 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.020833333333333 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.020833333333333 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.041666666666667 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{2.8339747313229 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{5.8521124624951 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{2,6}} &\phantom{={}}{}  - \frac{0.74025304063896 \alpha_{0}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.37229429803911 \alpha_{0}^s \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.74976507811772 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.20833333333333 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.87364314908906 \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{7.2942095625464 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{3.7786219142638 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.25 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.09375 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{1.5675907113654 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.42569303352403 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.2263860670481 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{5.5667777849043 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{6.571847963694 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{3.7452632198456 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{4.3144808126008 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{2.0296220726182 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{1.3745301562354 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{3.7703628454615 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.42569303352403 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{1.4138860670481 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{2.3513860670481 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{4.4940758295979 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.247914550286 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{3.7452632198456 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.083020104157 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.16666666666667 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}}
+\end{align*}
+
+\subsection{$n=3$}
+For $p=3$, the absolute cutoff is $W=7$:
+\[\alpha_{3}^t=\sum_{d=4}^{7}R_{3,d}+O(\mathrm{SR}^{8}).\]
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{3,4} &= \frac{0.00146484375 r^{4}}{c_{s}^{4}} + \frac{0.125 \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{2}^s r}{c_{s}} + \frac{0.125 \left(\alpha_{0}^{c_s}\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{3} r}{c_{s}} + \frac{0.0234375 \alpha_{0}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.0234375 \alpha_{0}^s r^{3}}{c_{s}^{3}} + \frac{0.109375 \left(\alpha_{0}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.109375 \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} - \frac{0.0625 \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \alpha_{1}^s r^{2}}{c_{s}^{2}} + \frac{0.375 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{0.375 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r}{c_{s}} + \frac{0.21875 \alpha_{0}^{c_s} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.375 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r}{c_{s}} - \frac{0.375 \alpha_{0}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.375 \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} - \frac{0.375 \alpha_{0}^s \alpha_{1}^s r}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{3,5} &=  - \frac{0.000762939453125 r^{5}}{c_{s}^{5}} + \frac{0.125 \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{0.0419921875 \alpha_{1}^s r^{3}}{c_{s}^{3}} + \frac{0.28379535568268 \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.071766316690503 \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} - \frac{0.125 \left(\alpha_{0}^s\right)^{4} r}{c_{s}} \\
+&{}  - \frac{0.375 \left(\alpha_{1}^s\right)^{2} r}{c_{s}} - \frac{0.078125 \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.28125 \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} - \frac{0.01708984375 \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.1201171875 \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} - \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{4} r}{c_{s}} \\
+&{}  - \frac{0.15752267784134 \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} - \frac{0.85138606704805 \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.024533376047626 \alpha_{0}^{c_s} r^{4}}{c_{s}^{4}} - \frac{0.5591418724447 \left(\alpha_{0}^{c_s}\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.20943957507151 \left(\alpha_{0}^{c_s}\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.0625 \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.005859375 \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{0.375 \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.21875 \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.4375 \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0703125 \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.72129535568268 \alpha_{0}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.7027721340961 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.6013860670481 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.9763860670481 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.7778918724447 \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.87418722812738 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} - \frac{0.125 \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.5 \alpha_{0}^s \alpha_{2}^s r}{c_{s}} - \frac{0.0234375 \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{1.1351814227307 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} - \frac{1.0337953556827 \alpha_{0}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{1.0337953556827 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  - \frac{1.1013860670481 \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.3513860670481 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r}{c_{s}} \\
+&{}  - \frac{1.6013860670481 \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.9763860670481 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{1.6182837448894 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.3403918724447 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.35299426257151 \alpha_{0}^{c_s} \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.125 \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.125 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.5 \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{0}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.375 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.21875 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.4375 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.0703125 \alpha_{0}^{c_s} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{3.1013860670481 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{3.6791582011442 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.375 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.21875 \alpha_{0}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.34375 \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.375 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.125 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{3,6} &= \frac{0.00069887861331449 r^{6}}{c_{s}^{6}} + \frac{0.125 \alpha_{4}^s r}{c_{s}} \\
+&{}  + \frac{1.065570626349 \left(\alpha_{0}^{c_s}\right)^{3} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{1.4176370369568 \left(\alpha_{0}^{c_s}\right)^{4} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.52264594794504 \left(\alpha_{1}^s\right)^{2} r^{2}}{c_{s}^{2}} + \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{5} r}{c_{s}} \\
+&{}  + \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{5} r}{c_{s}} \\
+&{}  + \frac{0.24809448714071 \left(\alpha_{0}^{c_s}\right)^{2} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{0.52433019631832 \left(\alpha_{0}^s\right)^{3} r^{3}}{c_{s}^{3}} + \frac{0.13631419746067 \alpha_{2}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.017257388611671 \alpha_{0}^s r^{5}}{c_{s}^{5}} + \frac{1.1501885493287 \left(\alpha_{1}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.07369519446916 \alpha_{2}^s r^{3}}{c_{s}^{3}} + \frac{0.1495700174229 \left(\alpha_{0}^s\right)^{2} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{0.61990642191755 \left(\alpha_{0}^s\right)^{4} r^{2}}{c_{s}^{2}} + \frac{0.33325502603924 \alpha_{4}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.022103438284604 \alpha_{0}^{c_s} r^{5}}{c_{s}^{5}} - \frac{0.042328393296221 \alpha_{1}^s r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{0.066357117878927 \alpha_{1}^{c_s} r^{4}}{c_{s}^{4}} - \frac{0.1038270947945 \alpha_{3}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.22780402727446 \alpha_{3}^{c_s} r^{2}}{c_{s}^{2}} + \frac{0.0625 \alpha_{4}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.01171875 \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.01171875 \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  + \frac{0.078125 \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.21875 \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.171875 \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.10546875 \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.01708984375 \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{4.5746925879539 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{1.1352294412117 \alpha_{0}^{c_s} \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{2.6219204538578 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{3.8874132271834 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  + \frac{2.2571479479676 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{1.9409334773531 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r}{c_{s}} \\
+&{}  + \frac{3.5111972716302 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{8.2127818560984 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{4.4950282979633 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  + \frac{1.6087005501362 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  + \frac{1.0946586542461 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.71467513753404 \alpha_{0}^s \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.6030226512749 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.40191656771049 \alpha_{0}^{c_s} \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{1.1482074697214 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r}{c_{s}} \\
+&{}  + \frac{2.4575502603924 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.4228234146217 \alpha_{0}^s \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{2.8877107655697 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{6.1460976449703 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.4988253905886 \alpha_{0}^{c_s} \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  + \frac{1.8602805292847 \alpha_{1}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.9539880896494 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{3.9948526700024 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.03125 \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} - \frac{0.125 \alpha_{4}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0029296875 \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  - \frac{0.4375 \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.5625 \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.068359375 \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{0.0419921875 \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.003814697265625 \alpha_{0}^s r^{5} \log{\left(c_{s} \right)}}{c_{s}^{5}} \\
+&{}  - \frac{0.3603515625 \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.57385180946901 \alpha_{0}^s \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{2.4110271601353 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.2147823321874 \alpha_{0}^{c_s} \alpha_{3}^s r}{c_{s}} - \frac{1.4645474103051 \alpha_{0}^s \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  - \frac{2.6441120746798 \alpha_{1}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{4.5968842087759 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{1.9544879813691 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{4.4382967251885 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.1168502750681 \alpha_{1}^s \alpha_{2}^s r}{c_{s}} - \frac{1.1225357717973 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.81325404477083 \alpha_{0}^{c_s} \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{1.0502754126021 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{4.3255592153975 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{2.2075502603924 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.58061675835603 \alpha_{0}^s \alpha_{3}^s r}{c_{s}} - \frac{2.4776020226013 \alpha_{1}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{2.5825502603924 \alpha_{1}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} - \frac{1.4162751301962 \alpha_{0}^{c_s} \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  - \frac{3.5073089371114 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.9442318016501 \alpha_{0}^s \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.0625 \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.1875 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.1875 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.1875 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.625 \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.625 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.25 \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.25 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.109375 \alpha_{0}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{3,6}} &\phantom{={}}{}  + \frac{0.21875 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.4375 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.5625 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.234375 \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.9375 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.10546875 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{1.71875 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.3662109375 \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.28379535568268 \alpha_{0}^s \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.0337953556827 \alpha_{0}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.1013860670481 \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.3513860670481 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.6013860670481 \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.6013860670481 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.5557837448894 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{6.243371063951 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.6182837448894 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.21529895007151 \alpha_{0}^s \alpha_{1}^{c_s} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{4.7259796038175 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.35299426257151 \alpha_{0}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{7.299656342872 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{10.486494425184 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.1875 \alpha_{0}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.1875 \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.1875 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.3125 \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.625 \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.625 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{1.25 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.109375 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.03515625 \alpha_{0}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{1.875 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.59375 \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.10546875 \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{0.671875 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.28379535568268 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.31504535568268 \alpha_{0}^s \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.72129535568268 \alpha_{0}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.85138606704805 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.0337953556827 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.1013860670481 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.3513860670481 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.098133504190503 \alpha_{0}^{c_s} \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{1.9763860670481 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.9763860670481 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.1182837448894 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{3.1013860670481 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.7778918724447 \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{3.2365674897788 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{2.6807837448894 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.62831872521453 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{10.317828730023 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{10.419919562718 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  - \frac{6.2653115524259 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.0589827877145 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{11.728814544016 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{8.7476479574518 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{6.9558196807943 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.1875 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.75 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.5625 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.7027721340961 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{6.2027721340961 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.7483744562548 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{3.6791582011442 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{5.9291582011442 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{4.1233744562548 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.1875 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.5625 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{1.125 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.65625 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.1351814227307 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{4.1351814227307 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{3.6791582011442 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{4.8041582011442 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{3,7} &=  - \frac{0.00066040799045703 r^{7}}{c_{s}^{7}} + \frac{0.125 \alpha_{5}^s r}{c_{s}} \\
+&{}  + \frac{1.2557055991705 \left(\alpha_{1}^{c_s}\right)^{3} r}{c_{s}} + \frac{0.36074999115751 \alpha_{5}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.044182253542082 \alpha_{1}^s r^{5}}{c_{s}^{5}} + \frac{0.10547078563903 \alpha_{3}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.067614788198182 \alpha_{1}^{c_s} r^{5}}{c_{s}^{5}} + \frac{1.0840862194786 \left(\alpha_{1}^s\right)^{3} r}{c_{s}} \\
+&{}  + \frac{0.22086108655179 \alpha_{3}^{c_s} r^{3}}{c_{s}^{3}} - \frac{0.076954635474829 \left(\alpha_{0}^{c_s}\right)^{6} r}{c_{s}} \\
+&{}  - \frac{0.12260923390637 \alpha_{4}^s r^{2}}{c_{s}^{2}} - \frac{0.065244100954277 \left(\alpha_{0}^s\right)^{6} r}{c_{s}} \\
+&{}  - \frac{0.31475559837547 \left(\alpha_{0}^{c_s}\right)^{2} r^{5}}{c_{s}^{5}} \\
+&{}  - \frac{1.8011431833565 \left(\alpha_{0}^s\right)^{4} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{1.8035217754453 \left(\alpha_{0}^{c_s}\right)^{3} r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{1.1197437723225 \left(\alpha_{0}^s\right)^{5} r^{2}}{c_{s}^{2}} - \frac{0.2991670940175 \alpha_{4}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.076712092161027 \alpha_{2}^s r^{4}}{c_{s}^{4}} - \frac{0.70760825653778 \left(\alpha_{1}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.19445546235151 \left(\alpha_{0}^s\right)^{2} r^{5}}{c_{s}^{5}} \\
+&{}  - \frac{4.1620983497444 \left(\alpha_{0}^{c_s}\right)^{4} r^{3}}{c_{s}^{3}} - \frac{0.023975376743708 \alpha_{0}^{c_s} r^{6}}{c_{s}^{6}} \\
+&{}  - \frac{0.13853540110911 \alpha_{2}^{c_s} r^{4}}{c_{s}^{4}} - \frac{1.154727777479 \left(\alpha_{2}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.018648400200653 \alpha_{0}^s r^{6}}{c_{s}^{6}} - \frac{2.675269515726 \left(\alpha_{0}^{c_s}\right)^{5} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.5385686369455 \left(\alpha_{1}^{c_s}\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.81762161375293 \left(\alpha_{2}^s\right)^{2} r}{c_{s}} - \frac{0.9077746502428 \left(\alpha_{0}^s\right)^{3} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{0.0009765625 \alpha_{2}^s r^{4} \log{\left(c_{s} \right)}^{3}}{c_{s}^{4}} \\
+&{}  + \frac{0.015625 \left(\alpha_{0}^s\right)^{3} r^{4} \log{\left(c_{s} \right)}^{3}}{c_{s}^{4}} \\
+&{}  + \frac{0.0625 \alpha_{5}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.03515625 \left(\alpha_{1}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.9375 \left(\alpha_{1}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.10546875 \left(\alpha_{0}^s\right)^{4} r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.02099609375 \alpha_{3}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.0019073486328125 \alpha_{1}^s r^{5} \log{\left(c_{s} \right)}^{2}}{c_{s}^{5}} \\
+&{}  + \frac{3.9387181395716 \alpha_{1}^{c_s} \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.57385180946901 \left(\alpha_{1}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{10.09950678112 \left(\alpha_{1}^{c_s}\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.4409653155906 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{2.2829930145581 \alpha_{0}^{c_s} \alpha_{3}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{6.0506877923487 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.75724388321833 \alpha_{0}^s \alpha_{1}^s r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{1.1881148878051 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.2633539166158 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{10.84818865722 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.086286943058355 \left(\alpha_{0}^s\right)^{2} r^{5} \log{\left(c_{s} \right)}}{c_{s}^{5}} \\
+&{}  + \frac{5.8694148411763 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.899202830862 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{1.0138030827023 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.0488038466557 \alpha_{0}^{c_s} \alpha_{1}^s r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{2.1070916662185 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.004193271679887 \alpha_{0}^s r^{6} \log{\left(c_{s} \right)}}{c_{s}^{6}} \\
+&{}  + \frac{8.7674965667948 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{1.1168502750681 \left(\alpha_{2}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{5.0351500609997 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{0.042328393296221 \alpha_{2}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{6.5251062314093 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.10280837917801 \left(\alpha_{0}^s\right)^{6} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{7.5978803659804 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{17.170223355941 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{2.1520321750819 \alpha_{0}^s \alpha_{3}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.14583333333333 \left(\alpha_{0}^s\right)^{5} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.5982800696916 \left(\alpha_{0}^s\right)^{3} r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{1.200524716176 \alpha_{0}^s \alpha_{1}^{c_s} r^{4}}{c_{s}^{4}} \\
+&{}  + \frac{2.4730563846109 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{1.2398128438351 \left(\alpha_{0}^s\right)^{5} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.010416666666667 \alpha_{4}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{6} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{3.1420899004122 \alpha_{1}^{c_s} \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.572990588955 \left(\alpha_{0}^s\right)^{4} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{1.5760620651767 \alpha_{0}^{c_s} \alpha_{3}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.2941625300387 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.1038270947945 \alpha_{4}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.20833333333333 \left(\alpha_{2}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{1.7276736271957 \alpha_{1}^s \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{13.88289571595 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{3.51534396509 \alpha_{1}^s \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} + \frac{0.96375532208646 \alpha_{0}^s \alpha_{3}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{7.7423178156474 \alpha_{1}^{c_s} \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.00390625 \alpha_{3}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{6} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.125 \alpha_{5}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0390625 \alpha_{4}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.3125 \left(\alpha_{1}^s\right)^{3} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.625 \left(\alpha_{2}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.5625 \left(\alpha_{0}^s\right)^{5} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.008544921875 \alpha_{2}^s r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  - \frac{0.13671875 \left(\alpha_{0}^s\right)^{3} r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  - \frac{0.18310546875 \left(\alpha_{1}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{0.0095367431640625 \left(\alpha_{0}^s\right)^{2} r^{5} \log{\left(c_{s} \right)}^{2}}{c_{s}^{5}} \\
+&{}  - \frac{0.54052734375 \left(\alpha_{0}^s\right)^{4} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{3,7}} &\phantom{={}}{}  - \frac{1.4855117920869 \alpha_{0}^{c_s} \alpha_{2}^s r^{3}}{c_{s}^{3}} - \frac{1.0111179362879 \alpha_{0}^s \alpha_{2}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.60587387125098 \alpha_{0}^s \alpha_{4}^s r}{c_{s}} - \frac{2.3683440805453 \alpha_{1}^{c_s} \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{3.1468339532713 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{3.3445455614335 \alpha_{1}^s \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  - \frac{7.7328550642049 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.51503239853261 \alpha_{0}^{c_s} \alpha_{0}^s r^{5}}{c_{s}^{5}} \\
+&{}  - \frac{10.786415997547 \alpha_{0}^{c_s} \left(\alpha_{1}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{11.101166727647 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.6087005501362 \left(\alpha_{1}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{27.261332258597 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{7.6667459952952 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{3.897507710927 \alpha_{2}^{c_s} \alpha_{2}^s r}{c_{s}} - \frac{2.1408870219012 \alpha_{1}^{c_s} \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  - \frac{2.1930683622079 \alpha_{0}^{c_s} \alpha_{2}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{4.6296729998974 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{9.4629411206417 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{4.7412780427983 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{10.6792492855 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{1.3469092355797 \alpha_{0}^{c_s} \alpha_{4}^{c_s} r}{c_{s}} \\
+&{}  - \frac{3.2598096829233 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.6656048141581 \alpha_{0}^s \alpha_{4}^{c_s} r}{c_{s}} \\
+&{}  - \frac{3.7668956958108 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{4}}{c_{s}^{4}} \\
+&{}  - \frac{7.8136689732526 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{16.377283754452 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{16.453977631147 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{32.974734898143 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{8.4133427159559 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{3} r}{c_{s}} \\
+&{}  - \frac{8.690822571652 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{0.017257388611671 \alpha_{1}^s r^{5} \log{\left(c_{s} \right)}}{c_{s}^{5}} \\
+&{}  - \frac{4.5715835447462 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{4} r}{c_{s}} \\
+&{}  - \frac{0.07369519446916 \alpha_{3}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{9.9483576869351 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{1.2622310659043 \alpha_{0}^{c_s} \alpha_{4}^s r}{c_{s}} - \frac{1.2984954850039 \alpha_{1}^s \alpha_{3}^s r}{c_{s}} \\
+&{}  - \frac{21.116091248333 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.020833333333333 \alpha_{5}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{2.8700480383984 \alpha_{1}^{c_s} \alpha_{3}^s r}{c_{s}} \\
+&{}  - \frac{1.459738851267 \left(\alpha_{0}^{c_s}\right)^{5} \alpha_{0}^s r}{c_{s}} \\
+&{}  - \frac{1.4700626232957 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{6.0003047609539 \left(\alpha_{0}^{c_s}\right)^{4} \left(\alpha_{0}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{6.6279464500316 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{14.104474158519 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{3.6644110968749 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{3.6657307304634 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{1.9050809010702 \alpha_{0}^s \alpha_{2}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  - \frac{1.9242741322273 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.96600547490636 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{5} r}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{0}^{c_s} \alpha_{4}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.0625 \alpha_{1}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{0}^s \alpha_{4}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.01171875 \alpha_{0}^{c_s} \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.046875 \alpha_{0}^s \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.1875 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.375 \alpha_{0}^s \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.3125 \alpha_{1}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.21875 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.5625 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.9375 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.9375 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.9375 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.10546875 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  + \frac{0.734375 \alpha_{1}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{2.84375 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.1025390625 \alpha_{0}^s \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  + \frac{1.08984375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{4.5746925879539 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.14189767784134 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.15752267784134 \alpha_{1}^s \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{10.623428137137 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{0.36064767784134 \alpha_{0}^{c_s} \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.42569303352403 \left(\alpha_{1}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{4.5507541434397 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{2.6219204538578 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.049066752095252 \alpha_{0}^{c_s} \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  + \frac{0.80069303352403 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{3.8874132271834 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.98819303352403 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.5591418724447 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.2147823321874 \alpha_{0}^{c_s} \alpha_{4}^s r \log{\left(c_{s} \right)}}{c_{s}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{3,7}} &\phantom{={}}{}  + \frac{1.4645474103051 \alpha_{1}^s \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.38894593622235 \alpha_{1}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.5557837448894 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{25.492893672906 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{1.9409334773531 \left(\alpha_{0}^{c_s}\right)^{4} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{16.183034565821 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{2.4020791005721 \alpha_{1}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{2.6441120746798 \alpha_{2}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{5.6448611555529 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^s r}{c_{s}} \\
+&{}  + \frac{6.7714438439027 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{14.908599752858 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{16.425563712197 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{4.4950282979633 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^{c_s}\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{4.5968842087759 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{9.8824373480888 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.31415936260727 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{0.32294842510727 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{11.201715574019 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{2.8352740739136 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{0}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{5.9080038194127 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{6.2653115524259 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{8.6631322967092 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{4.9542678586284 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{10.612365854046 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{42.618229821464 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{10.755281999685 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  + \frac{11.559920669238 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{3}}{c_{s}^{3}} \\
+&{}  + \frac{11.728814544016 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{3.196711879047 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{1.6076662708419 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{0.81325404477083 \alpha_{0}^{c_s} \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.20825502603924 \left(\alpha_{0}^{c_s}\right)^{5} \alpha_{0}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{6.9165270668905 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^{c_s} r}{c_{s}} \\
+&{}  + \frac{27.819224792758 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r}{c_{s}} \\
+&{}  + \frac{0.11051719142302 \alpha_{0}^{c_s} \alpha_{0}^s r^{5} \log{\left(c_{s} \right)}}{c_{s}^{5}} \\
+&{}  + \frac{29.668801756997 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.99237794856283 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  + \frac{16.166403940833 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{16.932268645455 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{2}^s r}{c_{s}} \\
+&{}  + \frac{2.1449340668482 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{4.3255592153975 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{1.1482074697214 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{2.3003770986574 \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.036458333333333 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.14583333333333 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.29166666666667 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{4.7595267879426 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{2.4776020226013 \alpha_{1}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.33325502603924 \alpha_{0}^s \alpha_{4}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \alpha_{2}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.020833333333333 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{43.051818854924 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.70561675835603 \alpha_{0}^s \alpha_{4}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{2.8456468292435 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{47.050382883379 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  + \frac{0.38020833333333 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{12.292195289941 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.79493739287649 \alpha_{0}^s \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.408942592382 \alpha_{0}^s \alpha_{2}^{c_s} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{13.178724319326 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.41666666666667 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{3.3838382564372 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{1.6974670334241 \alpha_{1}^s \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{27.472885902749 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r}{c_{s}} \\
+&{}  + \frac{0.9442318016501 \alpha_{1}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{7.9897053400048 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.01171875 \alpha_{0}^s \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}^{3}}{c_{s}^{4}} \\
+&{}  - \frac{0.1875 \alpha_{1}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.375 \alpha_{0}^s \alpha_{4}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.3125 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.3125 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{1.25 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.9375 \alpha_{1}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.2109375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  - \frac{2.8125 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.24609375 \alpha_{0}^s \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{3,7}} &\phantom{={}}{}  - \frac{2.15625 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{1.453125 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.14189767784134 \alpha_{1}^s \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.14189767784134 \left(\alpha_{0}^{c_s}\right)^{4} \left(\alpha_{0}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.31504535568268 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.42569303352403 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^{c_s}\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.51689767784134 \alpha_{0}^{c_s} \alpha_{4}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.51689767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{5} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.55069303352403 \alpha_{2}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.55069303352403 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{1.1352294412117 \alpha_{0}^{c_s} \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.67569303352403 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.67569303352403 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{3} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.19626700838101 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r^{4} \log{\left(c_{s} \right)}^{2}}{c_{s}^{4}} \\
+&{}  - \frac{0.80069303352403 \alpha_{1}^{c_s} \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{0.98819303352403 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{4} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{1.1182837448894 \left(\alpha_{0}^{c_s}\right)^{3} \left(\alpha_{0}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{2.4110271601353 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.4645474103051 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.8091418724447 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{3.2365674897788 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{3} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.10764947503576 \alpha_{1}^{c_s} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{1.9409334773531 \left(\alpha_{0}^{c_s}\right)^{4} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{2.6807837448894 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{4} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{10.851732081256 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{0.17649713128576 \alpha_{0}^{c_s} \alpha_{2}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{2.9645791005721 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{3.294546017362 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{27.775184091118 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{2.0616872281274 \alpha_{0}^{c_s} \left(\alpha_{1}^s\right)^{2} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{4.4950282979633 \left(\alpha_{1}^{c_s}\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{22.554554719686 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{7.299656342872 \alpha_{1}^{c_s} \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{15.812179043725 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{12.798946193029 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{0.40191656771049 \alpha_{0}^{c_s} \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{0.92232932712305 \alpha_{0}^s \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.46845360803068 \alpha_{0}^s \alpha_{1}^s r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{0.9424780878218 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{15.157229920671 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.26542847151571 \alpha_{0}^s \alpha_{1}^{c_s} r^{4} \log{\left(c_{s} \right)}}{c_{s}^{4}} \\
+&{}  - \frac{17.070189849163 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r^{2}}{c_{s}^{2}} \\
+&{}  - \frac{17.265090188972 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r}{c_{s}} \\
+&{}  - \frac{0.036458333333333 \alpha_{0}^{c_s} \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{19.139624219519 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{10.401045538112 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r}{c_{s}} \\
+&{}  - \frac{0.020833333333333 \alpha_{1}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.083333333333333 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{2.8326954049503 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{1.4228234146217 \alpha_{1}^s \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{2.8877107655697 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{0.73958333333333 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{6.1460976449703 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.19270833333333 \alpha_{1}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{1.5643173084922 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.098958333333333 \alpha_{0}^s \alpha_{3}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{1.5884741815718 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  - \frac{6.3886016504085 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{1.6752754126021 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{7.0146178742227 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{1.7599670334241 \alpha_{1}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{0.45560805454892 \alpha_{0}^s \alpha_{3}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{14.707067627279 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r}{c_{s}} \\
+&{}  - \frac{1.8602805292847 \alpha_{1}^{c_s} \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{15.16148696948 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{3.9539880896494 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{0.125 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{0.25 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.375 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{0.9375 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{3.75 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.56759071136537 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{0.85138606704805 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{3.2027721340961 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{6.243371063951 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.6520791005721 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.7483744562548 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{1.8395791005721 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{1.8395791005721 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}}
+\end{align*}
+
+\begin{align*}
+\phantom{R_{3,7}} &\phantom{={}}{}  + \frac{2.0270791005721 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{2.5844883892067 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{5.1689767784134 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{5.1689767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{5.9291582011442 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  + \frac{4.8548512346682 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{10.317828730023 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{10.735178932792 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{15.682802633666 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{8.5357704348493 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{11.681799284612 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{3.2060453025497 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{14.532737823278 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{8.1445500735889 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  + \frac{17.422836633219 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{8.7476479574518 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  + \frac{0.29166666666667 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  + \frac{2.4575502603924 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  + \frac{1.5884741815718 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{2}}{c_{s}^{3}} \\
+&{}  + \frac{3.4988253905886 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^{c_s}\right)^{2} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.0625 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.0625 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.25 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.375 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.3125 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.625 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.625 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{1.25 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  - \frac{0.21875 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.875 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{3}}{c_{s}^{2}} \\
+&{}  - \frac{0.10546875 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}^{3}}{c_{s}^{3}} \\
+&{}  - \frac{0.56759071136537 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{11.748374147078 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.85138606704805 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{3.9527721340961 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{6.243371063951 \alpha_{0}^{c_s} \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{0.87418722812738 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{4.8041582011442 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{5.1689767784134 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{2.3336756173341 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{9.7772583654733 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{10.317828730023 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{10.419919562718 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{2.7829825838101 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{2}^s r^{2} \log{\left(c_{s} \right)}^{2}}{c_{s}^{2}} \\
+&{}  - \frac{5.9407619360049 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{49.191233535148 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r}{c_{s}} \\
+&{}  - \frac{6.5235686838326 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{7.7534651676201 \alpha_{0}^{c_s} \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \log{\left(c_{s} \right)}^{2}}{c_{s}} \\
+&{}  - \frac{7.8879529823954 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{8.876593450377 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{10.486494425184 \alpha_{0}^{c_s} \alpha_{1}^{c_s} \alpha_{2}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{25.076682142992 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{13.746269384684 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{17.495295914904 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^{c_s} r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{2.2075502603924 \left(\alpha_{0}^{c_s}\right)^{3} \alpha_{0}^s \alpha_{1}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{2.5825502603924 \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{2}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{1.4162751301962 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{3}^{c_s} r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{11.54864955968 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{23.391054225566 \left(\alpha_{0}^{c_s}\right)^{2} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{24.515181114859 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \log{\left(c_{s} \right)}}{c_{s}^{2}} \\
+&{}  - \frac{3.3676073153919 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  - \frac{6.9540580302476 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^s r^{3} \log{\left(c_{s} \right)}}{c_{s}^{3}} \\
+&{}  + \frac{0.1875 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{3}}{c_{s}} \\
+&{}  + \frac{31.326333550619 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}}{c_{s}} \\
+&{}  - \frac{5.5187373017162 \alpha_{0}^{c_s} \alpha_{0}^s \alpha_{1}^{c_s} \alpha_{1}^s r \log{\left(c_{s} \right)}^{2}}{c_{s}}
+\end{align*}
+
+\end{document}

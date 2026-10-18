@@ -1,0 +1,85 @@
+%========
+% WG Edit
+% SRI LO: generated spectra and consistency relations at relative order p=0.
+%========
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,geometry}
+\geometry{a4paper,margin=2cm}
+\allowdisplaybreaks[4]
+\setlength{\jot}{4pt}
+\begin{document}
+\begin{center}\Large SRI (k-inflation): LO\end{center}
+The spectra are evaluated at $-k_*\eta_*=1$, through relative amplitude
+order $p=0$. The Hubble-flow parameters are denoted by $\epsilon_j$
+and $M_{\rm Pl}$ is the reduced Planck mass. Coefficients are generated
+numerically from the normalized mode equations, using the iterative algebra.
+The convention for the spectral derivatives is
+\[
+\alpha_n^A=\frac{d^{n+1}\ln P_A}{d(\ln k)^{n+1}},\qquad
+\alpha_0^s=n_s-1,\qquad\alpha_0^t=n_t,\qquad r=P_t/P_s.
+\]
+For k-inflation, $c_t=1$. The scalar amplitude includes transport from the acoustic reference to the common tensor reference. The sound speed is $c_{s*}>0$, with
+\[\alpha_n^{c_s}=\frac{d^{n+1}\ln c_s}{d(\ln k)^{n+1}}.\]
+\section{Spectra}
+
+\subsection{Scalar spectrum}
+\[P_s(k_*)=\frac{H_*^2}{8\pi^2M_{\rm Pl}^2\epsilon_{1*}c_{s*}}\left[\sum_{d=0}^{0}F_{s,d}+O(\mathrm{SR}^{1})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{s,0} &= 1
+\end{align*}
+
+\subsection{Tensor spectrum}
+\[P_t(k_*)=\frac{2H_*^2}{\pi^2M_{\rm Pl}^2}\left[\sum_{d=0}^{0}F_{t,d}+O(\mathrm{SR}^{1})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{t,0} &= 1
+\end{align*}
+
+\section{Consistency relations}
+\subsection{$n=0$}
+For $p=0$, the absolute cutoff is $W=1$:
+\[\alpha_{0}^t=\sum_{d=1}^{1}R_{0,d}+O(\mathrm{SR}^{2}).\]
+\paragraph{Absolute order 1.}
+\begin{align*}
+R_{0,1} &=  - \frac{r}{8 c_{s}}
+\end{align*}
+
+\subsection{$n=1$}
+For $p=0$, the absolute cutoff is $W=2$:
+\[\alpha_{1}^t=\sum_{d=2}^{2}R_{1,d}+O(\mathrm{SR}^{3}).\]
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{1,2} &= \frac{r^{2}}{64 c_{s}^{2}} + \frac{\alpha_{0}^{c_s} r}{8 c_{s}} \\
+&{}  + \frac{\alpha_{0}^s r}{8 c_{s}}
+\end{align*}
+
+\subsection{$n=2$}
+For $p=0$, the absolute cutoff is $W=3$:
+\[\alpha_{2}^t=\sum_{d=3}^{3}R_{2,d}+O(\mathrm{SR}^{4}).\]
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{2,3} &=  - \frac{r^{3}}{256 c_{s}^{3}} - \frac{3 \alpha_{0}^{c_s} r^{2}}{64 c_{s}^{2}} \\
+&{}  - \frac{3 \alpha_{0}^s r^{2}}{64 c_{s}^{2}} - \frac{\left(\alpha_{0}^{c_s}\right)^{2} r}{8 c_{s}} \\
+&{}  - \frac{\left(\alpha_{0}^s\right)^{2} r}{8 c_{s}} + \frac{\alpha_{1}^{c_s} r}{8 c_{s}} \\
+&{}  + \frac{\alpha_{1}^s r}{8 c_{s}} - \frac{\alpha_{0}^{c_s} \alpha_{0}^s r}{4 c_{s}}
+\end{align*}
+
+\subsection{$n=3$}
+For $p=0$, the absolute cutoff is $W=4$:
+\[\alpha_{3}^t=\sum_{d=4}^{4}R_{3,d}+O(\mathrm{SR}^{5}).\]
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{3,4} &= \frac{3 r^{4}}{2048 c_{s}^{4}} - \frac{\alpha_{1}^{c_s} r^{2}}{16 c_{s}^{2}} \\
+&{}  - \frac{\alpha_{1}^s r^{2}}{16 c_{s}^{2}} + \frac{\alpha_{2}^{c_s} r}{8 c_{s}} \\
+&{}  + \frac{\alpha_{2}^s r}{8 c_{s}} + \frac{\left(\alpha_{0}^{c_s}\right)^{3} r}{8 c_{s}} \\
+&{}  + \frac{\left(\alpha_{0}^s\right)^{3} r}{8 c_{s}} + \frac{3 \alpha_{0}^{c_s} r^{3}}{128 c_{s}^{3}} \\
+&{}  + \frac{3 \alpha_{0}^s r^{3}}{128 c_{s}^{3}} + \frac{7 \left(\alpha_{0}^{c_s}\right)^{2} r^{2}}{64 c_{s}^{2}} \\
+&{}  + \frac{7 \left(\alpha_{0}^s\right)^{2} r^{2}}{64 c_{s}^{2}} - \frac{3 \alpha_{0}^{c_s} \alpha_{1}^{c_s} r}{8 c_{s}} \\
+&{}  - \frac{3 \alpha_{0}^{c_s} \alpha_{1}^s r}{8 c_{s}} - \frac{3 \alpha_{0}^s \alpha_{1}^{c_s} r}{8 c_{s}} \\
+&{}  - \frac{3 \alpha_{0}^s \alpha_{1}^s r}{8 c_{s}} + \frac{3 \alpha_{0}^{c_s} \left(\alpha_{0}^s\right)^{2} r}{8 c_{s}} \\
+&{}  + \frac{3 \left(\alpha_{0}^{c_s}\right)^{2} \alpha_{0}^s r}{8 c_{s}} + \frac{7 \alpha_{0}^{c_s} \alpha_{0}^s r^{2}}{32 c_{s}^{2}}
+\end{align*}
+
+\end{document}

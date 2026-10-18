@@ -1,0 +1,13 @@
+status: passed
+version: 0.3.0
+installation: temporary isolated editable installation; cosmo dependencies reused
+  without modifying cosmo
+checks:
+- SRI --version
+- SRI -W 7 -n 2 --format json
+- SRI -p 4 -spectra --format json
+order_inference:
+  n: 2
+  p: 4
+  W: 7
+coefficient_backend: normalized mode equations

@@ -1,0 +1,1529 @@
+status: passed
+p: 9
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+patterns: 96
+mixed_patterns: 39
+family_coefficient_patterns: 54
+checks:
+- pattern:
+  - 0
+  analytic_value: '0.486424769692347886650837'
+  absolute_error: 6.338681776970189e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.000492375111207366
+  status: passed
+- pattern:
+  - 0
+  - 0
+  analytic_value: '0.0498197145391479358629343'
+  absolute_error: 1.7941798871633204e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0003171251155436039
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  analytic_value: '-0.0213031050115923807546809'
+  absolute_error: 1.656940739378688e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0004177079536020756
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '0.00793565893342447877633922'
+  absolute_error: 4.922703981299338e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00039070798084139824
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '-0.00297624437647448299408000'
+  absolute_error: 4.41120088752629e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0005004999693483114
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '0.00113721188397659086434336'
+  absolute_error: 1.4767823295022736e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0005083750002086163
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '-0.000442131714791584540936584'
+  absolute_error: 9.025138906525345e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0006151658017188311
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '0.000174416018003067922314320'
+  absolute_error: 8.630166424431418e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0006046248599886894
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  analytic_value: '-0.0000696376163703601169608351'
+  absolute_error: 3.4407972032788127e-22
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0007323750760406256
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  analytic_value: '0.0000866044415371383528839850'
+  absolute_error: 4.396934990601109e-22
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00434004096314311
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  analytic_value: '-0.000237524237239067147920117'
+  absolute_error: 7.137239865915002e-23
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0027292920276522636
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '-0.000239066641254002194061017'
+  absolute_error: 6.371990337515499e-21
+  numerical_run_difference: 2.710505431213761e-20
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00660800002515316
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  analytic_value: '0.000672200434508013904140712'
+  absolute_error: 5.086044840778062e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0014355839230120182
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '0.000411498406774820629958208'
+  absolute_error: 7.544518578130377e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.004535082960501313
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  analytic_value: '0.00290979095433459597416811'
+  absolute_error: 4.440922520911086e-20
+  numerical_run_difference: 4.336808689942018e-19
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00808325014077127
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  analytic_value: '-0.00198524932750844454312439'
+  absolute_error: 5.519973733093472e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0012022911105304956
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '-0.000604930949078108723816223'
+  absolute_error: 3.510610297820847e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.004270916106179357
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 3
+  analytic_value: '-0.00652585020587946905262380'
+  absolute_error: 3.7631406709239444e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006306792143732309
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+  analytic_value: '0.00133672786741082388045456'
+  absolute_error: 7.094500921926615e-20
+  numerical_run_difference: 7.15573433840433e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.010060875210911036
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  analytic_value: '0.00623198309675268540109400'
+  absolute_error: 2.9020568735088875e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0008635830599814653
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '0.000684894900640571934166157'
+  absolute_error: 2.783414667231446e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0024109159130603075
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 3
+  analytic_value: '0.0143426572260711216681240'
+  absolute_error: 1.9947035733858762e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00259312498383224
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 4
+  analytic_value: '-0.00590758732664674440152253'
+  absolute_error: 2.92074034707466e-19
+  numerical_run_difference: 9.540979117872439e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006544916890561581
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 5
+  analytic_value: '0.0928924256733946675205203'
+  absolute_error: 6.525559144741205e-18
+  numerical_run_difference: 2.220446049250313e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.010104750050231814
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  analytic_value: '-0.0214638986519252999388490'
+  absolute_error: 6.14751108978843e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0006997908931225538
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 2
+  analytic_value: '-0.00169566812816177419952093'
+  absolute_error: 3.5817374907427506e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0019450420513749123
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 3
+  analytic_value: '-0.0311617899058317770584516'
+  absolute_error: 6.490676595805372e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0020631251391023397
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 4
+  analytic_value: '0.0199983025619394751212612'
+  absolute_error: 1.5190790929466696e-18
+  numerical_run_difference: 1.0408340855860843e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.005330083193257451
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 5
+  analytic_value: '-0.170344706878735788517580'
+  absolute_error: 2.460461501639687e-18
+  numerical_run_difference: 3.0531133177191805e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00796554097905755
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 6
+  analytic_value: '0.238530507439054913519410'
+  absolute_error: 1.3152974864759504e-16
+  numerical_run_difference: 6.938893903907228e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.011710874969139695
+  status: passed
+- pattern:
+  - 0
+  - 1
+  analytic_value: '0.0851203174180122713291625'
+  absolute_error: 6.741616756186101e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0004346671048551798
+  status: passed
+- pattern:
+  - 0
+  - 2
+  analytic_value: '0.0302713640760688618332381'
+  absolute_error: 2.960327450201472e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0007572078611701727
+  status: passed
+- pattern:
+  - 0
+  - 3
+  analytic_value: '0.0933466771038463739185417'
+  absolute_error: 4.9238138831979734e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0012513748370110989
+  status: passed
+- pattern:
+  - 0
+  - 4
+  analytic_value: '-0.0334878558936807100856808'
+  absolute_error: 3.8994416585690353e-19
+  numerical_run_difference: 2.0816681711721685e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0019940841011703014
+  status: passed
+- pattern:
+  - 0
+  - 5
+  analytic_value: '0.322307186260871028500521'
+  absolute_error: 1.375143540056031e-17
+  numerical_run_difference: 4.440892098500626e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0030137079302221537
+  status: passed
+- pattern:
+  - 0
+  - 6
+  analytic_value: '-0.543285124247405456270492'
+  absolute_error: 1.4788820815076296e-16
+  numerical_run_difference: 9.658940314238862e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00749116693623364
+  status: passed
+- pattern:
+  - 0
+  - 7
+  analytic_value: '3.08268566644464780801648'
+  absolute_error: 4.6644900290884335e-15
+  numerical_run_difference: 2.2870594307278225e-13
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.01089020911604166
+  status: passed
+- pattern:
+  - 1
+  analytic_value: '0.0654427045171018184953766'
+  absolute_error: 5.517904408313026e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.00032950006425380707
+  status: passed
+- pattern:
+  - 1
+  - 1
+  analytic_value: '0.0182122706365226224945772'
+  absolute_error: 5.363240665382047e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.000567208044230938
+  status: passed
+- pattern:
+  - 1
+  - 2
+  analytic_value: '0.0707183444839001525980307'
+  absolute_error: 5.8833735470777525e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0009974159765988588
+  status: passed
+- pattern:
+  - 1
+  - 3
+  analytic_value: '-0.0379385174778263100194523'
+  absolute_error: 1.2110631019459146e-18
+  numerical_run_difference: 1.3877787807814457e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0017733331769704819
+  status: passed
+- pattern:
+  - 1
+  - 4
+  analytic_value: '0.246945532877182501798796'
+  absolute_error: 1.4641432780914863e-17
+  numerical_run_difference: 3.885780586188048e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0026269578374922276
+  status: passed
+- pattern:
+  - 1
+  - 5
+  analytic_value: '-0.497886782042620967787607'
+  absolute_error: 1.887755932661349e-16
+  numerical_run_difference: 9.547918011776346e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006638667080551386
+  status: passed
+- pattern:
+  - 1
+  - 6
+  analytic_value: '2.45035022791548777829985'
+  absolute_error: 4.284591337995541e-15
+  numerical_run_difference: 2.26929586233382e-13
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.009936332935467362
+  status: passed
+- pattern:
+  - 2
+  analytic_value: '0.0845208881256906865685871'
+  absolute_error: 4.133289004008409e-18
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0005789170973002911
+  status: passed
+- pattern:
+  - 2
+  - 2
+  analytic_value: '-0.0314898935599571869020094'
+  absolute_error: 2.7928218122711384e-18
+  numerical_run_difference: 1.3877787807814457e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0016539169009774923
+  status: passed
+- pattern:
+  - 2
+  - 3
+  analytic_value: '0.226170065803875067668963'
+  absolute_error: 1.340958122138351e-17
+  numerical_run_difference: 3.885780586188048e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0027580000460147858
+  status: passed
+- pattern:
+  - 2
+  - 4
+  analytic_value: '-0.458162660628140664657527'
+  absolute_error: 1.518413717133738e-16
+  numerical_run_difference: 9.547918011776346e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006618708139285445
+  status: passed
+- pattern:
+  - 2
+  - 5
+  analytic_value: '2.19969144736287384006808'
+  absolute_error: 4.5203261542896005e-15
+  numerical_run_difference: 2.255973186038318e-13
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.010064333910122514
+  status: passed
+- pattern:
+  - 3
+  analytic_value: '-0.138628071739234776765399'
+  absolute_error: 6.601778875104291e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0008634589612483978
+  status: passed
+- pattern:
+  - 3
+  - 3
+  analytic_value: '-0.453255476325367860550605'
+  absolute_error: 1.9576115458055205e-16
+  numerical_run_difference: 9.492406860545088e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006677833152934909
+  status: passed
+- pattern:
+  - 3
+  - 4
+  analytic_value: '2.10076925032157410570793'
+  absolute_error: 4.5792955586511726e-15
+  numerical_run_difference: 2.2470914018413168e-13
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.009772042045369744
+  status: passed
+- pattern:
+  - 4
+  analytic_value: '0.104483054852579215258713'
+  absolute_error: 6.057875517403151e-18
+  numerical_run_difference: 1.3877787807814457e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.001609541941434145
+  status: passed
+- pattern:
+  - 5
+  analytic_value: '-0.651768928174623448615398'
+  absolute_error: 5.887229739016383e-17
+  numerical_run_difference: 5.551115123125783e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.0023677500430494547
+  status: passed
+- pattern:
+  - 6
+  analytic_value: '1.22669135926183732815241'
+  absolute_error: 2.60182332031147e-16
+  numerical_run_difference: 1.3766765505351941e-14
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.003645000047981739
+  status: passed
+- pattern:
+  - 7
+  analytic_value: '-5.78978130362325806297788'
+  absolute_error: 6.7557472679369756e-15
+  numerical_run_difference: 3.304023721284466e-13
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.005156500032171607
+  status: passed
+- pattern:
+  - 8
+  analytic_value: '19.6106111302392527989771'
+  absolute_error: 1.6690925511072462e-13
+  numerical_run_difference: 7.965184067870723e-12
+  comparison_bound: 7.965184067870723e-11
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.007384124910458922
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '0.0000210517291792316914305034'
+  absolute_error: 1.1952310800209562e-21
+  numerical_run_difference: 1.0164395367051604e-20
+  comparison_bound: 5.0e-12
+  GPL_constants: 11611
+  GPL_evaluations:
+    new: 5733
+    reused: 5878
+  evaluation_digits: 24
+  evaluation_seconds: 287.44845637492836
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '-0.000165448283028057751875791'
+  absolute_error: 4.136045436381313e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 3170
+  evaluation_digits: 24
+  evaluation_seconds: 98.1971932919696
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  analytic_value: '0.00231293638297890221032779'
+  absolute_error: 9.862669767954237e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 11772
+  GPL_evaluations:
+    new: 7829
+    reused: 3943
+  evaluation_digits: 24
+  evaluation_seconds: 331.9355437499471
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '0.000667405761353294702908594'
+  absolute_error: 1.9320338417849943e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 633
+  evaluation_digits: 24
+  evaluation_seconds: 12.591117750154808
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  analytic_value: '0.00201180313245762003575319'
+  absolute_error: 1.345454442172731e-19
+  numerical_run_difference: 4.336808689942018e-19
+  comparison_bound: 5.0e-12
+  GPL_constants: 11571
+  GPL_evaluations:
+    new: 11
+    reused: 11560
+  evaluation_digits: 24
+  evaluation_seconds: 1.9743573751766235
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  analytic_value: '-0.00508316743297011880483792'
+  absolute_error: 2.990073624354832e-19
+  numerical_run_difference: 8.673617379884035e-19
+  comparison_bound: 5.0e-12
+  GPL_constants: 2122
+  evaluation_digits: 24
+  evaluation_seconds: 55.65683758305386
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 3
+  analytic_value: '0.00321763688400255268203559'
+  absolute_error: 1.8133522172009698e-19
+  numerical_run_difference: 6.938893903907228e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 6034
+  GPL_evaluations:
+    new: 723
+    reused: 5311
+  evaluation_digits: 24
+  evaluation_seconds: 30.819402459077537
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 2
+  analytic_value: '0.00230963894183692861672180'
+  absolute_error: 2.8532981710802594e-19
+  numerical_run_difference: 6.938893903907228e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 5867
+  GPL_evaluations:
+    new: 198
+    reused: 5669
+  evaluation_digits: 24
+  evaluation_seconds: 10.145686999894679
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '-0.00209269347220227295860652'
+  absolute_error: 5.46819129778505e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 174
+  evaluation_digits: 24
+  evaluation_seconds: 2.6798605411313474
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  analytic_value: '-0.00435580993883352046578833'
+  absolute_error: 4.2462272995341824e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 2057
+  evaluation_digits: 24
+  evaluation_seconds: 0.7045405001845211
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 2
+  analytic_value: '0.00325831118421694439239869'
+  absolute_error: 1.0392928568193813e-19
+  numerical_run_difference: 6.938893903907228e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 6217
+  GPL_evaluations:
+    new: 6
+    reused: 6211
+  evaluation_digits: 24
+  evaluation_seconds: 0.9568775410298258
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 2
+  analytic_value: '0.0108079632503000274659436'
+  absolute_error: 5.859836962852866e-20
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 490
+  evaluation_digits: 24
+  evaluation_seconds: 7.818688875064254
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 3
+  analytic_value: '-0.00848649504470756513001353'
+  absolute_error: 7.939890728208454e-19
+  numerical_run_difference: 8.673617379884035e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 1201
+  evaluation_digits: 24
+  evaluation_seconds: 22.906786584062502
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 1
+  - 4
+  analytic_value: '0.0664106058958373009028401'
+  absolute_error: 3.765720687644176e-18
+  numerical_run_difference: 2.220446049250313e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 2599
+  GPL_evaluations:
+    new: 2365
+    reused: 234
+  evaluation_digits: 24
+  evaluation_seconds: 62.403236834099516
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 2
+  - 2
+  analytic_value: '-0.00652414705873663511031767'
+  absolute_error: 3.42729080194321e-19
+  numerical_run_difference: 8.673617379884035e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 1174
+  evaluation_digits: 24
+  evaluation_seconds: 1.6006743339821696
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 2
+  - 3
+  analytic_value: '0.0578187736065023396321637'
+  absolute_error: 5.631460938951739e-18
+  numerical_run_difference: 2.1510571102112408e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 2847
+  GPL_evaluations:
+    new: 397
+    reused: 2450
+  evaluation_digits: 24
+  evaluation_seconds: 12.581676458008587
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  analytic_value: '0.00424504144990432475268140'
+  absolute_error: 2.7481052248409787e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 25
+  evaluation_digits: 24
+  evaluation_seconds: 0.2904876251704991
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  - 1
+  analytic_value: '0.00902738083900196940685196'
+  absolute_error: 7.018184358117484e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 470
+  evaluation_digits: 24
+  evaluation_seconds: 0.06154620903544128
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  analytic_value: '0.00330671086416870907213859'
+  absolute_error: 2.0676550832604034e-19
+  numerical_run_difference: 6.938893903907228e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 6003
+  GPL_evaluations:
+    new: 0
+    reused: 6003
+  evaluation_digits: 24
+  evaluation_seconds: 0.7297839999664575
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  - 2
+  analytic_value: '-0.00797414215703415752474087'
+  absolute_error: 7.572176731121183e-19
+  numerical_run_difference: 8.673617379884035e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 1246
+  evaluation_digits: 24
+  evaluation_seconds: 0.20173850003629923
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 1
+  - 3
+  analytic_value: '0.0502077428256688943450754'
+  absolute_error: 6.6093968078802955e-18
+  numerical_run_difference: 2.0816681711721685e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 2933
+  GPL_evaluations:
+    new: 8
+    reused: 2925
+  evaluation_digits: 24
+  evaluation_seconds: 0.7693986669182777
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 2
+  analytic_value: '-0.0223361582495369211589485'
+  absolute_error: 4.6429286537318305e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 60
+  evaluation_digits: 24
+  evaluation_seconds: 0.662066041957587
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 2
+  - 2
+  analytic_value: '0.0463751111129507619113092'
+  absolute_error: 1.5254372038003614e-18
+  numerical_run_difference: 2.1510571102112408e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 2970
+  GPL_evaluations:
+    new: 0
+    reused: 2970
+  evaluation_digits: 24
+  evaluation_seconds: 0.4742133328691125
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 3
+  analytic_value: '0.0229505202526088916961120'
+  absolute_error: 9.983133793082696e-19
+  numerical_run_difference: 1.3877787807814457e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 123
+  evaluation_digits: 24
+  evaluation_seconds: 1.3846838751342148
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 4
+  analytic_value: '-0.123802220256956309363897'
+  absolute_error: 1.4217217443067682e-18
+  numerical_run_difference: 3.0531133177191805e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 226
+  evaluation_digits: 24
+  evaluation_seconds: 2.6969163750763983
+  status: passed
+- pattern:
+  - 0
+  - 1
+  - 5
+  analytic_value: '0.223159566080146539165307'
+  absolute_error: 1.3156483715804105e-16
+  numerical_run_difference: 6.855627177060342e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 383
+  GPL_evaluations:
+    new: 358
+    reused: 25
+  evaluation_digits: 24
+  evaluation_seconds: 4.952958999900147
+  status: passed
+- pattern:
+  - 0
+  - 2
+  - 2
+  analytic_value: '0.0190013950455765990432212'
+  absolute_error: 2.0756411768402726e-19
+  numerical_run_difference: 1.3877787807814457e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 121
+  evaluation_digits: 24
+  evaluation_seconds: 0.17110245791263878
+  status: passed
+- pattern:
+  - 0
+  - 2
+  - 3
+  analytic_value: '-0.109606481201816750083724'
+  absolute_error: 6.125681761111413e-19
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 254
+  evaluation_digits: 24
+  evaluation_seconds: 0.8355275839567184
+  status: passed
+- pattern:
+  - 0
+  - 2
+  - 4
+  analytic_value: '0.200980867149521044514602'
+  absolute_error: 1.0843325325311276e-16
+  numerical_run_difference: 6.855627177060342e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 497
+  GPL_evaluations:
+    new: 126
+    reused: 371
+  evaluation_digits: 24
+  evaluation_seconds: 2.5220892908982933
+  status: passed
+- pattern:
+  - 0
+  - 3
+  - 3
+  analytic_value: '0.199365264032464675236703'
+  absolute_error: 1.1987085450573364e-16
+  numerical_run_difference: 6.827871601444713e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 457
+  GPL_evaluations:
+    new: 20
+    reused: 437
+  evaluation_digits: 24
+  evaluation_seconds: 0.5957386249210685
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 1
+  analytic_value: '-0.0178947141228346867214349'
+  absolute_error: 7.8936182447422375e-19
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 56
+  evaluation_digits: 24
+  evaluation_seconds: 0.018967458978295326
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 1
+  - 1
+  analytic_value: '-0.00776892211140301344770985'
+  absolute_error: 2.5643522135632164e-19
+  numerical_run_difference: 8.673617379884035e-18
+  comparison_bound: 5.0e-12
+  GPL_constants: 1159
+  evaluation_digits: 24
+  evaluation_seconds: 0.19633100018836558
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 1
+  - 2
+  analytic_value: '0.0405790446079121598602086'
+  absolute_error: 6.804278731353153e-18
+  numerical_run_difference: 2.0816681711721685e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 2910
+  GPL_evaluations:
+    new: 0
+    reused: 2910
+  evaluation_digits: 24
+  evaluation_seconds: 0.4640107499435544
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 2
+  analytic_value: '0.0210163819171437351208362'
+  absolute_error: 1.4809578734187495e-18
+  numerical_run_difference: 1.0408340855860843e-17
+  comparison_bound: 5.0e-12
+  GPL_constants: 127
+  evaluation_digits: 24
+  evaluation_seconds: 0.038080957951024175
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 3
+  analytic_value: '-0.0960752828523695459144606'
+  absolute_error: 1.9890321419940513e-18
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 250
+  evaluation_digits: 24
+  evaluation_seconds: 0.10868783295154572
+  status: passed
+- pattern:
+  - 1
+  - 1
+  - 4
+  analytic_value: '0.201293022917684206251601'
+  absolute_error: 1.270544974527164e-16
+  numerical_run_difference: 6.800116025829084e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 451
+  GPL_evaluations:
+    new: 0
+    reused: 451
+  evaluation_digits: 24
+  evaluation_seconds: 0.19450783403590322
+  status: passed
+- pattern:
+  - 1
+  - 2
+  - 2
+  analytic_value: '-0.0898911258855815284027241'
+  absolute_error: 1.347522622309693e-18
+  numerical_run_difference: 2.914335439641036e-16
+  comparison_bound: 5.0e-12
+  GPL_constants: 248
+  evaluation_digits: 24
+  evaluation_seconds: 0.10760345798917115
+  status: passed
+- pattern:
+  - 1
+  - 2
+  - 3
+  analytic_value: '0.189550213054438268869355'
+  absolute_error: 1.2454251627324417e-16
+  numerical_run_difference: 6.772360450213455e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 511
+  GPL_evaluations:
+    new: 0
+    reused: 511
+  evaluation_digits: 24
+  evaluation_seconds: 0.1992514580488205
+  status: passed
+- pattern:
+  - 2
+  - 2
+  - 2
+  analytic_value: '0.181464379566298569971428'
+  absolute_error: 1.1362782887707606e-16
+  numerical_run_difference: 6.772360450213455e-15
+  comparison_bound: 5.0e-12
+  GPL_constants: 441
+  GPL_evaluations:
+    new: 0
+    reused: 441
+  evaluation_digits: 24
+  evaluation_seconds: 0.19238591706380248
+  status: passed
+family_reports:
+- rank: 3
+  degree: 2
+  generation_seconds: 0.3976431251503527
+  evaluation_seconds: 0.2935479171574116
+- rank: 3
+  degree: 3
+  generation_seconds: 2.0640265829861164
+  evaluation_seconds: 0.683877375908196
+- rank: 3
+  degree: 4
+  generation_seconds: 7.496602332917973
+  evaluation_seconds: 1.60111454105936
+- rank: 3
+  degree: 5
+  generation_seconds: 21.588492084061727
+  evaluation_seconds: 3.758884333074093
+- rank: 3
+  degree: 6
+  generation_seconds: 78.28365866700187
+  evaluation_seconds: 8.67120720888488
+- rank: 4
+  degree: 2
+  generation_seconds: 1.413703584112227
+  evaluation_seconds: 2.683516916120425
+- rank: 4
+  degree: 3
+  generation_seconds: 12.007928374921903
+  evaluation_seconds: 7.883609125157818
+- rank: 4
+  degree: 4
+  generation_seconds: 81.28636279213242
+  evaluation_seconds: 24.91407762723975
+- rank: 4
+  degree: 5
+  generation_seconds: 283.91387249995023
+  evaluation_seconds: 76.70518495887518
+- rank: 5
+  degree: 2
+  generation_seconds: 7.06029445794411
+  evaluation_seconds: 12.596633500186726
+- rank: 5
+  degree: 3
+  generation_seconds: 79.82821958418936
+  evaluation_seconds: 56.36986408312805
+- rank: 5
+  degree: 4
+  generation_seconds: 761.0599242909811
+  evaluation_seconds: 42.66438937513158
+- rank: 6
+  degree: 2
+  generation_seconds: 49.602599000092596
+  evaluation_seconds: 98.20361137599684
+- rank: 6
+  degree: 3
+  generation_seconds: 588.9938152499963
+  evaluation_seconds: 333.920110541163
+- rank: 7
+  degree: 2
+  generation_seconds: 390.0035976669751
+  evaluation_seconds: 287.45683141588233
+fast_generation_seconds: 1.0223308329004794
+this_run_seconds: 1615.6426100840326
+cumulative_family_seconds: 3323.407200588379
+numerical_backend:
+  backend: normalized mode equations
+  order: 10
+  moment_tolerance: 1.0e-10
+  maximum_absolute_run_difference: 1.907807245515869e-10
+  moments: 138
+  accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+    depth varied'
+  runs:
+  - upper: 150.0
+    lower: 1.0e-11
+    step: 0.125
+    stages: 8
+    digits: 40
+  - upper: 187.5
+    lower: 1.0e-12
+    step: 0.0625
+    stages: 8
+    digits: 40
+  integration_precision_digits: 40
+environment:
+  python: 3.13.3
+  sympy: 1.14.0
+  mpmath: 1.3.0

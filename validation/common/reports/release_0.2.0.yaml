@@ -1,0 +1,613 @@
+status: passed
+python: 3.13.3
+dependencies:
+  sympy: 1.14.0
+  numpy: 2.2.5
+  scipy: 1.15.2
+  mpmath: 1.3.0
+suites:
+  symbolic:
+    mode_moments:
+    - rank: 1
+      constant_Hankel_residual: '0'
+    - rank: 2
+      constant_Hankel_residual: '0'
+    - rank: 3
+      constant_Hankel_residual: '0'
+    - log_power: 0
+      single_insertion_Gamma_residual: '0'
+    - log_power: 1
+      single_insertion_Gamma_residual: '0'
+    - log_power: 2
+      single_insertion_Gamma_residual: '0'
+    - mixed_Hankel_susceptibility_residual: '0'
+    amplitudes:
+    - field: tensor
+      published_NNLO_amplitude_residual: '0'
+    - field: scalar
+      published_NNLO_amplitude_residual: '0'
+    - field: scalar
+      N3LO_reference_log_amplitude_residual: '0'
+    - field: tensor
+      N3LO_reference_log_amplitude_residual: '0'
+    hierarchies:
+    - n: 0
+      p: 0
+      W: 1
+      independent_flow_Lagrange_residual: '0'
+    - n: 0
+      p: 1
+      W: 2
+      independent_flow_Lagrange_residual: '0'
+    - n: 0
+      p: 2
+      W: 3
+      independent_flow_Lagrange_residual: '0'
+    - n: 0
+      p: 3
+      W: 4
+      independent_flow_Lagrange_residual: '0'
+    - n: 1
+      p: 0
+      W: 2
+      independent_flow_Lagrange_residual: '0'
+    - n: 1
+      p: 1
+      W: 3
+      independent_flow_Lagrange_residual: '0'
+    - n: 1
+      p: 2
+      W: 4
+      independent_flow_Lagrange_residual: '0'
+    - n: 1
+      p: 3
+      W: 5
+      independent_flow_Lagrange_residual: '0'
+    - n: 2
+      p: 0
+      W: 3
+      independent_flow_Lagrange_residual: '0'
+    - n: 2
+      p: 1
+      W: 4
+      independent_flow_Lagrange_residual: '0'
+    - n: 2
+      p: 2
+      W: 5
+      independent_flow_Lagrange_residual: '0'
+    - n: 2
+      p: 3
+      W: 6
+      independent_flow_Lagrange_residual: '0'
+    - n: 3
+      p: 0
+      W: 4
+      independent_flow_Lagrange_residual: '0'
+    - n: 3
+      p: 1
+      W: 5
+      independent_flow_Lagrange_residual: '0'
+    - n: 3
+      p: 2
+      W: 6
+      independent_flow_Lagrange_residual: '0'
+    - n: 3
+      p: 3
+      W: 7
+      independent_flow_Lagrange_residual: '0'
+    - n: 8
+      p: 0
+      W: 9
+      independent_flow_Lagrange_residual: '0'
+    - n: 5
+      p: 1
+      W: 7
+      independent_flow_Lagrange_residual: '0'
+    weighted_inverse:
+      weighted_linear_shifts_and_nonlinear_terms: passed
+      composition_residuals:
+      - '0'
+      - '0'
+      - '0'
+      independent_inverse_residuals:
+      - '0'
+      - '0'
+      - '0'
+    physical_limits:
+      constant_background_and_zero_r:
+      - n: 0
+        p: 0
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 1
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 2
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 3
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 0
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 1
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 2
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 3
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 0
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 1
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 2
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 3
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 0
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 1
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 2
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 3
+        constant_epsilon_residual: '0'
+        formal_zero_r_residual: '0'
+      flow_dictionary_commutation_residuals:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+  transport:
+    ode_vs_integral_max_relative_error: 2.7766677845875165e-13
+    finite_difference_consistency_max_relative_error: 2.726179282319663e-10
+    transported_anchor_max_relative_error: 2.220446049250313e-16
+    range_ln_k:
+    - -8
+    - 8
+    unordered_queries: passed
+  modes:
+    constant_background:
+    - p: 0
+      relative_errors:
+      - 0.019423845158998174
+      - 0.010289876030988184
+      - 0.005279319181309548
+      observed_remainder_orders:
+      - 0.9166032247993406
+      - 0.9628018038546128
+    - p: 1
+      relative_errors:
+      - 0.002625301361679273
+      - 0.0006359177939982962
+      - 0.0001564843630391791
+      observed_remainder_orders:
+      - 2.0455708576549148
+      - 2.022821777660611
+    - p: 2
+      relative_errors:
+      - 0.00011300282453111754
+      - 1.347066621594311e-05
+      - 1.644341455063783e-06
+      observed_remainder_orders:
+      - 3.068465724832973
+      - 3.034239386133796
+    - p: 3
+      relative_errors:
+      - 8.236485019762765e-06
+      - 4.922111969908821e-07
+      - 3.008044752828813e-08
+      observed_remainder_orders:
+      - 4.064679405872573
+      - 4.032379540804394
+    independent_featured_modes:
+      amplitudes:
+      - lambda: 1.0
+        field: scalar
+        mode_amplitude: 1.0548118320984976
+        initial_time_relative_difference: 7.2588601796041985e-12
+        freeze_out_relative_difference: 7.309153282619718e-11
+        slow_roll_errors:
+          '0': 0.05196361135753669
+          '1': 0.005356483443417437
+          '2': 0.0007446548389727914
+          '3': 8.490880344436125e-05
+      - lambda: 1.0
+        field: tensor
+        mode_amplitude: 0.9894656484659333
+        initial_time_relative_difference: 8.11906097908377e-12
+        freeze_out_relative_difference: 7.150369185637828e-11
+        slow_roll_errors:
+          '0': 0.010646505566311637
+          '1': 0.00028314503371262845
+          '2': 7.68996634794572e-05
+          '3': 5.763516237711208e-06
+      - lambda: 0.5
+        field: scalar
+        mode_amplitude: 1.0258894597620773
+        initial_time_relative_difference: 8.678391338889924e-12
+        freeze_out_relative_difference: 4.639999495736902e-11
+        slow_roll_errors:
+          '0': 0.02523611049486907
+          '1': 0.0012755611802562905
+          '2': 9.009930293435442e-05
+          '3': 5.306063536769656e-06
+      - lambda: 0.5
+        field: tensor
+        mode_amplitude: 0.9946529358549456
+        initial_time_relative_difference: 8.659739592076221e-12
+        freeze_out_relative_difference: 4.9631410092843e-11
+        slow_roll_errors:
+          '0': 0.00537580894028955
+          '1': 6.051634897508151e-05
+          '2': 9.223907751376714e-06
+          '3': 3.782627626680579e-07
+      - lambda: 0.25
+        field: scalar
+        mode_amplitude: 1.0126056849306064
+        initial_time_relative_difference: 8.83138007168327e-12
+        freeze_out_relative_difference: 4.498867944846552e-11
+        slow_roll_errors:
+          '0': 0.012448759786955255
+          '1': 0.0003113229950340024
+          '2': 1.1069682468001218e-05
+          '3': 3.3148350131462223e-07
+      - lambda: 0.25
+        field: tensor
+        mode_amplitude: 0.9973102499687864
+        initial_time_relative_difference: 8.705036691480927e-12
+        freeze_out_relative_difference: 4.2544856526660624e-11
+        slow_roll_errors:
+          '0': 0.002697004298610084
+          '1': 1.3915853568691183e-05
+          '2': 1.1269101952704474e-06
+          '3': 2.4150703326064615e-08
+      remainder_scaling:
+      - field: scalar
+        p: 0
+        observed_remainder_orders:
+        - 1.0420121257503292
+        - 1.0194875523363458
+      - field: scalar
+        p: 1
+        observed_remainder_orders:
+        - 2.0701540781994767
+        - 2.0346480505286486
+      - field: scalar
+        p: 2
+        observed_remainder_orders:
+        - 3.0469840155972197
+        - 3.0249021052275236
+      - field: scalar
+        p: 3
+        observed_remainder_orders:
+        - 4.000200285700341
+        - 4.000632980000246
+      - field: tensor
+        p: 0
+        observed_remainder_orders:
+        - 0.9858262118497213
+        - 0.9951240437079408
+      - field: tensor
+        p: 1
+        observed_remainder_orders:
+        - 2.2261443698195573
+        - 2.1205955474226936
+      - field: tensor
+        p: 2
+        observed_remainder_orders:
+        - 3.0595272950935204
+        - 3.0330055345033387
+      - field: tensor
+        p: 3
+        observed_remainder_orders:
+        - 3.929488582376292
+        - 3.969251650603377
+      model: epsilon1=lambda*0.02*exp[(0.10/0.08)(tanh(0.08*lambda*N+0.45)-tanh(0.45))]
+      canonical_reconstruction: dphi/dN=Mpl*sqrt(2*epsilon1); V=Mpl^2*H^2*(3-epsilon1)
+      initial_x_values:
+      - 600
+      - 1200
+      late_N_values:
+      - 12
+      - 14
+  jost:
+    determinant_vs_independent_odes:
+    - amplitude: 0.04
+      nodes_per_interval: 24
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.0093921348818933
+      - 0.0017460488884039308
+      relative_error: 3.4204774835019474e-08
+    - amplitude: 0.04
+      nodes_per_interval: 48
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.0093921593388455
+      - 0.0017460568818163534
+      relative_error: 8.714143367232993e-09
+    - amplitude: 0.04
+      nodes_per_interval: 96
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.009392165588904
+      - 0.001746058922017259
+      relative_error: 2.200706802718857e-09
+    - amplitude: -0.03
+      nodes_per_interval: 24
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957744820065
+      - -0.0012957451301508756
+      relative_error: 1.9331925546575637e-08
+    - amplitude: -0.03
+      nodes_per_interval: 48
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957880838707
+      - -0.0012957406978371818
+      relative_error: 4.9252235716167585e-09
+    - amplitude: -0.03
+      nodes_per_interval: 96
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957915598334
+      - -0.0012957395665804518
+      relative_error: 1.2440278493614584e-09
+  generic:
+    generic_moments:
+      order: 7
+      analytic_oracle_moments: 24
+      maximum_absolute_oracle_error: 6.2450045135165055e-12
+      oracle_errors:
+        (0,): 3.3306690738754696e-16
+        (1,): 1.942890293094024e-16
+        (2,): 1.304512053934559e-15
+        (3,): 1.0316747456329267e-13
+        (4,): 4.660855035254485e-13
+        (5,): 6.838973831690964e-14
+        (6,): 6.2450045135165055e-12
+        (0, 0): 1.249000902703301e-16
+        (0, 0, 0): 7.28583859910259e-17
+        (0, 0, 0, 0): 1.734723475976807e-17
+        (0, 0, 0, 0, 0): 1.0842021724855044e-17
+        (0, 0, 0, 0, 0, 0): 4.336808689942018e-19
+        (0, 0, 0, 0, 0, 0, 0): 1.5720931501039814e-18
+        (0, 1): 9.853229343548264e-16
+        (0, 2): 1.1875916916537221e-14
+        (0, 3): 3.774758283725532e-15
+        (0, 4): 3.6318170693050433e-14
+        (0, 5): 1.7286172493413687e-13
+        (1, 1): 5.603156827405087e-15
+        (1, 2): 6.591949208711867e-15
+        (1, 3): 9.486855745421963e-14
+        (1, 4): 4.1139314177485176e-13
+        (2, 2): 2.538247390049264e-14
+        (2, 3): 1.0935696792557792e-13
+      generator:
+        backend: normalized mode equations
+        order: 7
+        moment_tolerance: 1.0e-10
+        maximum_absolute_run_difference: 2.353894856810257e-12
+        moments: 44
+        accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and
+          asymptotic depth varied'
+        runs:
+        - upper: 180.0
+          lower: 1.0e-10
+          tolerance: 3.0e-14
+          asymptotic_terms: 16
+        - upper: 270.0
+          lower: 1.0e-11
+          tolerance: 3.0e-14
+          asymptotic_terms: 18
+        integration_precision_digits: 16
+    arbitrary_precision:
+      order: 4
+      precision_digits: 40
+      maximum_absolute_oracle_error: 3.586575481051568e-13
+    power_law_amplitudes:
+    - p: 0
+      highest_power_coefficient_difference: 0.0
+      relative_errors:
+      - 0.027231155340679297
+      - 0.015011679815637717
+      observed_remainder_order: 0.8591727687388102
+    - p: 1
+      highest_power_coefficient_difference: 0.0
+      relative_errors:
+      - 0.006095861231871233
+      - 0.001453606940257721
+      observed_remainder_order: 2.068192848375241
+    - p: 2
+      highest_power_coefficient_difference: 0.0
+      relative_errors:
+      - 0.0003998982449901503
+      - 4.655534105742911e-05
+      observed_remainder_order: 3.102614354237276
+    - p: 3
+      highest_power_coefficient_difference: 0.0
+      relative_errors:
+      - 4.360388946039818e-05
+      - 2.548336105955275e-06
+      observed_remainder_order: 4.096829353274351
+    - p: 4
+      highest_power_coefficient_difference: 3.1086244689504383e-15
+      relative_errors:
+      - 4.447200642855228e-06
+      - 1.3015494207624037e-07
+      observed_remainder_order: 5.09459549768731
+    - p: 5
+      highest_power_coefficient_difference: 4.440892098500626e-15
+      relative_errors:
+      - 4.416126195032349e-07
+      - 6.469336872698376e-09
+      observed_remainder_order: 6.093019749837445
+    - p: 6
+      highest_power_coefficient_difference: 9.237055564881302e-14
+      relative_errors:
+      - 4.3017885084515824e-08
+      - 3.1538011652546627e-10
+      observed_remainder_order: 7.091701081396867
+    - p: 7
+      highest_power_coefficient_difference: 1.7763568394002505e-15
+      relative_errors:
+      - 4.122296132920306e-09
+      - 1.5123048694797012e-11
+      observed_remainder_order: 8.090555331563692
+    observable_relations:
+    - n: 0
+      p: 4
+      W: 5
+      absolute_errors:
+      - 4.658082947139874e-12
+      - 8.259018469125579e-14
+      observed_remainder_order: 5.817622182959496
+    - n: 1
+      p: 4
+      W: 6
+      absolute_errors:
+      - 4.689707326349523e-13
+      - 3.3689766767251765e-15
+      observed_remainder_order: 7.121043639325124
+    - n: 2
+      p: 4
+      W: 7
+      absolute_errors:
+      - 3.7195536696194656e-14
+      - 1.4067886300378726e-16
+      observed_remainder_order: 8.046580124360366
+    - n: 0
+      p: 5
+      W: 6
+      absolute_errors:
+      - 4.046589452411098e-13
+      - 2.8709673527416157e-15
+      observed_remainder_order: 7.139025752270931
+    symbolic_inverse:
+    - n: 0
+      p: 4
+      W: 5
+      symbolic_substitution_residual: '0'
+    - n: 1
+      p: 4
+      W: 6
+      symbolic_substitution_residual: '0'
+    - n: 2
+      p: 4
+      W: 7
+      symbolic_substitution_residual: '0'
+    - n: 0
+      p: 5
+      W: 6
+      symbolic_substitution_residual: '0'
+    independent_featured_modes:
+      runs:
+      - lambda: 1.0
+        independent_mode_amplitudes:
+          scalar: 1.0548118320984976
+          tensor: 0.9894656484659333
+        freeze_errors:
+          scalar: 7.309153282619718e-11
+          tensor: 7.150369185637828e-11
+        errors:
+          scalar3: 8.490880344436125e-05
+          tensor3: 5.763516237711208e-06
+          scalar4: 4.517386036462234e-06
+          tensor4: 6.089997113267742e-07
+          scalar5: 2.5332987885207103e-07
+          tensor5: 8.373655258075985e-08
+      - lambda: 0.5
+        independent_mode_amplitudes:
+          scalar: 1.0258894597620773
+          tensor: 0.9946529358549456
+        freeze_errors:
+          scalar: 4.639999495736902e-11
+          tensor: 4.9631410092843e-11
+        errors:
+          scalar3: 5.306063536769656e-06
+          tensor3: 3.782627626680579e-07
+          scalar4: 1.3994783865101112e-07
+          tensor4: 1.794237314278746e-08
+          scalar5: 2.939385845834863e-09
+          tensor5: 1.6135037750331094e-09
+      remainder_scaling:
+      - field: scalar
+        p: 4
+        observed_remainder_order: 5.012527094313183
+      - field: scalar
+        p: 5
+        observed_remainder_order: 6.429358684334124
+      - field: tensor
+        p: 4
+        observed_remainder_order: 5.084998918644968
+      - field: tensor
+        p: 5
+        observed_remainder_order: 5.697588665456051
+    seconds: 46.65692516695708
+source_sha256:
+  source/sri/__init__.py: 17fafe14113a334d6428f36789a097e4c415f7ac735bc72d6985daa8797688eb
+  source/sri/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/sri/background.py: 24569b6578212f88f9e47877ed1b22d13e4a2689f8c9ae8e7d8bb8e37c76a115
+  source/sri/cli.py: c2807209187d48a6fd099fe2b8753ff6718c9f565c457c6614b608400f7ee3db
+  source/sri/consistency.py: 91c0d4e27f83f5d0acb270d7a55aff4cfa3a64bcbafd8ca1d18224c2f1337fb5
+  source/sri/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/sri/inversion.py: bc50e523c208660fca1d44cd640de564e4046d434ba9c53d233f333fa8e35025
+  source/sri/mode_coefficients.py: f3d35cbbb835938fe476f5efca1b52f9b60dcefd30680df77b6cdad0962c56e6
+  source/sri/orders.py: 6b62ece7241aedd255042b0616cbdc0a53ed03fa227454a0808cf7347e598d7e
+  source/sri/results.py: 71920c26c10bce697c444372450fcaac51e491045d7628cd4c2c04de4e702e03
+  source/sri/series.py: a524f2aa42a05a78ba8d828976a37d25900eb313c901e45f1d1d550c57b2a5ea
+  source/sri/spectra.py: 3778213c7deb30b3f260a7336f3fdac21db11a765c9e8b9adb4ab5f3742f9caa
+  validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+  validation/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+  validation/numerical/generic_order.py: cd71c47203a06e04c567d86f1f5b2fa7f1cfb66fd33954d06c2b5c5c938e357e
+  validation/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+  validation/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+  validation/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+  validation/run.py: e9cf568584f268935629b0ac84d6023e68e5c2e5abb5da8fc968920d02e2d3f0
+  validation/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+  validation/symbolic/checks.py: bb016e3eb3598f03a5d7ad0ba65ffd0efbd9205f496b927af1f9dd8c3aad56da
+  validation/symbolic/reference.py: 31147dceb45d61bc2891cf054d9d10049dfe58abf189f9a3df9c55aa62569edf
+  validation/fixtures/n3lo_reference.json: 36365309065b05bac2c9c5042e4bf66093372307b7139e1202c30b4a05e61601
+seconds: 61.348255374934524

@@ -1,0 +1,44 @@
+status: passed
+version: 0.3.3
+unit_tests:
+  passed: 112
+  seconds: 11.09
+interface:
+  spectra: SRI -p P [--simplify]
+  consistency: SRI -n N -p P [--simplify]
+  removed_flags:
+  - -spectra
+  - --spectra
+compatibility:
+  outputs_checked: 36
+  formats:
+  - text
+  - latex
+  - json
+  simplify:
+  - false
+  - true
+  comparison: byte-for-byte identical outputs after removing the spectra flag; consistency
+    commands unchanged
+production_engine_changed: false
+source_sha256:
+  source/sri/__init__.py: 38e3e2ac26d17d792c0f7cc06e44ca3a3ed28ef08430127d4055dad881c3e249
+  source/sri/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/sri/background.py: 24569b6578212f88f9e47877ed1b22d13e4a2689f8c9ae8e7d8bb8e37c76a115
+  source/sri/cli.py: 2c9a4367a8eb8ebfb35fb0ce431c4e5bb35ecf77ba6fa28b6675718cb2d3a919
+  source/sri/consistency.py: dae7b96aab5bb6fa7979607886a25271a81ae14311a4be44c773585df5ec3e27
+  source/sri/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/sri/inversion.py: bc50e523c208660fca1d44cd640de564e4046d434ba9c53d233f333fa8e35025
+  source/sri/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/sri/orders.py: 6b62ece7241aedd255042b0616cbdc0a53ed03fa227454a0808cf7347e598d7e
+  source/sri/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/sri/results.py: 71920c26c10bce697c444372450fcaac51e491045d7628cd4c2c04de4e702e03
+  source/sri/series.py: 8fa2a012c5527f9431d3fe7e4d2a84ca30cb74237cdaee87cf4574b0efdc272a
+  source/sri/spectra.py: 80a8855a2cf2b29c740879ae603b890aba0e6a58607eca5f203eb3b6cb9afc2c
+  tests/test_generated_only.py: 3471b3ea83247f6fb052c9706325554f0eb25c5f481ae152cce0aff932f790a9
+  tests/test_generic.py: bee42df6f544118b3f4decb640d1be7c4e213f95331a74e96fdd87c229b833c2
+  tests/test_high_order_validation.py: a62f4218c8fb22611026f2b9800d098a0330e63d2e5d600646164b40af18161a
+  tests/test_orders_cli.py: 1f178e812e515069d434b2e3b325b93d4acabf0b1da26c1ac4794d9ada8beba0
+  tests/test_physics.py: ed02a8b1643282aafc2c8b7beaac46e5f9730d002e8ffdf43ba9004e056789e1
+  tests/test_presentation.py: cef93eabb89d739bdca5115cfa583e54c30b820a327cf044d805cd27eb23d221
+  tests/test_series.py: ba965dc03395c8314570e48bccfbb9f533ebb988e5cfc93a552b0cee4df6caad

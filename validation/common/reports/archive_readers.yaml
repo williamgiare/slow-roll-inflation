@@ -1,0 +1,122 @@
+status: passed
+equation_documents: 22
+public_models:
+- canonical
+- k-inflation
+coefficient_count: 138
+coefficients_regenerated: false
+spectra_regenerated: false
+preserved_equation_artifacts:
+  results/canonical_SRI/N06LO/N06LO.pdf: 6da7de920b54d8bde3178166e85fdb874c00f7bc6c2a35aea10bc02295aa3b17
+  results/canonical_SRI/N06LO/N06LO.tex: a76b41c92247e82b7c377b565dda6bc7c13fd01a4ddd24d4c37008fc8aa990a9
+  results/canonical_SRI/N08LO/N08LO.tex: b3c36c15976c1af9eb965e3b5daff8fb44dbc87770aad271de1b5e8e2e2e7bb1
+  results/canonical_SRI/N08LO/N08LO.pdf: 5c9436546f81c9e5b2236bd1061e49b4a20c208ed313be9ce289830e1624bf92
+  results/canonical_SRI/N02LO/N02LO.pdf: d9015b4879e1c7b065c35184cfef29152ed1c068a60522206549e1539352d787
+  results/canonical_SRI/N02LO/N02LO.tex: 0fbf7acf5b6521148c5529b5ecb62d63137af4d6f2b387e6d4f7680eb0b85f39
+  results/canonical_SRI/N05LO/N05LO.tex: 21103b1a29b5424a3f9aa5bd071116a10dc615ced5bca34cae24ce659ecf5fd4
+  results/canonical_SRI/N05LO/N05LO.pdf: 4262f17458e7bef3612bb1d62394968b41aee05db0c280e482b45d65604f9f23
+  results/canonical_SRI/N01LO/N01LO.tex: 4e140980eb166b810df2284ba3569e8d255dec43716a45bf744c9fbf83d10915
+  results/canonical_SRI/N01LO/N01LO.pdf: ea42f103eded50eb4ad705576a31c78b0a876b4bf8da731df41cd4b54884809e
+  results/canonical_SRI/N04LO/N04LO.pdf: 64113400c385896af6795fe71e18dad4d6af803e5d1aed5a5a27de09ae318579
+  results/canonical_SRI/N04LO/N04LO.tex: b4d9d87706bb665c33e638bb56ff8c6b365dee06486be403db9644a36125be49
+  results/canonical_SRI/N10LO/N10LO.pdf: 142ea626cac05645c6f8647e66e6ad04f106743fcaf8b9c8b848c90ed4414ef7
+  results/canonical_SRI/N10LO/N10LO.tex: a0470ddd246f14bda1f884a909b4abdda53733bebfdbdd31f7187099df634c73
+  results/canonical_SRI/N07LO/N07LO.tex: 95b5a56981205b7db50f53f1a26a9eed61ff3577ff2bb97660f593e94a01769f
+  results/canonical_SRI/N07LO/N07LO.pdf: 3320460ac179f52924ae6d73caa59700c68af303e9e44cc07c8c84185cb708bb
+  results/canonical_SRI/N03LO/N03LO.tex: 2b01ad66534b61b3ef850e15ef1f173f883cbb4432bc4e2147a51c9b30ca3186
+  results/canonical_SRI/N03LO/N03LO.pdf: e295d097f2f084fb8fd740d6c87bcd3ea4a6cd70f48bf46b2cfcac6294b5eb7d
+  results/canonical_SRI/LO/LO.tex: 5b1df768a2e5c504d458f7dd9e9449aef70d92bb944b6e558fb8f18a9ab1cc61
+  results/canonical_SRI/LO/LO.pdf: 4937d6890d3e1f1b3c69f180fb60485a7e890cf632bae814adfe40b382d8767b
+  results/canonical_SRI/N09LO/N09LO.pdf: f5c0dd8db747901fd6c40b850cfe41d0f4cd08041c1da6064088cdcfa7ea6163
+  results/canonical_SRI/N09LO/N09LO.tex: e455f1d0cd3d14f2aa18bbc642b7f5c07c471d75c103c8f34020e01fbe28a0f0
+  results/kinflation_SRI/N06LO/N06LO.pdf: 260b498f7a006abea504feb05ec45009d9d8364d720449f048be086eb5fab232
+  results/kinflation_SRI/N06LO/N06LO.tex: 0feab9c2fef72b5e599a63621acd55ec9f892b9a236795b97dbf05220d01f2a4
+  results/kinflation_SRI/N08LO/N08LO.tex: c22bf9a3c4a2e4dec6f165ebe0e759dee4b9f97c68c1cd438f2f0a07d1833370
+  results/kinflation_SRI/N08LO/N08LO.pdf: a16ddb2fad817bc42cea859c20dee192b1152b0c702a15807c962f0e49798d88
+  results/kinflation_SRI/N02LO/N02LO.pdf: 37ad413ae3a17811ae24c3dcf7ce7de7500abb26afa9d82288a151ec0ed58957
+  results/kinflation_SRI/N02LO/N02LO.tex: 771983120fc15a573bc5a89a95b47dac1c5353d977081287ae570e6fd1d1f40c
+  results/kinflation_SRI/N05LO/N05LO.tex: ab754a091dbf3889b89b69d5ff14dac841854fbddb5eafdd70c3649c885bab1a
+  results/kinflation_SRI/N05LO/N05LO.pdf: 113885a9e44923bcd810562b85fef4fe20dbcb69d18391b51b406ea710cc88bd
+  results/kinflation_SRI/N01LO/N01LO.tex: 07489f878a2718481ad5020c3c485a74478d14c4759752c6f3bd755c3bdf0d01
+  results/kinflation_SRI/N01LO/N01LO.pdf: 0c4583560cc10a57607a49380d5552c886247bdf827e9078f311c6d3e96c66c2
+  results/kinflation_SRI/N04LO/N04LO.pdf: ddbcc833d824cd99dfb06d45d3f3a224a2095e2588913e9d5e06d8ef1f34ea78
+  results/kinflation_SRI/N04LO/N04LO.tex: b5772cfeff34f154ef7b433962d6ed5a69c1f23cb6080fd775585dac4133aab3
+  results/kinflation_SRI/N10LO/N10LO.pdf: 9c3df307af4e9678a34b678dd21c3572592a2f66cb75b5429aa547ba55aff6b4
+  results/kinflation_SRI/N10LO/N10LO.tex: 0b341750b5b3dd01df7955a21dcd110b223725547d4f6c77f5fcc95a91e90d76
+  results/kinflation_SRI/N07LO/N07LO.tex: 80c08d9fa3c3176cbfb9b6b66da742f4cb738087d4dac4eaf8c22271ccaf9f41
+  results/kinflation_SRI/N07LO/N07LO.pdf: 1a49944565266a885f959f4227ae01c3655a36e093bbace44b437be31ace5237
+  results/kinflation_SRI/N03LO/N03LO.tex: 6652fd3704204852f92ea910b8c2c6da6eaeb0aa98389542e6878c48e0711eea
+  results/kinflation_SRI/N03LO/N03LO.pdf: 59d209056739fc06e55d8683824865a5918d4e20bc90fa0ac46a371178a151fc
+  results/kinflation_SRI/LO/LO.tex: 926615462bd8a62d22c1feef8dd7da0635b9eee1933616262cb81f098757033a
+  results/kinflation_SRI/LO/LO.pdf: c1ee17feae0f8f50d3b91d79409fce03d744d62241bdf3cb50c50fe301267b27
+  results/kinflation_SRI/N09LO/N09LO.pdf: db571e482c62652df4c4f97ceb88a059ebb5b20d23ef77662a063e9714a14aee
+  results/kinflation_SRI/N09LO/N09LO.tex: 0de78779d15b2e698a9a0728e159dad067e7023fc2c3c84615395cad81565c13
+yaml_equation_archives:
+- path: results/canonical_SRI/LO/LO.yaml
+  sha256: 178c06b9b5ad496cc08c0cff8307fa59d004b1e0e256fd8d86c43ed81c90fd46
+- path: results/canonical_SRI/N01LO/N01LO.yaml
+  sha256: e5d3be9efb6f479923573a52245409df90bda049322dea589a9631901aec05a7
+- path: results/canonical_SRI/N02LO/N02LO.yaml
+  sha256: 0e7393948359bf6ca4471f898e51062d3cb9d1bdef72dad7f376079638874784
+- path: results/canonical_SRI/N03LO/N03LO.yaml
+  sha256: 6bb3a1874742f4b1bf14e2e540fa53f41b631d2fd5a9a8820415294ad61df1a1
+- path: results/canonical_SRI/N04LO/N04LO.yaml
+  sha256: c8858a9504f1783146150adebbd9953045cb7bab897cba70174626fd1ba59c12
+- path: results/canonical_SRI/N05LO/N05LO.yaml
+  sha256: 6e197ac767210c8faa47fdf8e4524626efc20c5cb17f7acadf9d26cc14325a5f
+- path: results/canonical_SRI/N06LO/N06LO.yaml
+  sha256: 08e5dfde5352fbb2a62d268d34fabf27a5658424c6e94b5295a05e21d5b64327
+- path: results/canonical_SRI/N07LO/N07LO.yaml
+  sha256: 416b9a85be02898a9e7884aa86941cafa6085aac9dbf3467aa3dd535bddb634a
+- path: results/canonical_SRI/N08LO/N08LO.yaml
+  sha256: 145003cfaa0261e522b0c13989234e732c6ae8698d0e77cf664b80d5d71405d8
+- path: results/canonical_SRI/N09LO/N09LO.yaml
+  sha256: a01389603b13cb7e61c63b2b9833f04ab26b220ee65d9adc57c4e0de5af64da5
+- path: results/canonical_SRI/N10LO/N10LO.yaml
+  sha256: 8eec9ffac3b9f910cddcd3aac7f41be557b069f64a431b62637eeffa11dbde0f
+- path: results/kinflation_SRI/LO/LO.yaml
+  sha256: cef78ac3ff891b7c26208419329c110dea2458d706e55769100e93c7e8738041
+- path: results/kinflation_SRI/N01LO/N01LO.yaml
+  sha256: f706fc1633fad0cdde50b47c12ba12b4acaf963681f1d56fedd42f6712f4f7f6
+- path: results/kinflation_SRI/N02LO/N02LO.yaml
+  sha256: 09e678dacc6ec375d3af6281afe60cf61319b5443c7446c1a9955f6c19260530
+- path: results/kinflation_SRI/N03LO/N03LO.yaml
+  sha256: 1760eba1cb370f48d8e7559e9c118cd827713a8484ad65512c05abd4887be901
+- path: results/kinflation_SRI/N04LO/N04LO.yaml
+  sha256: c503e08d9dc797fb166d5782d0627a0f0dfd5e488bbbb95eddc7ae4268bb8344
+- path: results/kinflation_SRI/N05LO/N05LO.yaml
+  sha256: 7190714171a443ce7172113eb64de1d8921a4c3d184d2e4ad5f36ff37b57b646
+- path: results/kinflation_SRI/N06LO/N06LO.yaml
+  sha256: 6ec050af24a50badc11a3389ba79d9316e2ecd26d02d05fb8c0ad20b19f75ad8
+- path: results/kinflation_SRI/N07LO/N07LO.yaml
+  sha256: a8ce858e032de63db717c5a9936f9365366eda6a66a98b7d939fbdb72440ae2f
+- path: results/kinflation_SRI/N08LO/N08LO.yaml
+  sha256: 7eba9fa45f5428c56ae869144948bd8c58b3b6835b5c1ba47bdb86c2f4c66c0b
+- path: results/kinflation_SRI/N09LO/N09LO.yaml
+  sha256: bae597fb6b6415d40f043101fb63c52f81cea677623b8f5f65603177022309ab
+- path: results/kinflation_SRI/N10LO/N10LO.yaml
+  sha256: 6603a56ad81bdb9986e4d9fb04356199a0eca55a01d3a72c401694166244298a
+verification:
+  command: python -m pytest -q tests validation/symbolic_coefficients/test_backend.py
+    --tb=short
+  tests_verified: 437
+  full_suite_unaffected_tests_passed: 415
+  updated_layout_cases: 22
+  layout_command: python -m pytest -q tests/test_latex_output.py --tb=short
+  layout_module_tests_passed: 37
+  archive_reader_and_export_tests: 34
+  notebook: results/universal_coefficients/universal_coefficients.ipynb
+  notebook_execution: passed
+  low_order_comparisons_with_calculation:
+  - 0
+  - 1
+  - 2
+  - 3
+  variable_sound_speed_to_canonical_limit:
+  - 6
+  - 10
+  pdf_and_latex_artifacts_preserved: 44
+  existing_universal_archive_preserved: true
+  documentation_links: passed
+  remaining_json_files: 0
+  example_notebook: notebooks/03_archived_results.ipynb

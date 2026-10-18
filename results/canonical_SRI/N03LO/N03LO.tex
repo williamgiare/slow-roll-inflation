@@ -1,0 +1,229 @@
+%========
+% WG Edit
+% SRI N03LO: generated spectra and consistency relations at relative order p=3.
+%========
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,geometry}
+\geometry{a4paper,margin=2cm}
+\allowdisplaybreaks[4]
+\setlength{\jot}{4pt}
+\begin{document}
+\begin{center}\Large SRI: N03LO\end{center}
+The spectra are evaluated at $-k_*\eta_*=1$, through relative amplitude
+order $p=3$. The Hubble-flow parameters are denoted by $\epsilon_j$
+and $M_{\rm Pl}$ is the reduced Planck mass. Coefficients are generated
+numerically from the normalized mode equations, using the iterative algebra.
+The convention for the spectral derivatives is
+\[
+\alpha_n^A=\frac{d^{n+1}\ln P_A}{d(\ln k)^{n+1}},\qquad
+\alpha_0^s=n_s-1,\qquad\alpha_0^t=n_t,\qquad r=P_t/P_s.
+\]
+\section{Spectra}
+
+\subsection{Scalar spectrum}
+\[P_s(k_*)=\frac{H_*^2}{8\pi^2M_{\rm Pl}^2\epsilon_{1*}}\left[\sum_{d=0}^{3}F_{s,d}+O(\mathrm{SR}^{4})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{s,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{s,1} &= 0.72963715453852 \epsilon_{2} - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{s,2} &= 1.5402686460338 \epsilon_{1}^{2} + 0.49988573877771 \epsilon_{2}^{2} \\
+&{}  + 1.0192767657904 \epsilon_{1} \epsilon_{2} + 0.14504832807052 \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{s,3} &= 0.20072294544592 \epsilon_{2}^{3} + 1.6057835635673 \epsilon_{1}^{3} \\
+&{}  + 4.2977813647689 \epsilon_{1}^{2} \epsilon_{2} + 1.959600275274 \epsilon_{1} \epsilon_{2}^{2} \\
+&{}  + 0.030669313835717 \epsilon_{2} \epsilon_{3}^{2} - 0.23520055946694 \epsilon_{2}^{2} \epsilon_{3} \\
+&{}  + 0.030669313835717 \epsilon_{2} \epsilon_{3} \epsilon_{4} - 0.65969152604436 \epsilon_{1} \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\subsection{Tensor spectrum}
+\[P_t(k_*)=\frac{2H_*^2}{\pi^2M_{\rm Pl}^2}\left[\sum_{d=0}^{3}F_{t,d}+O(\mathrm{SR}^{4})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{t,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{t,1} &=  - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\paragraph{Relative order 2.}
+\begin{align*}
+F_{t,2} &= 1.5402686460338 \epsilon_{1}^{2} - 0.25062903478191 \epsilon_{1} \epsilon_{2}
+\end{align*}
+
+\paragraph{Relative order 3.}
+\begin{align*}
+F_{t,3} &= 1.6057835635673 \epsilon_{1}^{3} + 1.8891060194179 \epsilon_{1}^{2} \epsilon_{2} \\
+&{}  - 0.18929040711048 \epsilon_{1} \epsilon_{2}^{2} - 0.18929040711048 \epsilon_{1} \epsilon_{2} \epsilon_{3}
+\end{align*}
+
+\section{Consistency relations}
+\subsection{$n=0$}
+For $p=3$, the absolute cutoff is $W=4$:
+\[\alpha_{0}^t=\sum_{d=1}^{4}R_{0,d}+O(\mathrm{SR}^{5}).\]
+\paragraph{Absolute order 1.}
+\begin{align*}
+R_{0,1} &=  - 0.125 r
+\end{align*}
+
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{0,2} &= 0.0078125 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{0,3} &=  - 0.0030712246746565 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.10280837917801 \left(\alpha_{0}^s\right)^{2} r - 0.041327094794504 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{0,4} &= 0.0014926374043055 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.065244100954277 \left(\alpha_{0}^s\right)^{3} r + 0.024554893470954 \alpha_{0}^s r^{3} \\
+&{}  + 0.10320649151137 \left(\alpha_{0}^s\right)^{2} r^{2} - 0.060109233906372 \alpha_{1}^s r^{2} \\
+&{}  - 0.23087387125098 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\subsection{$n=1$}
+For $p=3$, the absolute cutoff is $W=5$:
+\[\alpha_{1}^t=\sum_{d=2}^{5}R_{1,d}+O(\mathrm{SR}^{6}).\]
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{1,2} &= 0.015625 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{1,3} &=  - 0.0029296875 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{1,4} &= 0.0016576826498282 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.12398128438351 \left(\alpha_{0}^s\right)^{2} r^{2} + 0.10280837917801 \left(\alpha_{0}^s\right)^{3} r \\
+&{}  + 0.027641022071908 \alpha_{0}^s r^{3} - 0.072577094794504 \alpha_{1}^s r^{2} \\
+&{}  - 0.33061675835603 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{1,5} &=  - 0.0010528680915447 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.050025543685844 \alpha_{1}^s r^{3} - 0.091359233906372 \alpha_{2}^s r^{2} \\
+&{}  - 0.065244100954277 \left(\alpha_{0}^s\right)^{4} r - 0.13027434666455 \left(\alpha_{0}^s\right)^{2} r^{3} \\
+&{}  - 0.021075080402355 \alpha_{0}^s r^{4} - 0.23087387125098 \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 0.24842610305581 \left(\alpha_{0}^s\right)^{3} r^{2} + 0.42660617411381 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.41559991864823 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.35587387125098 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\subsection{$n=2$}
+For $p=3$, the absolute cutoff is $W=6$:
+\[\alpha_{2}^t=\sum_{d=3}^{6}R_{2,d}+O(\mathrm{SR}^{7}).\]
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{2,3} &=  - 0.00390625 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{2,4} &= 0.0013427734375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.125 \left(\alpha_{0}^s\right)^{2} r^{2} \\
+&{}  + 0.025390625 \alpha_{0}^s r^{3} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{2,5} &=  - 0.00099348164677838 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.050668108270534 \alpha_{1}^s r^{3} - 0.13499234851023 \left(\alpha_{0}^s\right)^{2} r^{3} \\
+&{}  - 0.28928966356152 \left(\alpha_{0}^s\right)^{3} r^{2} - 0.020502543360439 \alpha_{0}^s r^{4} \\
+&{}  - 0.10280837917801 \left(\alpha_{0}^s\right)^{4} r - 0.33061675835603 \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 0.088202094794504 \alpha_{2}^s r^{2} + 0.63904189589007 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.46569385315053 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.45561675835603 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{2,6} &= 0.0007834832445242 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.065244100954277 \left(\alpha_{0}^s\right)^{5} r + 0.51447193930681 \left(\alpha_{0}^s\right)^{3} r^{3} \\
+&{}  + 0.018883632267472 \alpha_{0}^s r^{5} + 0.077748164662437 \alpha_{2}^s r^{3} \\
+&{}  + 0.5388653261447 \left(\alpha_{0}^s\right)^{4} r^{2} + 0.15691226448912 \left(\alpha_{0}^s\right)^{2} r^{4} \\
+&{}  + 0.4600841525546 \left(\alpha_{1}^s\right)^{2} r^{2} - 0.10698423390637 \alpha_{3}^s r^{2} \\
+&{}  - 0.044329625847117 \alpha_{1}^s r^{4} + 0.78248004536479 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r \\
+&{}  + 1.0840862194786 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r + 0.67405262036735 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  - 0.56686562073618 \alpha_{0}^s \alpha_{1}^s r^{3} - 0.68758257793092 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \\
+&{}  - 0.81762161375293 \alpha_{1}^s \alpha_{2}^s r - 1.7284662943263 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 0.48087387125098 \alpha_{0}^s \alpha_{3}^s r
+\end{align*}
+
+\subsection{$n=3$}
+For $p=3$, the absolute cutoff is $W=7$:
+\[\alpha_{3}^t=\sum_{d=4}^{7}R_{3,d}+O(\mathrm{SR}^{8}).\]
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{3,4} &= 0.00146484375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.0234375 \alpha_{0}^s r^{3} \\
+&{}  + 0.109375 \left(\alpha_{0}^s\right)^{2} r^{2} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{3,5} &=  - 0.000762939453125 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.0419921875 \alpha_{1}^s r^{3} - 0.125 \left(\alpha_{0}^s\right)^{4} r \\
+&{}  - 0.375 \left(\alpha_{1}^s\right)^{2} r - 0.078125 \alpha_{2}^s r^{2} \\
+&{}  - 0.28125 \left(\alpha_{0}^s\right)^{3} r^{2} - 0.01708984375 \alpha_{0}^s r^{4} \\
+&{}  - 0.1201171875 \left(\alpha_{0}^s\right)^{2} r^{3} + 0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.4375 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.5 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\paragraph{Absolute order 6.}
+\begin{align*}
+R_{3,6} &= 0.00069887861331449 r^{6} + 0.125 \alpha_{4}^s r \\
+&{}  + 0.52264594794504 \left(\alpha_{1}^s\right)^{2} r^{2} + 0.10280837917801 \left(\alpha_{0}^s\right)^{5} r \\
+&{}  + 0.52433019631832 \left(\alpha_{0}^s\right)^{3} r^{3} + 0.017257388611671 \alpha_{0}^s r^{5} \\
+&{}  + 0.07369519446916 \alpha_{2}^s r^{3} + 0.1495700174229 \left(\alpha_{0}^s\right)^{2} r^{4} \\
+&{}  + 0.61990642191755 \left(\alpha_{0}^s\right)^{4} r^{2} - 0.042328393296221 \alpha_{1}^s r^{4} \\
+&{}  - 0.1038270947945 \alpha_{3}^s r^{2} + 1.6087005501362 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r \\
+&{}  + 1.0946586542461 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r + 0.71467513753404 \alpha_{0}^s \alpha_{2}^s r^{2} \\
+&{}  - 0.57385180946901 \alpha_{0}^s \alpha_{1}^s r^{3} - 1.9544879813691 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{2} \\
+&{}  - 1.1168502750681 \alpha_{1}^s \alpha_{2}^s r - 1.0502754126021 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r \\
+&{}  - 0.58061675835603 \alpha_{0}^s \alpha_{3}^s r
+\end{align*}
+
+\paragraph{Absolute order 7.}
+\begin{align*}
+R_{3,7} &=  - 0.00066040799045703 r^{7} + 0.125 \alpha_{5}^s r \\
+&{}  + 0.044182253542082 \alpha_{1}^s r^{5} + 0.10547078563903 \alpha_{3}^s r^{3} \\
+&{}  + 1.0840862194786 \left(\alpha_{1}^s\right)^{3} r - 0.12260923390637 \alpha_{4}^s r^{2} \\
+&{}  - 0.065244100954277 \left(\alpha_{0}^s\right)^{6} r - 1.8011431833565 \left(\alpha_{0}^s\right)^{4} r^{3} \\
+&{}  - 1.1197437723225 \left(\alpha_{0}^s\right)^{5} r^{2} - 0.076712092161027 \alpha_{2}^s r^{4} \\
+&{}  - 0.70760825653778 \left(\alpha_{1}^s\right)^{2} r^{3} - 0.19445546235151 \left(\alpha_{0}^s\right)^{2} r^{5} \\
+&{}  - 0.018648400200653 \alpha_{0}^s r^{6} - 0.81762161375293 \left(\alpha_{2}^s\right)^{2} r \\
+&{}  - 0.9077746502428 \left(\alpha_{0}^s\right)^{3} r^{4} + 0.75724388321833 \alpha_{0}^s \alpha_{1}^s r^{4} \\
+&{}  + 1.2633539166158 \left(\alpha_{0}^s\right)^{2} \alpha_{3}^s r + 5.8694148411763 \left(\alpha_{0}^s\right)^{3} \alpha_{1}^s r^{2} \\
+&{}  + 3.899202830862 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r^{3} + 1.0138030827023 \left(\alpha_{0}^s\right)^{4} \alpha_{1}^s r \\
+&{}  + 1.7276736271957 \alpha_{1}^s \alpha_{2}^s r^{2} + 0.96375532208646 \alpha_{0}^s \alpha_{3}^s r^{2} \\
+&{}  - 1.0111179362879 \alpha_{0}^s \alpha_{2}^s r^{3} - 0.60587387125098 \alpha_{0}^s \alpha_{4}^s r \\
+&{}  - 3.1468339532713 \left(\alpha_{0}^s\right)^{2} \left(\alpha_{1}^s\right)^{2} r \\
+&{}  - 4.6296729998974 \alpha_{0}^s \left(\alpha_{1}^s\right)^{2} r^{2} - 3.2598096829233 \left(\alpha_{0}^s\right)^{2} \alpha_{2}^s r^{2} \\
+&{}  - 1.2984954850039 \alpha_{1}^s \alpha_{3}^s r - 1.4700626232957 \left(\alpha_{0}^s\right)^{3} \alpha_{2}^s r \\
+&{}  + 4.5507541434397 \alpha_{0}^s \alpha_{1}^s \alpha_{2}^s r
+\end{align*}
+
+\end{document}

@@ -1,0 +1,70 @@
+schema_version: 1
+status: passed
+scope: Code and documentation audit after script and utility relocation
+layout:
+  commands: scripts/
+  export_algebra: utils/export_algebra.py
+test_suite:
+  passed: 463
+  failed: 0
+  package_tests: 453
+  analytic_backend_tests: 10
+  seconds: 120.09
+code_review:
+  python_files_compiled: 102
+  modules_imported: 70
+  python_files_compared_with_previous_layout: 102
+  logic_preserved_after_import_path_updates: true
+  production_source_unchanged: true
+  helper_implementation_unchanged: true
+documentation:
+  readmes_reviewed: 27
+  markdown_and_notebook_files_checked: 54
+  links_and_heading_anchors: passed
+  explicit_repository_paths_checked: 33
+  distinct_documented_commands_parsed: 50
+  python_examples_executed: 16
+  stale_module_paths: none, including ignored local installation metadata
+installed_package:
+  isolated_wheel: passed
+  model_backend_method_combinations: 8
+  numerical_evaluation: passed
+  production_validation_imports: blocked during isolated wheel checks
+  CLI_combinations: 96
+  invalid_requests_rejected: 8
+  entry_points:
+  - SRI
+  - python -m sri
+  entry_points_outside_checkout: passed
+notebooks:
+  usage_and_coefficient_notebooks_executed: 4
+  validation_notebooks_executed: 11
+  total_executed: 15
+  saved_notebook_files: unchanged
+  validation_execution: Temporary checkout; original reports unchanged.
+  historical_archive_notebooks: Links and source syntax checked; historical calculations
+    not rerun.
+exports_and_scientific_checks:
+  models:
+  - canonical
+  - kinflation
+  fresh_export_p: 2
+  fresh_export_tensor_indices:
+  - 0
+  - 1
+  fresh_export_formats:
+  - tex
+  - yaml
+  - pdf
+  fresh_exact_forward_residuals: all four zero
+  yaml_archives_roundtrip_compared: 22
+  published_relations_with_saved_D1_evidence: 64
+  direct_N3LO_literature_comparisons: 8
+  direct_N3LO_literature_status: passed
+  published_files_identical_to_previous_layout: 124
+  full_high_order_coefficient_regeneration: Not repeated; stored coefficients and
+    scientific results preserved.
+local_metadata:
+  stale_generated_package_description: Regenerated from the current README; excluded
+    from Git.
+conclusion: No code or documentation defect caused by the relocation was found.

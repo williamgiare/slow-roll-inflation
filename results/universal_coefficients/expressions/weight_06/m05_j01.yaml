@@ -1,0 +1,30 @@
+schema_version: 1
+weight: 6
+rank: 5
+log_degree: 1
+gpl_words: {}
+coefficients:
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  permutation_multiplicity: 5
+  analytic_value: '-0.00198524932750844454312439'
+  mode_equation_value: '-0.0019852493275084445'
+  exact_expression: |
+    10744/32805
+    + -38024/295245 * C
+    + -18089/590490 * (pi)**(2)
+    + -1190/6561 * zeta(3)
+    + -127/131220 * (pi)**(4)
+    + -62/3645 * zeta(5)
+    + 1/7290 * (pi)**(6)
+    + 14/19683 * (C)**(2)
+    + 49/1215 * (zeta(3))**(2)
+    + 1/2187 * C * (pi)**(4)
+    + 7/729 * (pi)**(2) * zeta(3)
+    + 7/6561 * C * (pi)**(2)
+    + 14/729 * C * zeta(3)
+    + 62/1215 * C * zeta(5)

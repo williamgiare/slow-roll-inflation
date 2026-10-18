@@ -1,0 +1,81 @@
+status: passed
+isolated_install: editable installation into a temporary virtual environment; existing
+  cosmo packages used only as dependencies
+command_version: SRI 0.1.0
+commands:
+- arguments:
+  - -p
+  - '3'
+  - -spectra
+  mode: spectra
+  orders:
+    p: 3
+  exit_code: 0
+- arguments:
+  - -n
+  - '1'
+  - -p
+  - '3'
+  mode: consistency
+  orders:
+    n: 1
+    p: 3
+    W: 5
+  exit_code: 0
+- arguments:
+  - -n
+  - '2'
+  - -p
+  - '3'
+  mode: consistency
+  orders:
+    n: 2
+    p: 3
+    W: 6
+  exit_code: 0
+- arguments:
+  - -W
+  - '6'
+  - -n
+  - '2'
+  mode: consistency
+  orders:
+    n: 2
+    p: 3
+    W: 6
+  exit_code: 0
+- arguments:
+  - -W
+  - '6'
+  - -p
+  - '3'
+  mode: consistency
+  orders:
+    n: 2
+    p: 3
+    W: 6
+  exit_code: 0
+- arguments:
+  - -n
+  - '2'
+  - -p
+  - '3'
+  - -W
+  - '5'
+  expected_failure_exit_code: 2
+- arguments:
+  - -n
+  - '0'
+  - -p
+  - '4'
+  expected_failure_exit_code: 2
+- arguments:
+  - -p
+  - '3'
+  - -spectra
+  - -n
+  - '1'
+  expected_failure_exit_code: 2
+equivalent_W6_exports: identical
+latex_export: passed
+pyproject_sha256: f2cfe1708ac35a21114725d55858cdd47ee88edb3859a12657b1be89091a461f

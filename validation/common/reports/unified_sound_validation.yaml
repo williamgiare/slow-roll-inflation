@@ -1,0 +1,778 @@
+status: passed
+python: 3.13.3
+dependencies:
+  sympy: 1.14.0
+  numpy: 2.2.5
+  scipy: 1.15.2
+  mpmath: 1.3.0
+suites:
+  symbolic:
+    mode_moments:
+    - rank: 1
+      oracle: constant Hankel
+      absolute_moment_difference: 1.4496286137657679e-15
+      moment_comparison_tolerance: 1.0e-10
+    - rank: 2
+      oracle: constant Hankel
+      absolute_moment_difference: 3.6794079489730567e-16
+      moment_comparison_tolerance: 1.0e-10
+    - rank: 3
+      oracle: constant Hankel
+      absolute_moment_difference: 5.369864501901429e-17
+      moment_comparison_tolerance: 1.0e-10
+    - log_power: 0
+      oracle: single-insertion Gamma
+      absolute_moment_difference: 1.4496286137657679e-15
+      moment_comparison_tolerance: 1.0e-10
+    - log_power: 1
+      oracle: single-insertion Gamma
+      absolute_moment_difference: 6.722367203393161e-15
+      moment_comparison_tolerance: 1.0e-10
+    - log_power: 2
+      oracle: single-insertion Gamma
+      absolute_moment_difference: 3.2376578482296977e-15
+      moment_comparison_tolerance: 1.0e-10
+    - oracle: mixed Hankel susceptibility
+      absolute_moment_difference: 2.0777226283342834e-16
+      moment_comparison_tolerance: 1.0e-10
+    amplitudes:
+    - field: tensor
+      oracle: published NNLO amplitude
+      maximum_absolute_coefficient_difference: 1.844828132540498e-14
+      maximum_scaled_coefficient_difference: 1.475120184509551e-14
+      coefficient_comparison_tolerance: 1.0e-09
+    - field: scalar
+      oracle: published NNLO amplitude
+      maximum_absolute_coefficient_difference: 1.9918069070851346e-14
+      maximum_scaled_coefficient_difference: 9.863961893829355e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - field: scalar
+      oracle: N3LO log amplitude
+      maximum_absolute_coefficient_difference: 3.4272189603803766e-14
+      maximum_scaled_coefficient_difference: 9.449401635379617e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - field: tensor
+      oracle: N3LO log amplitude
+      maximum_absolute_coefficient_difference: 1.4352856908436836e-14
+      maximum_scaled_coefficient_difference: 1.2068420650351314e-14
+      coefficient_comparison_tolerance: 1.0e-09
+    hierarchies:
+    - n: 0
+      p: 0
+      W: 1
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 0
+      p: 1
+      W: 2
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 0
+      p: 2
+      W: 3
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 1.1320554515700998e-15
+      maximum_scaled_coefficient_difference: 1.0265205387847026e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 0
+      p: 3
+      W: 4
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 2.008215858836565e-15
+      maximum_scaled_coefficient_difference: 1.6315366714182903e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 1
+      p: 0
+      W: 2
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 1
+      p: 1
+      W: 3
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 1
+      p: 2
+      W: 4
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 2.0420662982151682e-15
+      maximum_scaled_coefficient_difference: 1.5346765215388788e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 1
+      p: 3
+      W: 5
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 4.841474147794346e-15
+      maximum_scaled_coefficient_difference: 3.393700543040069e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 2
+      p: 0
+      W: 3
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 2
+      p: 1
+      W: 4
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 2
+      p: 2
+      W: 5
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 5.960159782264153e-15
+      maximum_scaled_coefficient_difference: 3.636368171679668e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 2
+      p: 3
+      W: 6
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 1.1417227603174476e-14
+      maximum_scaled_coefficient_difference: 5.4782894759655825e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 3
+      p: 0
+      W: 4
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 3
+      p: 1
+      W: 5
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 3
+      p: 2
+      W: 6
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 1.457662773119282e-14
+      maximum_scaled_coefficient_difference: 5.587696805764826e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 3
+      p: 3
+      W: 7
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 4.651787055806732e-14
+      maximum_scaled_coefficient_difference: 8.59235365977831e-15
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 8
+      p: 0
+      W: 9
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    - n: 5
+      p: 1
+      W: 7
+      oracle: independent flow/Lagrange
+      maximum_absolute_coefficient_difference: 0.0
+      maximum_scaled_coefficient_difference: 0.0
+      coefficient_comparison_tolerance: 1.0e-09
+    weighted_inverse:
+      weighted_linear_shifts_and_nonlinear_terms: passed
+      composition_residuals:
+      - '0'
+      - '0'
+      - '0'
+      independent_inverse_residuals:
+      - '0'
+      - '0'
+      - '0'
+    physical_limits:
+      constant_background_and_zero_r:
+      - n: 0
+        p: 0
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 1
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 2
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 1.734723475976807e-18
+          maximum_scaled_coefficient_difference: 1.734723475976807e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 0
+        p: 3
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 2.8189256484623115e-18
+          maximum_scaled_coefficient_difference: 2.8189256484623115e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 0
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 1
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 2
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 3.469446951953614e-18
+          maximum_scaled_coefficient_difference: 3.469446951953614e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 1
+        p: 3
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 6.505213034913027e-19
+          maximum_scaled_coefficient_difference: 6.505213034913027e-19
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 0
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 1
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 2
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 1.3552527156068805e-19
+          maximum_scaled_coefficient_difference: 1.3552527156068805e-19
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 2
+        p: 3
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 1.7143946852427039e-18
+          maximum_scaled_coefficient_difference: 1.7143946852427039e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 0
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 1
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 0.0
+          maximum_scaled_coefficient_difference: 0.0
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 2
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 2.5851445550201246e-18
+          maximum_scaled_coefficient_difference: 2.5851445550201246e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      - n: 3
+        p: 3
+        constant_epsilon_comparison:
+          maximum_absolute_coefficient_difference: 1.4670610646444482e-18
+          maximum_scaled_coefficient_difference: 1.4670610646444482e-18
+          coefficient_comparison_tolerance: 1.0e-09
+        formal_zero_r_residual: '0'
+      flow_dictionary_commutation_residuals:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+  transport:
+    ode_vs_integral_max_relative_error: 2.7766677845875165e-13
+    finite_difference_consistency_max_relative_error: 2.726179282319663e-10
+    transported_anchor_max_relative_error: 2.220446049250313e-16
+    range_ln_k:
+    - -8
+    - 8
+    unordered_queries: passed
+  modes:
+    constant_background:
+    - p: 0
+      relative_errors:
+      - 0.019423845158998174
+      - 0.010289876030988184
+      - 0.005279319181309548
+      observed_remainder_orders:
+      - 0.9166032247993406
+      - 0.9628018038546128
+    - p: 1
+      relative_errors:
+      - 0.0026253013616794525
+      - 0.0006359177939983852
+      - 0.00015648436303922336
+      observed_remainder_orders:
+      - 2.0455708576548117
+      - 2.0228217776604045
+    - p: 2
+      relative_errors:
+      - 0.00011300282453112239
+      - 1.3470666215943943e-05
+      - 1.644341455063807e-06
+      observed_remainder_orders:
+      - 3.0684657248329454
+      - 3.0342393861338643
+    - p: 3
+      relative_errors:
+      - 8.23648501991301e-06
+      - 4.922111970635658e-07
+      - 3.008044756403478e-08
+      observed_remainder_orders:
+      - 4.06467940568585
+      - 4.032379539302981
+    independent_featured_modes:
+      amplitudes:
+      - lambda: 1.0
+        field: scalar
+        mode_amplitude: 1.0548118320984976
+        initial_time_relative_difference: 7.2588601796041985e-12
+        freeze_out_relative_difference: 7.309153282619718e-11
+        slow_roll_errors:
+          '0': 0.05196361135753669
+          '1': 0.005356483443417659
+          '2': 0.0007446548389727914
+          '3': 8.490880344458329e-05
+      - lambda: 1.0
+        field: tensor
+        mode_amplitude: 0.9894656484659333
+        initial_time_relative_difference: 8.11906097908377e-12
+        freeze_out_relative_difference: 7.150369185637828e-11
+        slow_roll_errors:
+          '0': 0.010646505566311637
+          '1': 0.00028314503371273947
+          '2': 7.689966347956823e-05
+          '3': 5.7635162378222304e-06
+      - lambda: 0.5
+        field: scalar
+        mode_amplitude: 1.0258894597620773
+        initial_time_relative_difference: 8.678391338889924e-12
+        freeze_out_relative_difference: 4.639999495736902e-11
+        slow_roll_errors:
+          '0': 0.02523611049486907
+          '1': 0.0012755611802565126
+          '2': 9.009930293435442e-05
+          '3': 5.306063536769656e-06
+      - lambda: 0.5
+        field: tensor
+        mode_amplitude: 0.9946529358549456
+        initial_time_relative_difference: 8.659739592076221e-12
+        freeze_out_relative_difference: 4.9631410092843e-11
+        slow_roll_errors:
+          '0': 0.00537580894028955
+          '1': 6.051634897508151e-05
+          '2': 9.223907751376714e-06
+          '3': 3.782627626680579e-07
+      - lambda: 0.25
+        field: scalar
+        mode_amplitude: 1.0126056849306064
+        initial_time_relative_difference: 8.83138007168327e-12
+        freeze_out_relative_difference: 4.498867944846552e-11
+        slow_roll_errors:
+          '0': 0.012448759786955255
+          '1': 0.0003113229950340024
+          '2': 1.1069682468001218e-05
+          '3': 3.3148350131462223e-07
+      - lambda: 0.25
+        field: tensor
+        mode_amplitude: 0.9973102499687864
+        initial_time_relative_difference: 8.705036691480927e-12
+        freeze_out_relative_difference: 4.2544856526660624e-11
+        slow_roll_errors:
+          '0': 0.002697004298610084
+          '1': 1.3915853568691183e-05
+          '2': 1.1269101952704474e-06
+          '3': 2.4150703326064615e-08
+      remainder_scaling:
+      - field: scalar
+        p: 0
+        observed_remainder_orders:
+        - 1.0420121257503292
+        - 1.0194875523363458
+      - field: scalar
+        p: 1
+        observed_remainder_orders:
+        - 2.0701540781992853
+        - 2.0346480505289
+      - field: scalar
+        p: 2
+        observed_remainder_orders:
+        - 3.0469840155972197
+        - 3.0249021052275236
+      - field: scalar
+        p: 3
+        observed_remainder_orders:
+        - 4.000200285704114
+        - 4.000632980000246
+      - field: tensor
+        p: 0
+        observed_remainder_orders:
+        - 0.9858262118497213
+        - 0.9951240437079408
+      - field: tensor
+        p: 1
+        observed_remainder_orders:
+        - 2.226144369820123
+        - 2.1205955474226936
+      - field: tensor
+        p: 2
+        observed_remainder_orders:
+        - 3.0595272950956036
+        - 3.0330055345033387
+      - field: tensor
+        p: 3
+        observed_remainder_orders:
+        - 3.929488582404083
+        - 3.969251650603377
+      model: epsilon1=lambda*0.02*exp[(0.10/0.08)(tanh(0.08*lambda*N+0.45)-tanh(0.45))]
+      canonical_reconstruction: dphi/dN=Mpl*sqrt(2*epsilon1); V=Mpl^2*H^2*(3-epsilon1)
+      initial_x_values:
+      - 600
+      - 1200
+      late_N_values:
+      - 12
+      - 14
+  jost:
+    determinant_vs_independent_odes:
+    - amplitude: 0.04
+      nodes_per_interval: 24
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.0093921348818933
+      - 0.0017460488884039308
+      relative_error: 3.4204774835019474e-08
+    - amplitude: 0.04
+      nodes_per_interval: 48
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.0093921593388455
+      - 0.0017460568818163534
+      relative_error: 8.714143367232993e-09
+    - amplitude: 0.04
+      nodes_per_interval: 96
+      mode_J:
+      - 1.0093921677007458
+      - 0.0017460596109668267
+      determinant_J:
+      - 1.009392165588904
+      - 0.001746058922017259
+      relative_error: 2.200706802718857e-09
+    - amplitude: -0.03
+      nodes_per_interval: 24
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957744820065
+      - -0.0012957451301508756
+      relative_error: 1.9331925546575637e-08
+    - amplitude: -0.03
+      nodes_per_interval: 48
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957880838707
+      - -0.0012957406978371818
+      relative_error: 4.9252235716167585e-09
+    - amplitude: -0.03
+      nodes_per_interval: 96
+      mode_J:
+      - 0.9929957927345939
+      - -0.0012957391845566301
+      determinant_J:
+      - 0.9929957915598334
+      - -0.0012957395665804518
+      relative_error: 1.2440278493614584e-09
+  generic:
+    generic_moments:
+      order: 7
+      analytic_oracle_moments: 24
+      maximum_absolute_oracle_error: 6.2450045135165055e-12
+      oracle_errors:
+        (0,): 3.3306690738754696e-16
+        (1,): 1.942890293094024e-16
+        (2,): 1.304512053934559e-15
+        (3,): 1.0316747456329267e-13
+        (4,): 4.660855035254485e-13
+        (5,): 6.838973831690964e-14
+        (6,): 6.2450045135165055e-12
+        (0, 0): 1.249000902703301e-16
+        (0, 0, 0): 7.28583859910259e-17
+        (0, 0, 0, 0): 1.734723475976807e-17
+        (0, 0, 0, 0, 0): 1.0842021724855044e-17
+        (0, 0, 0, 0, 0, 0): 4.336808689942018e-19
+        (0, 0, 0, 0, 0, 0, 0): 1.5720931501039814e-18
+        (0, 1): 9.853229343548264e-16
+        (0, 2): 1.1875916916537221e-14
+        (0, 3): 3.774758283725532e-15
+        (0, 4): 3.6318170693050433e-14
+        (0, 5): 1.7286172493413687e-13
+        (1, 1): 5.603156827405087e-15
+        (1, 2): 6.591949208711867e-15
+        (1, 3): 9.486855745421963e-14
+        (1, 4): 4.1139314177485176e-13
+        (2, 2): 2.538247390049264e-14
+        (2, 3): 1.0935696792557792e-13
+      generator:
+        backend: normalized mode equations
+        order: 7
+        moment_tolerance: 1.0e-10
+        maximum_absolute_run_difference: 2.353894856810257e-12
+        moments: 44
+        accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and
+          asymptotic depth varied'
+        runs:
+        - upper: 180.0
+          lower: 1.0e-10
+          tolerance: 3.0e-14
+          asymptotic_terms: 16
+        - upper: 270.0
+          lower: 1.0e-11
+          tolerance: 3.0e-14
+          asymptotic_terms: 18
+        integration_precision_digits: 16
+    arbitrary_precision:
+      order: 4
+      precision_digits: 40
+      maximum_absolute_oracle_error: 3.586575481051568e-13
+    power_law_amplitudes:
+    - p: 0
+      highest_power_coefficient_difference: 0.0
+      relative_errors:
+      - 0.027231155340679297
+      - 0.015011679815637717
+      observed_remainder_order: 0.8591727687388102
+    - p: 1
+      highest_power_coefficient_difference: 4.440892098500626e-15
+      relative_errors:
+      - 0.006095861231871505
+      - 0.0014536069402578552
+      observed_remainder_order: 2.068192848375172
+    - p: 2
+      highest_power_coefficient_difference: 3.9968028886505635e-15
+      relative_errors:
+      - 0.00039989824499016237
+      - 4.655534105743155e-05
+      observed_remainder_order: 3.102614354237244
+    - p: 3
+      highest_power_coefficient_difference: 7.993605777301127e-15
+      relative_errors:
+      - 4.360388946063105e-05
+      - 2.548336106066116e-06
+      observed_remainder_order: 4.096829353219305
+    - p: 4
+      highest_power_coefficient_difference: 7.549516567451064e-15
+      relative_errors:
+      - 4.447200642813747e-06
+      - 1.3015494205176612e-07
+      observed_remainder_order: 5.094595497945137
+    - p: 5
+      highest_power_coefficient_difference: 3.9968028886505635e-14
+      relative_errors:
+      - 4.416126193845332e-07
+      - 6.46933681599429e-09
+      observed_remainder_order: 6.093019762094961
+    - p: 6
+      highest_power_coefficient_difference: 2.0605739337042905e-13
+      relative_errors:
+      - 4.301788396595343e-08
+      - 3.1537958426457405e-10
+      observed_remainder_order: 7.091703478693961
+    - p: 7
+      highest_power_coefficient_difference: 1.2612133559741778e-13
+      relative_errors:
+      - 4.122296077927105e-09
+      - 1.512302092699772e-11
+      observed_remainder_order: 8.090557961287574
+    observable_relations:
+    - n: 0
+      p: 4
+      W: 5
+      absolute_errors:
+      - 4.658082947139874e-12
+      - 8.259018469125579e-14
+      observed_remainder_order: 5.817622182959496
+    - n: 1
+      p: 4
+      W: 6
+      absolute_errors:
+      - 4.689707329471775e-13
+      - 3.3689766936811677e-15
+      observed_remainder_order: 7.121043633024568
+    - n: 2
+      p: 4
+      W: 7
+      absolute_errors:
+      - 3.7195536775222034e-14
+      - 1.4067886546710674e-16
+      observed_remainder_order: 8.04658010216366
+    - n: 0
+      p: 5
+      W: 6
+      absolute_errors:
+      - 4.046589452411098e-13
+      - 2.8709673527416157e-15
+      observed_remainder_order: 7.139025752270931
+    symbolic_inverse:
+    - n: 0
+      p: 4
+      W: 5
+      symbolic_substitution_residual: '0'
+    - n: 1
+      p: 4
+      W: 6
+      symbolic_substitution_residual: '0'
+    - n: 2
+      p: 4
+      W: 7
+      symbolic_substitution_residual: '0'
+    - n: 0
+      p: 5
+      W: 6
+      symbolic_substitution_residual: '0'
+    independent_featured_modes:
+      runs:
+      - lambda: 1.0
+        independent_mode_amplitudes:
+          scalar: 1.0548118320984976
+          tensor: 0.9894656484659333
+        freeze_errors:
+          scalar: 7.309153282619718e-11
+          tensor: 7.150369185637828e-11
+        errors:
+          scalar3: 8.490880344458329e-05
+          tensor3: 5.7635162378222304e-06
+          scalar4: 4.517386036462234e-06
+          tensor4: 6.089997113267742e-07
+          scalar5: 2.5332987863002643e-07
+          tensor5: 8.373655258075985e-08
+      - lambda: 0.5
+        independent_mode_amplitudes:
+          scalar: 1.0258894597620773
+          tensor: 0.9946529358549456
+        freeze_errors:
+          scalar: 4.639999495736902e-11
+          tensor: 4.9631410092843e-11
+        errors:
+          scalar3: 5.306063536769656e-06
+          tensor3: 3.782627626680579e-07
+          scalar4: 1.3994783865101112e-07
+          tensor4: 1.794237314278746e-08
+          scalar5: 2.9393856237902583e-09
+          tensor5: 1.6135037750331094e-09
+      remainder_scaling:
+      - field: scalar
+        p: 4
+        observed_remainder_order: 5.012527094313183
+      - field: scalar
+        p: 5
+        observed_remainder_order: 6.429358792052452
+      - field: tensor
+        p: 4
+        observed_remainder_order: 5.084998918644968
+      - field: tensor
+        p: 5
+        observed_remainder_order: 5.697588665456051
+    seconds: 16.879475500201806
+source_sha256:
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 08974a75836fb08d52a2b446409fa3aba3c262db6415148bdb0fde68a93aaada
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 4ee5c3fb42fbac637c89d4eae63ec35fd64c402a8875c158cc587e08b86c506f
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 77c84e05e0d18e19edd1a8e3a98c3c8121bb5104de6d30df373e9529bc6abfa8
+  source/consistency.py: 8c61d56d826831fbb4b5a148edaceb32ba593b057795afd2aecd3532b789ccb7
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 2e924d76666ca8665869efae73f4947de2663dbdaacb916bc486c35647d9d4eb
+  source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+  source/iterative/spectra.py: d76fcca13dec137e795d402a9b49ea7c01df8eacf5ed13136e0fe712e45bcd44
+  source/kinflation.py: 34e6ca4914207ab9da3596efd077fac34c788176263590e4159faed9d6c3cbd2
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/orders.py: 05b1aa9da538813274b75a573d13b582e482c54ec7aba5f008dfc1a890677d36
+  source/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+  source/spectra.py: 66d11ab803fc7696f78f9a379121922402dfbd1ada748463d2da25e9703b4522
+  source/terminal.py: 5f96456d959d2e746c0b6b7ecbf36c55397af36d9c752b5e8f3880208ad968be
+  validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+  validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+  validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+  validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+  validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+  validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+  validation/canonical_SRI/high_order.py: 7b4fc84edbb4bd541d1a46ddc8bde2a6b2e1c76476b6e74df382fff7be04a9c8
+  validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+  validation/canonical_SRI/iterative_vs_closed/run.py: 4782ceddb34c347fc7243eb3c94f6b7258a6d9e2ce8607b5bef346d515e79b4d
+  validation/canonical_SRI/order_cases.py: 265166103328f1a4ebc6d221cc38962cd6da740cb3d3989e7a197bc248cbe7ce
+  validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+  validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+  validation/common/numerical/generic_order.py: 36f3a41ffebc6b0be4d7870f63d7cd117def9eebd0bf21457061473bc463e92c
+  validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+  validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+  validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+  validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+  validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+  validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+  validation/common/numerical/verified_bank.py: b540a470104d6b965042f8c264ef768be5cb67bf1d2e0c00feaaf7d03d9491a3
+  validation/common/performance.py: c69bcad75b200e95c240b1534ba85249a160d477598065c602a188f87ef39ceb
+  validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+  validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+  validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+  validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+  validation/common/symbolic/reference.py: 31147dceb45d61bc2891cf054d9d10049dfe58abf189f9a3df9c55aa62569edf
+  validation/common/symbolic/reference_arithmetic.py: 96c7f4c865c22fb86dc0527e82cfcc9f782f8ea29a70a0a24feadef005c94b54
+  validation/kinflation_SRI/__init__.py: b9a7bb3d3116a157121991b94bc231733fa20990acc1d77d9a5c14ea205b4568
+  validation/kinflation_SRI/run.py: 51cd62704787e6345c741f0eacf4a9dc959489348f3eab9d38c4797a51ce5bfd
+  validation/run.py: 3064a30ae63d3e5ffc4183adf6537815837f90530c3bfe1546c1d010222d6bc4
+  validation/common/fixtures/n3lo_reference.json: 36365309065b05bac2c9c5042e4bf66093372307b7139e1202c30b4a05e61601
+  validation/common/fixtures/p10_moments.json: 4c0b55fa465038f652350490b97a672e6e48805661c16f50fe1838d20aff0fed
+seconds: 35.01855920790695

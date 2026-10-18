@@ -1,0 +1,71 @@
+schema_version: 1
+reference:
+  authors: Eugenio Bianchi and Mauricio Gamonal
+  title: Primordial power spectrum at N3LO in effective theories of inflation
+  arxiv: 2405.03157v3
+  url: https://arxiv.org/html/2405.03157v3
+  doi: 10.1103/PhysRevD.110.104032
+  location: Official Mathematica supplement v1.0, PowerN3LO at k=ks
+  license: CC0 1.0 Universal (official supplement)
+  supplement: https://zenodo.org/records/13863577
+  source_url: https://github.com/mauricio-gamonal/N3LO-Power-Spectrum/blob/v1.0/Mathematica-Notebooks/(P1)-N3LO-Expression-Github.nb
+  source_sha256: 533014d9a0234145175e65754c2a70caf6802f4bac57567c5b59ad74fb076034
+  source_git_commit: a27a4fe (v1.0)
+conventions:
+  pivot: -k tau = 1, with d tau = c dt/a
+  H1: -d ln H/dN
+  H2: -d ln H1/dN
+  H3: -d ln H2/dN
+  Z1: -d ln Z/dN
+  Z2: -d ln Z1/dN
+  Z3: -d ln Z2/dN
+  c1: -d ln c/dN
+  c2: -d ln c1/dN
+  c3: -d ln c2/dN
+  C: EulerGamma + log(2) - 2
+  scalar_specialization: Z = 2 Mpl^2 epsilon_1/c_s^2, c = c_s
+  tensor_specialization: Z constant, c = 1
+normalization: hbar H^2/(4 pi^2 c^3 Z)
+corrections:
+  0:
+  - '1'
+  1:
+  - H1*(-2*C - 2)
+  - C*Z1
+  - c1*(3*C + 2)
+  2:
+  - H1**2*(2*C**2 + 2*C - 3 + pi**2/2)
+  - H1*Z1*(-2*C**2 - C - pi**2/2 + 4)
+  - H1*c1*(-6*C**2 - 5*C - 3*pi**2/2 + 10)
+  - H1*H2*(C**2 + 2*C - pi**2/12 + 2)
+  - Z1**2*(C**2/2 - 1 + pi**2/8)
+  - Z1*c1*(3*C**2 + C - 6 + 3*pi**2/4)
+  - Z1*Z2*(-C**2/2 + pi**2/24)
+  - c1**2*(9*C**2/2 + 3*C - 8 + 9*pi**2/8)
+  - c1*c2*(-3*C**2/2 - 2*C - 2 + pi**2/8)
+  3:
+  - H1**3*(-4*C**3/3 - pi**2*C + 8*C - 14*zeta(3)/3 + 16/3)
+  - H1**2*Z1*(2*C**3 - 12*C + 3*pi**2*C/2 - 8 + 7*zeta(3))
+  - H1**2*c1*(6*C**3 - 36*C + 9*pi**2*C/2 - 24 + 21*zeta(3))
+  - H1**2*H2*(-2*C**3 - 3*C**2 - 5*pi**2*C/6 + 6*C - 13*pi**2/12 + 8)
+  - H1*Z1**2*(-C**3 - 3*pi**2*C/4 + 6*C - 7*zeta(3)/2 + 4)
+  - H1*Z1*c1*(-6*C**3 - 9*pi**2*C/2 + 36*C - 21*zeta(3) + 24)
+  - H1*H2*Z1*(C**3 + 3*C**2/2 - 3*C + 5*pi**2*C/12 - 4 + 13*pi**2/24)
+  - H1*Z1*Z2*(C**3 - 4*C + 5*pi**2*C/12)
+  - H1*c1**2*(-9*C**3 - 27*pi**2*C/4 + 54*C - 63*zeta(3)/2 + 36)
+  - H1*H2*c1*(3*C**3 + 9*C**2/2 - 9*C + 5*pi**2*C/4 - 12 + 13*pi**2/8)
+  - H1*c1*c2*(3*C**3 + 3*C**2 - 10*C + 5*pi**2*C/4 - 8 + 13*pi**2/12)
+  - H1*H2**2*(-C**3/3 - C**2 - 2*C + pi**2*C/12 - 2*zeta(3)/3 - 2/3 + pi**2/12)
+  - H1*H2*H3*(-C**3/3 - C**2 - 2*C + pi**2*C/12 - 2*zeta(3)/3 - 2/3 + pi**2/12)
+  - Z1**3*(C**3/6 - C + pi**2*C/8 - 2/3 + 7*zeta(3)/12)
+  - Z1**2*c1*(3*C**3/2 - 9*C + 9*pi**2*C/8 - 6 + 21*zeta(3)/4)
+  - Z1**2*Z2*(-C**3/2 - 5*pi**2*C/24 + 2*C)
+  - Z1*c1**2*(9*C**3/2 - 27*C + 27*pi**2*C/8 - 18 + 63*zeta(3)/4)
+  - Z1*Z2*c1*(-3*C**3/2 - 5*pi**2*C/8 + 6*C)
+  - Z1*c1*c2*(-3*C**3/2 - 3*C**2/2 - 5*pi**2*C/8 + 5*C - 13*pi**2/24 + 4)
+  - Z1*Z2**2*(C**3/6 - pi**2*C/24 - 2/3 + zeta(3)/3)
+  - Z1*Z2*Z3*(C**3/6 - pi**2*C/24 - 2/3 + zeta(3)/3)
+  - c1**3*(9*C**3/2 - 27*C + 27*pi**2*C/8 - 18 + 63*zeta(3)/4)
+  - c1**2*c2*(-9*C**3/2 - 9*C**2/2 - 15*pi**2*C/8 + 15*C - 13*pi**2/8 + 12)
+  - c1*c2**2*(C**3/2 + C**2 - pi**2*C/8 + 2*C - pi**2/12 + zeta(3))
+  - c1*c2*c3*(C**3/2 + C**2 - pi**2*C/8 + 2*C - pi**2/12 + zeta(3))

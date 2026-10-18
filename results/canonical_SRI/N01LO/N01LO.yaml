@@ -1,0 +1,101 @@
+schema_version: 1
+type: canonical
+p: 1
+metadata:
+  method: iterative
+  coefficient_backend: numeric
+  coefficient_precision: published decimal coefficients
+  pivot: -k_* eta_*=1
+  C: EulerGamma + log(2) - 2
+  spectrum_remainder_weight: 2
+symbols:
+  H: H
+  Mpl: Mpl
+  r: r
+  cs: c_s
+  epsilon_2: epsilon_2
+  epsilon_1: epsilon_1
+  alpha_0_s: alpha_0^s
+  alpha_1_s: alpha_1^s
+  alpha_2_s: alpha_2^s
+  alpha_3_s: alpha_3^s
+spectra:
+  scalar:
+    normalization: H**2 / (8*pi**2*Mpl**2*epsilon_1)
+    correction: |
+      1.0
+      + 0.72963715453852 * epsilon_2
+      - 0.54072569092296 * epsilon_1
+  tensor:
+    normalization: 2*H**2 / (pi**2*Mpl**2)
+    correction: |
+      1.0
+      -0.54072569092296 * epsilon_1
+consistency:
+  '0':
+    W: 2
+    components:
+    - weight: 1
+      expression: |
+        -0.125 * r
+    - weight: 2
+      expression: |
+        0.0078125 * (r)**((2))
+        + 0.125 * alpha_0_s * r
+  '1':
+    W: 3
+    components:
+    - weight: 2
+      expression: |
+        0.015625 * (r)**((2))
+        + 0.125 * alpha_0_s * r
+    - weight: 3
+      expression: |
+        -0.0029296875 * (r)**((3))
+        + 0.125 * alpha_1_s * r
+        - 0.125 * ((alpha_0_s))**((2)) * r
+        - 0.046875 * alpha_0_s * (r)**((2))
+  '2':
+    W: 4
+    components:
+    - weight: 3
+      expression: |
+        -0.00390625 * (r)**((3))
+        + 0.125 * alpha_1_s * r
+        - 0.125 * ((alpha_0_s))**((2)) * r
+        - 0.046875 * alpha_0_s * (r)**((2))
+    - weight: 4
+      expression: |
+        0.0013427734375 * (r)**((4))
+        + 0.125 * alpha_2_s * r
+        + 0.125 * ((alpha_0_s))**((3)) * r
+        + 0.125 * ((alpha_0_s))**((2)) * (r)**((2))
+        + 0.025390625 * alpha_0_s * (r)**((3))
+        - 0.0625 * alpha_1_s * (r)**((2))
+        - 0.375 * alpha_0_s * alpha_1_s * r
+  '3':
+    W: 5
+    components:
+    - weight: 4
+      expression: |
+        0.00146484375 * (r)**((4))
+        + 0.125 * alpha_2_s * r
+        + 0.125 * ((alpha_0_s))**((3)) * r
+        + 0.0234375 * alpha_0_s * (r)**((3))
+        + 0.109375 * ((alpha_0_s))**((2)) * (r)**((2))
+        - 0.0625 * alpha_1_s * (r)**((2))
+        - 0.375 * alpha_0_s * alpha_1_s * r
+    - weight: 5
+      expression: |
+        -0.000762939453125 * (r)**((5))
+        + 0.125 * alpha_3_s * r
+        + 0.0419921875 * alpha_1_s * (r)**((3))
+        - 0.125 * ((alpha_0_s))**((4)) * r
+        - 0.375 * ((alpha_1_s))**((2)) * r
+        - 0.078125 * alpha_2_s * (r)**((2))
+        - 0.28125 * ((alpha_0_s))**((3)) * (r)**((2))
+        - 0.01708984375 * alpha_0_s * (r)**((4))
+        - 0.1201171875 * ((alpha_0_s))**((2)) * (r)**((3))
+        + 0.75 * ((alpha_0_s))**((2)) * alpha_1_s * r
+        + 0.4375 * alpha_0_s * alpha_1_s * (r)**((2))
+        - 0.5 * alpha_0_s * alpha_2_s * r

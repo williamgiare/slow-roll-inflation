@@ -1,0 +1,306 @@
+status: passed
+model: kinflation
+method: iterative
+orders:
+- p: 0
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 1
+    tensor: 1
+  relation_terms:
+    '0': 1
+    '1': 3
+    '2': 8
+    '3': 18
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/LO/LO.tex
+  pdf: results/kinflation_SRI/LO/LO.pdf
+  seconds: 0.4104837910272181
+  pdf_pages: 2
+  artifact_sha256:
+    tex: 926615462bd8a62d22c1feef8dd7da0635b9eee1933616262cb81f098757033a
+    pdf: c1ee17feae0f8f50d3b91d79409fce03d744d62241bdf3cb50c50fe301267b27
+- p: 1
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 7
+    tensor: 2
+  relation_terms:
+    '0': 5
+    '1': 15
+    '2': 37
+    '3': 82
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N01LO/N01LO.tex
+  pdf: results/kinflation_SRI/N01LO/N01LO.pdf
+  seconds: 0.5677890421357006
+  pdf_pages: 6
+  artifact_sha256:
+    tex: 07489f878a2718481ad5020c3c485a74478d14c4759752c6f3bd755c3bdf0d01
+    pdf: 0c4583560cc10a57607a49380d5552c886247bdf827e9078f311c6d3e96c66c2
+- p: 2
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 31
+    tensor: 4
+  relation_terms:
+    '0': 19
+    '1': 51
+    '2': 120
+    '3': 254
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N02LO/N02LO.tex
+  pdf: results/kinflation_SRI/N02LO/N02LO.pdf
+  seconds: 1.4406528330873698
+  pdf_pages: 17
+  artifact_sha256:
+    tex: 771983120fc15a573bc5a89a95b47dac1c5353d977081287ae570e6fd1d1f40c
+    pdf: 37ad413ae3a17811ae24c3dcf7ce7de7500abb26afa9d82288a151ec0ed58957
+- p: 3
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 106
+    tensor: 8
+  relation_terms:
+    '0': 58
+    '1': 145
+    '2': 321
+    '3': 658
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N03LO/N03LO.tex
+  pdf: results/kinflation_SRI/N03LO/N03LO.pdf
+  seconds: 5.645712167024612
+  pdf_pages: 48
+  artifact_sha256:
+    tex: 6652fd3704204852f92ea910b8c2c6da6eaeb0aa98389542e6878c48e0711eea
+    pdf: 59d209056739fc06e55d8683824865a5918d4e20bc90fa0ac46a371178a151fc
+- p: 4
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 320
+    tensor: 16
+  relation_terms:
+    '0': 157
+    '1': 363
+    '2': 770
+    '3': 1521
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N04LO/N04LO.tex
+  pdf: results/kinflation_SRI/N04LO/N04LO.pdf
+  seconds: 25.843277957988903
+  pdf_pages: 118
+  artifact_sha256:
+    tex: b5772cfeff34f154ef7b433962d6ed5a69c1f23cb6080fd775585dac4133aab3
+    pdf: ddbcc833d824cd99dfb06d45d3f3a224a2095e2588913e9d5e06d8ef1f34ea78
+- p: 5
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 874
+    tensor: 32
+  relation_terms:
+    '0': 382
+    '1': 837
+    '2': 1698
+    '3': 3256
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N05LO/N05LO.tex
+  pdf: results/kinflation_SRI/N05LO/N05LO.pdf
+  seconds: 139.09632029081695
+  pdf_pages: 268
+  artifact_sha256:
+    tex: ab754a091dbf3889b89b69d5ff14dac841854fbddb5eafdd70c3649c885bab1a
+    pdf: 113885a9e44923bcd810562b85fef4fe20dbcb69d18391b51b406ea710cc88bd
+- p: 6
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 2248
+    tensor: 64
+  relation_terms:
+    '0': 867
+    '1': 1802
+    '2': 3529
+    '3': 6573
+  exact_forward_residuals:
+    '0': '0'
+    '1': '0'
+    '2': '0'
+    '3': '0'
+  tex: results/kinflation_SRI/N06LO/N06LO.tex
+  pdf: results/kinflation_SRI/N06LO/N06LO.pdf
+  seconds: 510.62631933391094
+  pdf_pages: 573
+  artifact_sha256:
+    tex: 0feab9c2fef72b5e599a63621acd55ec9f892b9a236795b97dbf05220d01f2a4
+    pdf: 260b498f7a006abea504feb05ec45009d9d8364d720449f048be086eb5fab232
+- p: 7
+  n:
+  - 0
+  spectral_terms:
+    scalar: 5508
+    tensor: 128
+  relation_terms:
+    '0': 1847
+  exact_forward_residuals:
+    '0': '0'
+  tex: results/kinflation_SRI/N07LO/N07LO.tex
+  pdf: results/kinflation_SRI/N07LO/N07LO.pdf
+  seconds: 50.89712508302182
+  pdf_pages: 211
+  artifact_sha256:
+    tex: 80c08d9fa3c3176cbfb9b6b66da742f4cb738087d4dac4eaf8c22271ccaf9f41
+    pdf: 1a49944565266a885f959f4227ae01c3655a36e093bbace44b437be31ace5237
+- p: 8
+  n:
+  - 0
+  tex: results/kinflation_SRI/N08LO/N08LO.tex
+  pdf: results/kinflation_SRI/N08LO/N08LO.pdf
+  exact_forward_residuals:
+    '0': '0'
+  relation_generation_seconds: 135.71
+  pdf_compile_seconds: 2.690917040919885
+  mathematical_rows: 16686
+  compilation: passed after splitting long alignments; mathematical rows unchanged
+  spectral_terms:
+    scalar: 13050
+    tensor: 256
+  relation_terms:
+    '0': 3752
+  pdf_pages: 479
+  artifact_sha256:
+    tex: c22bf9a3c4a2e4dec6f165ebe0e759dee4b9f97c68c1cd438f2f0a07d1833370
+    pdf: a16ddb2fad817bc42cea859c20dee192b1152b0c702a15807c962f0e49798d88
+- p: 9
+  n:
+  - 0
+  spectral_terms:
+    scalar: 30116
+    tensor: 512
+  relation_terms:
+    '0': 7307
+  exact_forward_residuals:
+    '0': '0'
+  tex: results/kinflation_SRI/N09LO/N09LO.tex
+  pdf: results/kinflation_SRI/N09LO/N09LO.pdf
+  relation_generation_seconds: 519.06
+  mathematical_rows: 37456
+  compilation: passed; bounded alignment blocks preserve all mathematical rows
+  pdf_pages: 1057
+  artifact_sha256:
+    tex: 0de78779d15b2e698a9a0728e159dad067e7023fc2c3c84615395cad81565c13
+    pdf: db571e482c62652df4c4f97ceb88a059ebb5b20d23ef77662a063e9714a14aee
+- p: 10
+  n:
+  - 0
+  spectral_terms:
+    scalar: 68149
+    tensor: 1024
+  relation_terms:
+    '0': 13748
+  exact_forward_residuals:
+    '0': '0'
+  tex: results/kinflation_SRI/N10LO/N10LO.tex
+  pdf: results/kinflation_SRI/N10LO/N10LO.pdf
+  relation_generation_seconds: 1429.79
+  pdf_compile_seconds: 6.178623375017196
+  mathematical_rows: 82316
+  compilation: passed; bounded alignment blocks preserve all mathematical rows
+  pdf_pages: 2285
+  artifact_sha256:
+    tex: 0b341750b5b3dd01df7955a21dcd110b223725547d4f6c77f5fcc95a91e90d76
+    pdf: 9c3df307af4e9678a34b678dd21c3572592a2f66cb75b5429aa547ba55aff6b4
+moment_bank: kernel-verified generated bank
+source_sha256:
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 08974a75836fb08d52a2b446409fa3aba3c262db6415148bdb0fde68a93aaada
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 4ee5c3fb42fbac637c89d4eae63ec35fd64c402a8875c158cc587e08b86c506f
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 77c84e05e0d18e19edd1a8e3a98c3c8121bb5104de6d30df373e9529bc6abfa8
+  source/consistency.py: 8c61d56d826831fbb4b5a148edaceb32ba593b057795afd2aecd3532b789ccb7
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 2e924d76666ca8665869efae73f4947de2663dbdaacb916bc486c35647d9d4eb
+  source/iterative/inversion.py: bc50e523c208660fca1d44cd640de564e4046d434ba9c53d233f333fa8e35025
+  source/iterative/spectra.py: d76fcca13dec137e795d402a9b49ea7c01df8eacf5ed13136e0fe712e45bcd44
+  source/kinflation.py: 34e6ca4914207ab9da3596efd077fac34c788176263590e4159faed9d6c3cbd2
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/orders.py: 05b1aa9da538813274b75a573d13b582e482c54ec7aba5f008dfc1a890677d36
+  source/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/series.py: 8fa2a012c5527f9431d3fe7e4d2a84ca30cb74237cdaee87cf4574b0efdc272a
+  source/spectra.py: 66d11ab803fc7696f78f9a379121922402dfbd1ada748463d2da25e9703b4522
+  source/terminal.py: 5f96456d959d2e746c0b6b7ecbf36c55397af36d9c752b5e8f3880208ad968be
+  utils/export_algebra.py: f0047b9296417d60630874c3a8f08433aead9f5775793fe7f3c76faab49f616d
+  scripts/export_results.py: 4c4a4a5b655bf3867b410b176eaa9094f5ed554d636213d97245469409ced57f
+export_checks:
+  exact_forward_substitution: zero residual for every exported relation
+  compilation: all PDFs compiled without overfull equations
+  pagination: long alignments split without altering mathematical rows
+test_suite:
+  passed: 345
+  failed: 0
+  runs:
+  - selection: all tests except released-document cases
+    passed: 323
+    seconds: 87.18
+  - selection: released-document cases for both models
+    passed: 22
+    seconds: 0.35

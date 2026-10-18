@@ -1,0 +1,218 @@
+status: passed
+method: iterative
+orders:
+- p: 0
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 1
+    tensor: 1
+  relation_terms:
+    '0': 1
+    '1': 2
+    '2': 4
+    '3': 7
+  tex: results/canonical_SRI/LO/LO.tex
+  pdf: results/canonical_SRI/LO/LO.pdf
+  seconds: 0.007257125107571483
+  compile_seconds: 0.3112188340164721
+  native_compile: passed
+- p: 1
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 3
+    tensor: 2
+  relation_terms:
+    '0': 3
+    '1': 6
+    '2': 11
+    '3': 19
+  tex: results/canonical_SRI/N01LO/N01LO.tex
+  pdf: results/canonical_SRI/N01LO/N01LO.pdf
+  seconds: 0.024365999968722463
+  compile_seconds: 0.2713436249177903
+  native_compile: passed
+- p: 2
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 7
+    tensor: 4
+  relation_terms:
+    '0': 7
+    '1': 13
+    '2': 23
+    '3': 38
+  tex: results/canonical_SRI/N02LO/N02LO.tex
+  pdf: results/canonical_SRI/N02LO/N02LO.pdf
+  seconds: 0.06783145805820823
+  compile_seconds: 0.2718616670463234
+  native_compile: passed
+- p: 3
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 15
+    tensor: 8
+  relation_terms:
+    '0': 14
+    '1': 25
+    '2': 42
+    '3': 68
+  tex: results/canonical_SRI/N03LO/N03LO.tex
+  pdf: results/canonical_SRI/N03LO/N03LO.pdf
+  seconds: 0.23886608402244747
+  compile_seconds: 0.2780704169999808
+  native_compile: passed
+- p: 4
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 31
+    tensor: 16
+  relation_terms:
+    '0': 26
+    '1': 44
+    '2': 72
+    '3': 113
+  tex: results/canonical_SRI/N04LO/N04LO.tex
+  pdf: results/canonical_SRI/N04LO/N04LO.pdf
+  seconds: 0.7970367087982595
+  compile_seconds: 0.28011341695673764
+  native_compile: passed
+- p: 5
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 63
+    tensor: 32
+  relation_terms:
+    '0': 45
+    '1': 74
+    '2': 117
+    '3': 180
+  tex: results/canonical_SRI/N05LO/N05LO.tex
+  pdf: results/canonical_SRI/N05LO/N05LO.pdf
+  seconds: 2.5380109581165016
+  compile_seconds: 0.28674900019541383
+  native_compile: passed
+- p: 6
+  n:
+  - 0
+  - 1
+  - 2
+  - 3
+  spectral_terms:
+    scalar: 127
+    tensor: 64
+  relation_terms:
+    '0': 75
+    '1': 119
+    '2': 184
+    '3': 277
+  tex: results/canonical_SRI/N06LO/N06LO.tex
+  pdf: results/canonical_SRI/N06LO/N06LO.pdf
+  seconds: 7.525828415993601
+  compile_seconds: 0.29547566710971296
+  native_compile: passed
+- p: 7
+  n:
+  - 0
+  spectral_terms:
+    scalar: 255
+    tensor: 128
+  relation_terms:
+    '0': 120
+  tex: results/canonical_SRI/N07LO/N07LO.tex
+  pdf: results/canonical_SRI/N07LO/N07LO.pdf
+  seconds: 1.6315592089667916
+  compile_seconds: 0.2906184170860797
+  native_compile: passed
+- p: 8
+  n:
+  - 0
+  spectral_terms:
+    scalar: 511
+    tensor: 256
+  relation_terms:
+    '0': 187
+  tex: results/canonical_SRI/N08LO/N08LO.tex
+  pdf: results/canonical_SRI/N08LO/N08LO.pdf
+  seconds: 4.450616458198056
+  compile_seconds: 0.31458629202097654
+  native_compile: passed
+- p: 9
+  n:
+  - 0
+  spectral_terms:
+    scalar: 1023
+    tensor: 512
+  relation_terms:
+    '0': 284
+  tex: results/canonical_SRI/N09LO/N09LO.tex
+  pdf: results/canonical_SRI/N09LO/N09LO.pdf
+  seconds: 11.867858834099025
+  compile_seconds: 0.3958607909735292
+  native_compile: passed
+- p: 10
+  n:
+  - 0
+  spectral_terms:
+    scalar: 2047
+    tensor: 1024
+  relation_terms:
+    '0': 423
+  tex: results/canonical_SRI/N10LO/N10LO.tex
+  pdf: results/canonical_SRI/N10LO/N10LO.pdf
+  seconds: 31.437484000111
+  compile_seconds: 0.6859342090319842
+  native_compile: passed
+moment_bank: kernel-verified generated bank
+scientific_validation_bodies_unchanged: true
+preserved_validation_checks:
+- order: 3
+  checks_sha256: 9dc8a2e4cec1c8617c896abbfdae41869ef328d644f778eb407089c61941d75d
+- order: 1
+  checks_sha256: 9241a36d320622041affdd5dc8221207bcad0390b45bb632a9d5fa19e04f33ca
+- order: 0
+  checks_sha256: 19351fc9731dcdf2f42c17e1a2003c98e67cdef1b1d7933eca84568459667171
+- order: 10
+  checks_sha256: ea71373d28a9f7c6b77296445d9ffb94fbe072c6153c3f02c3255c7fd86c3f8a
+- order: 2
+  checks_sha256: c77cbc0e946c37e83a2f00d82ac591d4f8a43109f1ab034e78a6af982a6290dc
+latex_overflow: none
+source_sha256:
+  source/cli.py: a7316da705698454f64c01e5b7defa1aa049e974486475843577b4dcbdf95806
+  source/terminal.py: 8054e8c09d38f9fdf6dc68647d65bf770ec3e77e71a6543c8db5f13df99cb89f
+  source/latex_output.py: 693fee9368fb1a063dcf8f88e8be8b9167129914ea16cc666b522c6f42b050b8
+visual_review:
+- LO first page
+- N10LO first, middle and final pages
+tests:
+  passed: 217
+  seconds: 24.38
+pdf_checks:
+  documents: 11
+  pages: 184
+  clipped_text: false
+  auxiliary_files_in_results: false
+exporter_sha256: ce8086e196a37a4b8e3b45111a4881368b06f5f67f1a238a767b4911578c66c0

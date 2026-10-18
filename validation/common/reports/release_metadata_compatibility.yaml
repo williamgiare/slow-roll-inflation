@@ -1,0 +1,252 @@
+schema_version: 1
+status: passed
+scope: Centralized release metadata; scientific calculation code unchanged.
+version: 1.0.0
+verification:
+  production_metadata_changes:
+  - source/__init__.py reads installed package metadata
+  - source/cli.py reads sri.__version__
+  production_AST_identical_after_version_metadata_normalization: true
+  build_version: pyproject.toml reads VERSION through setuptools dynamic metadata
+  compatibility_loader_change: Register this metadata-transition report; existing
+    exact fingerprint matching retained.
+  future_version_only_updates: Editing VERSION does not change calculation source
+    fingerprints.
+  scientific_results: unchanged
+  regression_tests_passed: 463
+  regression_test_failures: 0
+  CLI_combinations_passed: 96
+  invalid_CLI_requests_rejected: 8
+  usage_and_coefficient_notebooks_executed: 4
+  isolated_wheel_model_backend_method_combinations: 8
+  package_and_API_and_CLI_version: 1.0.0
+  single_file_next_version_simulation: Only VERSION changed to 1.0.1 in a temporary
+    copy; wheel metadata, Python API and CLI all report 1.0.1.
+  source_distribution_VERSION_file: included
+  saved_order_reports_accepted: 10
+  unrelated_calculation_source_changes: still rejected
+  published_consistency_relations_covered: 64
+  fresh_D1_cases:
+  - n: 3
+    p: 5
+    residual: '0'
+  - n: 3
+    p: 6
+    residual: '0'
+  documentation_links_and_module_paths: passed
+accepted_fingerprints:
+- scope: canonical
+  previous_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 7f96c8f4c39b03266b715487735ad54bc8d69e429d459a936cc2e65e9ff5758b
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 0b6dc735615459813c8e8ce592703fa62cf4af1bac2cacecf7f985230b02881b
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: 6cd01a9fe4834663100a3f537b60fdd6d6e24b2f78524597bdf7a608417e82e7
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: 6450ca884192a1d8487ca21d799cb2b8ed10ea7871c314d4ef418f1e42b603bb
+    source/latex_output.py: 2ffbe461eabd0155894a598fae00ab1d0b4481f916b68779bedc5852f5a62f27
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: f12184aaf900f1bb9b9859d25004b8efd91149b8b7549e5e4ed73f9a61043586
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 4e15bab55145eb53b79800fa0c3fbf9905398eade7961cd60b0fa28538468787
+    source/terminal.py: dc43d7ee23e4e9f1f57f8242e0797a6195aab4144e718c74e4bba56db626aeb0
+    validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+    validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+    validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+    validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+    validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+    validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+    validation/canonical_SRI/high_order.py: 94481ea9136e4aa61199b8d553177503267043016c93cb54242941df2fb102fa
+    validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+    validation/canonical_SRI/iterative_vs_closed/run.py: b5f1de2abf00bac338dbf31885f43b0f8b6a8d6b19a1088dedbae9c85ff4639f
+    validation/canonical_SRI/order_cases.py: d6ffca479904b5355eb49bf37cf6bf1800f79c41a03a487f9aeda95c5c4d9bc5
+    validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+    validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+    validation/common/numerical/generic_order.py: c5d9fa72b40f2c27e80585682ecc12bfd208cc9570f9763d42fc3c9259ff342a
+    validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+    validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+    validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+    validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+    validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+    validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+    validation/common/numerical/verified_bank.py: cc52fa748e6bcdba5236c3755698736d858219c619e7b82efd13312b027897e5
+    validation/common/performance.py: 27932494aefdc973333346df13bc56ade9379297212faf2faa9c4e25b4ba21da
+    validation/common/report_compatibility.py: 504aae0f8725356413163f5f442c01358d9b1a6ab064311e4ee9a11f6d1be532
+    validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+    validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+    validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+    validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+    validation/common/symbolic/reference.py: a20cdc26e8f44ea99a65322aa02e174846aa1da59cf6fd7effd3a173b35d0760
+    validation/common/symbolic/reference_arithmetic.py: 04441b071f590a808ca0e3b3054198ed4379da8e3b46b6b0d09c535a2d659d8b
+    validation/kinflation_SRI/__init__.py: f8a4bd13340acce5c2578172e5fe58e13156f9688b4c92a8b3b3da5f681090ae
+    validation/kinflation_SRI/run.py: f9ac7068d4bd0212c376a2cb7d5325f4f0f26655914419bcd336f9236e82abea
+    validation/run.py: 7c5badc89f9c6055376b06634b12235ec5a69b1d300811cc5774b2d8ccaf3e1e
+    validation/symbolic_coefficients/__init__.py: 07e19a6ebf8532eef80f9d3053d682243c668ae32c28a117feee3dc824ae2214
+    validation/symbolic_coefficients/backend/coefficients.py: a4f82cc191073a3bf3db04bdfbd0294c2e485c4387355bbd277e227309c15fcc
+    validation/symbolic_coefficients/backend/generic_hyperlogs.py: f65af962113785882fbc29921a3114559488c08ea62b4c633c4d80d9a4f09ec0
+    validation/symbolic_coefficients/backend/mixed_hyperlogs.py: 49717a7f1c7032aa38f6471fbab2e1f81c72e21de2a4c44f0d458e371cd77f5a
+    validation/symbolic_coefficients/run.py: d3169b64c191d197d06ba8acac58a873706fef89ea86b412d94ca31de845068a
+    validation/symbolic_coefficients/test_backend.py: 8978a4fdd6b7c474aa58667db33895eaba2e963c6289c9358c4deaddc71b69d7
+    validation/common/fixtures/n3lo_reference.yaml: d9773e92589b492cfbf7dc6640a053d98364415e8603aa56117c3ce6bf292e94
+    validation/common/fixtures/p10_moments.yaml: 1f8be657fd52511b751109f93d36597f6fc1af348731e156cc22e07c85a02613
+  current_source_sha256:
+    source/__init__.py: 66026c747e23d77bb393f1f4b31a661b0a08c9c61987bf992d77af333308e4e6
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 3a2667792d06b43a4485b693c753b569b53d3d8483e8930b6b92485d01ac7893
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 0b6dc735615459813c8e8ce592703fa62cf4af1bac2cacecf7f985230b02881b
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: 6cd01a9fe4834663100a3f537b60fdd6d6e24b2f78524597bdf7a608417e82e7
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: 6450ca884192a1d8487ca21d799cb2b8ed10ea7871c314d4ef418f1e42b603bb
+    source/latex_output.py: 2ffbe461eabd0155894a598fae00ab1d0b4481f916b68779bedc5852f5a62f27
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: f12184aaf900f1bb9b9859d25004b8efd91149b8b7549e5e4ed73f9a61043586
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 4e15bab55145eb53b79800fa0c3fbf9905398eade7961cd60b0fa28538468787
+    source/terminal.py: dc43d7ee23e4e9f1f57f8242e0797a6195aab4144e718c74e4bba56db626aeb0
+    validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+    validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+    validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+    validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+    validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+    validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+    validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+    validation/canonical_SRI/high_order.py: 94481ea9136e4aa61199b8d553177503267043016c93cb54242941df2fb102fa
+    validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+    validation/canonical_SRI/iterative_vs_closed/run.py: b5f1de2abf00bac338dbf31885f43b0f8b6a8d6b19a1088dedbae9c85ff4639f
+    validation/canonical_SRI/order_cases.py: d6ffca479904b5355eb49bf37cf6bf1800f79c41a03a487f9aeda95c5c4d9bc5
+    validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+    validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+    validation/common/numerical/generic_order.py: c5d9fa72b40f2c27e80585682ecc12bfd208cc9570f9763d42fc3c9259ff342a
+    validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+    validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+    validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+    validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+    validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+    validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+    validation/common/numerical/verified_bank.py: cc52fa748e6bcdba5236c3755698736d858219c619e7b82efd13312b027897e5
+    validation/common/performance.py: 27932494aefdc973333346df13bc56ade9379297212faf2faa9c4e25b4ba21da
+    validation/common/report_compatibility.py: 5183f20e03588cce0802e4206bcbc703fab51850591cdd6355cb0dbabd134281
+    validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+    validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+    validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+    validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+    validation/common/symbolic/reference.py: a20cdc26e8f44ea99a65322aa02e174846aa1da59cf6fd7effd3a173b35d0760
+    validation/common/symbolic/reference_arithmetic.py: 04441b071f590a808ca0e3b3054198ed4379da8e3b46b6b0d09c535a2d659d8b
+    validation/kinflation_SRI/__init__.py: f8a4bd13340acce5c2578172e5fe58e13156f9688b4c92a8b3b3da5f681090ae
+    validation/kinflation_SRI/run.py: f9ac7068d4bd0212c376a2cb7d5325f4f0f26655914419bcd336f9236e82abea
+    validation/run.py: 7c5badc89f9c6055376b06634b12235ec5a69b1d300811cc5774b2d8ccaf3e1e
+    validation/symbolic_coefficients/__init__.py: 07e19a6ebf8532eef80f9d3053d682243c668ae32c28a117feee3dc824ae2214
+    validation/symbolic_coefficients/backend/coefficients.py: a4f82cc191073a3bf3db04bdfbd0294c2e485c4387355bbd277e227309c15fcc
+    validation/symbolic_coefficients/backend/generic_hyperlogs.py: f65af962113785882fbc29921a3114559488c08ea62b4c633c4d80d9a4f09ec0
+    validation/symbolic_coefficients/backend/mixed_hyperlogs.py: 49717a7f1c7032aa38f6471fbab2e1f81c72e21de2a4c44f0d458e371cd77f5a
+    validation/symbolic_coefficients/run.py: d3169b64c191d197d06ba8acac58a873706fef89ea86b412d94ca31de845068a
+    validation/symbolic_coefficients/test_backend.py: 8978a4fdd6b7c474aa58667db33895eaba2e963c6289c9358c4deaddc71b69d7
+    validation/common/fixtures/n3lo_reference.yaml: d9773e92589b492cfbf7dc6640a053d98364415e8603aa56117c3ce6bf292e94
+    validation/common/fixtures/p10_moments.yaml: 1f8be657fd52511b751109f93d36597f6fc1af348731e156cc22e07c85a02613
+- scope: kinflation
+  previous_source_sha256:
+    source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 7f96c8f4c39b03266b715487735ad54bc8d69e429d459a936cc2e65e9ff5758b
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 0b6dc735615459813c8e8ce592703fa62cf4af1bac2cacecf7f985230b02881b
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: 6cd01a9fe4834663100a3f537b60fdd6d6e24b2f78524597bdf7a608417e82e7
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: 6450ca884192a1d8487ca21d799cb2b8ed10ea7871c314d4ef418f1e42b603bb
+    source/latex_output.py: 2ffbe461eabd0155894a598fae00ab1d0b4481f916b68779bedc5852f5a62f27
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: f12184aaf900f1bb9b9859d25004b8efd91149b8b7549e5e4ed73f9a61043586
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 4e15bab55145eb53b79800fa0c3fbf9905398eade7961cd60b0fa28538468787
+    source/terminal.py: dc43d7ee23e4e9f1f57f8242e0797a6195aab4144e718c74e4bba56db626aeb0
+    validation/kinflation_SRI/run.py: f9ac7068d4bd0212c376a2cb7d5325f4f0f26655914419bcd336f9236e82abea
+  current_source_sha256:
+    source/__init__.py: 66026c747e23d77bb393f1f4b31a661b0a08c9c61987bf992d77af333308e4e6
+    source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+    source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+    source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+    source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+    source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+    source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+    source/cli.py: 3a2667792d06b43a4485b693c753b569b53d3d8483e8930b6b92485d01ac7893
+    source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+    source/closed/algebra.py: 0b6dc735615459813c8e8ce592703fa62cf4af1bac2cacecf7f985230b02881b
+    source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+    source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+    source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+    source/consistency.py: 6cd01a9fe4834663100a3f537b60fdd6d6e24b2f78524597bdf7a608417e82e7
+    source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+    source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+    source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+    source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+    source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+    source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+    source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+    source/kinflation.py: 6450ca884192a1d8487ca21d799cb2b8ed10ea7871c314d4ef418f1e42b603bb
+    source/latex_output.py: 2ffbe461eabd0155894a598fae00ab1d0b4481f916b68779bedc5852f5a62f27
+    source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+    source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+    source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+    source/results.py: f12184aaf900f1bb9b9859d25004b8efd91149b8b7549e5e4ed73f9a61043586
+    source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+    source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+    source/spectra.py: 4e15bab55145eb53b79800fa0c3fbf9905398eade7961cd60b0fa28538468787
+    source/terminal.py: dc43d7ee23e4e9f1f57f8242e0797a6195aab4144e718c74e4bba56db626aeb0
+    validation/kinflation_SRI/run.py: f9ac7068d4bd0212c376a2cb7d5325f4f0f26655914419bcd336f9236e82abea
+version_source: VERSION

@@ -1,0 +1,25 @@
+#========
+# WG Edit
+# Keep generated files and machine-specific build products out of the release.
+#========
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+.coverage
+validation/common/reports/latest.yaml
+
+# WG Edit: retain result TeX/PDF documents, exclude compiler auxiliaries.
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+.ipynb_checkpoints/

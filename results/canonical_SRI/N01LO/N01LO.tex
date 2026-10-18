@@ -1,0 +1,114 @@
+%========
+% WG Edit
+% SRI N01LO: generated spectra and consistency relations at relative order p=1.
+%========
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,geometry}
+\geometry{a4paper,margin=2cm}
+\allowdisplaybreaks[4]
+\setlength{\jot}{4pt}
+\begin{document}
+\begin{center}\Large SRI: N01LO\end{center}
+The spectra are evaluated at $-k_*\eta_*=1$, through relative amplitude
+order $p=1$. The Hubble-flow parameters are denoted by $\epsilon_j$
+and $M_{\rm Pl}$ is the reduced Planck mass. Coefficients are generated
+numerically from the normalized mode equations, using the iterative algebra.
+The convention for the spectral derivatives is
+\[
+\alpha_n^A=\frac{d^{n+1}\ln P_A}{d(\ln k)^{n+1}},\qquad
+\alpha_0^s=n_s-1,\qquad\alpha_0^t=n_t,\qquad r=P_t/P_s.
+\]
+\section{Spectra}
+
+\subsection{Scalar spectrum}
+\[P_s(k_*)=\frac{H_*^2}{8\pi^2M_{\rm Pl}^2\epsilon_{1*}}\left[\sum_{d=0}^{1}F_{s,d}+O(\mathrm{SR}^{2})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{s,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{s,1} &= 0.72963715453852 \epsilon_{2} - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\subsection{Tensor spectrum}
+\[P_t(k_*)=\frac{2H_*^2}{\pi^2M_{\rm Pl}^2}\left[\sum_{d=0}^{1}F_{t,d}+O(\mathrm{SR}^{2})\right].\]
+\paragraph{Relative order 0.}
+\begin{align*}
+F_{t,0} &= 1.0
+\end{align*}
+
+\paragraph{Relative order 1.}
+\begin{align*}
+F_{t,1} &=  - 0.54072569092296 \epsilon_{1}
+\end{align*}
+
+\section{Consistency relations}
+\subsection{$n=0$}
+For $p=1$, the absolute cutoff is $W=2$:
+\[\alpha_{0}^t=\sum_{d=1}^{2}R_{0,d}+O(\mathrm{SR}^{3}).\]
+\paragraph{Absolute order 1.}
+\begin{align*}
+R_{0,1} &=  - 0.125 r
+\end{align*}
+
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{0,2} &= 0.0078125 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\subsection{$n=1$}
+For $p=1$, the absolute cutoff is $W=3$:
+\[\alpha_{1}^t=\sum_{d=2}^{3}R_{1,d}+O(\mathrm{SR}^{4}).\]
+\paragraph{Absolute order 2.}
+\begin{align*}
+R_{1,2} &= 0.015625 r^{2} + 0.125 \alpha_{0}^s r
+\end{align*}
+
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{1,3} &=  - 0.0029296875 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\subsection{$n=2$}
+For $p=1$, the absolute cutoff is $W=4$:
+\[\alpha_{2}^t=\sum_{d=3}^{4}R_{2,d}+O(\mathrm{SR}^{5}).\]
+\paragraph{Absolute order 3.}
+\begin{align*}
+R_{2,3} &=  - 0.00390625 r^{3} + 0.125 \alpha_{1}^s r \\
+&{}  - 0.125 \left(\alpha_{0}^s\right)^{2} r - 0.046875 \alpha_{0}^s r^{2}
+\end{align*}
+
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{2,4} &= 0.0013427734375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.125 \left(\alpha_{0}^s\right)^{2} r^{2} \\
+&{}  + 0.025390625 \alpha_{0}^s r^{3} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\subsection{$n=3$}
+For $p=1$, the absolute cutoff is $W=5$:
+\[\alpha_{3}^t=\sum_{d=4}^{5}R_{3,d}+O(\mathrm{SR}^{6}).\]
+\paragraph{Absolute order 4.}
+\begin{align*}
+R_{3,4} &= 0.00146484375 r^{4} + 0.125 \alpha_{2}^s r \\
+&{}  + 0.125 \left(\alpha_{0}^s\right)^{3} r + 0.0234375 \alpha_{0}^s r^{3} \\
+&{}  + 0.109375 \left(\alpha_{0}^s\right)^{2} r^{2} - 0.0625 \alpha_{1}^s r^{2} \\
+&{}  - 0.375 \alpha_{0}^s \alpha_{1}^s r
+\end{align*}
+
+\paragraph{Absolute order 5.}
+\begin{align*}
+R_{3,5} &=  - 0.000762939453125 r^{5} + 0.125 \alpha_{3}^s r \\
+&{}  + 0.0419921875 \alpha_{1}^s r^{3} - 0.125 \left(\alpha_{0}^s\right)^{4} r \\
+&{}  - 0.375 \left(\alpha_{1}^s\right)^{2} r - 0.078125 \alpha_{2}^s r^{2} \\
+&{}  - 0.28125 \left(\alpha_{0}^s\right)^{3} r^{2} - 0.01708984375 \alpha_{0}^s r^{4} \\
+&{}  - 0.1201171875 \left(\alpha_{0}^s\right)^{2} r^{3} + 0.75 \left(\alpha_{0}^s\right)^{2} \alpha_{1}^s r \\
+&{}  + 0.4375 \alpha_{0}^s \alpha_{1}^s r^{2} - 0.5 \alpha_{0}^s \alpha_{2}^s r
+\end{align*}
+
+\end{document}

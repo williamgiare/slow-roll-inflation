@@ -1,0 +1,102 @@
+schema_version: 1
+passed: true
+relative_order: 3
+scope: Native acoustic scalar and conformal tensor amplitude factors; no common-pivot
+  transport or observable inversion.
+reference:
+  authors: Eugenio Bianchi and Mauricio Gamonal
+  title: Primordial power spectrum at N3LO in effective theories of inflation
+  arxiv: 2405.03157v3
+  url: https://arxiv.org/html/2405.03157v3
+  doi: 10.1103/PhysRevD.110.104032
+  location: Official Mathematica supplement v1.0, PowerN3LO at k=ks
+  license: CC0 1.0 Universal (official supplement)
+  supplement: https://zenodo.org/records/13863577
+  source_url: https://github.com/mauricio-gamonal/N3LO-Power-Spectrum/blob/v1.0/Mathematica-Notebooks/(P1)-N3LO-Expression-Github.nb
+  source_sha256: 533014d9a0234145175e65754c2a70caf6802f4bac57567c5b59ad74fb076034
+  source_git_commit: a27a4fe (v1.0)
+python_version: 3.13.3
+sympy_version: 1.14.0
+sha256:
+  validation/kinflation_SRI/literature/bianchi_gamonal_n3lo.yaml: 05b97678d6f9736bc9867c2f53207a5f19cc0c2e81643c1740e89d7b1ddd25a4
+  scripts/validate_kinflation_literature.py: d893c5afc97711fd0e586a2896d25a977c39e549868a09b6041d6b2961ee0e01
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/analytic/__init__.py: 5364bd6f89faab6ade777dcefccce84ec398434c0ffd95a3c0d4e8d53113277e
+  source/analytic/fast.py: f6164ef422654408f183446f58163e9ada1808cc324bab6d4be58b61b93aebeb
+  source/analytic/generic_hyperlogs.py: 9d108d44bba622bf3b5b633773d04da5f1b55388e74c4f15c01cf855de43b987
+  source/analytic/mixed_hyperlogs.py: b164f84116fb1926900f8feb605d6a6c9519d9ab17f3212e053c8019da4ced70
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 1786f028b83af3dedf0db7edc9e9d99421ac77cd0c51f9762292d1b87be6b2eb
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 0a2ff2b6e88b91282f2222f4b6c2d14044a2e87e98a5fe8fbdf2ddb17f572874
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 7cffe61e9966db845a94a006f60b746a1fd9dfc85a6ed462b295fa86e2f0c8b4
+  source/consistency.py: c749b76817f75e7dbb00b2699b2d3a598a2b69fe9cdbf0147b10cfaf7635d5a3
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 409e6c68a8c59ea1066c656d48a741e2256090f72124b0acd82b5a09ade1e28f
+  source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+  source/iterative/spectra.py: 4d3d949477e3054a61ff829af06beeeecc035c7019e5784acd2a1f628332b84b
+  source/kinflation.py: dbe4c806752068c0f4e03510504f4b291b6b87c84b083d7799f1552033b50c67
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: 20c199c39ca699a757cf45ad7ac9c06184c0510ca6ed6db2194fa15419c82028
+  source/orders.py: cf2eaffdca13768f5756c2f9c7251533c39cd2c837afa25adf0b0dbe9aca122f
+  source/presentation.py: 937dc43cfc3bf105b456d8ef80c7fe65b63d79d0165782691a1423dce521eb3f
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/serialization.py: 6a879c8f011dff2313ca40e892b87caea95f30b72772db85cabbc1e0b4573c4e
+  source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+  source/spectra.py: 22debf98a9461b99db317640b3583dd6970e848c6cd93ed14c5345678972df55
+  source/terminal.py: 83834e5bc6efa82e292f24dd5d7b7318e62f5916f9bb626b3f8b3c7057acbcf1
+checks:
+- field: scalar
+  method: iterative
+  backend: symbolic
+  reference_monomials: 31
+  exact_residual: '0'
+- field: tensor
+  method: iterative
+  backend: symbolic
+  reference_monomials: 8
+  exact_residual: '0'
+- field: scalar
+  method: closed
+  backend: symbolic
+  reference_monomials: 31
+  exact_residual: '0'
+- field: tensor
+  method: closed
+  backend: symbolic
+  reference_monomials: 8
+  exact_residual: '0'
+- field: scalar
+  method: iterative
+  backend: numeric
+  reference_monomials: 31
+  maximum_absolute_coefficient_difference: 3.7685210426738074e-14
+  maximum_scaled_coefficient_difference: 1.0563141907422375e-14
+  tolerance: 1.0e-09
+- field: tensor
+  method: iterative
+  backend: numeric
+  reference_monomials: 8
+  maximum_absolute_coefficient_difference: 2.5639165893397626e-14
+  maximum_scaled_coefficient_difference: 8.874428879063278e-15
+  tolerance: 1.0e-09
+- field: scalar
+  method: closed
+  backend: numeric
+  reference_monomials: 31
+  maximum_absolute_coefficient_difference: 3.7685210426738074e-14
+  maximum_scaled_coefficient_difference: 1.0563141907422375e-14
+  tolerance: 1.0e-09
+- field: tensor
+  method: closed
+  backend: numeric
+  reference_monomials: 8
+  maximum_absolute_coefficient_difference: 2.5639165893397626e-14
+  maximum_scaled_coefficient_difference: 8.874428879063278e-15
+  tolerance: 1.0e-09

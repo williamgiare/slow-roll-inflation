@@ -1,0 +1,87 @@
+rank: 8
+log_degree: 2
+SR_weight: 10
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+status: passed
+checks:
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '0.000127499175152831158123945'
+  absolute_error: 1.1868709233673073e-20
+  numerical_run_difference: 2.710505431213761e-20
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  GPL_evaluations:
+    new: 0
+    reused: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.01682649995200336
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '0.0000106430506418718297050753'
+  absolute_error: 8.239253622504151e-23
+  numerical_run_difference: 6.776263578034403e-21
+  comparison_bound: 5.0e-12
+  GPL_constants: 53728
+  GPL_evaluations:
+    new: 37380
+    reused: 16348
+  evaluation_digits: 24
+  evaluation_seconds: 3227.832730708178
+  status: passed
+generation_seconds: 6798.100952833891
+directions:
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  negative_powers:
+  - -8
+  - -7
+  - -6
+  - -5
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 6786.151862041093
+phase: complete
+active_pattern: null
+evaluation_started_unix: null
+evaluation_progress:
+  evaluated_GPL_constants: 53728
+  GPL_constants_total: 53728
+peak_RSS_bytes: 876183552
+patterns: 2
+evaluation_seconds: 3227.84955720813
+numerical_backend: normalized mode equations
+numerical_integration_digits: 40

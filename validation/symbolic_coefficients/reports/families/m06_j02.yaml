@@ -1,0 +1,66 @@
+rank: 6
+log_degree: 2
+SR_weight: 8
+signature: b9692131faff1efa7d3fd31e7c5eeef7020ade79ec5644e424ef36730e933c3a
+status: passed
+checks:
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  analytic_value: '0.000411498406774820629958208'
+  absolute_error: 7.544518578130377e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 0
+  evaluation_digits: 24
+  evaluation_seconds: 0.006418084027245641
+  status: passed
+- pattern:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  analytic_value: '-0.000165448283028057751875791'
+  absolute_error: 4.136045436381313e-21
+  numerical_run_difference: 0.0
+  comparison_bound: 5.0e-12
+  GPL_constants: 3170
+  evaluation_digits: 24
+  evaluation_seconds: 98.1971932919696
+  status: passed
+generation_seconds: 49.602599000092596
+directions:
+- slopes:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  negative_powers:
+  - -6
+  - -5
+  - -4
+  - -3
+  - -2
+  - -1
+  pole_residuals:
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+  seconds: 49.10382483294234
+phase: complete
+peak_RSS_bytes: 593494016
+patterns: 2
+evaluation_seconds: 98.20361137599684
+numerical_backend: normalized mode equations
+numerical_integration_digits: 40

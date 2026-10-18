@@ -1,0 +1,58 @@
+model: kinflation in Einstein gravity; c_t=1
+status: passed
+functional_tests:
+  passed: 274
+  scope: full automated suite including layout and current-report checks
+canonical_regression:
+  spectra_relative_orders:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  tensor_tilt_relative_orders:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  residual: '0'
+  reference: pre-extension canonical calculation
+generic_kinflation:
+  iterative_closed:
+    p:
+    - 0
+    - 1
+    - 2
+    - 3
+    n:
+    - 0
+    - 1
+    - 2
+    - 3
+    LO_max_n: 8
+    residual: '0'
+  iterative_tensor_tilt_inverse:
+    max_p: 7
+    residual: '0'
+N10LO_kinflation:
+  scope: scalar and tensor amplitudes on constant and evolving physical flow profiles;
+    not a dense order-ten observable-inversion comparison
+  independent_checks:
+  - exact mixed-flow Hankel amplitudes
+  - effective canonical tensor pump
+  maximum_scaled_Hankel_coefficient_error: 4.8323338847205084e-15
+packaging: wheel built and tested in isolated temporary installation
+results_collection: unchanged

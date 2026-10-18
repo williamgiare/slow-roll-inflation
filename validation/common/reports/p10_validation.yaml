@@ -1,0 +1,4071 @@
+status: passed
+p_range:
+- 0
+- 10
+n_indices:
+- 0
+- 1
+- 2
+maximum_W: 13
+generation:
+  metadata:
+    backend: normalized mode equations
+    order: 10
+    moment_tolerance: 1.0e-10
+    maximum_absolute_run_difference: 1.907807245515869e-10
+    moments: 138
+    accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+      depth varied'
+    runs:
+    - upper: 150.0
+      lower: 1.0e-11
+      step: 0.125
+      stages: 8
+      digits: 40
+    - upper: 187.5
+      lower: 1.0e-12
+      step: 0.0625
+      stages: 8
+      digits: 40
+    integration_precision_digits: 40
+  producer_kernel_signature: 1ca19754120a6adf9adffc186615d96ba47d4107acb77582731521422fd58cb6
+  values:
+  - - - 0
+    - 0.4864247696923479
+  - - - 0
+      - 0
+    - 0.049819714539147936
+  - - - 1
+    - 0.06544270451710182
+  - - - 0
+      - 0
+      - 0
+    - -0.02130310501159238
+  - - - 0
+      - 1
+    - 0.08512031741801226
+  - - - 2
+    - 0.08452088812569068
+  - - - 0
+      - 0
+      - 0
+      - 0
+    - 0.007935658933424478
+  - - - 0
+      - 0
+      - 1
+    - -0.0214638986519253
+  - - - 0
+      - 2
+    - 0.03027136407606886
+  - - - 1
+      - 1
+    - 0.018212270636522622
+  - - - 3
+    - -0.13862807173923478
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - -0.002976244376474483
+  - - - 0
+      - 0
+      - 0
+      - 1
+    - 0.006231983096752686
+  - - - 0
+      - 0
+      - 2
+    - -0.0016956681281617742
+  - - - 0
+      - 1
+      - 1
+    - 0.0042450414499043245
+  - - - 0
+      - 3
+    - 0.09334667710384638
+  - - - 1
+      - 2
+    - 0.07071834448390016
+  - - - 4
+    - 0.10448305485257922
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0011372118839765909
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - -0.0019852493275084445
+  - - - 0
+      - 0
+      - 0
+      - 2
+    - 0.0006848949006405719
+  - - - 0
+      - 0
+      - 1
+      - 1
+    - -0.002092693472202273
+  - - - 0
+      - 0
+      - 3
+    - -0.031161789905831776
+  - - - 0
+      - 1
+      - 2
+    - -0.02233615824953692
+  - - - 0
+      - 4
+    - -0.03348785589368071
+  - - - 1
+      - 1
+      - 1
+    - -0.017894714122834686
+  - - - 1
+      - 3
+    - -0.03793851747782631
+  - - - 2
+      - 2
+    - -0.03148989355995719
+  - - - 5
+    - -0.6517689281746235
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - -0.00044213171479158455
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.000672200434508014
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - -0.0006049309490781087
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 0.0006674057613532947
+  - - - 0
+      - 0
+      - 0
+      - 3
+    - 0.014342657226071122
+  - - - 0
+      - 0
+      - 1
+      - 2
+    - 0.010807963250300028
+  - - - 0
+      - 0
+      - 4
+    - 0.019998302561939477
+  - - - 0
+      - 1
+      - 1
+      - 1
+    - 0.00902738083900197
+  - - - 0
+      - 1
+      - 3
+    - 0.02295052025260889
+  - - - 0
+      - 2
+      - 2
+    - 0.0190013950455766
+  - - - 0
+      - 5
+    - 0.322307186260871
+  - - - 1
+      - 1
+      - 2
+    - 0.021016381917143737
+  - - - 1
+      - 4
+    - 0.24694553287718252
+  - - - 2
+      - 3
+    - 0.22617006580387508
+  - - - 6
+    - 1.2266913592618376
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.00017441601800306791
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - -0.00023752423723906715
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 0.00041149840677482064
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - -0.00016544828302805776
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - -0.006525850205879469
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - -0.0050831674329701185
+  - - - 0
+      - 0
+      - 0
+      - 4
+    - -0.005907587326646744
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - -0.004355809938833521
+  - - - 0
+      - 0
+      - 1
+      - 3
+    - -0.008486495044707566
+  - - - 0
+      - 0
+      - 2
+      - 2
+    - -0.0065241470587366355
+  - - - 0
+      - 0
+      - 5
+    - -0.1703447068787358
+  - - - 0
+      - 1
+      - 1
+      - 2
+    - -0.007974142157034158
+  - - - 0
+      - 1
+      - 4
+    - -0.12380222025695631
+  - - - 0
+      - 2
+      - 3
+    - -0.10960648120181675
+  - - - 0
+      - 6
+    - -0.5432851242474056
+  - - - 1
+      - 1
+      - 1
+      - 1
+    - -0.007768922111403014
+  - - - 1
+      - 1
+      - 3
+    - -0.09607528285236955
+  - - - 1
+      - 2
+      - 2
+    - -0.08989112588558153
+  - - - 1
+      - 5
+    - -0.49788678204262116
+  - - - 2
+      - 4
+    - -0.4581626606281408
+  - - - 3
+      - 3
+    - -0.45325547632536806
+  - - - 7
+    - -5.789781303623265
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - -6.963761637036012e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 8.660444153713835e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - -0.0002390666412540022
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 2.105172917923169e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - 0.002909790954334596
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - 0.0023129363829789023
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 4
+    - 0.001336727867410824
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - 0.00201180313245762
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 3
+    - 0.003217636884002553
+  - - - 0
+      - 0
+      - 0
+      - 2
+      - 2
+    - 0.002309638941836929
+  - - - 0
+      - 0
+      - 0
+      - 5
+    - 0.09289242567339467
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 2
+    - 0.0032583111842169445
+  - - - 0
+      - 0
+      - 1
+      - 4
+    - 0.0664106058958373
+  - - - 0
+      - 0
+      - 2
+      - 3
+    - 0.057818773606502345
+  - - - 0
+      - 0
+      - 6
+    - 0.23853050743905505
+  - - - 0
+      - 1
+      - 1
+      - 1
+      - 1
+    - 0.0033067108641687093
+  - - - 0
+      - 1
+      - 1
+      - 3
+    - 0.0502077428256689
+  - - - 0
+      - 1
+      - 2
+      - 2
+    - 0.04637511111295076
+  - - - 0
+      - 1
+      - 5
+    - 0.22315956608014667
+  - - - 0
+      - 2
+      - 4
+    - 0.20098086714952115
+  - - - 0
+      - 3
+      - 3
+    - 0.1993652640324648
+  - - - 0
+      - 7
+    - 3.0826856664446525
+  - - - 1
+      - 1
+      - 1
+      - 2
+    - 0.04057904460791217
+  - - - 1
+      - 1
+      - 4
+    - 0.20129302291768433
+  - - - 1
+      - 2
+      - 3
+    - 0.1895502130544384
+  - - - 1
+      - 6
+    - 2.450350227915492
+  - - - 2
+      - 2
+      - 2
+    - 0.18146437956629868
+  - - - 2
+      - 5
+    - 2.1996914473628784
+  - - - 3
+      - 4
+    - 2.1007692503215787
+  - - - 8
+    - 19.61061113023942
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 2.808240566648257e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - -3.234371075740449e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 0.00012749917515283117
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 1.064305064187183e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - -0.0012822040278289669
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - -0.0010327886598042616
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 4
+    - 2.4752138811226425e-05
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - -0.0009068722706652443
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 3
+    - -0.0011793278624415236
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      - 2
+    - -0.0007734068709062136
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 5
+    - -0.0485524989045957
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 2
+    - -0.0013443051176170976
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 4
+    - -0.0343772986065791
+  - - - 0
+      - 0
+      - 0
+      - 2
+      - 3
+    - -0.029605100250563867
+  - - - 0
+      - 0
+      - 0
+      - 6
+    - -0.10180407748876194
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+    - -0.0014417468376913439
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 3
+    - -0.025559826608579243
+  - - - 0
+      - 0
+      - 1
+      - 2
+      - 2
+    - -0.023402474404591294
+  - - - 0
+      - 0
+      - 1
+      - 5
+    - -0.09991398766516593
+  - - - 0
+      - 0
+      - 2
+      - 4
+    - -0.08775780625467546
+  - - - 0
+      - 0
+      - 3
+      - 3
+    - -0.08726264514029336
+  - - - 0
+      - 0
+      - 7
+    - -1.8061160432492507
+  - - - 0
+      - 1
+      - 1
+      - 1
+      - 2
+    - -0.020261066712734168
+  - - - 0
+      - 1
+      - 1
+      - 4
+    - -0.09010646517268588
+  - - - 0
+      - 1
+      - 2
+      - 3
+    - -0.08354062913132364
+  - - - 0
+      - 1
+      - 6
+    - -1.3421375901550183
+  - - - 0
+      - 2
+      - 2
+      - 2
+    - -0.07885747261032153
+  - - - 0
+      - 2
+      - 5
+    - -1.1623776016255876
+  - - - 0
+      - 3
+      - 4
+    - -1.094325284117261
+  - - - 0
+      - 8
+    - -9.002523066257309
+  - - - 1
+      - 1
+      - 1
+      - 1
+      - 1
+    - -0.017575649392223582
+  - - - 1
+      - 1
+      - 1
+      - 3
+    - -0.08181183213535083
+  - - - 1
+      - 1
+      - 2
+      - 2
+    - -0.07838951715311568
+  - - - 1
+      - 1
+      - 5
+    - -1.057210831492993
+  - - - 1
+      - 2
+      - 4
+    - -0.9520069939655821
+  - - - 1
+      - 3
+      - 3
+    - -0.9235804592474036
+  - - - 1
+      - 7
+    - -8.093141933453884
+  - - - 2
+      - 2
+      - 3
+    - -0.8831019354643795
+  - - - 2
+      - 6
+    - -7.4705860049297526
+  - - - 3
+      - 5
+    - -7.167754382539019
+  - - - 4
+      - 4
+    - -7.061706057240518
+  - - - 9
+    - -98.51576730001274
+  differences:
+  - - - 0
+    - 0.0
+  - - - 0
+      - 0
+    - 0.0
+  - - - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 1
+    - 0.0
+  - - - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 2
+    - 0.0
+  - - - 1
+      - 1
+    - 0.0
+  - - - 3
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 2
+    - 0.0
+  - - - 0
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 3
+    - 0.0
+  - - - 1
+      - 2
+    - 0.0
+  - - - 4
+    - 1.3877787807814457e-17
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 3
+    - 0.0
+  - - - 0
+      - 1
+      - 2
+    - 0.0
+  - - - 0
+      - 4
+    - 2.0816681711721685e-17
+  - - - 1
+      - 1
+      - 1
+    - 0.0
+  - - - 1
+      - 3
+    - 1.3877787807814457e-17
+  - - - 2
+      - 2
+    - 1.3877787807814457e-17
+  - - - 5
+    - 5.551115123125783e-16
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 3
+    - 0.0
+  - - - 0
+      - 0
+      - 1
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 4
+    - 1.0408340855860843e-17
+  - - - 0
+      - 1
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 1
+      - 3
+    - 1.3877787807814457e-17
+  - - - 0
+      - 2
+      - 2
+    - 1.3877787807814457e-17
+  - - - 0
+      - 5
+    - 4.440892098500626e-16
+  - - - 1
+      - 1
+      - 2
+    - 1.0408340855860843e-17
+  - - - 1
+      - 4
+    - 3.885780586188048e-16
+  - - - 2
+      - 3
+    - 3.885780586188048e-16
+  - - - 6
+    - 1.3766765505351941e-14
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - 8.673617379884035e-19
+  - - - 0
+      - 0
+      - 0
+      - 4
+    - 9.540979117872439e-18
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 1
+      - 3
+    - 8.673617379884035e-18
+  - - - 0
+      - 0
+      - 2
+      - 2
+    - 8.673617379884035e-18
+  - - - 0
+      - 0
+      - 5
+    - 3.0531133177191805e-16
+  - - - 0
+      - 1
+      - 1
+      - 2
+    - 8.673617379884035e-18
+  - - - 0
+      - 1
+      - 4
+    - 3.0531133177191805e-16
+  - - - 0
+      - 2
+      - 3
+    - 2.914335439641036e-16
+  - - - 0
+      - 6
+    - 9.658940314238862e-15
+  - - - 1
+      - 1
+      - 1
+      - 1
+    - 8.673617379884035e-18
+  - - - 1
+      - 1
+      - 3
+    - 2.914335439641036e-16
+  - - - 1
+      - 2
+      - 2
+    - 2.914335439641036e-16
+  - - - 1
+      - 5
+    - 9.547918011776346e-15
+  - - - 2
+      - 4
+    - 9.547918011776346e-15
+  - - - 3
+      - 3
+    - 9.492406860545088e-15
+  - - - 7
+    - 3.304023721284466e-13
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 2.710505431213761e-20
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 1.0164395367051604e-20
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - 4.336808689942018e-19
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 4
+    - 7.15573433840433e-18
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - 4.336808689942018e-19
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 3
+    - 6.938893903907228e-18
+  - - - 0
+      - 0
+      - 0
+      - 2
+      - 2
+    - 6.938893903907228e-18
+  - - - 0
+      - 0
+      - 0
+      - 5
+    - 2.220446049250313e-16
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 2
+    - 6.938893903907228e-18
+  - - - 0
+      - 0
+      - 1
+      - 4
+    - 2.220446049250313e-16
+  - - - 0
+      - 0
+      - 2
+      - 3
+    - 2.1510571102112408e-16
+  - - - 0
+      - 0
+      - 6
+    - 6.938893903907228e-15
+  - - - 0
+      - 1
+      - 1
+      - 1
+      - 1
+    - 6.938893903907228e-18
+  - - - 0
+      - 1
+      - 1
+      - 3
+    - 2.0816681711721685e-16
+  - - - 0
+      - 1
+      - 2
+      - 2
+    - 2.1510571102112408e-16
+  - - - 0
+      - 1
+      - 5
+    - 6.855627177060342e-15
+  - - - 0
+      - 2
+      - 4
+    - 6.855627177060342e-15
+  - - - 0
+      - 3
+      - 3
+    - 6.827871601444713e-15
+  - - - 0
+      - 7
+    - 2.2870594307278225e-13
+  - - - 1
+      - 1
+      - 1
+      - 2
+    - 2.0816681711721685e-16
+  - - - 1
+      - 1
+      - 4
+    - 6.800116025829084e-15
+  - - - 1
+      - 2
+      - 3
+    - 6.772360450213455e-15
+  - - - 1
+      - 6
+    - 2.26929586233382e-13
+  - - - 2
+      - 2
+      - 2
+    - 6.772360450213455e-15
+  - - - 2
+      - 5
+    - 2.255973186038318e-13
+  - - - 3
+      - 4
+    - 2.2470914018413168e-13
+  - - - 8
+    - 7.965184067870723e-12
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    - 2.710505431213761e-20
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+    - 6.776263578034403e-21
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+    - 0.0
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 4
+    - 5.319366908757006e-18
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+    - 2.168404344971009e-19
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 3
+    - 5.204170427930421e-18
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      - 2
+    - 5.204170427930421e-18
+  - - - 0
+      - 0
+      - 0
+      - 0
+      - 5
+    - 1.5959455978986625e-16
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 2
+    - 5.204170427930421e-18
+  - - - 0
+      - 0
+      - 0
+      - 1
+      - 4
+    - 1.5959455978986625e-16
+  - - - 0
+      - 0
+      - 0
+      - 2
+      - 3
+    - 1.5959455978986625e-16
+  - - - 0
+      - 0
+      - 0
+      - 6
+    - 5.079270337660091e-15
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+    - 4.9873299934333204e-18
+  - - - 0
+      - 0
+      - 1
+      - 1
+      - 3
+    - 1.5612511283791264e-16
+  - - - 0
+      - 0
+      - 1
+      - 2
+      - 2
+    - 1.5612511283791264e-16
+  - - - 0
+      - 0
+      - 1
+      - 5
+    - 4.9960036108132044e-15
+  - - - 0
+      - 0
+      - 2
+      - 4
+    - 4.954370247389761e-15
+  - - - 0
+      - 0
+      - 3
+      - 3
+    - 4.9404924595819466e-15
+  - - - 0
+      - 0
+      - 7
+    - 1.6342482922482304e-13
+  - - - 0
+      - 1
+      - 1
+      - 1
+      - 2
+    - 1.5612511283791264e-16
+  - - - 0
+      - 1
+      - 1
+      - 4
+    - 4.9404924595819466e-15
+  - - - 0
+      - 1
+      - 2
+      - 3
+    - 4.898859096158503e-15
+  - - - 0
+      - 1
+      - 6
+    - 1.6120438317557273e-13
+  - - - 0
+      - 2
+      - 2
+      - 2
+    - 4.884981308350689e-15
+  - - - 0
+      - 2
+      - 5
+    - 1.596500709410975e-13
+  - - - 0
+      - 3
+      - 4
+    - 1.5898393712632242e-13
+  - - - 0
+      - 8
+    - 5.423217430688965e-12
+  - - - 1
+      - 1
+      - 1
+      - 1
+      - 1
+    - 1.5265566588595902e-16
+  - - - 1
+      - 1
+      - 1
+      - 3
+    - 4.884981308350689e-15
+  - - - 1
+      - 1
+      - 2
+      - 2
+    - 4.85722573273506e-15
+  - - - 1
+      - 1
+      - 5
+    - 1.5920598173124745e-13
+  - - - 1
+      - 2
+      - 4
+    - 1.5831780331154732e-13
+  - - - 1
+      - 3
+      - 3
+    - 1.5798473640415978e-13
+  - - - 1
+      - 7
+    - 5.3717030823463574e-12
+  - - - 2
+      - 2
+      - 3
+    - 1.5765166949677223e-13
+  - - - 2
+      - 6
+    - 5.334399588718952e-12
+  - - - 3
+      - 5
+    - 5.313083306646149e-12
+  - - - 4
+      - 4
+    - 5.305977879288548e-12
+  - - - 9
+    - 1.907807245515869e-10
+  exact_arithmetic_verifications:
+  - previous_kernel_signature: 16ce5579ebe11b1646095c1838eff1759ee7039b2c67058d84a2022f0b2eb83f
+    kernel_signature: 1ca19754120a6adf9adffc186615d96ba47d4107acb77582731521422fd58cb6
+    verification: exact and numerical pump, initial data, product basis and multiplicities
+      equal through p=10 at asymptotic depths 12,18,20
+    report: validation/common/reports/arithmetic_performance.json
+checks:
+  algebra:
+    status: passed
+    p_range:
+    - 0
+    - 10
+    n_indices:
+    - 0
+    - 1
+    - 2
+    spectra:
+    - p: 0
+      scalar_terms: 1
+      tensor_terms: 1
+      seconds: 0.0015129998791962862
+    - p: 1
+      scalar_terms: 3
+      tensor_terms: 2
+      seconds: 0.00417845812626183
+    - p: 2
+      scalar_terms: 7
+      tensor_terms: 4
+      seconds: 0.00850454205647111
+    - p: 3
+      scalar_terms: 15
+      tensor_terms: 8
+      seconds: 0.017688291147351265
+    - p: 4
+      scalar_terms: 31
+      tensor_terms: 16
+      seconds: 0.04733870807103813
+    - p: 5
+      scalar_terms: 63
+      tensor_terms: 32
+      seconds: 0.10524983401410282
+    - p: 6
+      scalar_terms: 127
+      tensor_terms: 64
+      seconds: 0.26051799999549985
+    - p: 7
+      scalar_terms: 255
+      tensor_terms: 128
+      seconds: 0.5358400829136372
+    - p: 8
+      scalar_terms: 511
+      tensor_terms: 256
+      seconds: 1.2732337501365691
+    - p: 9
+      scalar_terms: 1023
+      tensor_terms: 512
+      seconds: 3.694701250176877
+    - p: 10
+      scalar_terms: 2047
+      tensor_terms: 1024
+      seconds: 7.701865333132446
+    relations:
+    - n: 0
+      p: 0
+      W: 1
+      exact_rational_substitution_residual: '0'
+      terms: 1
+      seconds: 0.0016100830398499966
+    - n: 1
+      p: 0
+      W: 2
+      exact_rational_substitution_residual: '0'
+      terms: 2
+      seconds: 0.0009533748961985111
+    - n: 2
+      p: 0
+      W: 3
+      exact_rational_substitution_residual: '0'
+      terms: 4
+      seconds: 0.002021041000261903
+    - n: 0
+      p: 1
+      W: 2
+      exact_rational_substitution_residual: '0'
+      terms: 3
+      seconds: 0.0030526670161634684
+    - n: 1
+      p: 1
+      W: 3
+      exact_rational_substitution_residual: '0'
+      terms: 6
+      seconds: 0.004083791049197316
+    - n: 2
+      p: 1
+      W: 4
+      exact_rational_substitution_residual: '0'
+      terms: 11
+      seconds: 0.009108999976888299
+    - n: 0
+      p: 2
+      W: 3
+      exact_rational_substitution_residual: '0'
+      terms: 7
+      seconds: 0.0056760411243885756
+    - n: 1
+      p: 2
+      W: 4
+      exact_rational_substitution_residual: '0'
+      terms: 13
+      seconds: 0.010786000173538923
+    - n: 2
+      p: 2
+      W: 5
+      exact_rational_substitution_residual: '0'
+      terms: 23
+      seconds: 0.021735291928052902
+    - n: 0
+      p: 3
+      W: 4
+      exact_rational_substitution_residual: '0'
+      terms: 14
+      seconds: 0.012765666004270315
+    - n: 1
+      p: 3
+      W: 5
+      exact_rational_substitution_residual: '0'
+      terms: 25
+      seconds: 0.026541959028691053
+    - n: 2
+      p: 3
+      W: 6
+      exact_rational_substitution_residual: '0'
+      terms: 42
+      seconds: 0.05850908299908042
+    - n: 0
+      p: 4
+      W: 5
+      exact_rational_substitution_residual: '0'
+      terms: 26
+      seconds: 0.036906166933476925
+    - n: 1
+      p: 4
+      W: 6
+      exact_rational_substitution_residual: '0'
+      terms: 44
+      seconds: 0.0790830000769347
+    - n: 2
+      p: 4
+      W: 7
+      exact_rational_substitution_residual: '0'
+      terms: 72
+      seconds: 0.1854903749190271
+    - n: 0
+      p: 5
+      W: 6
+      exact_rational_substitution_residual: '0'
+      terms: 45
+      seconds: 0.11934212502092123
+    - n: 1
+      p: 5
+      W: 7
+      exact_rational_substitution_residual: '0'
+      terms: 74
+      seconds: 0.2387034590356052
+    - n: 2
+      p: 5
+      W: 8
+      exact_rational_substitution_residual: '0'
+      terms: 117
+      seconds: 0.5623212500941008
+    - n: 0
+      p: 6
+      W: 7
+      exact_rational_substitution_residual: '0'
+      terms: 75
+      seconds: 0.3050014169421047
+    - n: 1
+      p: 6
+      W: 8
+      exact_rational_substitution_residual: '0'
+      terms: 119
+      seconds: 0.6946874170098454
+    - n: 2
+      p: 6
+      W: 9
+      exact_rational_substitution_residual: '0'
+      terms: 184
+      seconds: 1.5897662499919534
+    - n: 0
+      p: 7
+      W: 8
+      exact_rational_substitution_residual: '0'
+      terms: 120
+      seconds: 0.785621500108391
+    - n: 1
+      p: 7
+      W: 9
+      exact_rational_substitution_residual: '0'
+      terms: 186
+      seconds: 1.78235900006257
+    - n: 2
+      p: 7
+      W: 10
+      exact_rational_substitution_residual: '0'
+      terms: 281
+      seconds: 4.0854280409403145
+    - n: 0
+      p: 8
+      W: 9
+      exact_rational_substitution_residual: '0'
+      terms: 187
+      seconds: 2.192900916095823
+    - n: 1
+      p: 8
+      W: 10
+      exact_rational_substitution_residual: '0'
+      terms: 283
+      seconds: 4.863660375121981
+    - n: 2
+      p: 8
+      W: 11
+      exact_rational_substitution_residual: '0'
+      terms: 420
+      seconds: 11.093339707935229
+    - n: 0
+      p: 9
+      W: 10
+      exact_rational_substitution_residual: '0'
+      terms: 284
+      seconds: 7.377479332964867
+    - n: 1
+      p: 9
+      W: 11
+      exact_rational_substitution_residual: '0'
+      terms: 422
+      seconds: 15.225683209020644
+    - n: 2
+      p: 9
+      W: 12
+      exact_rational_substitution_residual: '0'
+      terms: 615
+      seconds: 28.682666166918352
+    - n: 0
+      p: 10
+      W: 11
+      exact_rational_substitution_residual: '0'
+      terms: 423
+      seconds: 21.085908916778862
+    - n: 1
+      p: 10
+      W: 12
+      exact_rational_substitution_residual: '0'
+      terms: 617
+      seconds: 37.628176792059094
+    - n: 2
+      p: 10
+      W: 13
+      exact_rational_substitution_residual: '0'
+      terms: 887
+      seconds: 74.61664912500419
+    coefficient_data: mode-generated production bank only; exact rational internal
+      algebra without analytic restoration
+    seconds: 227.0394450831227
+  universal_moments:
+    status: passed
+    order: 10
+    moments_checked: 138
+    exact_pump_polynomials_checked: 138
+    maximum_absolute_cross_method_difference: 0.0
+    maximum_scaled_cross_method_difference: 0.0
+    maximum_linear_run_difference: 1.907807245515869e-10
+    maximum_analytic_oracle_error: 4.447997525858227e-12
+    runs:
+    - upper: 160
+      lower: 1.0e-11
+      step: 0.16
+      stages: 10
+      digits: 45
+    - upper: 200
+      lower: 1.0e-12
+      step: 0.125
+      stages: 12
+      digits: 60
+    coefficient_comparisons:
+    - log_powers:
+      - 0
+      production: 0.4864247696923479
+      linear: 0.4864247696923479
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      production: 0.049819714539147936
+      linear: 0.049819714539147936
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 1
+      production: 0.06544270451710182
+      linear: 0.06544270451710182
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      production: -0.02130310501159238
+      linear: -0.02130310501159238
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 1
+      production: 0.08512031741801226
+      linear: 0.08512031741801226
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 2
+      production: 0.08452088812569068
+      linear: 0.08452088812569068
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      production: 0.007935658933424478
+      linear: 0.007935658933424478
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      production: -0.0214638986519253
+      linear: -0.0214638986519253
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 2
+      production: 0.03027136407606886
+      linear: 0.03027136407606886
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 1
+      - 1
+      production: 0.018212270636522622
+      linear: 0.018212270636522622
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 3
+      production: -0.13862807173923478
+      linear: -0.13862807173923478
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: -0.002976244376474483
+      linear: -0.002976244376474483
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      production: 0.006231983096752686
+      linear: 0.006231983096752686
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 2
+      production: -0.0016956681281617742
+      linear: -0.0016956681281617742
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      production: 0.0042450414499043245
+      linear: 0.0042450414499043245
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 3
+      production: 0.09334667710384638
+      linear: 0.09334667710384638
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 1
+      - 2
+      production: 0.07071834448390016
+      linear: 0.07071834448390016
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 4
+      production: 0.10448305485257922
+      linear: 0.10448305485257922
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3877787807814457e-17
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: 0.0011372118839765909
+      linear: 0.0011372118839765909
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      production: -0.0019852493275084445
+      linear: -0.0019852493275084445
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 2
+      production: 0.0006848949006405719
+      linear: 0.0006848949006405719
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 1
+      production: -0.002092693472202273
+      linear: -0.002092693472202273
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 3
+      production: -0.031161789905831776
+      linear: -0.031161789905831776
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 1
+      - 2
+      production: -0.02233615824953692
+      linear: -0.02233615824953692
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 4
+      production: -0.03348785589368071
+      linear: -0.03348785589368071
+      cross_method_difference: 0.0
+      linear_run_difference: 2.0816681711721685e-17
+    - log_powers:
+      - 1
+      - 1
+      - 1
+      production: -0.017894714122834686
+      linear: -0.017894714122834686
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 1
+      - 3
+      production: -0.03793851747782631
+      linear: -0.03793851747782631
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3877787807814457e-17
+    - log_powers:
+      - 2
+      - 2
+      production: -0.03148989355995719
+      linear: -0.03148989355995719
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3877787807814457e-17
+    - log_powers:
+      - 5
+      production: -0.6517689281746235
+      linear: -0.6517689281746235
+      cross_method_difference: 0.0
+      linear_run_difference: 5.551115123125783e-16
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: -0.00044213171479158455
+      linear: -0.00044213171479158455
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      production: 0.000672200434508014
+      linear: 0.000672200434508014
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      production: -0.0006049309490781087
+      linear: -0.0006049309490781087
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      production: 0.0006674057613532947
+      linear: 0.0006674057613532947
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 3
+      production: 0.014342657226071122
+      linear: 0.014342657226071122
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 2
+      production: 0.010807963250300028
+      linear: 0.010807963250300028
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 4
+      production: 0.019998302561939477
+      linear: 0.019998302561939477
+      cross_method_difference: 0.0
+      linear_run_difference: 1.0408340855860843e-17
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 1
+      production: 0.00902738083900197
+      linear: 0.00902738083900197
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 1
+      - 3
+      production: 0.02295052025260889
+      linear: 0.02295052025260889
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3877787807814457e-17
+    - log_powers:
+      - 0
+      - 2
+      - 2
+      production: 0.0190013950455766
+      linear: 0.0190013950455766
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3877787807814457e-17
+    - log_powers:
+      - 0
+      - 5
+      production: 0.322307186260871
+      linear: 0.322307186260871
+      cross_method_difference: 0.0
+      linear_run_difference: 4.440892098500626e-16
+    - log_powers:
+      - 1
+      - 1
+      - 2
+      production: 0.021016381917143737
+      linear: 0.021016381917143737
+      cross_method_difference: 0.0
+      linear_run_difference: 1.0408340855860843e-17
+    - log_powers:
+      - 1
+      - 4
+      production: 0.24694553287718252
+      linear: 0.24694553287718252
+      cross_method_difference: 0.0
+      linear_run_difference: 3.885780586188048e-16
+    - log_powers:
+      - 2
+      - 3
+      production: 0.22617006580387508
+      linear: 0.22617006580387508
+      cross_method_difference: 0.0
+      linear_run_difference: 3.885780586188048e-16
+    - log_powers:
+      - 6
+      production: 1.2266913592618376
+      linear: 1.2266913592618376
+      cross_method_difference: 0.0
+      linear_run_difference: 1.3766765505351941e-14
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: 0.00017441601800306791
+      linear: 0.00017441601800306791
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      production: -0.00023752423723906715
+      linear: -0.00023752423723906715
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      production: 0.00041149840677482064
+      linear: 0.00041149840677482064
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      production: -0.00016544828302805776
+      linear: -0.00016544828302805776
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      production: -0.006525850205879469
+      linear: -0.006525850205879469
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+      production: -0.0050831674329701185
+      linear: -0.0050831674329701185
+      cross_method_difference: 0.0
+      linear_run_difference: 8.673617379884035e-19
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 4
+      production: -0.005907587326646744
+      linear: -0.005907587326646744
+      cross_method_difference: 0.0
+      linear_run_difference: 9.540979117872439e-18
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      production: -0.004355809938833521
+      linear: -0.004355809938833521
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 3
+      production: -0.008486495044707566
+      linear: -0.008486495044707566
+      cross_method_difference: 0.0
+      linear_run_difference: 8.673617379884035e-18
+    - log_powers:
+      - 0
+      - 0
+      - 2
+      - 2
+      production: -0.0065241470587366355
+      linear: -0.0065241470587366355
+      cross_method_difference: 0.0
+      linear_run_difference: 8.673617379884035e-18
+    - log_powers:
+      - 0
+      - 0
+      - 5
+      production: -0.1703447068787358
+      linear: -0.1703447068787358
+      cross_method_difference: 0.0
+      linear_run_difference: 3.0531133177191805e-16
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 2
+      production: -0.007974142157034158
+      linear: -0.007974142157034158
+      cross_method_difference: 0.0
+      linear_run_difference: 8.673617379884035e-18
+    - log_powers:
+      - 0
+      - 1
+      - 4
+      production: -0.12380222025695631
+      linear: -0.12380222025695631
+      cross_method_difference: 0.0
+      linear_run_difference: 3.0531133177191805e-16
+    - log_powers:
+      - 0
+      - 2
+      - 3
+      production: -0.10960648120181675
+      linear: -0.10960648120181675
+      cross_method_difference: 0.0
+      linear_run_difference: 2.914335439641036e-16
+    - log_powers:
+      - 0
+      - 6
+      production: -0.5432851242474056
+      linear: -0.5432851242474056
+      cross_method_difference: 0.0
+      linear_run_difference: 9.658940314238862e-15
+    - log_powers:
+      - 1
+      - 1
+      - 1
+      - 1
+      production: -0.007768922111403014
+      linear: -0.007768922111403014
+      cross_method_difference: 0.0
+      linear_run_difference: 8.673617379884035e-18
+    - log_powers:
+      - 1
+      - 1
+      - 3
+      production: -0.09607528285236955
+      linear: -0.09607528285236955
+      cross_method_difference: 0.0
+      linear_run_difference: 2.914335439641036e-16
+    - log_powers:
+      - 1
+      - 2
+      - 2
+      production: -0.08989112588558153
+      linear: -0.08989112588558153
+      cross_method_difference: 0.0
+      linear_run_difference: 2.914335439641036e-16
+    - log_powers:
+      - 1
+      - 5
+      production: -0.49788678204262116
+      linear: -0.49788678204262116
+      cross_method_difference: 0.0
+      linear_run_difference: 9.547918011776346e-15
+    - log_powers:
+      - 2
+      - 4
+      production: -0.4581626606281408
+      linear: -0.4581626606281408
+      cross_method_difference: 0.0
+      linear_run_difference: 9.547918011776346e-15
+    - log_powers:
+      - 3
+      - 3
+      production: -0.45325547632536806
+      linear: -0.45325547632536806
+      cross_method_difference: 0.0
+      linear_run_difference: 9.492406860545088e-15
+    - log_powers:
+      - 7
+      production: -5.789781303623265
+      linear: -5.789781303623265
+      cross_method_difference: 0.0
+      linear_run_difference: 3.304023721284466e-13
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: -6.963761637036012e-05
+      linear: -6.963761637036012e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      production: 8.660444153713835e-05
+      linear: 8.660444153713835e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      production: -0.0002390666412540022
+      linear: -0.0002390666412540022
+      cross_method_difference: 0.0
+      linear_run_difference: 2.710505431213761e-20
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      production: 2.105172917923169e-05
+      linear: 2.105172917923169e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 1.0164395367051604e-20
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      production: 0.002909790954334596
+      linear: 0.002909790954334596
+      cross_method_difference: 0.0
+      linear_run_difference: 4.336808689942018e-19
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+      production: 0.0023129363829789023
+      linear: 0.0023129363829789023
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 4
+      production: 0.001336727867410824
+      linear: 0.001336727867410824
+      cross_method_difference: 0.0
+      linear_run_difference: 7.15573433840433e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      production: 0.00201180313245762
+      linear: 0.00201180313245762
+      cross_method_difference: 0.0
+      linear_run_difference: 4.336808689942018e-19
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 3
+      production: 0.003217636884002553
+      linear: 0.003217636884002553
+      cross_method_difference: 0.0
+      linear_run_difference: 6.938893903907228e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 2
+      - 2
+      production: 0.002309638941836929
+      linear: 0.002309638941836929
+      cross_method_difference: 0.0
+      linear_run_difference: 6.938893903907228e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 5
+      production: 0.09289242567339467
+      linear: 0.09289242567339467
+      cross_method_difference: 0.0
+      linear_run_difference: 2.220446049250313e-16
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 1
+      - 2
+      production: 0.0032583111842169445
+      linear: 0.0032583111842169445
+      cross_method_difference: 0.0
+      linear_run_difference: 6.938893903907228e-18
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 4
+      production: 0.0664106058958373
+      linear: 0.0664106058958373
+      cross_method_difference: 0.0
+      linear_run_difference: 2.220446049250313e-16
+    - log_powers:
+      - 0
+      - 0
+      - 2
+      - 3
+      production: 0.057818773606502345
+      linear: 0.057818773606502345
+      cross_method_difference: 0.0
+      linear_run_difference: 2.1510571102112408e-16
+    - log_powers:
+      - 0
+      - 0
+      - 6
+      production: 0.23853050743905505
+      linear: 0.23853050743905505
+      cross_method_difference: 0.0
+      linear_run_difference: 6.938893903907228e-15
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      production: 0.0033067108641687093
+      linear: 0.0033067108641687093
+      cross_method_difference: 0.0
+      linear_run_difference: 6.938893903907228e-18
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 3
+      production: 0.0502077428256689
+      linear: 0.0502077428256689
+      cross_method_difference: 0.0
+      linear_run_difference: 2.0816681711721685e-16
+    - log_powers:
+      - 0
+      - 1
+      - 2
+      - 2
+      production: 0.04637511111295076
+      linear: 0.04637511111295076
+      cross_method_difference: 0.0
+      linear_run_difference: 2.1510571102112408e-16
+    - log_powers:
+      - 0
+      - 1
+      - 5
+      production: 0.22315956608014667
+      linear: 0.22315956608014667
+      cross_method_difference: 0.0
+      linear_run_difference: 6.855627177060342e-15
+    - log_powers:
+      - 0
+      - 2
+      - 4
+      production: 0.20098086714952115
+      linear: 0.20098086714952115
+      cross_method_difference: 0.0
+      linear_run_difference: 6.855627177060342e-15
+    - log_powers:
+      - 0
+      - 3
+      - 3
+      production: 0.1993652640324648
+      linear: 0.1993652640324648
+      cross_method_difference: 0.0
+      linear_run_difference: 6.827871601444713e-15
+    - log_powers:
+      - 0
+      - 7
+      production: 3.0826856664446525
+      linear: 3.0826856664446525
+      cross_method_difference: 0.0
+      linear_run_difference: 2.2870594307278225e-13
+    - log_powers:
+      - 1
+      - 1
+      - 1
+      - 2
+      production: 0.04057904460791217
+      linear: 0.04057904460791217
+      cross_method_difference: 0.0
+      linear_run_difference: 2.0816681711721685e-16
+    - log_powers:
+      - 1
+      - 1
+      - 4
+      production: 0.20129302291768433
+      linear: 0.20129302291768433
+      cross_method_difference: 0.0
+      linear_run_difference: 6.800116025829084e-15
+    - log_powers:
+      - 1
+      - 2
+      - 3
+      production: 0.1895502130544384
+      linear: 0.1895502130544384
+      cross_method_difference: 0.0
+      linear_run_difference: 6.772360450213455e-15
+    - log_powers:
+      - 1
+      - 6
+      production: 2.450350227915492
+      linear: 2.450350227915492
+      cross_method_difference: 0.0
+      linear_run_difference: 2.26929586233382e-13
+    - log_powers:
+      - 2
+      - 2
+      - 2
+      production: 0.18146437956629868
+      linear: 0.18146437956629868
+      cross_method_difference: 0.0
+      linear_run_difference: 6.772360450213455e-15
+    - log_powers:
+      - 2
+      - 5
+      production: 2.1996914473628784
+      linear: 2.1996914473628784
+      cross_method_difference: 0.0
+      linear_run_difference: 2.255973186038318e-13
+    - log_powers:
+      - 3
+      - 4
+      production: 2.1007692503215787
+      linear: 2.1007692503215787
+      cross_method_difference: 0.0
+      linear_run_difference: 2.2470914018413168e-13
+    - log_powers:
+      - 8
+      production: 19.61061113023942
+      linear: 19.61061113023942
+      cross_method_difference: 0.0
+      linear_run_difference: 7.965184067870723e-12
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      production: 2.808240566648257e-05
+      linear: 2.808240566648257e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      production: -3.234371075740449e-05
+      linear: -3.234371075740449e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      production: 0.00012749917515283117
+      linear: 0.00012749917515283117
+      cross_method_difference: 0.0
+      linear_run_difference: 2.710505431213761e-20
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      production: 1.064305064187183e-05
+      linear: 1.064305064187183e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 6.776263578034403e-21
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      production: -0.0012822040278289669
+      linear: -0.0012822040278289669
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 2
+      production: -0.0010327886598042616
+      linear: -0.0010327886598042616
+      cross_method_difference: 0.0
+      linear_run_difference: 0.0
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 4
+      production: 2.4752138811226425e-05
+      linear: 2.4752138811226425e-05
+      cross_method_difference: 0.0
+      linear_run_difference: 5.319366908757006e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      production: -0.0009068722706652443
+      linear: -0.0009068722706652443
+      cross_method_difference: 0.0
+      linear_run_difference: 2.168404344971009e-19
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 3
+      production: -0.0011793278624415236
+      linear: -0.0011793278624415236
+      cross_method_difference: 0.0
+      linear_run_difference: 5.204170427930421e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      - 2
+      production: -0.0007734068709062136
+      linear: -0.0007734068709062136
+      cross_method_difference: 0.0
+      linear_run_difference: 5.204170427930421e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 5
+      production: -0.0485524989045957
+      linear: -0.0485524989045957
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5959455978986625e-16
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 2
+      production: -0.0013443051176170976
+      linear: -0.0013443051176170976
+      cross_method_difference: 0.0
+      linear_run_difference: 5.204170427930421e-18
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 1
+      - 4
+      production: -0.0343772986065791
+      linear: -0.0343772986065791
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5959455978986625e-16
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 2
+      - 3
+      production: -0.029605100250563867
+      linear: -0.029605100250563867
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5959455978986625e-16
+    - log_powers:
+      - 0
+      - 0
+      - 0
+      - 6
+      production: -0.10180407748876194
+      linear: -0.10180407748876194
+      cross_method_difference: 0.0
+      linear_run_difference: 5.079270337660091e-15
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      production: -0.0014417468376913439
+      linear: -0.0014417468376913439
+      cross_method_difference: 0.0
+      linear_run_difference: 4.9873299934333204e-18
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 1
+      - 3
+      production: -0.025559826608579243
+      linear: -0.025559826608579243
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5612511283791264e-16
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 2
+      - 2
+      production: -0.023402474404591294
+      linear: -0.023402474404591294
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5612511283791264e-16
+    - log_powers:
+      - 0
+      - 0
+      - 1
+      - 5
+      production: -0.09991398766516593
+      linear: -0.09991398766516593
+      cross_method_difference: 0.0
+      linear_run_difference: 4.9960036108132044e-15
+    - log_powers:
+      - 0
+      - 0
+      - 2
+      - 4
+      production: -0.08775780625467546
+      linear: -0.08775780625467546
+      cross_method_difference: 0.0
+      linear_run_difference: 4.954370247389761e-15
+    - log_powers:
+      - 0
+      - 0
+      - 3
+      - 3
+      production: -0.08726264514029336
+      linear: -0.08726264514029336
+      cross_method_difference: 0.0
+      linear_run_difference: 4.9404924595819466e-15
+    - log_powers:
+      - 0
+      - 0
+      - 7
+      production: -1.8061160432492507
+      linear: -1.8061160432492507
+      cross_method_difference: 0.0
+      linear_run_difference: 1.6342482922482304e-13
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 1
+      - 2
+      production: -0.020261066712734168
+      linear: -0.020261066712734168
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5612511283791264e-16
+    - log_powers:
+      - 0
+      - 1
+      - 1
+      - 4
+      production: -0.09010646517268588
+      linear: -0.09010646517268588
+      cross_method_difference: 0.0
+      linear_run_difference: 4.9404924595819466e-15
+    - log_powers:
+      - 0
+      - 1
+      - 2
+      - 3
+      production: -0.08354062913132364
+      linear: -0.08354062913132364
+      cross_method_difference: 0.0
+      linear_run_difference: 4.898859096158503e-15
+    - log_powers:
+      - 0
+      - 1
+      - 6
+      production: -1.3421375901550183
+      linear: -1.3421375901550183
+      cross_method_difference: 0.0
+      linear_run_difference: 1.6120438317557273e-13
+    - log_powers:
+      - 0
+      - 2
+      - 2
+      - 2
+      production: -0.07885747261032153
+      linear: -0.07885747261032153
+      cross_method_difference: 0.0
+      linear_run_difference: 4.884981308350689e-15
+    - log_powers:
+      - 0
+      - 2
+      - 5
+      production: -1.1623776016255876
+      linear: -1.1623776016255876
+      cross_method_difference: 0.0
+      linear_run_difference: 1.596500709410975e-13
+    - log_powers:
+      - 0
+      - 3
+      - 4
+      production: -1.094325284117261
+      linear: -1.094325284117261
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5898393712632242e-13
+    - log_powers:
+      - 0
+      - 8
+      production: -9.002523066257309
+      linear: -9.002523066257309
+      cross_method_difference: 0.0
+      linear_run_difference: 5.423217430688965e-12
+    - log_powers:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      production: -0.017575649392223582
+      linear: -0.017575649392223582
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5265566588595902e-16
+    - log_powers:
+      - 1
+      - 1
+      - 1
+      - 3
+      production: -0.08181183213535083
+      linear: -0.08181183213535083
+      cross_method_difference: 0.0
+      linear_run_difference: 4.884981308350689e-15
+    - log_powers:
+      - 1
+      - 1
+      - 2
+      - 2
+      production: -0.07838951715311568
+      linear: -0.07838951715311568
+      cross_method_difference: 0.0
+      linear_run_difference: 4.85722573273506e-15
+    - log_powers:
+      - 1
+      - 1
+      - 5
+      production: -1.057210831492993
+      linear: -1.057210831492993
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5920598173124745e-13
+    - log_powers:
+      - 1
+      - 2
+      - 4
+      production: -0.9520069939655821
+      linear: -0.9520069939655821
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5831780331154732e-13
+    - log_powers:
+      - 1
+      - 3
+      - 3
+      production: -0.9235804592474036
+      linear: -0.9235804592474036
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5798473640415978e-13
+    - log_powers:
+      - 1
+      - 7
+      production: -8.093141933453884
+      linear: -8.093141933453884
+      cross_method_difference: 0.0
+      linear_run_difference: 5.3717030823463574e-12
+    - log_powers:
+      - 2
+      - 2
+      - 3
+      production: -0.8831019354643795
+      linear: -0.8831019354643795
+      cross_method_difference: 0.0
+      linear_run_difference: 1.5765166949677223e-13
+    - log_powers:
+      - 2
+      - 6
+      production: -7.4705860049297526
+      linear: -7.4705860049297526
+      cross_method_difference: 0.0
+      linear_run_difference: 5.334399588718952e-12
+    - log_powers:
+      - 3
+      - 5
+      production: -7.167754382539019
+      linear: -7.167754382539019
+      cross_method_difference: 0.0
+      linear_run_difference: 5.313083306646149e-12
+    - log_powers:
+      - 4
+      - 4
+      production: -7.061706057240518
+      linear: -7.061706057240518
+      cross_method_difference: 0.0
+      linear_run_difference: 5.305977879288548e-12
+    - log_powers:
+      - 9
+      production: -98.51576730001274
+      linear: -98.51576730001274
+      cross_method_difference: 0.0
+      linear_run_difference: 1.907807245515869e-10
+    seconds: 152.4888438328635
+  gamma:
+    status: passed
+    p_range:
+    - 0
+    - 10
+    cases:
+    - p: 0
+      coefficient_absolute_error: 0.0
+      relative_amplitude_errors:
+      - 0.033526315711242816
+      - 0.019423845158998174
+      observed_remainder_order: 0.7874651245341284
+    - p: 1
+      coefficient_absolute_error: 1.9016045259193124e-17
+      relative_amplitude_errors:
+      - 0.011182022780758728
+      - 0.002625301361679274
+      observed_remainder_order: 2.090626243042544
+    - p: 2
+      coefficient_absolute_error: 1.6687024712861252e-17
+      relative_amplitude_errors:
+      - 0.0009938104355373901
+      - 0.00011300282453111834
+      observed_remainder_order: 3.136611857452223
+    - p: 3
+      coefficient_absolute_error: 5.9687633103761735e-18
+      relative_amplitude_errors:
+      - 0.00014408521555228692
+      - 8.236485019763568e-06
+      observed_remainder_order: 4.128749711226337
+    - p: 4
+      coefficient_absolute_error: 1.5989629360012593e-17
+      relative_amplitude_errors:
+      - 1.9572340161547447e-05
+      - 5.606164743119508e-07
+      observed_remainder_order: 5.125658311370997
+    - p: 5
+      coefficient_absolute_error: 6.638478341254972e-17
+      relative_amplitude_errors:
+      - 2.589382801277402e-06
+      - 3.714069800625723e-08
+      observed_remainder_order: 6.12346352261257
+    - p: 6
+      coefficient_absolute_error: 1.635649182685257e-16
+      relative_amplitude_errors:
+      - 3.3609153610873357e-07
+      - 2.413430862654997e-09
+      observed_remainder_order: 7.121624902453213
+    - p: 7
+      coefficient_absolute_error: 3.346551877072665e-16
+      relative_amplitude_errors:
+      - 4.291793304799773e-08
+      - 1.5426486172069864e-10
+      observed_remainder_order: 8.120027302679972
+    - p: 8
+      coefficient_absolute_error: 5.398758302969324e-16
+      relative_amplitude_errors:
+      - 5.402056238929e-09
+      - 9.718094042011589e-12
+      observed_remainder_order: 9.11861955049857
+    - p: 9
+      coefficient_absolute_error: 2.8884533965727756e-16
+      relative_amplitude_errors:
+      - 6.71236263411327e-10
+      - 6.042895131841591e-13
+      observed_remainder_order: 10.11736503808691
+    - p: 10
+      coefficient_absolute_error: 2.7158536153795623e-15
+      relative_amplitude_errors:
+      - 8.243913996783198e-11
+      - 3.713816120181163e-14
+      observed_remainder_order: 11.11621135315118
+    seconds: 3.0025470829568803
+  physical_taylor:
+    status: passed
+    p_range:
+    - 0
+    - 10
+    comparisons:
+    - field: scalar
+      p: 0
+      sri:
+      - '1.0'
+      linear_physical:
+      - '1.0'
+      absolute_coefficient_differences:
+      - 0.0
+      relative_coefficient_differences:
+      - 0.0
+    - field: scalar
+      p: 1
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+    - field: scalar
+      p: 2
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+    - field: scalar
+      p: 3
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+    - field: scalar
+      p: 4
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+    - field: scalar
+      p: 5
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+    - field: scalar
+      p: 6
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      - '-0.0000024619154571683893166516394246504980078291034829742'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      - '-0.0000024619154571683894242875162155637812127772989364098'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      - 1.0763587679091329e-22
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+      - 4.37203789746348e-17
+    - field: scalar
+      p: 7
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      - '-0.0000024619154571683893166516394246504980078291034829742'
+      - '0.00000076576204660681983184271097248646337885591220855698'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      - '-0.0000024619154571683894242875162155637812127772989364098'
+      - '0.00000076576204660681986745009554820984103494331535707136'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      - 1.0763587679091329e-22
+      - 3.560738457572338e-23
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+      - 4.37203789746348e-17
+      - 4.6499280988792553e-17
+    - field: scalar
+      p: 8
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      - '-0.0000024619154571683893166516394246504980078291034829742'
+      - '0.00000076576204660681983184271097248646337885591220855698'
+      - '-0.00000016785508670823059583596349908577117143536767207441'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      - '-0.0000024619154571683894242875162155637812127772989364098'
+      - '0.00000076576204660681986745009554820984103494331535707136'
+      - '-0.00000016785508670823060336155888682101023836581697290242'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      - 1.0763587679091329e-22
+      - 3.560738457572338e-23
+      - 7.52559538773524e-24
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+      - 4.37203789746348e-17
+      - 4.6499280988792553e-17
+      - 4.483388341287741e-17
+    - field: scalar
+      p: 9
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      - '-0.0000024619154571683893166516394246504980078291034829742'
+      - '0.00000076576204660681983184271097248646337885591220855698'
+      - '-0.00000016785508670823059583596349908577117143536767207441'
+      - '0.000000035555836183152607167834618456306477971942346500836'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      - '-0.0000024619154571683894242875162155637812127772989364098'
+      - '0.00000076576204660681986745009554820984103494331535707136'
+      - '-0.00000016785508670823060336155888682101023836581697290242'
+      - '0.000000035555836183152609275214797918691211839225681612043'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      - 1.0763587679091329e-22
+      - 3.560738457572338e-23
+      - 7.52559538773524e-24
+      - 2.1073801794623848e-24
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+      - 4.37203789746348e-17
+      - 4.6499280988792553e-17
+      - 4.483388341287741e-17
+      - 5.92695997531039e-17
+    - field: scalar
+      p: 10
+      sri:
+      - '1.0'
+      - '-0.096521567555148601619263715178931306581944227218628'
+      - '0.015394002476273506775664111704000139259595129232267'
+      - '-0.0010316750956332342474168671354017846821441726430093'
+      - '0.00010542128379720566761242694745234068727042556195882'
+      - '0.0000043003106822130931703226293953657458237984046927448'
+      - '-0.0000024619154571683893166516394246504980078291034829742'
+      - '0.00000076576204660681983184271097248646337885591220855698'
+      - '-0.00000016785508670823059583596349908577117143536767207441'
+      - '0.000000035555836183152607167834618456306477971942346500836'
+      - '-0.0000000072945116589025411122958527779766527398792771037483'
+      linear_physical:
+      - '1.0'
+      - '-0.096521567555148606865067506532795960083603858947754'
+      - '0.015394002476273507151469783505817987007915020269157'
+      - '-0.0010316750956332342924119544947558125358722470493291'
+      - '0.00010542128379720567203269106985402674482325663531521'
+      - '0.0000043003106822130932796683013795836823662140699458718'
+      - '-0.0000024619154571683894242875162155637812127772989364098'
+      - '0.00000076576204660681986745009554820984103494331535707136'
+      - '-0.00000016785508670823060336155888682101023836581697290242'
+      - '0.000000035555836183152609275214797918691211839225681612043'
+      - '-0.0000000072945116589025412347189271610969608890206803886823'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.245803791353865e-18
+      - 3.7580567180181784e-19
+      - 4.499508735935403e-20
+      - 4.420264122401686e-21
+      - 1.0934567198421794e-22
+      - 1.0763587679091329e-22
+      - 3.560738457572338e-23
+      - 7.52559538773524e-24
+      - 2.1073801794623848e-24
+      - 1.2242307438312031e-25
+      relative_coefficient_differences:
+      - 0.0
+      - 5.434851426710014e-17
+      - 2.441247312913196e-17
+      - 4.361362172044716e-17
+      - 4.19295227983066e-17
+      - 2.5427388871341912e-17
+      - 4.37203789746348e-17
+      - 4.6499280988792553e-17
+      - 4.483388341287741e-17
+      - 5.92695997531039e-17
+      - 1.6782902010131115e-17
+    - field: tensor
+      p: 0
+      sri:
+      - '1.0'
+      linear_physical:
+      - '1.0'
+      absolute_coefficient_differences:
+      - 0.0
+      relative_coefficient_differences:
+      - 0.0
+    - field: tensor
+      p: 1
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+    - field: tensor
+      p: 2
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+    - field: tensor
+      p: 3
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+    - field: tensor
+      p: 4
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+    - field: tensor
+      p: 5
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+    - field: tensor
+      p: 6
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      - '-0.00000026981505888378533178759413997369920311193560975423'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      - '-0.00000026981505888378536282822907770097567751600829730985'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      - 3.1040634937727274e-23
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+      - 1.150441160183616e-16
+    - field: tensor
+      p: 7
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      - '-0.00000026981505888378533178759413997369920311193560975423'
+      - '0.000000196109283582318101261005402309550711560735962937'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      - '-0.00000026981505888378536282822907770097567751600829730985'
+      - '0.00000019610928358231809442264668940822928227850136127656'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      - 3.1040634937727274e-23
+      - 6.838358712901322e-24
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+      - 1.150441160183616e-16
+      - 3.487014274890703e-17
+    - field: tensor
+      p: 8
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      - '-0.00000026981505888378533178759413997369920311193560975423'
+      - '0.000000196109283582318101261005402309550711560735962937'
+      - '-0.00000003477738004577451414866142072811650280260485685602'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      - '-0.00000026981505888378536282822907770097567751600829730985'
+      - '0.00000019610928358231809442264668940822928227850136127656'
+      - '-0.00000003477738004577451373409916429161715096664890748865'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      - 3.1040634937727274e-23
+      - 6.838358712901322e-24
+      - 4.145622564364994e-25
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+      - 1.150441160183616e-16
+      - 3.487014274890703e-17
+      - 1.192045679953022e-17
+    - field: tensor
+      p: 9
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      - '-0.00000026981505888378533178759413997369920311193560975423'
+      - '0.000000196109283582318101261005402309550711560735962937'
+      - '-0.00000003477738004577451414866142072811650280260485685602'
+      - '0.0000000080862176009211401055521015233455130910744345455703'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      - '-0.00000026981505888378536282822907770097567751600829730985'
+      - '0.00000019610928358231809442264668940822928227850136127656'
+      - '-0.00000003477738004577451373409916429161715096664890748865'
+      - '0.000000008086217600921139450116424098595710196129299559978'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      - 3.1040634937727274e-23
+      - 6.838358712901322e-24
+      - 4.145622564364994e-25
+      - 6.554356774247498e-25
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+      - 1.150441160183616e-16
+      - 3.487014274890703e-17
+      - 1.192045679953022e-17
+      - 8.105590398038337e-17
+    - field: tensor
+      p: 10
+      sri:
+      - '1.0'
+      - '-0.043258055273836508725082694581942632794380187988281'
+      - '0.011624199284659407157988850499299610623038681525729'
+      - '-0.00029516645796578081234516787343197449939391775813463'
+      - '0.000078838874865648088216225113970811483772709562743679'
+      - '0.0000028693820894640132151282607353379480214230555270111'
+      - '-0.00000026981505888378533178759413997369920311193560975423'
+      - '0.000000196109283582318101261005402309550711560735962937'
+      - '-0.00000003477738004577451414866142072811650280260485685602'
+      - '0.0000000080862176009211401055521015233455130910744345455703'
+      - '-0.0000000016446478533221394900345181185132820010715638142427'
+      linear_physical:
+      - '1.0'
+      - '-0.043258055273836509280194206894520903006196022033691'
+      - '0.011624199284659406987990421428813991827488223209389'
+      - '-0.00029516645796578077563620365309507472222300264860079'
+      - '0.000078838874865648090226092180804851189217396176522525'
+      - '0.0000028693820894640131768862066100687192145439447799274'
+      - '-0.00000026981505888378536282822907770097567751600829730985'
+      - '0.00000019610928358231809442264668940822928227850136127656'
+      - '-0.00000003477738004577451373409916429161715096664890748865'
+      - '0.000000008086217600921139450116424098595710196129299559978'
+      - '-0.0000000016446478533221390581396170612314831464986152127138'
+      absolute_coefficient_differences:
+      - 0.0
+      - 5.551115123125783e-19
+      - 1.6999842907048563e-19
+      - 3.67089642203369e-20
+      - 2.0098670668340396e-21
+      - 3.824205412526923e-23
+      - 3.1040634937727274e-23
+      - 6.838358712901322e-24
+      - 4.145622564364994e-25
+      - 6.554356774247498e-25
+      - 4.318949010572818e-25
+      relative_coefficient_differences:
+      - 0.0
+      - 1.2832558209067775e-17
+      - 1.4624528099310423e-17
+      - 1.2436699099662822e-16
+      - 2.549335046015205e-17
+      - 1.332762697086907e-17
+      - 1.150441160183616e-16
+      - 3.487014274890703e-17
+      - 1.192045679953022e-17
+      - 8.105590398038337e-17
+      - 2.6260630820443846e-16
+    seconds: 19.01360062486492
+  physical_modes:
+    status: passed
+    p_range:
+    - 0
+    - 10
+    canonical_background: a(x)=x^(-1) exp[-e (x^b-1)/b]
+    physical_reconstruction: epsilon=v(1+v+b)/(1+v)^2, v=e*x^b; dphi/dN=sqrt(2 epsilon),
+      V=H^2(3-epsilon)
+    criterion: mode refinement and finite-parameter residuals; formal SR order checked
+      by independent Taylor coefficients
+    runs:
+    - lambda: '1'
+      background_e: '0.08'
+      background_b: '0.073'
+      epsilon_star: '0.0790809327846364883401920438957'
+      flow_at_pivot:
+      - '0.07908093278463648834019204389574759945130315500685871056241426611796982'
+      - '-0.06226873415447505582740557524534910420362220818357787937949192004635132'
+      - '0.0103339447340366962375439830152668317235699615451209153907476765538277'
+      - '-0.05745329259186424950929716337124850391742118747757386352626348099789296'
+      - '0.01604564669673561243834592497285290834050326259189429599053525671005145'
+      - '-0.06167743405789519903411437468863990176017135296849919218642691784860197'
+      - '0.01015475080460169980051352231559820490721013736764447215060092928158701'
+      - '-0.04509434530490584650273624441103314605001395416689969962494607260088751'
+      - '0.04978534283705495695184852222847473810965568682142549928036725637307185'
+      - '-0.143500962479743485174434215617815380378253515928243956754864024987085'
+      - '-0.06944474835815640534707635774906411410672318352756023503611757094894952'
+      - '-0.1212631763249986372136436948888529377559411512028994041747677485258707'
+      mode_refinement_errors:
+        scalar: 5.133712731511207e-26
+        tensor: 2.3524433992850794e-26
+      exact_mode_amplitudes:
+        tensor: '0.96815258406703078206130962184254531834132797699520060963932002558'
+        scalar: '0.9179486469381399671998401395064424407604972234911459996347849176'
+      relative_errors:
+        scalar0: 0.08938555913290586
+        tensor0: 0.032895037886677
+        scalar1: 0.006692445141264252
+        tensor1: 0.011272681874161684
+        scalar2: 0.0003430767381994492
+        tensor2: 4.853413132619954e-05
+        scalar3: 1.4089715718229706e-05
+        tensor3: 3.810956001119692e-05
+        scalar4: 3.210001115540571e-06
+        tensor4: 1.0434704819150552e-05
+        scalar5: 6.665492406821265e-08
+        tensor5: 9.9763965520534e-07
+        scalar6: 1.2964131428085716e-07
+        tensor6: 6.746894422013333e-08
+        scalar7: 3.7039872587154625e-09
+        tensor7: 1.3177019958934206e-08
+        scalar8: 5.023625804953447e-09
+        tensor8: 8.66799144887651e-09
+        scalar9: 1.052262271630094e-09
+        tensor9: 1.1047466746510112e-09
+        scalar10: 1.9396027212100895e-10
+        tensor10: 3.0088427537574314e-10
+      predictions:
+        scalar0: '1.0'
+        tensor0: '1.0'
+        scalar1: '0.91180532597600871813736596163425622666253210293918'
+        tensor1: '0.95723890798119556803869019437435023047142395103256'
+        scalar2: '0.91826357376576610208859744202008927363676780744157'
+        tensor2: '0.96810559562237187334968676167475137302446470806132'
+        scalar3: '0.91796158057361925920225779243059927540011921202636'
+        tensor3: '0.96811568819802828418178670632393042846257199913186'
+        scalar4: '0.91794570032195928681295578677355724468239287250859'
+        tensor4: '0.96814248168059614475573720235310894815197473073462'
+        scalar5: '0.91794858575234260701957764559689978462031653905798'
+        tensor5: '0.96815161819962062726985635192039449342516622984904'
+        scalar6: '0.91794876594220899859483941425912579543157423760946'
+        tensor6: '0.96815264938726347305775048993869583142867951770128'
+        scalar7: '0.91794864353806987478587105658855361109219404668725'
+        tensor7: '0.96815257130966485851631793368392566162106653461069'
+        scalar8: '0.91794864232670945681929950005708639788308667831254'
+        tensor8: '0.96815257567509246216059040152300452314748975399185'
+        scalar9: '0.91794864790406269566673849300485482896464092494027'
+        tensor9: '0.96815258513659412986414544602389470488140744448869'
+        scalar10: '0.91794864711618553655307372443049001788027229951838'
+        tensor10: '0.96815258435833267077147144157672792953117940164362'
+      mode_runs:
+      - upper: 80
+        lower: '0.000000000001'
+        step: '.20'
+        stages: 10
+        digits: 50
+        initial_terms: 18
+        power_terms: 70
+      - upper: 120
+        lower: '0.000000000000001'
+        step: '.10'
+        stages: 12
+        digits: 70
+        initial_terms: 24
+        power_terms: 100
+    - lambda: '.5'
+      background_e: '0.04'
+      background_b: '0.0365'
+      epsilon_star: '0.039811390532544378698224852071'
+      flow_at_pivot:
+      - '0.03981139053254437869822485207100591715976331360946745562130177514792899'
+      - '-0.03370053345132840648936257925503700629642964131513204363252596487081463'
+      - '0.002745596780745734899215059768215654499749556313753809515903580763571286'
+      - '-0.03237618406235582139622829959393420455072884312279252675462348234669797'
+      - '0.004184271546572279671204103721934436909251539601226613278298838630680403'
+      - '-0.03339140863261391755402902008143622616208264588541566671889718231355935'
+      - '0.002974035499332186848532858595974097977695468748657540557929190259189244'
+      - '-0.03010162267771180237836693127190503019779748906973598072999379298846108'
+      - '0.007932550382525940965548666871410662177848167590261345213199284197505855'
+      - '-0.04687636936234422322891203630578226182552371803910195480030636833574204'
+      - '-0.01167236157840566303469929277849121257622197940078623414366420575268568'
+      - '-0.0503734581647101729748208098044990540961397206862307916903219818806631'
+      mode_refinement_errors:
+        scalar: 5.714407155097564e-27
+        tensor: 2.9748134439739164e-26
+      exact_mode_amplitudes:
+        tensor: '0.98124514066961242094369225649538872129606349153084342873718069764'
+        scalar: '0.95546544759188869920457599927232534677366011996857780862497957434'
+      relative_errors:
+        scalar0: 0.046610322246978315
+        tensor0: 0.019113327091320992
+        scalar1: 0.001655371821185422
+        tensor1: 0.002825167949401873
+        scalar2: 4.8539077571449465e-05
+        tensor2: 5.4235103806251e-06
+        scalar3: 8.812874791074092e-07
+        tensor3: 2.1608118267205007e-06
+        scalar4: 1.1035534617302054e-07
+        tensor4: 3.386667099098292e-07
+        scalar5: 1.383187194944283e-09
+        tensor5: 1.2292409747343413e-08
+        scalar6: 1.1424956065857957e-09
+        tensor6: 8.725700368057687e-10
+        scalar7: 5.234989632134234e-11
+        tensor7: 1.0016345144103811e-10
+        scalar8: 8.43160616817808e-12
+        tensor8: 1.6472390573528326e-11
+        scalar9: 1.6938434507449221e-12
+        tensor9: 2.2160900027649753e-12
+        scalar10: 1.3272732770165147e-14
+        tensor10: 1.2742753097418537e-14
+      predictions:
+        scalar0: '1.0'
+        tensor0: '1.0'
+        scalar1: '0.95388379701382876993699228045051949343433195856559'
+        tensor1: '0.97847295834768629952758359066127164333441553736579'
+        scalar2: '0.95551182500336620156995827652948022797537872018831'
+        tensor2: '0.98125046246281878052313359814888986023923573964434'
+        scalar3: '0.95546628963162438169262749499010411084827540182702'
+        tensor3: '0.98124302038350755002365523196291100295943222467139'
+        scalar4: '0.95546534215116847384168298850455282727897877039475'
+        tensor4: '0.98124480835454901535854877453378988687036366654905'
+        scalar5: '0.955465448913476271525384423816306580215130087104'
+        tensor5: '0.98124512860774508924318971951048952546467198954055'
+        scalar6: '0.9554654486835037753228396925253519739906351027791'
+        tensor6: '0.98124514152581752945325765878849069815434119647886'
+        scalar7: '0.95546544754187018208451567468395581282006875006772'
+        tensor7: '0.98124514057132752094447691939136410673600647497781'
+        scalar8: '0.95546544758383259084317919964023239535893465864712'
+        tensor8: '0.98124514065344896773820565772540019376067453519292'
+        scalar9: '0.95546544759350710809539258558496418656590580612959'
+        tensor9: '0.98124514067178694849019189653682294915138073111986'
+        scalar10: '0.95546544759187601756701898590201948260729878084178'
+        tensor10: '0.98124514066962492470824785108777448164985242544463'
+      mode_runs:
+      - upper: 80
+        lower: '0.000000000001'
+        step: '.20'
+        stages: 10
+        digits: 50
+        initial_terms: 18
+        power_terms: 70
+      - upper: 120
+        lower: '0.000000000000001'
+        step: '.10'
+        stages: 12
+        digits: 70
+        initial_terms: 24
+        power_terms: 100
+    - lambda: '.25'
+      background_e: '0.02'
+      background_b: '0.01825'
+      epsilon_star: '0.0199586697424067666282199154171'
+      flow_at_pivot:
+      - '0.01995866974240676662821991541714725105728565936178392925797770088427528'
+      - '-0.01753516354866569036173366057045425026381803364632303065936317256703487'
+      - '0.0007078242566072986931135584377153843815434762268621140961998306913352341'
+      - '-0.01718760635794965397547919183106282419128337765611836813554872945049848'
+      - '0.001069824546408740629661886015644061798789419858380105048521093745450062'
+      - '-0.01743622054544812952691796812317356817591942590213066091946353797457204'
+      - '0.0007976676573567209959040211017727189318771620178141575644784847200896194'
+      - '-0.01670006444847983375860317684195350670881131076501780487994766141968561'
+      - '0.001701666445649241797166671923279647532039912311629759157228366126956028'
+      - '-0.02022553571747325578226199086862715075129740327777439292338637344911056'
+      - '-0.002225537985749493720691365023873846440643412790246636498449411489240962'
+      - '-0.02358923127910201704134180518809230879689465082967609213760945633245526'
+      mode_refinement_errors:
+        scalar: 6.563413931398485e-27
+        tensor: 2.423257668592294e-26
+      exact_mode_amplitudes:
+        tensor: '0.98990769737300770499289881328867034229834392712568956086785203122'
+        scalar: '0.97681602878727524689494667776148625480635987959094644031224691359'
+      relative_errors:
+        scalar0: 0.023734224797178887
+        tensor0: 0.010195195626597302
+        scalar1: 0.0004120541614750117
+        tensor1: 0.0007069980981368109
+        scalar2: 6.391309499457154e-06
+        tensor2: 1.4300579027389126e-06
+        scalar3: 5.2881593792438646e-08
+        tensor3: 1.2926361491150914e-07
+        scalar4: 3.6270673338951028e-09
+        tensor4: 1.0793156396797984e-08
+        scalar5: 4.376767765710424e-11
+        tensor5: 1.5767531285047244e-10
+        scalar6: 9.149083933959039e-12
+        tensor6: 8.03330894864382e-12
+        scalar7: 2.924418334923144e-13
+        tensor7: 5.16180833036945e-13
+        scalar8: 1.2945274034525722e-14
+        tensor8: 2.8451013479582713e-14
+        scalar9: 1.9157910280108006e-15
+        tensor9: 2.717712078192431e-15
+        scalar10: 4.554814331793905e-17
+        tensor10: 5.0233674724072475e-17
+      predictions:
+        scalar0: '1.0'
+        tensor0: '1.0'
+        scalar1: '0.9764135276776179553088974946268526442544505649551'
+        tensor1: '0.98920783451363399880501228220361716019813943853382'
+        scalar2: '0.97682227192083925701959540350499764818829648963099'
+        tensor2: '0.98990911299833331534249517089325683878189014034496'
+        scalar3: '0.97681608044286369116668845240221623250141722183233'
+        tensor3: '0.98990756941396031382970575879530353818391178235758'
+        scalar4: '0.97681602524429773765548212720548410632987551155671'
+        tensor4: '0.98990768668877910885185792866064995029503665542302'
+        scalar5: '0.97681602883002821597320079657861706048425031297614'
+        tensor5: '0.98990769721692369911651903204547766226974454159228'
+        scalar6: '0.97681602879621221873035800748510337428704526507136'
+        tensor6: '0.98990769738095993935653679514103406607050918190481'
+        scalar7: '0.97681602878698958502450344562581200495306043540031'
+        tensor7: '0.98990769737249673361303913008962501652503655518227'
+        scalar8: '0.97681602878726260174377270931739701635099989000533'
+        tensor8: '0.98990769737297954111565731116131317691766521178814'
+        scalar9: '0.97681602878727711827033064556340824967931491667699'
+        tensor9: '0.98990769737301039527700425956961492515399044331992'
+        scalar10: '0.9768160287872752024027902032985983030371353314825'
+        tensor10: '0.98990769737300765526619753659742664628586112311581'
+      mode_runs:
+      - upper: 80
+        lower: '0.000000000001'
+        step: '.20'
+        stages: 10
+        digits: 50
+        initial_terms: 18
+        power_terms: 70
+      - upper: 120
+        lower: '0.000000000000001'
+        step: '.10'
+        stages: 12
+        digits: 70
+        initial_terms: 24
+        power_terms: 100
+    finite_parameter_error_slopes:
+    - field: scalar
+      p: 0
+      observed_finite_parameter_slopes:
+      - 0.9393922854966533
+      - 0.9736805576845065
+    - field: scalar
+      p: 1
+      observed_finite_parameter_slopes:
+      - 2.01537810373706
+      - 2.006249417653097
+    - field: scalar
+      p: 2
+      observed_finite_parameter_slopes:
+      - 2.8213127123255926
+      - 2.9249632352552988
+    - field: scalar
+      p: 3
+      observed_finite_parameter_slopes:
+      - 3.9988859849466882
+      - 4.058775144331233
+    - field: scalar
+      p: 4
+      observed_finite_parameter_slopes:
+      - 4.862345370820881
+      - 4.927209184402593
+    - field: scalar
+      p: 5
+      observed_finite_parameter_slopes:
+      - 5.590643133646388
+      - 4.981986772348453
+    - field: scalar
+      p: 6
+      observed_finite_parameter_slopes:
+      - 6.826193123929278
+      - 6.964345603561362
+    - field: scalar
+      p: 7
+      observed_finite_parameter_slopes:
+      - 6.144748645768606
+      - 7.4838931676454346
+    - field: scalar
+      p: 8
+      observed_finite_parameter_slopes:
+      - 9.218705809083504
+      - 9.347238165963995
+    - field: scalar
+      p: 9
+      observed_finite_parameter_slopes:
+      - 9.27897807600938
+      - 9.788144625642795
+    - field: scalar
+      p: 10
+      observed_finite_parameter_slopes:
+      - 13.83500811955397
+      - 8.186857481018011
+    - field: tensor
+      p: 0
+      observed_finite_parameter_slopes:
+      - 0.7832910416462409
+      - 0.9066894744833343
+    - field: tensor
+      p: 1
+      observed_finite_parameter_slopes:
+      - 1.9964222467753483
+      - 1.99855839558347
+    - field: tensor
+      p: 2
+      observed_finite_parameter_slopes:
+      - 3.1617008235463455
+      - 1.9231533792723063
+    - field: tensor
+      p: 3
+      observed_finite_parameter_slopes:
+      - 4.1405076054419725
+      - 4.063185293269363
+    - field: tensor
+      p: 4
+      observed_finite_parameter_slopes:
+      - 4.945379798861521
+      - 4.971677440940732
+    - field: tensor
+      p: 5
+      observed_finite_parameter_slopes:
+      - 6.3426791441974455
+      - 6.284667156769628
+    - field: tensor
+      p: 6
+      observed_finite_parameter_slopes:
+      - 6.272808842103407
+      - 6.763132762212607
+    - field: tensor
+      p: 7
+      observed_finite_parameter_slopes:
+      - 7.039524144422574
+      - 7.60026389352158
+    - field: tensor
+      p: 8
+      observed_finite_parameter_slopes:
+      - 9.039503977024108
+      - 9.17735418259411
+    - field: tensor
+      p: 9
+      observed_finite_parameter_slopes:
+      - 8.961483397963699
+      - 9.67140813870412
+    - field: tensor
+      p: 10
+      observed_finite_parameter_slopes:
+      - 14.527244082538633
+      - 7.986806477327937
+    seconds: 82.59041449986398
+source_sha256:
+  source/__init__.py: 0ec97d8fe443c934868716872a4b250c990f96178a6553c9d77bcf96913de2c2
+  source/__main__.py: 2ef9747e933aaaed6ffb04c9b8d6494c575836792d5a4d05fb79279cea37623a
+  source/background.py: ca6844dd1b97a9a43fe604c8c0df7695dd84ebfe9ba6d9e41117bc6601d3bc11
+  source/cli.py: 08974a75836fb08d52a2b446409fa3aba3c262db6415148bdb0fde68a93aaada
+  source/closed/__init__.py: 5501e45bb679064f91834fde800c0ab3f338657876b56e5badc8706e61eefbd0
+  source/closed/algebra.py: 7b6e9325a47c465bd5611e4b81b90fd810573105ea8dda0e28a43b5d653f06c5
+  source/closed/consistency.py: 4ee5c3fb42fbac637c89d4eae63ec35fd64c402a8875c158cc587e08b86c506f
+  source/closed/inversion.py: 3dd4020c88f39d9f0969bd5ac11bf7f271738d9ab7936ad33f0a25b367b56f1b
+  source/closed/spectra.py: 77c84e05e0d18e19edd1a8e3a98c3c8121bb5104de6d30df373e9529bc6abfa8
+  source/consistency.py: 8c61d56d826831fbb4b5a148edaceb32ba593b057795afd2aecd3532b789ccb7
+  source/generic_modes.py: 0e2cfd8712f57c4186a920071733254d7fae0285c521365999acfc45644a154c
+  source/inversion.py: 9ded71d9731126cbaafef6d7b952be677a5a357982cd625714cd8bc65ab2749a
+  source/iterative/__init__.py: 07c7c626ecdfe0b1296d244f03c94890b16be592c1f23878e74c99897c5730bb
+  source/iterative/background.py: efc9f0d571ffaddc0032b88e034ed10731df31cc48f1f9d19e296d4fa5e1ea8d
+  source/iterative/consistency.py: 2e924d76666ca8665869efae73f4947de2663dbdaacb916bc486c35647d9d4eb
+  source/iterative/inversion.py: 54c94ced70c07a5f34f611ca155440e887a245437ba1f0bbd1329c00fd7f1777
+  source/iterative/spectra.py: d76fcca13dec137e795d402a9b49ea7c01df8eacf5ed13136e0fe712e45bcd44
+  source/kinflation.py: 34e6ca4914207ab9da3596efd077fac34c788176263590e4159faed9d6c3cbd2
+  source/latex_output.py: 9f25aa6347cd9c3b763f195f29ef62b9342fea12a2ecb705c3496e12c9eff4af
+  source/mode_coefficients.py: c6a3303bf62b5edc0980bed494235bb1594f7ebe5fd61e117efefd3db447bf67
+  source/orders.py: 05b1aa9da538813274b75a573d13b582e482c54ec7aba5f008dfc1a890677d36
+  source/presentation.py: 2c94e846155862778a2bf1bbed3a869a479ed0815a5a5b3e0fe4d610858b8326
+  source/results.py: 00c9bd6accd6b0749f8f704a38af54ab30681e033965f7aefc377989ae4a4486
+  source/series.py: 2cd458e47943eb16599b494554c68a35d8e202ce4267a230246cdba8e983043d
+  source/spectra.py: 66d11ab803fc7696f78f9a379121922402dfbd1ada748463d2da25e9703b4522
+  source/terminal.py: 5f96456d959d2e746c0b6b7ecbf36c55397af36d9c752b5e8f3880208ad968be
+  validation/__init__.py: 3175698787f163106c8379c96c1c444525d957a185e99244819e1b0f7873ef44
+  validation/canonical_SRI/LO/large_n_validation/archive/High_order_test.py: 56a97f0d043d2c0935a5aff9c769f85e3118cc04a26c5f1d1b9f9ff44df929e2
+  validation/canonical_SRI/LO/large_n_validation/archive/Jet_test.py: 7e0e29ad3b6df130a206b181c5e02828bd86ac2bfedd5c03f5c617668612ccb0
+  validation/canonical_SRI/LO/large_n_validation/archive/Symbolic_test.py: c9b887209c062acaa7e013c7b411a88de99b852368096d1cc7853a5c88418343
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy 12.29.19.py: 05363dc7ad126ad2c0e7dc6ffe8ccf6325cf1a8ba62d817db2b1c1d566a1670e
+  validation/canonical_SRI/LO/large_n_validation/archive/projective_consistency_hierarchy_tests.py: df63c0b17736cf6d3d963a065ae779465ccda38546a75304dc4b6b00535a62c8
+  validation/canonical_SRI/LO/large_n_validation/run.py: 58444ecaa045a66672d566b89ebf32cc436d83a106bbe54dbca227114654dd21
+  validation/canonical_SRI/__init__.py: 8ff2b790cf3320845539234bf5ae2d4d1d3886e3879eac3fa06953a3c91a23e2
+  validation/canonical_SRI/high_order.py: 7b4fc84edbb4bd541d1a46ddc8bde2a6b2e1c76476b6e74df382fff7be04a9c8
+  validation/canonical_SRI/iterative_vs_closed/__init__.py: 897ba72d221cc6d29fb9317e77cf67deabb5c17c637cfaa27fd4301f7c0eb1a9
+  validation/canonical_SRI/iterative_vs_closed/run.py: 4782ceddb34c347fc7243eb3c94f6b7258a6d9e2ce8607b5bef346d515e79b4d
+  validation/canonical_SRI/order_cases.py: 265166103328f1a4ebc6d221cc38962cd6da740cb3d3989e7a197bc248cbe7ce
+  validation/common/__init__.py: fd10398b3aef88f47982a6fad98be8689f7b1400a94a618d97499e8b6138b27d
+  validation/common/numerical/__init__.py: d8fc4a00c138fabf47944b49d4424253284004dfeb4efb7c1cc4e3d292cb2d4a
+  validation/common/numerical/generic_order.py: 36f3a41ffebc6b0be4d7870f63d7cd117def9eebd0bf21457061473bc463e92c
+  validation/common/numerical/jost.py: d613247e0c48ff7e44910150f90b0cf2f15ee9cc7f26c01284426199a5d11cfd
+  validation/common/numerical/linear_modes.py: 0379f80da44f8354eae37572a6fd40a8d266b2622ec5b1e8f8ff38d785a71bb7
+  validation/common/numerical/physical_high_order.py: 1f8e3bb699e69c290eebec88d5bf2380a6369e87a8f229b961aa54e4aae6382f
+  validation/common/numerical/physical_modes.py: 573a333b4ae8e068625adbd05367dbce60ff0aa5821159e8de98da59933d56b3
+  validation/common/numerical/physical_taylor.py: e13ffa4a0381f5cff4cd04b2ed568df4daa441efe8d1fa9eb71e8bb977cbea9e
+  validation/common/numerical/transport.py: 704d1a4c42024038d0a3e4c257d542a95ad4ea91e354e67e9adccde53dbba6fc
+  validation/common/numerical/verified_bank.py: b540a470104d6b965042f8c264ef768be5cb67bf1d2e0c00feaaf7d03d9491a3
+  validation/common/performance.py: c69bcad75b200e95c240b1534ba85249a160d477598065c602a188f87ef39ceb
+  validation/common/symbolic/__init__.py: 5f2ed0a0ef4c99125832e9c662e8d086bc05eca1215f6ccff34998da4f557210
+  validation/common/symbolic/checks.py: 5d6feb3ebf5fa1ea0b615ccd17b7dc7d9a5f13fc812ccbb456caaee73e83596d
+  validation/common/symbolic/moment_reference.py: d241ae426c31d488cae6580c38bfefa351996e1ab59070f06e21b9e17f23583a
+  validation/common/symbolic/published_spectra.py: dee4b2ad860612d12ee2ec659ddd5d2008b8a7763bd5097b5e7f045a408e3416
+  validation/common/symbolic/reference.py: 31147dceb45d61bc2891cf054d9d10049dfe58abf189f9a3df9c55aa62569edf
+  validation/common/symbolic/reference_arithmetic.py: 96c7f4c865c22fb86dc0527e82cfcc9f782f8ea29a70a0a24feadef005c94b54
+  validation/kinflation_SRI/__init__.py: b9a7bb3d3116a157121991b94bc231733fa20990acc1d77d9a5c14ea205b4568
+  validation/kinflation_SRI/run.py: 51cd62704787e6345c741f0eacf4a9dc959489348f3eab9d38c4797a51ce5bfd
+  validation/run.py: 3064a30ae63d3e5ffc4183adf6537815837f90530c3bfe1546c1d010222d6bc4
+execution: combined fresh algebra sweep and independently rerun order-ten physical
+  checks

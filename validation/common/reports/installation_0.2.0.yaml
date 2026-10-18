@@ -1,0 +1,102 @@
+status: passed
+commands:
+- arguments:
+  - --version
+  returncode: 0
+  metadata: SRI 0.2.0
+- arguments:
+  - -p
+  - '6'
+  - -spectra
+  - --format
+  - json
+  returncode: 0
+  metadata:
+    mode: spectra
+    p: 6
+    coefficients:
+      backend: normalized mode equations
+      order: 6
+      moment_tolerance: 1.0e-10
+      maximum_absolute_run_difference: 1.5707435352396715e-12
+      moments: 29
+      accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+        depth varied'
+      runs:
+      - upper: 120.0
+        lower: 1.0e-09
+        tolerance: 2.0e-13
+        asymptotic_terms: 14
+      - upper: 180.0
+        lower: 1.0e-10
+        tolerance: 3.0e-14
+        asymptotic_terms: 16
+      integration_precision_digits: 16
+      exact_cached_moments: 6
+      numerically_generated_moments: 23
+- arguments:
+  - -n
+  - '0'
+  - -p
+  - '5'
+  - --format
+  - json
+  returncode: 0
+  metadata:
+    mode: consistency
+    n: 0
+    p: 5
+    W: 6
+    coefficients:
+      backend: normalized mode equations
+      order: 5
+      moment_tolerance: 1.0e-10
+      maximum_absolute_run_difference: 6.125003282342334e-12
+      moments: 18
+      accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+        depth varied'
+      runs:
+      - upper: 80.0
+        lower: 1.0e-08
+        tolerance: 2.0e-12
+        asymptotic_terms: 12
+      - upper: 120.0
+        lower: 1.0e-09
+        tolerance: 2.0e-13
+        asymptotic_terms: 14
+      integration_precision_digits: 16
+      exact_cached_moments: 6
+      numerically_generated_moments: 12
+- arguments:
+  - -W
+  - '7'
+  - -n
+  - '2'
+  - --format
+  - json
+  returncode: 0
+  metadata:
+    mode: consistency
+    n: 2
+    p: 4
+    W: 7
+    coefficients:
+      backend: normalized mode equations
+      order: 4
+      moment_tolerance: 1.0e-10
+      maximum_absolute_run_difference: 3.312072838212998e-13
+      moments: 11
+      accuracy_check: 'two integrations: upper/lower endpoint, ODE tolerance and asymptotic
+        depth varied'
+      runs:
+      - upper: 80.0
+        lower: 1.0e-08
+        tolerance: 2.0e-12
+        asymptotic_terms: 12
+      - upper: 120.0
+        lower: 1.0e-09
+        tolerance: 2.0e-13
+        asymptotic_terms: 14
+      integration_precision_digits: 16
+      exact_cached_moments: 6
+      numerically_generated_moments: 5
