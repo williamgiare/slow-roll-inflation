@@ -8,10 +8,14 @@ authors:
   given-names: William
   website: https://williamgiare.com
 preferred-citation:
-  type: unpublished
+  type: article
   title: Slow-Roll Inflation at Arbitrary Order
   authors:
   - family-names: Giarè
     given-names: William
     website: https://williamgiare.com
+  journal: arXiv
+  volume: "2610.28608"
   year: 2026
+  month: 10
+  url: https://arxiv.org/abs/2610.28608

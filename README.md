@@ -40,7 +40,7 @@ With no mode flags, calculations use numerical coefficients and iterative backgr
 | Flag | Meaning | Default |
 |---|---|---|
 | `-p P` | Relative slow-roll order of the spectra and corrections beyond the leading consistency order: `0` for LO, `1` for NLO, `2` for N2LO, and so on. | Required for spectra; may be inferred for a relation. |
-| `-n N` | Tensor derivative index: `0` for the tilt, `1` for its running, `2` for its running of running. | Inferred when `p` and `W` are supplied. |
+| `-n N` | Tensor derivative index: `0` for the tilt, `1` for its running, `2` for its running of running, and so on. | Inferred when `p` and `W` are supplied. |
 | `-W W` | Absolute consistency cutoff, $W=n+1+p$; supply any two of `n`, `p`, `W` for a relation. | Inferred when `n` and `p` are supplied. |
 | `--kinflation` | Calculate $k$-inflation with a slowly varying scalar sound speed and tensor speed $c_t=1$. | Canonical inflation. |
 | `--symbolic` | Use exact analytic universal coefficients. | Numerical coefficients, without a flag. |
@@ -195,7 +195,26 @@ See the [validation guide](docs/validation.md) for details and saved reports.
 
 If you use this code or results in your research, please cite:
 
-> W. Giarè, *Slow-Roll Inflation at Arbitrary Order*, arXiv:2610.xxxxx (placeholder).
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@article{Giare:2026ger,
+    author = "Giar{\`e}, William",
+    title = "{Slow-Roll Inflation at Arbitrary Order}",
+    eprint = "2610.28608",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    month = "10",
+    year = "2026",
+    url = "https://arxiv.org/abs/2610.28608"
+}
+```
+
+</details>
+
+The BibTeX entry is also provided in [CITATION.bib](CITATION.bib).
 
 ## Author & Contributors
 
