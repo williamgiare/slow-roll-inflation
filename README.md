@@ -195,6 +195,7 @@ See the [validation guide](docs/validation.md) for details and saved reports.
 
 If you use this code or results in your research, please cite:
 
+> W. Giarè, *Slow-Roll Inflation at Arbitrary Order*, [arXiv:2610.28608](https://arxiv.org/abs/2610.28608).
 
 <details>
 <summary>BibTeX</summary>
